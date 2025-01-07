@@ -1,0 +1,57 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  min-width: 520px;
+  max-width: 520px;
+  width: 100%;
+  padding: 10px;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 30px;
+  padding-inline: 12px;
+}
+.rewardContainer {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.dailyReward {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  padding-inline: 8px;
+}
+.dailyReward p {
+  font-size: 12px;
+}
+.totalCoins {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-inline: 12px;
+  padding-block: 4px;
+  margin-inline: 20px;
+  border-radius: 10px;
+  background-color: var(--bg-secondary);
+}
+.totalCoins p {
+  font-size: 12px;
+  font-weight: 700;
+}
+.totalCoins p span {
+  font-size: 10px;
+  font-weight: 400;
+}

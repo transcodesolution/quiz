@@ -1,0 +1,36 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-inline: 4px;
+    padding-bottom: 8px;
+    min-width: 520px;
+    max-width: 520px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.categories,
+.home,
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-inline: 20px;
+    padding-block: 8px;
+    align-items: center;
+    width: 100px;
+}
+
+.footerNavIcon {
+    width: 20px;
+}
+
+.profile p,
+.home p,
+.categories p {
+    font-size: 12px;
+}
