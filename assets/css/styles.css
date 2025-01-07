@@ -1,6 +1,8 @@
 :root {
   --bg-primary: #0f172a;
   --text-primary: #8789c3;
+  --text-secondary: #ffcc5b;
+  --text-tertiary: #3b82f6;
 }
 
 a,
@@ -58,21 +60,25 @@ ol,
 ul {
   padding-left: 0px;
 }
+.hidden {
+  display: none !important;
+}
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif; /* Updated font family */
   background-color: var(--bg-primary);
   color: #fff;
 }
+/* Quiz Section */
 
-.main-container {
+.mainContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
-.quiz-section {
+.quizSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,14 +86,24 @@ body {
   max-width: 520px;
   width: 100%;
   gap: 3px;
-  padding-block: 3px;
-  padding-inline: 2px;
+  padding: 12px;
   box-sizing: border-box;
 }
-
+.quizContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
 header .notification {
   padding: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 .notification p {
   color: var(--text-primary);
@@ -98,85 +114,152 @@ header .notification span {
   color: #f39c12;
 }
 
-.quiz-section {
+.quizSection {
   text-align: center;
-  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
-.quiz-section h2 {
+.quizSection h2 {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-.options {
+.question {
+  font-weight: bold;
+  text-align: center;
+  padding: 0 2.5rem;
+}
+
+.questionContainer {
   display: flex;
+  width: 100%;
+  flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  gap: 12px;
 }
 
-.options button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
+.optionsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  padding: 0 0.75rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.option {
+  background: #20213f;
+  border: 2px solid #404380;
+  border-radius: 9999px;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 14px;
   cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.options button.correct {
-  background-color: #28a745;
+.option.selected {
+  background: #28a745 !important; /* Green color */
+  color: white; /* Optional: change text color to white for better contrast */
 }
 
 .signup {
-  color: #f39c12;
+  color: var(--text-secondary);
   margin-top: 10px;
+  font-weight: 700;
 }
 
-.info-section {
-  margin: 20px 0;
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  padding-left: 20px;
 }
 
-.info-section h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
+.infoSection h3 {
+  width: 100%;
+  text-align: left;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 700;
 }
 
-.info-section ul {
+.infoSection ul {
   list-style: none;
   padding: 0;
+  color: var(--text-primary);
+  font-size: 14px;
+  list-style-type: disc;
+  padding-left: 1rem;
+  text-align: start;
+  line-height: 1.5;
 }
 
-.info-section li {
-  margin-bottom: 5px;
+.infoSection li {
+  margin-bottom: 8px;
 }
-
-.fun-facts {
-  background-color: #333;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px 0;
+.funFacts {
+  padding: 24px;
+  border: 2px solid #ffffff; /* Change border color to white */
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
 }
-
-.fun-facts h4 {
-  margin-bottom: 10px;
-  color: #3498db;
-}
-
-.contact {
+.funFacts h1 {
+  font-size: 24px;
+  font-weight: 400;
   text-align: center;
-  margin: 20px 0;
+  color: var(--text-tertiary);
+}
+.funFacts p {
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.contact button {
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
+.contactSection {
+  display: flex;
+  border: 1px solid white;
+  justify-content: center;
+  gap: 1rem;
+  text-align: left;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
-.right-section {
+
+.contactText {
+  flex: 1;
+  line-height: 1.5;
+}
+
+.contactButton {
+  width: 30%;
+  background-color: var(--text-tertiary);
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contactButton:hover {
+  background-color: #1d4ed8;
+}
+
+/* Right Section Poster */
+.rightSection {
   width: 100%;
   position: relative;
   max-height: 100vh;
@@ -198,7 +281,7 @@ header .notification span {
   top: 10px;
 }
 
-.welcome-text {
+.welcomeText {
   font-weight: 700;
   font-size: 1.125rem;
   position: relative;
@@ -207,11 +290,11 @@ header .notification span {
   text-align: center;
   margin: 0px;
 }
-.welcome-text h4 {
+.welcomeText h4 {
   margin: 0px;
   margin-top: 1rem;
 }
-.welcome-subtext {
+.welcomeSubtext {
   font-weight: 400;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -219,13 +302,17 @@ header .notification span {
   font-size: 1.5rem; /* Adjust as needed */
 }
 
-@media (max-width: 1024px) {
-  .quiz-section {
-    max-width: 360px;
+@media (max-width: 768px) {
+  .rightSection {
+    display: none;
   }
 }
 @media (max-width: 768px) {
-  .right-section {
-    display: none;
+  .contactSection {
+    flex-direction: column;
+    width: -webkit-fill-available;
+  }
+  .contactButton {
+    width: 50%;
   }
 }
