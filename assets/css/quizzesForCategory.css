@@ -1,0 +1,99 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.categoriesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 520px;
+  width: 100%;
+  gap: 24px;
+  padding-inline: 20px;
+  box-sizing: border-box;
+  height: -webkit-fill-available;
+}
+.quizzesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  border: 1px solid #4b5563;
+  border-radius: 9999px;
+  padding-block: 8px;
+  cursor: pointer;
+  background-color: #1f2937;
+  box-sizing: border-box;
+}
+.innerContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 8px;
+}
+
+.innerContainer img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+.quizDetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+}
+.quizTitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+ }
+.quizTitleContainer p {
+  background-color: #111827;
+  padding-inline: 4px;
+  padding-block: 2px;
+  font-size: 10px;
+  color: #6063af;
+}
+.quizPriceContainer ,.priceContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.quizPriceContainer p {
+  font-size: 12px;
+  font-weight: 700;
+}
+.quizPriceContainer img {
+  width: 20px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.priceContainer p {
+  font-size: 10px;
+}
+.priceContainer img {
+    width: 14px;
+    height: 15px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+/* <div class="quiz-item">
+<img src="${quiz.imagePath}" alt="${quiz.title}" />
+<h2>${quiz.title}</h2>
+<p>Play & Win: ${quiz.totalPrice}</p>
+<p>Entry Fee: ${quiz.entryFee}</p>
+</div> */

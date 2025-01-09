@@ -1,0 +1,48 @@
+/* Right Section Poster */
+.rightSection {
+    width: 100%;
+    position: relative;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .poster-image {
+    width: 60%;
+    position: relative;
+    z-index: -1;
+    top: 10px;
+  }
+  
+  .welcomeText {
+    font-weight: 700;
+    font-size: 1.125rem;
+    position: relative;
+    bottom: 12px;
+    z-index: -1;
+    text-align: center;
+    margin: 0px;
+  }
+  .welcomeText h4 {
+    margin: 0px;
+    margin-top: 1rem;
+  }
+  .welcomeSubtext {
+    font-weight: 400;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+  @media (max-width: 768px) {
+    .rightSection {
+      display: none;
+    }
+  }

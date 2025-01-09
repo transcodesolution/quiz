@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizzes for Category</title>
+    <link rel="stylesheet" href="../../assets/css/common.css" />
+    <link rel="stylesheet" href="../../assets/css/header.css" />
+    <link rel="stylesheet" href="../../assets/css/footer.css" />
+    <link rel="stylesheet" href="../../assets/css/sideBannner.css" />
+    <link rel="stylesheet" href="../../assets/css/quizzesForCategory.css" />
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <section class="categoriesSection">
+        <header class="headerContainer">
+          <div class="logo">LOGO</div>
+          <div class="rewardContainer">
+            <div class="dailyReward">
+              <img
+                src="../../assets/images/gif/reward.gif"
+                style="width: 25px; margin-bottom: 8px"
+                al
+                t="coin"
+                class="coin-image"
+                loading="lazy"
+              />
+              <p>Daily Reward</p>
+            </div>
+            <div class="totalCoins">
+              <img
+                src="../../assets/images/svg/coin.svg"
+                style="width: 15px"
+                alt="coin"
+                class="coin-image"
+                loading="lazy"
+              />
+              <p>150 <span>COINS</span></p>
+            </div>
+          </div>
+        </header>
+        <div id="quizzesContainer" class="quizzesContainer"></div>
+
+        <footer class="footerContainer">
+          <a href="categories" class="categories">
+            <img
+              src="../../assets/images/svg/category.svg"
+              alt="category"
+              class="footerNavIcon"
+            />
+            <p>Categories</p>
+          </a>
+          <a href="" class="home">
+            <img
+              src="../../assets/images/svg/home.svg"
+              alt="home"
+              class="footerNavIcon"
+            />
+            <p>Home</p>
+          </a>
+          <a href="" class="profile">
+            <img
+              src="../../assets/images/svg/profile.svg"
+              alt="profile"
+              class="footerNavIcon"
+            />
+            <p>Profile</p>
+          </a>
+        </footer>
+      </section>
+      <section class="rightSection">
+        <img
+          src="../../assets/images/sidePoster.png"
+          alt="right-section"
+          class="poster-image"
+          loading="lazy"
+        />
+        <div class="welcomeText">
+          <h4>Welcome to Quiztwiz. Play a quiz and earn coins.</h4>
+          <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
+        </div>
+      </section>
+    </div>
+
+    <!-- Script for showing Current path in Footer Start -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const currentPath = window.location.pathname;
+        if (currentPath.includes("categories")) {
+          document
+            .querySelector(".footerContainer .categories")
+            .classList.add("active");
+        } else if (currentPath.includes("home")) {
+          document
+            .querySelector(".footerContainer .home")
+            .classList.add("active");
+        } else if (currentPath.includes("profile")) {
+          document
+            .querySelector(".footerContainer .profile")
+            .classList.add("active");
+        }
+      });
+    </script>
+    <!-- Script for showing Current path in Footer End -->
+
+    <!-- Script For Quizzes For Category Start -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Retrieve the category name from local storage
+        const categoryName = localStorage.getItem("selectedCategory");
+
+        if (categoryName) {
+          fetch("../assets/json/quizzesForCategory.json")
+            .then((response) => response.json())
+            .then((data) => {
+              const quizzes = data[0][categoryName] || [];
+              const container = document.getElementById("quizzesContainer");
+              let htmlContent = ``;
+              quizzes.forEach((quiz) => {
+                htmlContent += `
+                    <div class="outerContainer">
+                        <a href="quizzesForCategory/quizPlay?categoryName=${categoryName}" class="innerContainer">
+                         <img src="${quiz.imagePath}" alt="${quiz.title}" />
+                      <div class='quizDetails'>
+                        <div class='quizTitleContainer'>
+                          <p>${quiz.title}</p>
+                          </div>
+                           <div class='quizPriceContainer'>
+                            <p>Play & Win &nbsp;</p>
+                            <img src="../../assets/images/svg/coin.svg" alt="coin" />
+                            <p>&nbsp;${quiz.totalPrice}</p>
+                            </div>
+                             <div class='priceContainer'>
+                            <p>Entry Fee &nbsp;</p>
+                            <img src="../../assets/images/svg/coin.svg" alt="coin" />
+                            <p>&nbsp;${quiz.entryFee}</p>
+                            </div>
+                      </div>
+                      <img src="../../assets/images/svg/playIcon.svg" alt="play" />
+                      </div>
+                      </div>
+                  `;
+              });
+              container.innerHTML = htmlContent;
+            })
+            .catch((error) => console.error("Error loading quizzes:", error));
+        } else {
+          console.error("No category selected.");
+        }
+      });
+    </script>
+    <!-- Script For Quizzes For Category End -->
+    <!-- Script For Removing Trailing Slash From URL Start -->
+    <script>
+      if (window.location.pathname.endsWith("/")) {
+        const newURL = window.location.pathname.slice(0, -1);
+        history.replaceState({}, "", newURL);
+      }
+    </script>
+  </body>
+</html>

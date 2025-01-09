@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "name": "Fun Maths",
+      "imagePath": "../assets/images/mathQuiz.png"
+    },
+    {
+      "id": 2,
+      "name": "English Grammar",
+      "imagePath": "../assets/images/grammarQuiz.png"
+    },
+    {
+      "id": 3,
+      "name": "Vocabulary",
+      "imagePath": "../assets/images/vocabQuiz.png"
+    },
+    {
+      "id": 4,
+      "name": "Festivals",
+      "imagePath": "../assets/images/festivalQuiz.png"
+    },
+    {
+      "id": 5,
+      "name": "Birds And Animals",
+      "imagePath": "../assets/images/animalQuiz.png"
+    },
+    {
+      "id": 6,
+      "name": "Famous Personalities",
+      "imagePath": "../assets/images/famousPersonQuiz.png"
+    },
+    {
+      "id": 7,
+      "name": "Monuments",
+      "imagePath": "../assets/images/monumentQuiz.png"
+    },
+    {
+      "id": 8,
+      "name": "Test Your Knowledge",
+      "imagePath": "../assets/images/testKnowledgeQuiz.png"
+    },
+    {
+      "id": 9,
+      "name": "Entertainment",
+      "imagePath": "../assets/images/entertainmentQuiz.png"
+    },
+    {
+      "id": 10,
+      "name": "Automobiles",
+      "imagePath": "../assets/images/autoMobileQuiz.png"
+    },
+    {
+      "id": 11,
+      "name": "Sports",
+      "imagePath": "../assets/images/sportsQuiz.png"
+    },
+    {
+      "id": 12,
+      "name": "Food Brands",
+      "imagePath": "../assets/images/brandQuiz.png"
+    },
+    {
+      "id": 13,
+      "name": "Fun Science",
+      "imagePath": "../assets/images/scienceQuiz.png"
+    },
+    {
+      "id": 14,
+      "name": "Literature",
+      "imagePath": "../assets/images/literature-minQuiz.png"
+    },
+    {
+      "id": 15,
+      "name": "Food & Beverages",
+      "imagePath": "../assets/images/foodQuiz.png"
+    },
+    {
+      "id": 16,
+      "name": "General Trivia",
+      "imagePath": "../assets/images/trivia-minQuiz.png"
+    },
+    {
+      "id": 17,
+      "name": "Business",
+      "imagePath": "../assets/images/business-minQuiz.png"
+    },
+    {
+      "id": 18,
+      "name": "Bollywood",
+      "imagePath": "../assets/images/bollywoodQuiz.png"
+    }
+  ]

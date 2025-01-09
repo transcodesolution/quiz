@@ -2,15 +2,17 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: fixed;
-    bottom: 0;
+    position: sticky;
+     bottom: 0;
     left: 0;
+    margin-top: auto;
     padding-inline: 4px;
     padding-bottom: 8px;
-    min-width: 520px;
     max-width: 520px;
     width: 100%;
     cursor: pointer;
+    box-shadow:rgb(17, 24, 39) 0px -15px 15px;
+    background-color: var(--bg-primary);
 }
 
 .categories,
@@ -23,6 +25,7 @@
     padding-block: 8px;
     align-items: center;
     width: 100px;
+    box-sizing: border-box;
 }
 
 .footerNavIcon {
@@ -34,3 +37,9 @@
 .categories p {
     font-size: 12px;
 }
+
+.active {
+
+    background-color: var(--bg-secondary); /* Change this to your desired background color */
+    border-radius: 9999px; /* Optional: Add some styling */
+  }

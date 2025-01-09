@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  min-width: 520px;
+  position: sticky;
   max-width: 520px;
   width: 100%;
   padding: 10px;

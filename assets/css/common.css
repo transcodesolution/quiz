@@ -5,6 +5,10 @@
     --text-secondary: #ffcc5b;
     --text-tertiary: #3b82f6;
   }
+  html , * {
+    margin: 0;
+    padding: 0;
+  }
   a,
   span,
   a:hover,
@@ -70,3 +74,7 @@
     background-color: var(--bg-primary);
     color: #fff;
   }
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent element */
+}

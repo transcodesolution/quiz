@@ -1,0 +1,77 @@
+[
+  {
+    "Fun Maths": [
+      {
+        "id": "1",
+        "title": "Trignometry",
+        "imagePath": "../assets/images/mathQuiz.png",
+        "totalPrice": "10000",
+        "entryFee": "100"
+      },
+      {
+        "id": "2",
+        "title": "Easy-Math-Trivia",
+        "imagePath": "../assets/images/mathQuiz.png",
+        "totalPrice": "10000",
+        "entryFee": "100"
+      }
+    ],
+    "English Grammar": [
+      {
+        "id": "1",
+        "title": "Noun-Pronoun",
+        "imagePath": "../assets/images/grammarQuiz.png",
+        "totalPrice": "10000",
+        "entryFee": "100"
+      },
+      {
+        "id": "2",
+        "title": "Verb-Adverb",
+        "imagePath": "../assets/images/grammarQuiz.png",
+        "totalPrice": "10000",
+        "entryFee": "100"
+      }
+    ],
+    "Vocabulary": [
+      {
+        "id": "1",
+        "title": "English-Hindi-Translation",
+        "imagePath": "../assets/images/vocabQuiz.png",
+        "totalPrice": "10000",
+        "entryFee": "100"
+      }
+    ],
+    "Festivals": [
+      {
+        "id": "1",
+        "title": "Raksha-Bandhan",
+        "imagePath": "../assets/images/festivalQuiz.png",
+        "totalPrice": "10000",
+        "entryFee": "100"
+      },
+      {
+        "id": "2",
+        "title": "Onam",
+        "imagePath": "../assets/images/festivalQuiz.png",
+        "totalPrice": "10000",
+        "entryFee": "100"
+      }
+    ],
+    "Birds And Animals": [
+      {
+        "id": "1",
+        "title": "Creepy-Crawlies",
+        "imagePath": "../assets/images/animalQuiz.png",
+        "totalPrice": "10000",
+        "entryFee": "100"
+      },
+      {
+        "id": "2",
+        "title": "Find-That-Creature",
+        "imagePath": "../assets/images/animalQuiz.png",
+        "totalPrice": "10000",
+        "entryFee": "100"
+      }
+    ]
+  }
+]
