@@ -1,77 +1,327 @@
-[
-  {
-    "Fun Maths": [
-      {
-        "id": "1",
-        "title": "Trignometry",
-        "imagePath": "../assets/images/mathQuiz.png",
-        "totalPrice": "10000",
-        "entryFee": "100"
-      },
-      {
-        "id": "2",
-        "title": "Easy-Math-Trivia",
-        "imagePath": "../assets/images/mathQuiz.png",
-        "totalPrice": "10000",
-        "entryFee": "100"
-      }
-    ],
-    "English Grammar": [
-      {
-        "id": "1",
-        "title": "Noun-Pronoun",
-        "imagePath": "../assets/images/grammarQuiz.png",
-        "totalPrice": "10000",
-        "entryFee": "100"
-      },
-      {
-        "id": "2",
-        "title": "Verb-Adverb",
-        "imagePath": "../assets/images/grammarQuiz.png",
-        "totalPrice": "10000",
-        "entryFee": "100"
-      }
-    ],
-    "Vocabulary": [
-      {
-        "id": "1",
-        "title": "English-Hindi-Translation",
-        "imagePath": "../assets/images/vocabQuiz.png",
-        "totalPrice": "10000",
-        "entryFee": "100"
-      }
-    ],
-    "Festivals": [
-      {
-        "id": "1",
-        "title": "Raksha-Bandhan",
-        "imagePath": "../assets/images/festivalQuiz.png",
-        "totalPrice": "10000",
-        "entryFee": "100"
-      },
-      {
-        "id": "2",
-        "title": "Onam",
-        "imagePath": "../assets/images/festivalQuiz.png",
-        "totalPrice": "10000",
-        "entryFee": "100"
-      }
-    ],
-    "Birds And Animals": [
-      {
-        "id": "1",
-        "title": "Creepy-Crawlies",
-        "imagePath": "../assets/images/animalQuiz.png",
-        "totalPrice": "10000",
-        "entryFee": "100"
-      },
-      {
-        "id": "2",
-        "title": "Find-That-Creature",
-        "imagePath": "../assets/images/animalQuiz.png",
-        "totalPrice": "10000",
-        "entryFee": "100"
-      }
-    ]
-  }
-]
+{
+  "Fun Maths": [
+    {
+      "id": "1",
+      "title": "Trignometry",
+      "imagePath": "../assets/images/mathQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "questions": [
+        {
+          "question": "What is the sine of 90 degrees?",
+          "options": ["0", "0.5", "1", "None of the above"],
+          "correctAnswer": "1"
+        },
+        {
+          "question": "What is the cosine of 0 degrees?",
+          "options": ["0", "1", "0.5", "None of the above"],
+          "correctAnswer": "1"
+        },
+        {
+          "question": "What is the tangent of 45 degrees?",
+          "options": ["0", "1", "0.5", "None of the above"],
+          "correctAnswer": "1"
+        },
+        {
+          "question": "What is the sine of 30 degrees?",
+          "options": ["0.5", "0.866", "1", "None of the above"],
+          "correctAnswer": "0.5"
+        },
+        {
+          "question": "What is the cosine of 60 degrees?",
+          "options": ["0.5", "0.866", "1", "None of the above"],
+          "correctAnswer": "0.5"
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "2",
+      "title": "Easy-Math-Trivia",
+      "imagePath": "../assets/images/mathQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "questions": [
+        {
+          "question": "What is 2 + 2?",
+          "options": ["3", "4", "5", "6"],
+          "correctAnswer": "4"
+        },
+        {
+          "question": "What is 5 - 3?",
+          "options": ["1", "2", "3", "4"],
+          "correctAnswer": "2"
+        },
+        {
+          "question": "What is 10 / 2?",
+          "options": ["2", "3", "5", "10"],
+          "correctAnswer": "5"
+        },
+        {
+          "question": "What is 3 * 3?",
+          "options": ["6", "9", "12", "15"],
+          "correctAnswer": "9"
+        },
+        {
+          "question": "What is 15 - 5?",
+          "options": ["5", "10", "15", "20"],
+          "correctAnswer": "10"
+        }
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "English Grammar": [
+    {
+      "id": "1",
+      "title": "Noun-Pronoun",
+      "imagePath": "../assets/images/grammarQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "questions": [
+        {
+          "question": "Which of the following is a pronoun?",
+          "options": ["He", "Table", "Run", "Blue"],
+          "correctAnswer": "He"
+        },
+        {
+          "question": "Identify the noun in the sentence: 'The cat sleeps.'",
+          "options": ["The", "cat", "sleeps", "None"],
+          "correctAnswer": "cat"
+        },
+        {
+          "question": "Which of the following is a noun?",
+          "options": ["Quickly", "Happiness", "Run", "Blue"],
+          "correctAnswer": "Happiness"
+        },
+        {
+          "question": "Which word is a pronoun in the sentence: 'She is happy.'",
+          "options": ["She", "is", "happy", "None"],
+          "correctAnswer": "She"
+        },
+        {
+          "question": "Identify the noun in the sentence: 'The dog barks.'",
+          "options": ["The", "dog", "barks", "None"],
+          "correctAnswer": "dog"
+        }
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "2",
+      "title": "Verb-Adverb",
+      "imagePath": "../assets/images/grammarQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "questions": [
+        {
+          "question": "Which of the following is a verb?",
+          "options": ["Quickly", "Run", "Blue", "Table"],
+          "correctAnswer": "Run"
+        },
+        {
+          "question": "Which word is an adverb in the sentence: 'She sings beautifully.'",
+          "options": ["She", "sings", "beautifully", "None"],
+          "correctAnswer": "beautifully"
+        },
+        {
+          "question": "Identify the verb in the sentence: 'The dog barks loudly.'",
+          "options": ["dog", "barks", "loudly", "The"],
+          "correctAnswer": "barks"
+        },
+        {
+          "question": "Which of the following is an adverb?",
+          "options": ["Quick", "Quickly", "Quicker", "Quickest"],
+          "correctAnswer": "Quickly"
+        },
+        {
+          "question": "What is the adverb in the sentence: 'He runs very fast.'",
+          "options": ["He", "runs", "very", "fast"],
+          "correctAnswer": "fast"
+        }
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "Vocabulary": [
+    {
+      "id": "1",
+      "title": "English-Hindi-Translation",
+      "imagePath": "../assets/images/vocabQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "questions": [
+        {
+          "question": "Translate 'Apple' to Hindi.",
+          "options": ["Seb", "Kela", "Aam", "Angoor"],
+          "correctAnswer": "Seb"
+        },
+        {
+          "question": "Translate 'Water' to Hindi.",
+          "options": ["Pani", "Doodh", "Chai", "Nimbu"],
+          "correctAnswer": "Pani"
+        },
+        {
+          "question": "Translate 'Book' to Hindi.",
+          "options": ["Kitab", "Pustak", "Kalam", "Patrika"],
+          "correctAnswer": "Kitab"
+        },
+        {
+          "question": "Translate 'Milk' to Hindi.",
+          "options": ["Doodh", "Pani", "Chai", "Nimbu"],
+          "correctAnswer": "Doodh"
+        },
+        {
+          "question": "Translate 'Sun' to Hindi.",
+          "options": ["Surya", "Chand", "Tara", "Dharti"],
+          "correctAnswer": "Surya"
+        }
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "Festivals": [
+    {
+      "id": "1",
+      "title": "Raksha-Bandhan",
+      "imagePath": "../assets/images/festivalQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "questions": [
+        {
+          "question": "Raksha Bandhan is celebrated in which month?",
+          "options": ["January", "August", "December", "March"],
+          "correctAnswer": "August"
+        },
+        {
+          "question": "What is tied on the wrist during Raksha Bandhan?",
+          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
+          "correctAnswer": "Rakhi"
+        },
+        {
+          "question": "Raksha Bandhan celebrates the bond between?",
+          "options": ["Friends", "Siblings", "Parents", "Teachers"],
+          "correctAnswer": "Siblings"
+        },
+        {
+          "question": "Which sweet is commonly associated with Raksha Bandhan?",
+          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
+          "correctAnswer": "Barfi"
+        },
+        {
+          "question": "What is the traditional color of Rakhi?",
+          "options": ["Red", "Blue", "Green", "Yellow"],
+          "correctAnswer": "Red"
+        }
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "2",
+      "title": "Onam",
+      "imagePath": "../assets/images/festivalQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "questions": [
+        {
+          "question": "Onam is a festival celebrated in which Indian state?",
+          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
+          "correctAnswer": "Kerala"
+        },
+        {
+          "question": "What is the traditional dance performed during Onam?",
+          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Kuchipudi"],
+          "correctAnswer": "Kathakali"
+        },
+        {
+          "question": "What is the traditional feast during Onam called?",
+          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
+          "correctAnswer": "Sadya"
+        },
+        {
+          "question": "Which flower is used to make Pookalam during Onam?",
+          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
+          "correctAnswer": "Marigold"
+        },
+        {
+          "question": "Onam marks the homecoming of which legendary king?",
+          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
+          "correctAnswer": "Mahabali"
+        }
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "Birds And Animals": [
+    {
+      "id": "1",
+      "title": "Creepy-Crawlies",
+      "imagePath": "../assets/images/animalQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "questions": [
+        {
+          "question": "Which of the following is an insect?",
+          "options": ["Spider", "Ant", "Lizard", "Frog"],
+          "correctAnswer": "Ant"
+        },
+        {
+          "question": "Which insect is known for making honey?",
+          "options": ["Butterfly", "Bee", "Ant", "Beetle"],
+          "correctAnswer": "Bee"
+        },
+        {
+          "question": "Which insect is known for its colorful wings?",
+          "options": ["Butterfly", "Bee", "Ant", "Beetle"],
+          "correctAnswer": "Butterfly"
+        },
+        {
+          "question": "Which insect is known for its ability to jump long distances?",
+          "options": ["Grasshopper", "Bee", "Ant", "Beetle"],
+          "correctAnswer": "Grasshopper"
+        },
+        {
+          "question": "Which insect is known for its ability to glow?",
+          "options": ["Firefly", "Bee", "Ant", "Beetle"],
+          "correctAnswer": "Firefly"
+        }
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "2",
+      "title": "Find-That-Creature",
+      "imagePath": "../assets/images/animalQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "questions": [
+        {
+          "question": "Which animal is known as the 'King of the Jungle'?",
+          "options": ["Elephant", "Tiger", "Lion", "Bear"],
+          "correctAnswer": "Lion"
+        },
+        {
+          "question": "Which bird is known for its colorful feathers?",
+          "options": ["Peacock", "Sparrow", "Crow", "Pigeon"],
+          "correctAnswer": "Peacock"
+        },
+        {
+          "question": "Which animal is known for its long neck?",
+          "options": ["Elephant", "Giraffe", "Lion", "Bear"],
+          "correctAnswer": "Giraffe"
+        },
+        {
+          "question": "Which bird is known for its ability to mimic sounds?",
+          "options": ["Parrot", "Sparrow", "Crow", "Pigeon"],
+          "correctAnswer": "Parrot"
+        },
+        {
+          "question": "Which animal is known for its ability to change color?",
+          "options": ["Chameleon", "Tiger", "Lion", "Bear"],
+          "correctAnswer": "Chameleon"
+        }
+      ],
+      "difficulty": "medium"
+    }
+  ]
+}

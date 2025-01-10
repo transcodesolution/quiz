@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../../../../assets/css/common.css" />
+    <link rel="stylesheet" href="../../../../assets/css/header.css" />
+    <link rel="stylesheet" href="../../../../assets/css/sideBannner.css" />
+    <link rel="stylesheet" href="../../../../assets/css/quiz.css" />
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <section class="categoriesSection">
+        <header class="headerContainer">
+          <div class="logo">LOGO</div>
+          <div class="rewardContainer">
+            <div class="dailyReward">
+              <img
+                src="../../../../assets/images/gif/reward.gif"
+                style="width: 25px; margin-bottom: 8px"
+                al
+                t="coin"
+                class="coin-image"
+                loading="lazy"
+              />
+              <p>Daily Reward</p>
+            </div>
+            <div class="totalCoins">
+              <img
+                src="../../../../assets/images/svg/coin.svg"
+                style="width: 15px"
+                alt="coin"
+                class="coin-image"
+                loading="lazy"
+              />
+              <p id="totalCoinsDisplay">150 <span>COINS</span></p>
+            </div>
+          </div>
+        </header>
+        <div class="flex">
+          <div>
+            <span class="question-info">
+              Question <span id="current-question">1</span>/<span
+                id="total-questions"
+                >5</span
+              >
+            </span>
+          </div>
+          <div
+            class="progress-container"
+            role="progressbar"
+            aria-valuenow="91"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar"></div>
+          </div>
+          <div class="score">
+            <span class="score-value">109</span>
+          </div>
+        </div>
+        <div class="quizSection" id="quizSection">
+          <div id="hiddentQuestionContainer"  class="hiddentQuestionContainer"></div>
+          <!-- score -->
+          <div class="scoreContainer">
+            Your Score: <span id="score">0</span>/<span id="total-score"
+              >10</span
+            >
+          </div>
+        </div>
+      </section>
+      <section class="rightSection">
+        <img
+          src="../../../../assets/images/sidePoster.png"
+          alt="right-section"
+          class="poster-image"
+          loading="lazy"
+        />
+        <div class="welcomeText">
+          <h4>Welcome to Quiztwiz. Play a quiz and earn coins.</h4>
+          <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
+        </div>
+      </section>
+    </div>
+
+    <!-- Script For Quizzes Play Start -->
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const selectedQuizInfo = JSON.parse(
+          localStorage.getItem("selectedQuiz")
+        );
+
+        if (selectedQuizInfo) {
+          fetch("../../../../assets/json/quizzesForCategory.json")
+            .then((response) => response.json())
+            .then((data) => {
+              const categoryQuizzes = data[selectedQuizInfo.categoryName];
+              const quizData = categoryQuizzes.find(
+                (quiz) => quiz.title === selectedQuizInfo.quizTitle
+              );
+
+              if (quizData) {
+                let currentQuestionIndex = 0;
+                let score = 0;
+                const totalQuestions = quizData.questions.length;
+                const totalPrice = quizData.totalPrice; // Use totalPrice from quizData
+                const coinsPerCorrectAnswer = totalPrice / totalQuestions; // Calculate coins per correct answer
+                document.getElementById("total-questions").textContent =
+                  totalQuestions;
+                document.getElementById("total-score").textContent =
+                  totalQuestions;
+
+                function loadQuestion(index) {
+                  const questionData = quizData.questions[index];
+                  document.getElementById("question-text").textContent =
+                    questionData.question;
+                  const optionsGrid = document.getElementById("options-grid");
+                  optionsGrid.innerHTML = ""; // Clear previous options
+
+                  questionData.options.forEach((option) => {
+                    const optionDiv = document.createElement("div");
+                    optionDiv.className = "option";
+                    optionDiv.textContent = option;
+                    optionDiv.addEventListener("click", () => {
+                      if (!optionDiv.classList.contains("selected")) {
+                        checkAnswer(option, questionData.correctAnswer);
+                        optionDiv.classList.add("selected");
+
+                        // Disable all options after one is selected
+                        const options = document.querySelectorAll(".option");
+                        options.forEach((opt) => {
+                          opt.style.pointerEvents = "none";
+                        });
+                      }
+                    });
+                    optionsGrid.appendChild(optionDiv);
+                  });
+
+                  // Update current question number
+                  document.getElementById("current-question").textContent =
+                    index + 1;
+                  // Update score display
+                  document.getElementById("score").textContent = score;
+                }
+
+                function checkAnswer(selectedOption, correctAnswer) {
+                  const options = document.querySelectorAll(".option");
+                  options.forEach((option) => {
+                    if (option.textContent === correctAnswer) {
+                      option.classList.add("correct");
+                    } else if (option.textContent === selectedOption) {
+                      option.classList.add("incorrect");
+                    }
+                  });
+
+                  if (selectedOption === correctAnswer) {
+                    score++; // Increment score
+                    document.getElementById("score").textContent = score;
+                  }
+
+                  setTimeout(() => {
+                    currentQuestionIndex++;
+                    if (currentQuestionIndex < totalQuestions) {
+                      loadQuestion(currentQuestionIndex);
+                    } else {
+                      // Calculate total coins based on correct answers
+                      const coins = score * coinsPerCorrectAnswer;
+                      // Retrieve existing total coins from local storage
+                      const existingCoins =
+                        parseFloat(localStorage.getItem("TotalCoin")) || 0;
+                      // Add new coins to existing total
+                      const newTotalCoins = existingCoins + coins;
+                      // Store the updated total coins in local storage
+                      localStorage.setItem("TotalCoin", newTotalCoins);
+                      // Store the total score in local storage
+                      localStorage.setItem("quizScore", score);
+                      localStorage.setItem("TotalCoinPerGame", coins);
+
+                      // Navigate to the results page
+                      window.location.href = "quiz/result"
+                    }
+                  }, 1000);
+                }
+                loadQuestion(currentQuestionIndex);
+              } else {
+                console.error("Quiz not found.");
+              }
+            })
+            .catch((error) =>
+              console.error("Error fetching quiz data:", error)
+            );
+        } else {
+          console.error("Selected quiz information is missing.");
+        }
+      });
+    </script> -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const selectedQuizInfo = JSON.parse(
+          localStorage.getItem("selectedQuiz")
+        );
+
+        if (selectedQuizInfo) {
+          fetch("../../../../assets/json/quizzesForCategory.json")
+            .then((response) => response.json())
+            .then((data) => {
+              const categoryQuizzes = data[selectedQuizInfo.categoryName];
+              const quizData = categoryQuizzes.find(
+                (quiz) => quiz.title === selectedQuizInfo.quizTitle
+              );
+
+              if (quizData) {
+                let currentQuestionIndex = 0;
+                let score = 0;
+                const totalQuestions = quizData.questions.length;
+                const totalPrice = quizData.totalPrice;
+                const coinsPerCorrectAnswer = totalPrice / totalQuestions;
+                document.getElementById("total-questions").textContent =
+                  totalQuestions;
+                document.getElementById("total-score").textContent =
+                  totalQuestions;
+
+                const optionsGrid = document.getElementById(
+                  "hiddentQuestionContainer"
+                );
+                // Load all questions into the DOM
+                quizData.questions.forEach((questionData, index) => {
+                  const questionContainer = document.createElement("div"); // Create questionContainer
+                  questionContainer.className = "questionContainer";
+
+                  const questionDiv = document.createElement("div");
+                  questionDiv.className = "question";
+                  questionDiv.textContent = questionData.question;
+                  questionContainer.appendChild(questionDiv);
+
+                  const optionsDiv = document.createElement("div");
+                  optionsDiv.className = "optionsGrid";
+
+                  questionData.options.forEach((option) => {
+                    const optionDiv = document.createElement("div");
+                    optionDiv.className = "option";
+                    optionDiv.textContent = option;
+                    optionsDiv.appendChild(optionDiv);
+                  });
+
+                  questionContainer.appendChild(optionsDiv);
+                  optionsGrid.appendChild(questionContainer);
+
+                  const options = optionsGrid.querySelectorAll(".option");
+                  options.forEach((optionDiv) => {
+                    optionDiv.addEventListener("click", () => {
+                      if (!optionDiv.classList.contains("selected")) {
+                        checkAnswer(
+                          optionDiv.textContent,
+                          questionData.correctAnswer
+                        );
+                        optionDiv.classList.add("selected");
+
+                        options.forEach((opt) => {
+                          opt.style.pointerEvents = "none";
+                        });
+                      }
+                    });
+                  });
+                });
+                function showQuestion(index) {
+                  const questions =
+                    document.querySelectorAll(".questionContainer");
+                  questions.forEach((question, i) => {
+                    question.style.display = i === index ? "block" : "none";
+                  });
+
+                  // Update current question number
+                  document.getElementById("current-question").textContent =
+                    index + 1;
+                  // Update score display
+                  document.getElementById("score").textContent = score;
+                }
+
+                function checkAnswer(selectedOption, correctAnswer) {
+                  const options = document.querySelectorAll(".option");
+                  options.forEach((option) => {
+                    if (option.textContent === correctAnswer) {
+                      option.classList.add("correct");
+                    } else if (option.textContent === selectedOption) {
+                      option.classList.add("incorrect");
+                    }
+                  });
+
+                  if (selectedOption === correctAnswer) {
+                    score++;
+                    document.getElementById("score").textContent = score;
+                  }
+
+                  setTimeout(() => {
+                    currentQuestionIndex++;
+                    if (currentQuestionIndex < totalQuestions) {
+                      showQuestion(currentQuestionIndex);
+                    } else {
+                      const coins = score * coinsPerCorrectAnswer;
+                      const existingCoins =
+                        parseFloat(localStorage.getItem("TotalCoin")) || 0;
+                      const newTotalCoins = existingCoins + coins;
+                      localStorage.setItem("TotalCoin", newTotalCoins);
+                      localStorage.setItem("quizScore", score);
+                      localStorage.setItem("TotalCoinPerGame", coins);
+
+                      window.location.href = "quiz/result";
+                    }
+                  }, 1000);
+                }
+
+                showQuestion(currentQuestionIndex);
+              } else {
+                console.error("Quiz not found.");
+              }
+            })
+            .catch((error) =>
+              console.error("Error fetching quiz data:", error)
+            );
+        } else {
+          console.error("Selected quiz information is missing.");
+        }
+      });
+    </script>
+
+    <!-- Script For Quizzes Play End -->
+
+    <!-- Script For Removing Trailing Slash From URL Start -->
+    <script>
+      if (window.location.pathname.endsWith("/")) {
+        const newURL = window.location.pathname.slice(0, -1);
+        history.replaceState({}, "", newURL);
+      }
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // ... existing code ...
+
+        // Retrieve and display total coins from local storage
+        const totalCoins = localStorage.getItem("TotalCoin") || 0;
+        document.getElementById(
+          "totalCoinsDisplay"
+        ).innerHTML = `${totalCoins} <span>COINS</span>`;
+
+        // ... existing code ...
+      });
+    </script>
+    <!-- Script For Removing Trailing Slash From URL End -->
+  </body>
+</html>

@@ -36,7 +36,8 @@
                 class="coin-image"
                 loading="lazy"
               />
-              <p>150 <span>COINS</span></p>
+              <p id="totalCoinsDisplay">150 <span>COINS</span></p>
+              <!-- Updated to use an ID -->
             </div>
           </div>
         </header>
@@ -109,18 +110,19 @@
       document.addEventListener("DOMContentLoaded", function () {
         // Retrieve the category name from local storage
         const categoryName = localStorage.getItem("selectedCategory");
+        const totalCoins = localStorage.getItem("TotalCoin") || 0;
 
         if (categoryName) {
           fetch("../assets/json/quizzesForCategory.json")
             .then((response) => response.json())
             .then((data) => {
-              const quizzes = data[0][categoryName] || [];
+              const quizzes = data[categoryName] || [];
               const container = document.getElementById("quizzesContainer");
               let htmlContent = ``;
               quizzes.forEach((quiz) => {
                 htmlContent += `
                     <div class="outerContainer">
-                        <a href="quizzesForCategory/quizPlay?categoryName=${categoryName}" class="innerContainer">
+                       <a href="quizzesForCategory/quizPlay" class="innerContainer" onclick="storeQuizData('${categoryName}', '${quiz.title}', '${quiz.imagePath}', '${quiz.totalPrice}')">
                          <img src="${quiz.imagePath}" alt="${quiz.title}" />
                       <div class='quizDetails'>
                         <div class='quizTitleContainer'>
@@ -138,7 +140,7 @@
                             </div>
                       </div>
                       <img src="../../assets/images/svg/playIcon.svg" alt="play" />
-                      </div>
+                      </a>
                       </div>
                   `;
               });
@@ -148,6 +150,11 @@
         } else {
           console.error("No category selected.");
         }
+       
+        console.log(totalCoins);
+        document.getElementById(
+          "totalCoinsDisplay"
+        ).innerHTML = `${totalCoins} <span>COINS</span>`;
       });
     </script>
     <!-- Script For Quizzes For Category End -->
@@ -158,5 +165,22 @@
         history.replaceState({}, "", newURL);
       }
     </script>
+    <!-- Script For Removing Trailing Slash From URL End -->
+
+    <!-- Script For Storing Quiz Data Start -->
+    <script>
+      function storeQuizData(categoryName, quizTitle, quizImage, totalPrice) {
+        localStorage.setItem(
+          "selectedQuiz",
+          JSON.stringify({
+            categoryName: categoryName,
+            quizTitle: quizTitle,
+            quizImage: quizImage,
+            totalPrice: totalPrice,
+          })
+        );
+      }
+    </script>
+    <!-- Script For Storing Quiz Data End -->
   </body>
 </html>

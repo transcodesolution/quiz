@@ -36,11 +36,45 @@
                 class="coin-image"
                 loading="lazy"
               />
-              <p>150 <span>COINS</span></p>
+              <p id="totalCoinsDisplay">150 <span>COINS</span></p>
             </div>
           </div>
         </header>
-        <div id="quizzesContainer" class="quizzesContainer"></div>
+        <div class="quiz-container-wrapper">
+          <div class="quiz-container">
+            <div class="quiz-header">
+              <img
+                class="category-image"
+                src=""
+                alt="category"
+              />
+              <div>
+                <div class="category-title"></div>
+                <div class="play-win"></div>
+              </div>
+            </div>
+            <div class="quiz-actions">
+              <button class="join-now">JOIN NOW</button>
+              <div class="or-text">or</div>
+              <a href="quizPlay/quiz" class="play-as-guest">PLAY AS GUEST</a>
+            </div>
+            <ul class="quiz-rules">
+              <li>You've got 90 - 150 seconds to answer all questions</li>
+              <li>Answer as many questions as you can</li>
+              <li>
+                For Every Correct answer you will get +50 points and will lose
+                -25 points on every Incorrect answer
+              </li>
+              <li>
+                You can take help by using the lifelines present in the contest.
+              </li>
+              <li>
+                Lifelines can be used for free or by using a given amount of
+                coins for each lifeline.
+              </li>
+            </ul>
+          </div>
+        </div>
 
         <footer class="footerContainer">
           <a href="categories" class="categories">
@@ -105,8 +139,26 @@
     <!-- Script for showing Current path in Footer End -->
 
     <!-- Script For Quizzes Play Start -->
-   
+     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const quizData = JSON.parse(localStorage.getItem("selectedQuiz"));
+        const totalCoins = localStorage.getItem("TotalCoin") || 0;
+
+        if (quizData) {
+          document.querySelector(".category-title").textContent =
+            quizData.quizTitle;
+          document.querySelector(".category-image").src = `../${quizData.quizImage}`
+          document.querySelector(
+            ".play-win"
+          ).innerHTML = `Play & Win <img class="coin-image" src="../../../../assets/images/svg/coin.svg" alt="Coin" /> ${quizData.totalPrice}`;
+        } else {
+          console.error("Quiz data is missing.");
+        }
+        document.getElementById("totalCoinsDisplay").innerHTML = `${totalCoins} <span>COINS</span>`;
+      });
+    </script>
     <!-- Script For Quizzes Play End -->
+
     <!-- Script For Removing Trailing Slash From URL Start -->
     <script>
       if (window.location.pathname.endsWith("/")) {
@@ -114,5 +166,7 @@
         history.replaceState({}, "", newURL);
       }
     </script>
+    <!-- Script For Removing Trailing Slash From URL End -->
+   
   </body>
 </html>
