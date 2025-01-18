@@ -1,155 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/sideBannner.css" />
+    <title>Quiztwiz</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="stylesheet" href="assets/css/common.css" />
-  <link rel="stylesheet" href="assets/css/sideBannner.css" />
-  <title>Quiztwiz</title>
-</head>
-
-<body>
-  <div class="mainContainer">
-    <section class="quizSection">
-      <main class="quizContainer">
-        <header>
-          <div class="notification">
-            <p>
-              Answer few questions and win
-              <img src="assets/images/svg/coin.svg" style="width: 12px" al t="coin" class="coin-image" loading="lazy" />
-              150 free!
-            </p>
-            <img src="assets/images/gif/quiztwiz_bell.gif" style="width: 55px" alt="coin" class="quizBell-image"
-              loading="lazy" />
-          </div>
-        </header>
-        <div class="quizSection">
-          <!-- Question 1 -->
-          <div class="questionContainer">
-            <div class="question">The National Game of India is?</div>
-            <div class="optionsGrid">
-              <div class="option">Cricket</div>
-              <div class="option">Hockey</div>
-              <div class="option">Chess</div>
-              <div class="option">Tennis</div>
-            </div>
-          </div>
-
-          <!-- Question 2 -->
-          <div class="questionContainer hidden">
-            <div class="question">What is the capital of France?</div>
-            <div class="optionsGrid">
-              <div class="option">Berlin</div>
-              <div class="option">Madrid</div>
-              <div class="option">Paris</div>
-              <div class="option">Rome</div>
-            </div>
-          </div>
-
-          <!-- Question 3 -->
-          <div class="questionContainer hidden">
-            <div class="question">Which planet is known as the Red Planet?</div>
-            <div class="optionsGrid">
-              <div class="option">Earth</div>
-              <div class="option">Mars</div>
-              <div class="option">Jupiter</div>
-              <div class="option">Saturn</div>
-            </div>
-          </div>
-
-          <!-- Question 4 -->
-          <div class="questionContainer hidden">
-            <div class="question">What is the largest ocean on Earth?</div>
-            <div class="optionsGrid">
-              <div class="option">Atlantic Ocean</div>
-              <div class="option">Indian Ocean</div>
-              <div class="option">Arctic Ocean</div>
-              <div class="option">Pacific Ocean</div>
-            </div>
-          </div>
-
-          <!-- Question 5 -->
-          <div class="questionContainer hidden">
-            <div class="question">Who wrote 'Romeo and Juliet'?</div>
-            <div class="optionsGrid">
-              <div class="option">Charles Dickens</div>
-              <div class="option">William Shakespeare</div>
-              <div class="option">Mark Twain</div>
-              <div class="option">Jane Austen</div>
-            </div>
-          </div>
-
-          <!-- Question 6 -->
-          <div class="questionContainer hidden">
-            <div class="question">What is the chemical symbol for water?</div>
-            <div class="optionsGrid">
-              <div class="option">O2</div>
-              <div class="option">H2O</div>
-              <div class="option">CO2</div>
-              <div class="option">NaCl</div>
-            </div>
-          </div>
-
-          <!-- Question 7 -->
-          <div class="questionContainer hidden">
-            <div class="question">Which country is known as the Land of the Rising Sun?</div>
-            <div class="optionsGrid">
-              <div class="option">China</div>
-              <div class="option">Japan</div>
-              <div class="option">Thailand</div>
-              <div class="option">India</div>
-            </div>
-          </div>
-
-          <!-- Sign-Up or Login -->
-          <p class="signup">Sign-Up or Login</p>
+  <body>
+    <div class="rewardContainer hidden" id="rewardContainer">
+      <div class="rewardBox">
+        <div role="button" class="crossIcon">
+          <img
+            src="/assets/images/svg/crossIcon.svg"
+            alt="cross"
+            id="crossIcon"
+          />
         </div>
-        <div class="infoSection">
-          <h3>Play Quiz and Win Coins!</h3>
-          <ul>
-            <li>
-              Play Quizzes in 25+ categories like GK, Sports, Bollywood,
-              Business, Cricket & more!
-            </li>
-            <li>Compete with lakhs of other players!</li>
-            <li>Win coins for every game</li>
-            <li>Trusted by millions of other quiz enthusiasts like YOU!</li>
-          </ul>
-        </div>
-        <div class="funFacts">
-          <h1>Fun Facts</h1>
-          <p>
-            The insurance industry is one of the largest industries in the
-            United States, with over $1.5 trillion in annual premiums. The
-            word "insurance" comes from the French word "assurer", which means
-            "to make sure". The first insurance company in the United States
-            was founded in Charleston, South Carolina, in 1735. The insurance
-            industry employs over 2 million people in the United States. The
-            average American household spends about $1,500 per year on
-            insurance premiums. The most expensive type of insurance in the
-            United States is long-term care insurance, which can cost upwards
-            of $5,000 per month.
-          </p>
-        </div>
-        <div class="contactSection">
-          <div class="contactText">
-            Turn traffic into profit! Reach out for premium ads today!
-          </div>
-          <button class="contactButton">Contact Us</button>
-        </div>
-      </main>
-    </section>
-    <section class="rightSection">
-      <img src="assets/images/sidePoster.png" alt="right-section" class="poster-image" loading="lazy" />
-      <div class="welcomeText">
-        <h4>Welcome to Quiztwiz. Play a quiz and earn coins.</h4>
-        <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
+        <img src="assets/images/gif/getrewardBox.gif" alt="reward" />
+        <h2 class="NewReward">New Reward Available</h2>
+        <h2 class="instantCoin">Get Instant 100 Coins!</h2>
+        <p class="watchAdd">Watch a simple ad and get rewarded</p>
+        <button class="claimReward" id="claimRewardButton">Claim</button>
       </div>
-    </section>
-  </div>
-  <script src="assets/js/script.js"></script>
-</body>
+    </div>
+    <div class="mainContainer" id="mainContainer">
+      <section class="quizSection">
+        <main class="quizContainer">
+          <header>
+            <div class="notification">
+              <p>
+                Answer few and winquestions
+                <img
+                  src="assets/images/svg/coin.svg"
+                  style="width: 12px"
+                  al
+                  t="coin"
+                  class="coin-image"
+                  loading="lazy"
+                />
+                150 free!
+              </p>
+              <img
+                src="assets/images/gif/quiztwiz_bell.gif"
+                style="width: 55px"
+                alt="coin"
+                class="quizBell-image"
+                loading="lazy"
+              />
+            </div>
+          </header>
+          <div class="quizSection">
+            <!-- Question 1 -->
+            <div class="questionContainer">
+              <div class="question">The National Game of India is?</div>
+              <div class="optionsGrid">
+                <div class="option" data-correct="false">Cricket</div>
+                <div class="option" data-correct="true">Hockey</div>
+                <div class="option" data-correct="false">Chess</div>
+                <div class="option" data-correct="false">Tennis</div>
+              </div>
+            </div>
 
+            <!-- Question 2 -->
+            <div class="questionContainer hidden">
+              <div class="question">What is the capital of France?</div>
+              <div class="optionsGrid">
+                <div class="option" data-correct="false">Berlin</div>
+                <div class="option" data-correct="false">Madrid</div>
+                <div class="option" data-correct="true">Paris</div>
+                <div class="option" data-correct="false">Rome</div>
+              </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="questionContainer hidden">
+              <div class="question">
+                Which planet is known as the Red Planet?
+              </div>
+              <div class="optionsGrid">
+                <div class="option" data-correct="false">Earth</div>
+                <div class="option" data-correct="true">Mars</div>
+                <div class="option" data-correct="false">Jupiter</div>
+                <div class="option" data-correct="false">Saturn</div>
+              </div>
+            </div>
+
+            <!-- Sign-Up or Login -->
+            <p class="signup">Sign-Up or Login</p>
+          </div>
+          <div class="infoSection">
+            <h3>Play Quiz and Win Coins!</h3>
+            <ul>
+              <li>
+                Play Quizzes in 25+ categories like GK, Sports, Bollywood,
+                Business, Cricket & more!
+              </li>
+              <li>Compete with lakhs of other players!</li>
+              <li>Win coins for every game</li>
+              <li>Trusted by millions of other quiz enthusiasts like YOU!</li>
+            </ul>
+          </div>
+          <div class="funFacts">
+            <h1>Fun Facts</h1>
+            <p>
+              The insurance industry is one of the largest industries in the
+              United States, with over $1.5 trillion in annual premiums. The
+              word "insurance" comes from the French word "assurer", which means
+              "to make sure". The first insurance company in the United States
+              was founded in Charleston, South Carolina, in 1735. The insurance
+              industry employs over 2 million people in the United States. The
+              average American household spends about $1,500 per year on
+              insurance premiums. The most expensive type of insurance in the
+              United States is long-term care insurance, which can cost upwards
+              of $5,000 per month.
+            </p>
+          </div>
+          <div class="contactSection">
+            <div class="contactText">
+              Turn traffic into profit! Reach out for premium ads today!
+            </div>
+            <button class="contactButton">Contact Us</button>
+          </div>
+        </main>
+      </section>
+      <section class="rightSection">
+        <img
+          src="assets/images/sidePoster.png"
+          alt="right-section"
+          class="poster-image"
+          loading="lazy"
+        />
+        <div class="welcomeText">
+          <h4>Welcome to Quiztwiz. Play a quiz and earn coins.</h4>
+          <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
+        </div>
+      </section>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script>
+      document
+        .getElementById("claimRewardButton")
+        .addEventListener("click", function () {
+          window.location.href = "../categories/";
+        });
+    </script>
+  </body>
 </html>

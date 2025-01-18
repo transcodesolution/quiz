@@ -36,7 +36,7 @@
                 class="coin-image"
                 loading="lazy"
               />
-              <p id="totalCoinsDisplay">150 <span>COINS</span></p>
+              <p id="totalCoinsDisplay">0 <span>COINS</span></p>
               <!-- Updated to use an ID -->
             </div>
           </div>
@@ -44,7 +44,7 @@
         <div id="quizzesContainer" class="quizzesContainer"></div>
 
         <footer class="footerContainer">
-          <a href="categories" class="categories">
+          <a href="/categories/" class="categories">
             <img
               src="../../assets/images/svg/category.svg"
               alt="category"
@@ -60,7 +60,7 @@
             />
             <p>Home</p>
           </a>
-          <a href="" class="profile">
+          <a href="/profile/" class="profile">
             <img
               src="../../assets/images/svg/profile.svg"
               alt="profile"
@@ -111,7 +111,9 @@
         // Retrieve the category name from local storage
         const categoryName = localStorage.getItem("selectedCategory");
         const totalCoins = localStorage.getItem("TotalCoin") || 0;
-
+        document.getElementById(
+          "totalCoinsDisplay"
+        ).innerHTML = `${totalCoins} <span>COINS</span>`;
         if (categoryName) {
           fetch("../assets/json/quizzesForCategory.json")
             .then((response) => response.json())
@@ -122,7 +124,7 @@
               quizzes.forEach((quiz) => {
                 htmlContent += `
                     <div class="outerContainer">
-                       <a href="quizzesForCategory/quizPlay" class="innerContainer" onclick="storeQuizData('${categoryName}', '${quiz.title}', '${quiz.imagePath}', '${quiz.totalPrice}')">
+                       <a href="quizzesForCategory/quizPlay" class="innerContainer" onclick="storeQuizData('${categoryName}', '${quiz.title}', '${quiz.imagePath}', '${quiz.totalPrice}','${quiz.entryFee}')">
                          <img src="${quiz.imagePath}" alt="${quiz.title}" />
                       <div class='quizDetails'>
                         <div class='quizTitleContainer'>
@@ -151,13 +153,10 @@
           console.error("No category selected.");
         }
        
-        console.log(totalCoins);
-        document.getElementById(
-          "totalCoinsDisplay"
-        ).innerHTML = `${totalCoins} <span>COINS</span>`;
       });
     </script>
     <!-- Script For Quizzes For Category End -->
+
     <!-- Script For Removing Trailing Slash From URL Start -->
     <script>
       if (window.location.pathname.endsWith("/")) {
@@ -169,7 +168,8 @@
 
     <!-- Script For Storing Quiz Data Start -->
     <script>
-      function storeQuizData(categoryName, quizTitle, quizImage, totalPrice) {
+      
+      function storeQuizData(categoryName, quizTitle, quizImage, totalPrice,entryFee) {
         localStorage.setItem(
           "selectedQuiz",
           JSON.stringify({
@@ -177,6 +177,7 @@
             quizTitle: quizTitle,
             quizImage: quizImage,
             totalPrice: totalPrice,
+            entryFee: entryFee,
           })
         );
       }

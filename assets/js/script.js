@@ -1,42 +1,77 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const questionContainers = document.querySelectorAll(".questionContainer");
-    let currentQuestionIndex = 0;
+  const questionContainers = document.querySelectorAll(".questionContainer");
+  let currentQuestionIndex = 0;
+  const coinsPerCorrectAnswer = 50;
+  let correctAnswersCount = 0;
 
-    // Function to handle Quiz option click
-    function handleOptionClick(option, options) {
-        // Remove 'selected' class from all options in the current question
-        options.forEach((opt) => opt.classList.remove("selected"));
+  // Initialize total coins in localStorage if not already set
+  if (!localStorage.getItem("TotalCoin")) {
+    localStorage.setItem("TotalCoin", "0");
+  }
 
-        // Add 'selected' class to the clicked option
-        option.classList.add("selected");
-        option.style.backgroundColor = "green"; // Change color to green
+  // Function to handle Quiz option click
+ function handleOptionClick(option, options) {
+  // Check if the option is already selected
+  if (!option.classList.contains("selected")) {
+    // Remove 'selected' class from all options in the current question
+    options.forEach((opt) => opt.classList.remove("selected"));
 
-        // Wait for 2 seconds before moving to the next question
-        setTimeout(() => {
-            // Hide current question
-            questionContainers[currentQuestionIndex].classList.add("hidden");
+    // Add 'selected' class to the clicked option
+    option.classList.add("selected");
 
-            // Show next question
-            currentQuestionIndex++;
-            if (currentQuestionIndex < questionContainers.length) {
-                questionContainers[currentQuestionIndex].classList.remove("hidden");
-            }
-        }, 1000); // 2000 milliseconds = 2 seconds
+    // Check if the clicked option is correct
+    if (option.getAttribute("data-correct") === "true") {
+      option.style.backgroundColor = "green"; // Correct answer
+      correctAnswersCount++; // Increment correct answers count
+    } else {
+      option.style.backgroundColor = "red"; // Incorrect answer
+      // Highlight the correct answer
+      options.forEach((opt) => {
+        if (opt.getAttribute("data-correct") === "true") {
+          opt.style.backgroundColor = "green";
+        }
+      });
     }
 
-    // Ensure only the first question is visible initially
-    questionContainers.forEach((container, index) => {
-        if (index !== currentQuestionIndex) {
-            container.classList.add("hidden");
-        }
+    // Disable further selection for this question
+    options.forEach((opt) => {
+      opt.style.pointerEvents = "none";
     });
 
-    questionContainers.forEach((container) => {
-        const options = container.querySelectorAll(".option");
-        options.forEach((option) => {
-            option.addEventListener("click", () =>
-                handleOptionClick(option, options)
-            );
-        });
+    // Wait for 2 seconds before moving to the next question
+    setTimeout(() => {
+      // Hide current question
+      questionContainers[currentQuestionIndex].classList.add("hidden");
+
+      // Show next question or update coins if last question
+      currentQuestionIndex++;
+      if (currentQuestionIndex < questionContainers.length) {
+        questionContainers[currentQuestionIndex].classList.remove("hidden");
+      } else {
+        // Update the coin count after all questions are answered
+        let totalCoins = parseInt(localStorage.getItem("TotalCoin"), 10);
+        totalCoins += correctAnswersCount * coinsPerCorrectAnswer;
+        localStorage.setItem("TotalCoin", totalCoins.toString());
+        // Remove 'hidden' class from rewardContainer
+        document.getElementById("rewardContainer").classList.remove("hidden");
+        // Add 'hidden' class to mainContainer
+        document.getElementById("mainContainer").classList.add("hidden");
+      }
+    }, 2000); // 2000 milliseconds = 2 seconds
+  }
+}
+  // Ensure only the first question is visible initially
+  questionContainers.forEach((container, index) => {
+    if (index !== currentQuestionIndex) {
+      container.classList.add("hidden");
+    }
+  });
+  questionContainers.forEach((container) => {
+    const options = container.querySelectorAll(".option");
+    options.forEach((option) => {
+      option.addEventListener("click", () =>
+        handleOptionClick(option, options)
+      );
     });
+  });
 });

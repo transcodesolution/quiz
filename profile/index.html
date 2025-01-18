@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../assets/css/header.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/sideBannner.css" />
-    <link rel="stylesheet" href="../assets/css/categories.css" />
+    <link rel="stylesheet" href="../assets/css/profile.css" />
   </head>
 
   <body>
@@ -19,9 +19,10 @@
           <div class="rewardContainer">
             <div class="dailyReward">
               <img
-                src="assets/images/gif/reward.gif"
+                src="../assets/images/gif/reward.gif"
                 style="width: 25px; margin-bottom: 8px"
-                alt="coin"
+                al
+                t="coin"
                 class="coin-image"
                 loading="lazy"
               />
@@ -29,7 +30,7 @@
             </div>
             <div class="totalCoins">
               <img
-                src="assets/images/svg/coin.svg"
+                src="../assets/images/svg/coin.svg"
                 style="width: 15px"
                 alt="coin"
                 class="coin-image"
@@ -39,24 +40,30 @@
             </div>
           </div>
         </header>
-        <div class="categoriesInnerContainer">
-          <p>Select the Quiz category that you want to play</p>
-          <div class="searchContainer">
-            <img src="../assets/images/svg/searchIcon.svg" alt="search" />
-            <input
-              type="text"
-              placeholder="Search Quiz Category"
-              id="searchInput"
-            />
-            <img
-              src="../assets/images/svg/crossIcon.svg"
-              alt="cross"
-              id="crossIcon"
-              style="height: 23px; width: 28px; display: none"
-            />
+
+        <div class="profileContainer">
+          <div class="userProfileContainer">
+            <div class="profileImgContainer">
+              <img
+                src="../assets/images/userProfile.png"
+                alt="user profile"
+                loading="lazy"
+              />
+            </div>
+            <div class="userProfileDetails">
+              <p>User X</p>
+            </div>
+          </div>
+          <div class="coinContainer">
+            <div class="coinBox">
+              <div class="coinBoxText">Coins</div>
+              <div class="coinCount" id="totalCoins">0</div>
+            </div>
+          </div>
+          <div class="coinContainer">
+            <button class="join-now">JOIN NOW</button>
           </div>
         </div>
-        <div class="quizCategoriesContainer" id="quizCategoriesContainer"></div>
 
         <footer class="footerContainer">
           <a href="../categories/" class="categories">
@@ -87,7 +94,7 @@
       </section>
       <section class="rightSection">
         <img
-          src="assets/images/sidePoster.png"
+          src="../assets/images/sidePoster.png"
           alt="right-section"
           class="poster-image"
           loading="lazy"
@@ -97,13 +104,13 @@
           <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
         </div>
       </section>
+
       <script>
         if (window.location.pathname.endsWith("/")) {
           const newURL = window.location.pathname.slice(0, -1);
           history.replaceState({}, "", newURL);
         }
       </script>
-      <script src="../assets/js/categories.js"></script>
 
       <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -123,17 +130,19 @@
           }
         });
       </script>
+
       <script>
         document.addEventListener("DOMContentLoaded", function () {
-
           // Retrieve and display total coins from local storage
           const totalCoins = localStorage.getItem("TotalCoin") || 0;
           document.getElementById(
             "totalCoinsDisplay"
           ).innerHTML = `${totalCoins} <span>COINS</span>`;
-
-         });
+          // Update the coin count in the profile container
+          document.getElementById("totalCoins").textContent = totalCoins;
+        });
       </script>
+
     </div>
   </body>
 </html>

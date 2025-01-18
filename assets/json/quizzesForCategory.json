@@ -33,6 +33,33 @@
           "correctAnswer": "0.5"
         }
       ],
+      "ExtraQuestion": [
+        {
+          "question": "What is the sine of 45 degrees?",
+          "options": ["0.707", "0.5", "1", "None of the above"],
+          "correctAnswer": "0.707"
+        },
+        {
+          "question": "What is the cosine of 90 degrees?",
+          "options": ["0", "0.5", "1", "None of the above"],
+          "correctAnswer": "0"
+        },
+        {
+          "question": "What is the tangent of 0 degrees?",
+          "options": ["0", "1", "0.5", "None of the above"],
+          "correctAnswer": "0"
+        },
+        {
+          "question": "What is the sine of 60 degrees?",
+          "options": ["0.5", "0.866", "1", "None of the above"],
+          "correctAnswer": "0.866"
+        },
+        {
+          "question": "What is the cosine of 30 degrees?",
+          "options": ["0.866", "0.5", "1", "None of the above"],
+          "correctAnswer": "0.866"
+        }
+      ],
       "difficulty": "hard"
     },
     {
@@ -64,6 +91,33 @@
         },
         {
           "question": "What is 15 - 5?",
+          "options": ["5", "10", "15", "20"],
+          "correctAnswer": "10"
+        }
+      ],
+      "ExtraQuestion": [
+        {
+          "question": "What is 3 + 3?",
+          "options": ["5", "6", "7", "8"],
+          "correctAnswer": "6"
+        },
+        {
+          "question": "What is 7 - 2?",
+          "options": ["4", "5", "6", "7"],
+          "correctAnswer": "5"
+        },
+        {
+          "question": "What is 8 / 4?",
+          "options": ["1", "2", "3", "4"],
+          "correctAnswer": "2"
+        },
+        {
+          "question": "What is 4 * 2?",
+          "options": ["6", "7", "8", "9"],
+          "correctAnswer": "8"
+        },
+        {
+          "question": "What is 20 - 10?",
           "options": ["5", "10", "15", "20"],
           "correctAnswer": "10"
         }
@@ -105,6 +159,33 @@
           "correctAnswer": "dog"
         }
       ],
+      "ExtraQuestion": [
+        {
+          "question": "Which of the following is a noun?",
+          "options": ["Run", "Jump", "Happiness", "Quickly"],
+          "correctAnswer": "Happiness"
+        },
+        {
+          "question": "Identify the pronoun in the sentence: 'They are playing.'",
+          "options": ["They", "are", "playing", "None"],
+          "correctAnswer": "They"
+        },
+        {
+          "question": "Which word is a noun in the sentence: 'The sun is bright.'",
+          "options": ["The", "sun", "is", "bright"],
+          "correctAnswer": "sun"
+        },
+        {
+          "question": "Which of the following is a pronoun?",
+          "options": ["He", "Table", "Run", "Blue"],
+          "correctAnswer": "He"
+        },
+        {
+          "question": "Identify the noun in the sentence: 'The bird sings.'",
+          "options": ["The", "bird", "sings", "None"],
+          "correctAnswer": "bird"
+        }
+      ],
       "difficulty": "medium"
     },
     {
@@ -138,6 +219,33 @@
           "question": "What is the adverb in the sentence: 'He runs very fast.'",
           "options": ["He", "runs", "very", "fast"],
           "correctAnswer": "fast"
+        }
+      ],
+      "ExtraQuestion": [
+        {
+          "question": "Which of the following is a verb?",
+          "options": ["Quickly", "Run", "Blue", "Table"],
+          "correctAnswer": "Run"
+        },
+        {
+          "question": "Which word is an adverb in the sentence: 'He runs swiftly.'",
+          "options": ["He", "runs", "swiftly", "None"],
+          "correctAnswer": "swiftly"
+        },
+        {
+          "question": "Identify the verb in the sentence: 'The cat jumps high.'",
+          "options": ["cat", "jumps", "high", "The"],
+          "correctAnswer": "jumps"
+        },
+        {
+          "question": "Which of the following is an adverb?",
+          "options": ["Quick", "Quickly", "Quicker", "Quickest"],
+          "correctAnswer": "Quickly"
+        },
+        {
+          "question": "What is the adverb in the sentence: 'She speaks softly.'",
+          "options": ["She", "speaks", "softly", "None"],
+          "correctAnswer": "softly"
         }
       ],
       "difficulty": "medium"
@@ -177,6 +285,33 @@
           "correctAnswer": "Surya"
         }
       ],
+      "ExtraQuestion": [
+        {
+          "question": "Translate 'Dog' to Hindi.",
+          "options": ["Kutta", "Billi", "Gadha", "Ghoda"],
+          "correctAnswer": "Kutta"
+        },
+        {
+          "question": "Translate 'Tree' to Hindi.",
+          "options": ["Ped", "Phool", "Patta", "Ghar"],
+          "correctAnswer": "Ped"
+        },
+        {
+          "question": "Translate 'House' to Hindi.",
+          "options": ["Ghar", "Makan", "Kothi", "Bangla"],
+          "correctAnswer": "Ghar"
+        },
+        {
+          "question": "Translate 'River' to Hindi.",
+          "options": ["Nadi", "Samudra", "Jheel", "Talab"],
+          "correctAnswer": "Nadi"
+        },
+        {
+          "question": "Translate 'Sky' to Hindi.",
+          "options": ["Aakash", "Zameen", "Pani", "Hawa"],
+          "correctAnswer": "Aakash"
+        }
+      ],
       "difficulty": "easy"
     }
   ],
@@ -214,6 +349,33 @@
           "correctAnswer": "Red"
         }
       ],
+      "ExtraQuestion": [
+        {
+          "question": "Raksha Bandhan is celebrated in which season?",
+          "options": ["Winter", "Summer", "Monsoon", "Spring"],
+          "correctAnswer": "Monsoon"
+        },
+        {
+          "question": "What is the main ingredient in Barfi?",
+          "options": ["Milk", "Flour", "Sugar", "Butter"],
+          "correctAnswer": "Milk"
+        },
+        {
+          "question": "Which color is not traditionally associated with Rakhi?",
+          "options": ["Red", "Blue", "Green", "Yellow"],
+          "correctAnswer": "Blue"
+        },
+        {
+          "question": "What is the traditional gift given during Raksha Bandhan?",
+          "options": ["Money", "Clothes", "Jewelry", "Books"],
+          "correctAnswer": "Money"
+        },
+        {
+          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
+          "options": ["Rose", "Marigold", "Lily", "Tulip"],
+          "correctAnswer": "Marigold"
+        }
+      ],
       "difficulty": "medium"
     },
     {
@@ -230,7 +392,12 @@
         },
         {
           "question": "What is the traditional dance performed during Onam?",
-          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Kuchipudi"],
+          "options": [
+            "Kathakali",
+            "Bharatanatyam",
+            "Mohiniyattam",
+            "Kuchipudi"
+          ],
           "correctAnswer": "Kathakali"
         },
         {
@@ -247,6 +414,33 @@
           "question": "Onam marks the homecoming of which legendary king?",
           "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
           "correctAnswer": "Mahabali"
+        }
+      ],
+      "ExtraQuestion": [
+        {
+          "question": "Onam is celebrated in which month?",
+          "options": ["January", "August", "December", "March"],
+          "correctAnswer": "August"
+        },
+        {
+          "question": "What is the main dish in Sadya?",
+          "options": ["Rice", "Bread", "Pasta", "Noodles"],
+          "correctAnswer": "Rice"
+        },
+        {
+          "question": "Which dance is not performed during Onam?",
+          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
+          "correctAnswer": "Ballet"
+        },
+        {
+          "question": "What is the traditional attire worn during Onam?",
+          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
+          "correctAnswer": "Saree"
+        },
+        {
+          "question": "Which fruit is commonly used in Onam celebrations?",
+          "options": ["Banana", "Apple", "Grapes", "Orange"],
+          "correctAnswer": "Banana"
         }
       ],
       "difficulty": "medium"
@@ -286,6 +480,33 @@
           "correctAnswer": "Firefly"
         }
       ],
+      "ExtraQuestion": [
+        {
+          "question": "Which insect is known for its ability to fly?",
+          "options": ["Ant", "Bee", "Spider", "Worm"],
+          "correctAnswer": "Bee"
+        },
+        {
+          "question": "Which insect is known for its ability to spin webs?",
+          "options": ["Spider", "Ant", "Bee", "Butterfly"],
+          "correctAnswer": "Spider"
+        },
+        {
+          "question": "Which insect is known for its ability to camouflage?",
+          "options": ["Chameleon", "Grasshopper", "Ant", "Bee"],
+          "correctAnswer": "Grasshopper"
+        },
+        {
+          "question": "Which insect is known for its ability to produce silk?",
+          "options": ["Silkworm", "Bee", "Ant", "Butterfly"],
+          "correctAnswer": "Silkworm"
+        },
+        {
+          "question": "Which insect is known for its ability to live in colonies?",
+          "options": ["Ant", "Bee", "Spider", "Butterfly"],
+          "correctAnswer": "Ant"
+        }
+      ],
       "difficulty": "easy"
     },
     {
@@ -319,6 +540,33 @@
           "question": "Which animal is known for its ability to change color?",
           "options": ["Chameleon", "Tiger", "Lion", "Bear"],
           "correctAnswer": "Chameleon"
+        }
+      ],
+      "ExtraQuestion": [
+        {
+          "question": "Which animal is known for its ability to swim?",
+          "options": ["Elephant", "Fish", "Lion", "Tiger"],
+          "correctAnswer": "Fish"
+        },
+        {
+          "question": "Which bird is known for its ability to fly long distances?",
+          "options": ["Eagle", "Sparrow", "Crow", "Pigeon"],
+          "correctAnswer": "Eagle"
+        },
+        {
+          "question": "Which animal is known for its ability to climb trees?",
+          "options": ["Elephant", "Monkey", "Lion", "Bear"],
+          "correctAnswer": "Monkey"
+        },
+        {
+          "question": "Which bird is known for its ability to sing?",
+          "options": ["Nightingale", "Sparrow", "Crow", "Pigeon"],
+          "correctAnswer": "Nightingale"
+        },
+        {
+          "question": "Which animal is known for its ability to run fast?",
+          "options": ["Cheetah", "Elephant", "Lion", "Bear"],
+          "correctAnswer": "Cheetah"
         }
       ],
       "difficulty": "medium"

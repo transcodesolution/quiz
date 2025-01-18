@@ -1,0 +1,107 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.categoriesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 520px;
+  width: 100%;
+  gap: 24px;
+  padding-inline: 20px;
+  box-sizing: border-box;
+  height: -webkit-fill-available;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 100%;
+}
+
+.userProfileContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 40px;
+  margin-top: 24px;
+}
+
+.profileImgContainer {
+  width: 128px;
+  height: 128px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+}
+
+.profileImgContainer img {
+  height: 128px;
+  border-radius: 9999px;
+}
+
+.userProfileDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.userProfileDetails p {
+  font-size: 1.875rem;
+
+  line-height: 2.25rem;
+}
+
+.coinContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+.coinBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  border-radius: 9999px;
+  background-color: #f97316;
+  border: 2px solid white;
+}
+
+.coinBoxText {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.coinCount {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.join-now {
+  background-color: #3957ea;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-inline: 3.5rem;
+  padding-block: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  width: fit-content;
+  font-weight: 700;
+}
