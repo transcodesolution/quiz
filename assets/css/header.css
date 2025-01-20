@@ -35,6 +35,8 @@
 }
 .dailyReward p {
   font-size: 12px;
+  display: flex;
+  white-space: nowrap;
 }
 .totalCoins {
   display: flex;
@@ -53,4 +55,13 @@
 .totalCoins p span {
   font-size: 10px;
   font-weight: 400;
+}
+
+#totalCoinsDisplay{
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
 }

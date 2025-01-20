@@ -34,14 +34,14 @@
           <div class="action-container">
             <button class="action-button">
               Double Your winnings<img
-                src="https://playerstorage.b-cdn.net/quiztwiz/assets/coin.svg"
+                src="../../../../../assets/images/svg/coin.svg"
                 alt="coin"
               />
             </button>
           </div>
           <hr class="divider" />
           <div class="home-container">
-            <a href="/categories/" class="home-button">categories</a>
+            <a href="/home/" class="home-button" id="home-button">Home</a>
           </div>
         </div>
       </section>
@@ -90,5 +90,19 @@
       }
     </script>
     <!-- Script For Removing Trailing Slash From URL End -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+    
+        // Add event listener to the Home button
+        document.getElementById("home-button").addEventListener("click", function () {
+          // Clear specific local storage items
+          localStorage.removeItem("TotalCoinPerGame");
+          localStorage.removeItem("quizScore");
+          localStorage.removeItem("selectedCategory");
+          localStorage.removeItem("selectedQuiz");
+        });
+      });
+    </script>
   </body>
 </html>

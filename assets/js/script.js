@@ -51,13 +51,15 @@ document.addEventListener("DOMContentLoaded", () => {
         // Update the coin count after all questions are answered
         let totalCoins = parseInt(localStorage.getItem("TotalCoin"), 10);
         totalCoins += correctAnswersCount * coinsPerCorrectAnswer;
+        rewardCoin = correctAnswersCount * coinsPerCorrectAnswer;
+        localStorage.setItem("RewardCoin", rewardCoin.toString());
         localStorage.setItem("TotalCoin", totalCoins.toString());
         // Remove 'hidden' class from rewardContainer
         document.getElementById("rewardContainer").classList.remove("hidden");
         // Add 'hidden' class to mainContainer
         document.getElementById("mainContainer").classList.add("hidden");
       }
-    }, 2000); // 2000 milliseconds = 2 seconds
+    }, 1000); // 1000 milliseconds = 1 second
   }
 }
   // Ensure only the first question is visible initially

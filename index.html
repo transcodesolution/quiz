@@ -75,19 +75,6 @@
               </div>
             </div>
 
-            <!-- Question 3 -->
-            <div class="questionContainer hidden">
-              <div class="question">
-                Which planet is known as the Red Planet?
-              </div>
-              <div class="optionsGrid">
-                <div class="option" data-correct="false">Earth</div>
-                <div class="option" data-correct="true">Mars</div>
-                <div class="option" data-correct="false">Jupiter</div>
-                <div class="option" data-correct="false">Saturn</div>
-              </div>
-            </div>
-
             <!-- Sign-Up or Login -->
             <p class="signup">Sign-Up or Login</p>
           </div>
@@ -144,7 +131,14 @@
       document
         .getElementById("claimRewardButton")
         .addEventListener("click", function () {
-          window.location.href = "../categories/";
+          window.location.href = "../quizPlay/";
+        });
+
+      // Add event listener for the cross icon to close the modal
+      document
+        .getElementById("crossIcon")
+        .addEventListener("click", function () {
+          window.location.href = "../quizPlay/";
         });
     </script>
   </body>

@@ -15,7 +15,7 @@
     <div class="mainContainer">
       <section class="categoriesSection">
         <header class="headerContainer">
-          <div class="logo">LOGO</div>
+          <a href="../home/" class="logo">LOGO</a>
           <div class="rewardContainer">
             <div class="dailyReward">
               <img
@@ -52,7 +52,7 @@
             />
             <p>Categories</p>
           </a>
-          <a href="" class="home">
+          <a href="/home/" class="home">
             <img
               src="../../assets/images/svg/home.svg"
               alt="home"
@@ -152,7 +152,6 @@
         } else {
           console.error("No category selected.");
         }
-       
       });
     </script>
     <!-- Script For Quizzes For Category End -->
@@ -168,8 +167,13 @@
 
     <!-- Script For Storing Quiz Data Start -->
     <script>
-      
-      function storeQuizData(categoryName, quizTitle, quizImage, totalPrice,entryFee) {
+      function storeQuizData(
+        categoryName,
+        quizTitle,
+        quizImage,
+        totalPrice,
+        entryFee
+      ) {
         localStorage.setItem(
           "selectedQuiz",
           JSON.stringify({

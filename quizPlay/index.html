@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Play</title>
+    <link rel="stylesheet" href="../assets/css/common.css" />
+    <link rel="stylesheet" href="../assets/css/sideBannner.css" />
+    <link rel="stylesheet" href="../assets/css/quizePlay.css" />
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <section class="categoriesSection">
+        <div class="quiz-container-wrapper">
+          <div class="quiz-container">
+            <div class="quizPlay-header">
+              <div class="quizTwiz">QuizTwiz</div>
+              <div class="won-text">
+                You have won <span id="wonCoinsText">0</span>
+                <img
+                  src="../assets/images/svg/coin.svg"
+                  alt="coin"
+                  class="coin-image"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="quizPlay-actions">
+              <a href="../categories" class="play-quiz" id="play-quiz">PLAY QUIZ</a>
+            </div>
+            <ul class="quiz-rules">
+              <li>You've got 90 - 150 seconds to answer all questions</li>
+              <li>Answer as many questions as you can</li>
+              <li>
+                For Every Correct answer you will get +50 points and will lose
+                -25 points on every Incorrect answer
+              </li>
+              <li>
+                You can take help by using the lifelines present in the contest.
+              </li>
+              <li>
+                Lifelines can be used for free or by using a given amount of
+                coins for each lifeline.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="rightSection">
+        <img
+          src="../../../assets/images/sidePoster.png"
+          alt="right-section"
+          class="poster-image"
+          loading="lazy"
+        />
+        <div class="welcomeText">
+          <h4>Welcome to Quiztwiz. Play a quiz and earn coins.</h4>
+          <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
+        </div>
+      </section>
+    </div>
+    <!-- Script For Removing Trailing Slash From URL Start -->
+    <script>
+      if (window.location.pathname.endsWith("/")) {
+        const newURL = window.location.pathname.slice(0, -1);
+        history.replaceState({}, "", newURL);
+      }
+    </script>
+    <!-- Script For Removing Trailing Slash From URL End -->
+
+    <script>
+      // Retrieve and display total coins
+      document.addEventListener("DOMContentLoaded", function () {
+        const rewardCoin = localStorage.getItem("RewardCoin") || 0;
+        document.getElementById("wonCoinsText").innerHTML = `${rewardCoin}`;
+      });
+      document.getElementById("play-quiz").addEventListener("click", function () {
+        localStorage.removeItem("RewardCoin");
+      });
+    </script>
+  </body>
+</html>
+

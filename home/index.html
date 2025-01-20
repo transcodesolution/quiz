@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../assets/css/header.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/sideBannner.css" />
-    <link rel="stylesheet" href="../assets/css/categories.css" />
+     <link rel="stylesheet" href="../assets/css/home.css" />
   </head>
 
   <body>
@@ -39,25 +39,14 @@
             </div>
           </div>
         </header>
-        <div class="categoriesInnerContainer">
-          <p>Select the Quiz category that you want to play</p>
-          <div class="searchContainer">
-            <img src="../assets/images/svg/searchIcon.svg" alt="search" />
-            <input
-              type="text"
-              placeholder="Search Quiz Category"
-              id="searchInput"
-            />
-            <img
-              src="../assets/images/svg/crossIcon.svg"
-              alt="cross"
-              id="crossIcon"
-              style="height: 23px; width: 28px; display: none"
-            />
-          </div>
+        <!-- <div class="quizCategoriesContainer" id="quizCategoriesContainer"></div> -->
+        <div class="slider-container">
+          <button id="prevBtn" class="nav-btn">‹</button>
+          <div class="category-slider" id="categorySlider"></div>
+          <button id="nextBtn" class="nav-btn">›</button>
         </div>
-        <div class="quizCategoriesContainer" id="quizCategoriesContainer"></div>
 
+        <div id="quizzesContainer" class="quizzesContainer"></div>
         <footer class="footerContainer">
           <a href="../categories/" class="categories">
             <img
@@ -103,7 +92,7 @@
           history.replaceState({}, "", newURL);
         }
       </script>
-      <script src="../assets/js/categories.js"></script>
+      <script src="../assets/js/home.js"></script>
 
       <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -125,14 +114,12 @@
       </script>
       <script>
         document.addEventListener("DOMContentLoaded", function () {
-
           // Retrieve and display total coins from local storage
           const totalCoins = localStorage.getItem("TotalCoin") || 0;
           document.getElementById(
             "totalCoinsDisplay"
           ).innerHTML = `${totalCoins} <span>COINS</span>`;
-
-         });
+        });
       </script>
     </div>
   </body>

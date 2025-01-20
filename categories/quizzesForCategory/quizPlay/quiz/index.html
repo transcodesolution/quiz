@@ -15,7 +15,7 @@
       <section class="categoriesSection">
         <div class="categoriesSectionContainer">
           <header class="headerContainer">
-            <div class="logo">LOGO</div>
+            <a href="/home/" class="logo">LOGO</a>
             <div class="rewardContainer">
               <div class="dailyReward">
                 <img
@@ -36,7 +36,7 @@
                   class="coin-image"
                   loading="lazy"
                 />
-                <p id="totalCoinsDisplay">150 <span>COINS</span></p>
+                <p id="totalCoinsDisplay">0 <span>COINS</span></p>
               </div>
             </div>
           </header>
@@ -60,7 +60,7 @@
               <div class="progress-bar" id="progress-bar"></div>
             </div>
             <div class="score">
-              <span class="score-value" id="quizTimeOut">0</span>
+              <span class="score-value" id="quizTimeOut">120</span>
             </div>
           </div>
           <div class="quizSection" id="quizSection">
@@ -254,7 +254,8 @@
                   document.getElementById("score").textContent = score;
                 }
 
-                let totalTime = totalQuestions * 12; // per questions 12 sec
+                // let totalTime = totalQuestions * 12; // per questions 12 sec
+                let totalTime = 120; // 120 sec
                 const progressBar = document.querySelector(".progress-bar");
                 const progressContainer = document.querySelector(
                   ".progress-container"
@@ -262,13 +263,13 @@
 
                 let interval;
                 let isTimerFrozen = false; // Flag to track if the timer is frozen
-                interval = setInterval(() => {
+
+                function updateTimer() {
                   if (!isTimerFrozen) {
-                    // Check if the timer is not frozen
                     if (totalTime === 0) {
                       clearInterval(interval);
                       saveCalculation();
-                      // window.location.href = "quiz/result";
+                      window.location.href = "quiz/result";
                     } else {
                       document.getElementById("quizTimeOut").innerHTML =
                         totalTime;
@@ -276,7 +277,12 @@
                       totalTime--;
                     }
                   }
-                }, 1000);
+                }
+
+                // Call updateTimer immediately to start the countdown
+                updateTimer();
+
+                interval = setInterval(updateTimer, 1000);
 
                 function useFreezeTimer() {
                   isTimerFrozen = true; // Set the flag to true to freeze the timer
