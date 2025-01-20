@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Add 'hidden' class to mainContainer
         document.getElementById("mainContainer").classList.add("hidden");
       }
-    }, 1000); // 1000 milliseconds = 1 second
+    }, 500); // 500 milliseconds = 0.5 second
   }
 }
   // Ensure only the first question is visible initially
