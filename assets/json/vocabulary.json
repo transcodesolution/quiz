@@ -1,0 +1,65 @@
+[
+    {
+      "id": "1",
+      "title": "English-Hindi-Translation",
+      "imagePath": "../assets/images/vocabQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "name": "Vocabulary",
+      "questions": [
+        {
+          "question": "Translate 'Apple' to Hindi.",
+          "options": ["Seb", "Kela", "Aam", "Angoor"],
+          "correctAnswer": "Seb"
+        },
+        {
+          "question": "Translate 'Water' to Hindi.",
+          "options": ["Pani", "Doodh", "Chai", "Nimbu"],
+          "correctAnswer": "Pani"
+        },
+        {
+          "question": "Translate 'Book' to Hindi.",
+          "options": ["Kitab", "Pustak", "Kalam", "Patrika"],
+          "correctAnswer": "Kitab"
+        },
+        {
+          "question": "Translate 'Milk' to Hindi.",
+          "options": ["Doodh", "Pani", "Chai", "Nimbu"],
+          "correctAnswer": "Doodh"
+        },
+        {
+          "question": "Translate 'Sun' to Hindi.",
+          "options": ["Surya", "Chand", "Tara", "Dharti"],
+          "correctAnswer": "Surya"
+        }
+      ],
+      "ExtraQuestion": [
+        {
+          "question": "Translate 'Dog' to Hindi.",
+          "options": ["Kutta", "Billi", "Gadha", "Ghoda"],
+          "correctAnswer": "Kutta"
+        },
+        {
+          "question": "Translate 'Tree' to Hindi.",
+          "options": ["Ped", "Phool", "Patta", "Ghar"],
+          "correctAnswer": "Ped"
+        },
+        {
+          "question": "Translate 'House' to Hindi.",
+          "options": ["Ghar", "Makan", "Kothi", "Bangla"],
+          "correctAnswer": "Ghar"
+        },
+        {
+          "question": "Translate 'River' to Hindi.",
+          "options": ["Nadi", "Samudra", "Jheel", "Talab"],
+          "correctAnswer": "Nadi"
+        },
+        {
+          "question": "Translate 'Sky' to Hindi.",
+          "options": ["Aakash", "Zameen", "Pani", "Hawa"],
+          "correctAnswer": "Aakash"
+        }
+      ],
+      "difficulty": "easy"
+    }
+  ]

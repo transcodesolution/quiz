@@ -1,0 +1,128 @@
+[
+    {
+      "id": "1",
+      "title": "Creepy-Crawlies",
+      "imagePath": "../assets/images/animalQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "name": "Birds And Animals",
+      "questions": [
+        {
+          "question": "Which of the following is an insect?",
+          "options": ["Spider", "Ant", "Lizard", "Frog"],
+          "correctAnswer": "Ant"
+        },
+        {
+          "question": "Which insect is known for making honey?",
+          "options": ["Butterfly", "Bee", "Ant", "Beetle"],
+          "correctAnswer": "Bee"
+        },
+        {
+          "question": "Which insect is known for its colorful wings?",
+          "options": ["Butterfly", "Bee", "Ant", "Beetle"],
+          "correctAnswer": "Butterfly"
+        },
+        {
+          "question": "Which insect is known for its ability to jump long distances?",
+          "options": ["Grasshopper", "Bee", "Ant", "Beetle"],
+          "correctAnswer": "Grasshopper"
+        },
+        {
+          "question": "Which insect is known for its ability to glow?",
+          "options": ["Firefly", "Bee", "Ant", "Beetle"],
+          "correctAnswer": "Firefly"
+        }
+      ],
+      "ExtraQuestion": [
+        {
+          "question": "Which insect is known for its ability to fly?",
+          "options": ["Ant", "Bee", "Spider", "Worm"],
+          "correctAnswer": "Bee"
+        },
+        {
+          "question": "Which insect is known for its ability to spin webs?",
+          "options": ["Spider", "Ant", "Bee", "Butterfly"],
+          "correctAnswer": "Spider"
+        },
+        {
+          "question": "Which insect is known for its ability to camouflage?",
+          "options": ["Chameleon", "Grasshopper", "Ant", "Bee"],
+          "correctAnswer": "Grasshopper"
+        },
+        {
+          "question": "Which insect is known for its ability to produce silk?",
+          "options": ["Silkworm", "Bee", "Ant", "Butterfly"],
+          "correctAnswer": "Silkworm"
+        },
+        {
+          "question": "Which insect is known for its ability to live in colonies?",
+          "options": ["Ant", "Bee", "Spider", "Butterfly"],
+          "correctAnswer": "Ant"
+        }
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "2",
+      "title": "Find-That-Creature",
+      "imagePath": "../assets/images/animalQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "name": "Birds And Animals",
+      "questions": [
+        {
+          "question": "Which animal is known as the 'King of the Jungle'?",
+          "options": ["Elephant", "Tiger", "Lion", "Bear"],
+          "correctAnswer": "Lion"
+        },
+        {
+          "question": "Which bird is known for its colorful feathers?",
+          "options": ["Peacock", "Sparrow", "Crow", "Pigeon"],
+          "correctAnswer": "Peacock"
+        },
+        {
+          "question": "Which animal is known for its long neck?",
+          "options": ["Elephant", "Giraffe", "Lion", "Bear"],
+          "correctAnswer": "Giraffe"
+        },
+        {
+          "question": "Which bird is known for its ability to mimic sounds?",
+          "options": ["Parrot", "Sparrow", "Crow", "Pigeon"],
+          "correctAnswer": "Parrot"
+        },
+        {
+          "question": "Which animal is known for its ability to change color?",
+          "options": ["Chameleon", "Tiger", "Lion", "Bear"],
+          "correctAnswer": "Chameleon"
+        }
+      ],
+      "ExtraQuestion": [
+        {
+          "question": "Which animal is known for its ability to swim?",
+          "options": ["Elephant", "Fish", "Lion", "Tiger"],
+          "correctAnswer": "Fish"
+        },
+        {
+          "question": "Which bird is known for its ability to fly long distances?",
+          "options": ["Eagle", "Sparrow", "Crow", "Pigeon"],
+          "correctAnswer": "Eagle"
+        },
+        {
+          "question": "Which animal is known for its ability to climb trees?",
+          "options": ["Elephant", "Monkey", "Lion", "Bear"],
+          "correctAnswer": "Monkey"
+        },
+        {
+          "question": "Which bird is known for its ability to sing?",
+          "options": ["Nightingale", "Sparrow", "Crow", "Pigeon"],
+          "correctAnswer": "Nightingale"
+        },
+        {
+          "question": "Which animal is known for its ability to run fast?",
+          "options": ["Cheetah", "Elephant", "Lion", "Bear"],
+          "correctAnswer": "Cheetah"
+        }
+      ],
+      "difficulty": "medium"
+    }
+  ]

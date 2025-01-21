@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 53px);
     overflow: hidden;
   }
   .categoriesSection {
@@ -14,7 +14,7 @@
     gap: 24px;
     padding-inline: 20px;
     box-sizing: border-box;
-    height: -webkit-fill-available;
+    height: calc(100vh - 53px);
   }
   .quiz-container-wrapper {
     display: flex;

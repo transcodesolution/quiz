@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 53px);
   overflow: hidden;
 }
 .categoriesSection {
@@ -13,7 +13,7 @@
   width: 100%;
   gap: 24px;
   box-sizing: border-box;
-  height: -webkit-fill-available;
+  height: calc(100vh - 53px);
 }
 .categoriesSectionContainer {
   display: flex;

@@ -11,35 +11,35 @@
   </head>
 
   <body>
+    <header class="headerContainer">
+      <a href="/home/" class="logo">LOGO</a>
+      <div class="rewardContainer">
+        <div class="dailyReward">
+          <img
+            src="../../../../assets/images/gif/reward.gif"
+            style="width: 25px; margin-bottom: 8px"
+            alt="coin"
+            class="coin-image"
+            loading="lazy"
+          />
+          <p>Daily Reward</p>
+        </div>
+        <div class="totalCoins">
+          <img
+            src="../../../../assets/images/svg/coin.svg"
+            style="width: 15px"
+            alt="coin"
+            class="coin-image"
+            loading="lazy"
+          />
+          <p id="totalCoinsDisplay">0 <span>COINS</span></p>
+        </div>
+      </div>
+    </header>
     <div class="mainContainer">
       <section class="categoriesSection">
         <div class="categoriesSectionContainer">
-          <header class="headerContainer">
-            <a href="/home/" class="logo">LOGO</a>
-            <div class="rewardContainer">
-              <div class="dailyReward">
-                <img
-                  src="../../../../assets/images/gif/reward.gif"
-                  style="width: 25px; margin-bottom: 8px"
-                  al
-                  t="coin"
-                  class="coin-image"
-                  loading="lazy"
-                />
-                <p>Daily Reward</p>
-              </div>
-              <div class="totalCoins">
-                <img
-                  src="../../../../assets/images/svg/coin.svg"
-                  style="width: 15px"
-                  alt="coin"
-                  class="coin-image"
-                  loading="lazy"
-                />
-                <p id="totalCoinsDisplay">0 <span>COINS</span></p>
-              </div>
-            </div>
-          </header>
+      
           <div class="flex">
             <div>
               <span class="question-info">
@@ -80,7 +80,6 @@
           <div class="lifeLines">
             <div class="lifeLineTap">
               <img src="../../../../assets/images/svg/heart.svg" alt="heart" />
-              <!-- <img src="../../../../assets/images/svg/audiencePoll.svg" alt="heart" /> -->
               <p>Tap to use Lifelines</p>
             </div>
           </div>
@@ -148,6 +147,7 @@
         const selectedQuizInfo = JSON.parse(
           localStorage.getItem("selectedQuiz")
         );
+        const categoryPath = localStorage.getItem("selectedCategoryPath");
 
         if (selectedQuizInfo?.payment != "Done") {
           const totalCoins = localStorage.getItem("TotalCoin") || 0;
@@ -162,13 +162,11 @@
             JSON.stringify({ ...selectedQuizInfo, payment: "Done" })
           );
         }
-
-        if (selectedQuizInfo) {
-          fetch("../../../../assets/json/quizzesForCategory.json")
+        if (selectedQuizInfo && categoryPath) {
+          fetch(`../../../${categoryPath}`)
             .then((response) => response.json())
-            .then((data) => {
-              const categoryQuizzes = data[selectedQuizInfo.categoryName];
-              const quizData = categoryQuizzes.find(
+            .then((quizzes) => {
+              const quizData = quizzes.find(
                 (quiz) => quiz.title === selectedQuizInfo.quizTitle
               );
 
@@ -436,7 +434,7 @@
 
                 lifeLinesContainers.forEach((lifeLineContainer) => {
                   lifeLineContainer.addEventListener("click", function () {
-                    if (this.classList.contains("used")) return; // Prevent reuse
+                    if (this.classList.contains("used")) return;
 
                     const lifeLineType =
                       this.querySelector("p").textContent.trim();
@@ -451,7 +449,6 @@
                       useFlipQuestion();
                     }
 
-                    // Mark the lifeline as used
                     this.classList.add("used");
                     this.querySelector(
                       ".lifeLineImageContainer"
@@ -512,13 +509,12 @@
 
                   incorrectIndices.forEach((index, i) => {
                     if (i === incorrectIndices.length - 1) {
-                      percentages[index] = remainingPercentage; // Assign remaining to last
+                      percentages[index] = remainingPercentage;
                     } else {
                       percentages[index] =
                         Math.floor(
                           Math.random() *
-                            (remainingPercentage -
-                              (incorrectIndices.length - i - 1))
+                            (remainingPercentage - (incorrectIndices.length - i - 1))
                         ) + 1;
                       remainingPercentage -= percentages[index];
                     }
@@ -546,7 +542,6 @@
         }
       });
     </script>
-
     <!-- Script For Quizzes Play End -->
 
     <!-- Script For Removing Trailing Slash From URL Start -->

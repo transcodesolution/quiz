@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 53px);
   /* height: 100%; */
   overflow: hidden;
 }
@@ -12,10 +12,10 @@
   align-items: center;
   max-width: 520px;
   width: 100%;
-  gap: 24px;
+  /* gap: 24px; */
   padding-inline: 20px;
   box-sizing: border-box;
-  height: -webkit-fill-available;
+  height: calc(100vh - 53px);
 }
 .slider-container {
   display: flex;
@@ -75,7 +75,8 @@
   overflow: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
-
+  padding-bottom: 24px;
+  margin-top: 24px;
 }
 
 .outerContainer {

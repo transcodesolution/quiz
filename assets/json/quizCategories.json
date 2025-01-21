@@ -2,91 +2,109 @@
     {
       "id": 1,
       "name": "Fun Maths",
-      "imagePath": "../assets/images/mathQuiz.png"
+      "imagePath": "../assets/images/mathQuiz.png",
+      "path": "../assets/json/funMaths.json"
     },
     {
       "id": 2,
       "name": "English Grammar",
-      "imagePath": "../assets/images/grammarQuiz.png"
+      "imagePath": "../assets/images/grammarQuiz.png",
+      "path": "../assets/json/englishGrammar.json"
     },
     {
       "id": 3,
       "name": "Vocabulary",
-      "imagePath": "../assets/images/vocabQuiz.png"
+      "imagePath": "../assets/images/vocabQuiz.png",
+      "path": "../assets/json/vocabulary.json"
     },
     {
       "id": 4,
       "name": "Festivals",
-      "imagePath": "../assets/images/festivalQuiz.png"
+      "imagePath": "../assets/images/festivalQuiz.png",
+      "path": "../assets/json/festivals.json"
     },
     {
       "id": 5,
       "name": "Birds And Animals",
-      "imagePath": "../assets/images/animalQuiz.png"
+      "imagePath": "../assets/images/animalQuiz.png",
+      "path": "../assets/json/birdsAndAnimals.json"
     },
     {
       "id": 6,
       "name": "Famous Personalities",
-      "imagePath": "../assets/images/famousPersonQuiz.png"
+      "imagePath": "../assets/images/famousPersonQuiz.png",
+      "path": "../assets/json/famousPersonalities.json"
     },
     {
       "id": 7,
       "name": "Monuments",
-      "imagePath": "../assets/images/monumentQuiz.png"
+      "imagePath": "../assets/images/monumentQuiz.png",
+      "path": "../assets/json/monuments.json"
     },
     {
       "id": 8,
       "name": "Test Your Knowledge",
-      "imagePath": "../assets/images/testKnowledgeQuiz.png"
+      "imagePath": "../assets/images/testKnowledgeQuiz.png",
+      "path": "../assets/json/testYourKnowledge.json"
     },
     {
       "id": 9,
       "name": "Entertainment",
-      "imagePath": "../assets/images/entertainmentQuiz.png"
+      "imagePath": "../assets/images/entertainmentQuiz.png",
+      "path": "../assets/json/entertainment.json"
     },
     {
       "id": 10,
       "name": "Automobiles",
-      "imagePath": "../assets/images/autoMobileQuiz.png"
+      "imagePath": "../assets/images/autoMobileQuiz.png",
+      "path": "../assets/json/automobiles.json"
     },
     {
       "id": 11,
       "name": "Sports",
-      "imagePath": "../assets/images/sportsQuiz.png"
+      "imagePath": "../assets/images/sportsQuiz.png",
+      "path": "../assets/json/sports.json"
     },
     {
       "id": 12,
       "name": "Food Brands",
-      "imagePath": "../assets/images/brandQuiz.png"
+      "imagePath": "../assets/images/brandQuiz.png",
+      "path": "../assets/json/foodBrands.json"
     },
     {
       "id": 13,
       "name": "Fun Science",
-      "imagePath": "../assets/images/scienceQuiz.png"
+      "imagePath": "../assets/images/scienceQuiz.png",
+      "path": "../assets/json/funScience.json"
     },
     {
       "id": 14,
       "name": "Literature",
-      "imagePath": "../assets/images/literature-minQuiz.png"
+      "imagePath": "../assets/images/literature-minQuiz.png",
+      "path": "../assets/json/literature.json"
     },
     {
       "id": 15,
       "name": "Food & Beverages",
-      "imagePath": "../assets/images/foodQuiz.png"
+      "imagePath": "../assets/images/foodQuiz.png",
+      "path": "../assets/json/foodAndBeverages.json"
     },
     {
       "id": 16,
       "name": "General Trivia",
-      "imagePath": "../assets/images/trivia-minQuiz.png"
+      "imagePath": "../assets/images/trivia-minQuiz.png",
+      "path": "../assets/json/generalTrivia.json"
     },
     {
       "id": 17,
       "name": "Business",
-      "imagePath": "../assets/images/business-minQuiz.png"
+      "imagePath": "../assets/images/business-minQuiz.png",
+      "path": "../assets/json/business.json"
     },
     {
       "id": 18,
       "name": "Bollywood",
-      "imagePath": "../assets/images/bollywoodQuiz.png"
+      "imagePath": "../assets/images/bollywoodQuiz.png",
+      "path": "../assets/json/bollywood.json"
     }
   ]

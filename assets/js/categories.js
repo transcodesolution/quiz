@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let htmlContent = "";
     categories.forEach((category) => {
       htmlContent += `
-        <div class="category-item" id="${category.id}" data-name="${category.name}">
+        <div class="category-item" id="${category.id}" data-name="${category.name}" data-path="${category.path}">
           <img class="category-image" src="${category.imagePath}" alt="${category.name}" />
           <span class="category-name">${category.name}</span>
         </div>
@@ -19,8 +19,10 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.category-item').forEach(item => {
       item.addEventListener('click', function() {
         const categoryName = this.getAttribute('data-name');
-        // Store the category name in local storage
+        const categoryPath = this.getAttribute('data-path');
+        // Store the category name and path in local storage
         localStorage.setItem('selectedCategory', categoryName);
+        localStorage.setItem('selectedCategoryPath', categoryPath);
         // Navigate to the new page
         window.location.href = 'categories/quizzesForCategory';
       });

@@ -1,0 +1,133 @@
+[
+    {
+      "id": "1",
+      "title": "Raksha-Bandhan",
+      "imagePath": "../assets/images/festivalQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "name": "Food & Beverages",
+      "questions": [
+        {
+          "question": "Raksha Bandhan is celebrated in which month?",
+          "options": ["January", "August", "December", "March"],
+          "correctAnswer": "August"
+        },
+        {
+          "question": "What is tied on the wrist during Raksha Bandhan?",
+          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
+          "correctAnswer": "Rakhi"
+        },
+        {
+          "question": "Raksha Bandhan celebrates the bond between?",
+          "options": ["Friends", "Siblings", "Parents", "Teachers"],
+          "correctAnswer": "Siblings"
+        },
+        {
+          "question": "Which sweet is commonly associated with Raksha Bandhan?",
+          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
+          "correctAnswer": "Barfi"
+        },
+        {
+          "question": "What is the traditional color of Rakhi?",
+          "options": ["Red", "Blue", "Green", "Yellow"],
+          "correctAnswer": "Red"
+        }
+      ],
+      "ExtraQuestion": [
+        {
+          "question": "Raksha Bandhan is celebrated in which season?",
+          "options": ["Winter", "Summer", "Monsoon", "Spring"],
+          "correctAnswer": "Monsoon"
+        },
+        {
+          "question": "What is the main ingredient in Barfi?",
+          "options": ["Milk", "Flour", "Sugar", "Butter"],
+          "correctAnswer": "Milk"
+        },
+        {
+          "question": "Which color is not traditionally associated with Rakhi?",
+          "options": ["Red", "Blue", "Green", "Yellow"],
+          "correctAnswer": "Blue"
+        },
+        {
+          "question": "What is the traditional gift given during Raksha Bandhan?",
+          "options": ["Money", "Clothes", "Jewelry", "Books"],
+          "correctAnswer": "Money"
+        },
+        {
+          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
+          "options": ["Rose", "Marigold", "Lily", "Tulip"],
+          "correctAnswer": "Marigold"
+        }
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "2",
+      "title": "Onam",
+      "imagePath": "../assets/images/festivalQuiz.png",
+      "totalPrice": "10000",
+      "entryFee": "100",
+      "name": "Food & Beverages",
+      "questions": [
+        {
+          "question": "Onam is a festival celebrated in which Indian state?",
+          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
+          "correctAnswer": "Kerala"
+        },
+        {
+          "question": "What is the traditional dance performed during Onam?",
+          "options": [
+            "Kathakali",
+            "Bharatanatyam",
+            "Mohiniyattam",
+            "Kuchipudi"
+          ],
+          "correctAnswer": "Kathakali"
+        },
+        {
+          "question": "What is the traditional feast during Onam called?",
+          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
+          "correctAnswer": "Sadya"
+        },
+        {
+          "question": "Which flower is used to make Pookalam during Onam?",
+          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
+          "correctAnswer": "Marigold"
+        },
+        {
+          "question": "Onam marks the homecoming of which legendary king?",
+          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
+          "correctAnswer": "Mahabali"
+        }
+      ],
+      "ExtraQuestion": [
+        {
+          "question": "Onam is celebrated in which month?",
+          "options": ["January", "August", "December", "March"],
+          "correctAnswer": "August"
+        },
+        {
+          "question": "What is the main dish in Sadya?",
+          "options": ["Rice", "Bread", "Pasta", "Noodles"],
+          "correctAnswer": "Rice"
+        },
+        {
+          "question": "Which dance is not performed during Onam?",
+          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
+          "correctAnswer": "Ballet"
+        },
+        {
+          "question": "What is the traditional attire worn during Onam?",
+          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
+          "correctAnswer": "Saree"
+        },
+        {
+          "question": "Which fruit is commonly used in Onam celebrations?",
+          "options": ["Banana", "Apple", "Grapes", "Orange"],
+          "correctAnswer": "Banana"
+        }
+      ],
+      "difficulty": "medium"
+    }
+  ]
