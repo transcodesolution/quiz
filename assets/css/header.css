@@ -34,7 +34,7 @@
   padding-inline: 8px;
 }
 .dailyReward p {
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   white-space: nowrap;
 }
@@ -44,7 +44,7 @@
   gap: 4px;
   padding-inline: 12px;
   padding-block: 4px;
-  margin-inline: 20px;
+  /* margin-inline: 20px; */
   border-radius: 10px;
   background-color: var(--bg-secondary);
 }

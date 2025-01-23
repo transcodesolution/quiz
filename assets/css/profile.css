@@ -27,7 +27,7 @@
 
 .userProfileContainer {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   width: 100%;
   gap: 40px;
   margin-top: 24px;
@@ -36,6 +36,7 @@
 .profileImgContainer {
   width: 128px;
   height: 128px;
+  min-width: 128px;
   background-color: #1f2937;
   display: flex;
   justify-content: center;
@@ -54,12 +55,17 @@
   gap: 4px;
   align-items: center;
   justify-content: center;
+  align-items: center;
+  width: -webkit-fill-available;
 }
 
 .userProfileDetails p {
   font-size: 1.875rem;
-
   line-height: 2.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .coinContainer {
@@ -104,4 +110,51 @@
   cursor: pointer;
   width: fit-content;
   font-weight: 700;
+}
+/* Log Out Button Styles */
+.log-out {
+  border: 2px solid #ef4444;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  padding-inline: 20px;
+  padding-block: 10px;
+  width: 12rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.log-out:hover {
+  background-color: #ef4444;
+  color: white;
+ }
+
+@media (max-width: 450px) {
+  .profileImgContainer {
+    width: 96px;
+    height: 96px;
+    min-width: 96px;
+  }
+  .profileImgContainer img {
+    height: 96px;
+    border-radius: 9999px;
+  }
+
+  .userProfileDetails p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .userProfileContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
 }

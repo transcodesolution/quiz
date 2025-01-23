@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="action-container">
-            <button class="action-button">
+            <button class="action-button" onclick="doubleWinning()">
               Double Your winnings<img
                 src="../../../../../assets/images/svg/coin.svg"
                 alt="coin"
@@ -93,18 +93,30 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-    
         // Add event listener to the Home button
-        document.getElementById("home-button").addEventListener("click", function () {
-          // Clear specific local storage items
-          localStorage.removeItem("TotalCoinPerGame");
-          localStorage.removeItem("quizScore");
-          localStorage.removeItem("selectedCategory");
-          localStorage.removeItem("selectedQuiz");
-          localStorage.removeItem("selectedCategoryPath");
-           
-        });
+        document
+          .getElementById("home-button")
+          .addEventListener("click", function () {
+            // Clear specific local storage items
+            localStorage.removeItem("TotalCoinPerGame");
+            localStorage.removeItem("quizScore");
+            localStorage.removeItem("selectedCategory");
+            localStorage.removeItem("selectedQuiz");
+            localStorage.removeItem("selectedCategoryPath");
+          });
       });
+    </script>
+    <script>
+      function doubleWinning() {
+        const existingCoins =
+          parseFloat(localStorage.getItem("TotalCoin")) || 0;
+        const coins = localStorage.getItem("TotalCoinPerGame");
+        const doubledCoins = parseInt(coins) * 2;
+        localStorage.setItem("TotalCoinPerGame", doubledCoins);
+        document.getElementById("coins-value").textContent = doubledCoins;
+        localStorage.setItem("TotalCoin", doubledCoins);
+        window.location.href = "/home/";
+      }
     </script>
   </body>
 </html>

@@ -13,33 +13,30 @@
   <body>
     <header class="headerContainer">
       <a href="/home/" class="logo">LOGO</a>
-      <div class="rewardContainer">
-        <div class="dailyReward">
-          <img
-            src="../../../../assets/images/gif/reward.gif"
-            style="width: 25px; margin-bottom: 8px"
-            alt="coin"
-            class="coin-image"
-            loading="lazy"
-          />
-          <p>Daily Reward</p>
-        </div>
-        <div class="totalCoins">
-          <img
-            src="../../../../assets/images/svg/coin.svg"
-            style="width: 15px"
-            alt="coin"
-            class="coin-image"
-            loading="lazy"
-          />
-          <p id="totalCoinsDisplay">0 <span>COINS</span></p>
-        </div>
+      <div class="dailyReward">
+        <img
+          src="../../../../assets/images/gif/reward.gif"
+          style="width: 28px; margin-bottom: 8px"
+          alt="coin"
+          class="coin-image"
+          loading="lazy"
+        />
+        <p>Daily Reward</p>
+      </div>
+      <div class="totalCoins">
+        <img
+          src="../../../../assets/images/svg/coin.svg"
+          style="width: 15px"
+          alt="coin"
+          class="coin-image"
+          loading="lazy"
+        />
+        <p id="totalCoinsDisplay">0 <span>COINS</span></p>
       </div>
     </header>
     <div class="mainContainer">
       <section class="categoriesSection">
         <div class="categoriesSectionContainer">
-      
           <div class="flex">
             <div>
               <span class="question-info">
@@ -514,7 +511,8 @@
                       percentages[index] =
                         Math.floor(
                           Math.random() *
-                            (remainingPercentage - (incorrectIndices.length - i - 1))
+                            (remainingPercentage -
+                              (incorrectIndices.length - i - 1))
                         ) + 1;
                       remainingPercentage -= percentages[index];
                     }

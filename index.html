@@ -11,7 +11,7 @@
 
   <body>
     <div class="rewardContainer hidden" id="rewardContainer">
-      <div class="rewardBox">
+       <div class="rewardBox">
         <div role="button" class="crossIcon">
           <img
             src="/assets/images/svg/crossIcon.svg"
@@ -25,6 +25,26 @@
         <p class="watchAdd">Watch a simple ad and get rewarded</p>
         <button class="claimReward" id="claimRewardButton">Claim</button>
       </div>
+      <div class="toast">
+        <div class="toast-content">
+          <img
+            src="assets/images/gif/rewarded.gif"
+            alt="alert"
+            loading="lazy"
+          />
+          <div class="message">
+            <span class="text text-2"></span>
+          </div>
+        </div>
+        <img
+          src="assets/images/svg/crossIcon.svg"
+          alt="alert"
+          loading="lazy"
+          class="close"
+          style="height: 14px; width: 16px"
+        />
+        <div class="progress"></div>
+      </div>
     </div>
     <div class="mainContainer" id="mainContainer">
       <section class="quizSection">
@@ -32,7 +52,7 @@
           <header>
             <div class="notification">
               <p>
-                Answer few and winquestions
+                Answer few questions and win
                 <img
                   src="assets/images/svg/coin.svg"
                   style="width: 12px"
@@ -82,8 +102,8 @@
             <h3>Play Quiz and Win Coins!</h3>
             <ul>
               <li>
-                Play Quizzes in 25+ <a href="../categories/">categories</a> like GK, Sports, Bollywood,
-                Business, Cricket & more!
+                Play Quizzes in 25+ <a href="../categories/">categories</a> like
+                GK, Sports, Bollywood, Business, Cricket & more!
               </li>
               <li>Compete with lakhs of other players!</li>
               <li>Win coins for every game</li>
@@ -131,7 +151,7 @@
       document
         .getElementById("claimRewardButton")
         .addEventListener("click", function () {
-          window.location.href = "../quizPlay/";
+          showToast(`100 Coins Rewarded !!`, "success");
         });
 
       // Add event listener for the cross icon to close the modal
@@ -140,6 +160,56 @@
         .addEventListener("click", function () {
           window.location.href = "../quizPlay/";
         });
+
+      function showToast(message, type) {
+        const toast = document.querySelector(".toast");
+        const progress = document.querySelector(".progress");
+        const closeIcon = document.querySelector(".close");
+
+        // Update toast message
+        document.querySelector(".toast .message .text-2").innerText = message;
+        if (type === "success") {
+          const toastElement = document.querySelector(".toast");
+          if (toastElement) {
+            toastElement.classList.add("success");
+            const iconElement =
+              toastElement.querySelector(".toast-content img");
+            if (iconElement) {
+              iconElement.src = "assets/images/gif/rewarded.gif";
+              iconElement.alt = "reward"; // Update alt text for better semantics
+            }
+          }
+        }
+
+        // Show toast
+        toast.classList.add("active");
+        progress.classList.add("active");
+
+        // Auto-hide toast
+        let timer1 = setTimeout(() => {
+          toast.classList.remove("active");
+          toast.classList.add("hidden");
+          window.location.href = "../quizPlay/";
+        }, 2000);
+
+        let timer2 = setTimeout(() => {
+          progress.classList.remove("active");
+          toast.classList.remove("hidden");
+          window.location.href = "../quizPlay/";
+        }, 2000);
+
+        // Close toast manually
+        closeIcon.addEventListener("click", () => {
+          toast.classList.remove("active");
+          progress.classList.remove("active");
+          toast.classList.remove("hidden");
+          window.location.href = "../quizPlay/";
+
+          clearTimeout(timer1);
+          clearTimeout(timer2);
+        });
+      }
+      
     </script>
   </body>
 </html>

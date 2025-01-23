@@ -13,29 +13,26 @@
 
   <body>
     <header class="headerContainer">
-      <a href="/home/" class="logo">LOGO</a>
-      <div class="rewardContainer">
-        <div class="dailyReward">
-          <img
-            src="../assets/images/gif/reward.gif"
-            style="width: 25px; margin-bottom: 8px"
-            al
-            t="coin"
-            class="coin-image"
-            loading="lazy"
-          />
-          <p>Daily Reward</p>
-        </div>
-        <div class="totalCoins">
-          <img
-            src="../assets/images/svg/coin.svg"
-            style="width: 15px"
-            alt="coin"
-            class="coin-image"
-            loading="lazy"
-          />
-          <p id="totalCoinsDisplay">0 <span>COINS</span></p>
-        </div>
+      <a href="../home/" class="logo">LOGO</a>
+      <div class="dailyReward">
+        <img
+          src="assets/images/gif/reward.gif"
+          style="width: 28px; margin-bottom: 8px"
+          alt="coin"
+          class="coin-image"
+          loading="lazy"
+        />
+        <p>Daily Reward</p>
+      </div>
+      <div class="totalCoins">
+        <img
+          src="assets/images/svg/coin.svg"
+          style="width: 15px"
+          alt="coin"
+          class="coin-image"
+          loading="lazy"
+        />
+        <p id="totalCoinsDisplay">0 <span>COINS</span></p>
       </div>
     </header>
     <div class="mainContainer">
@@ -50,7 +47,7 @@
               />
             </div>
             <div class="userProfileDetails">
-              <p>User X</p>
+              <p id="user-id">User X</p>
             </div>
           </div>
           <div class="coinContainer">
@@ -60,7 +57,15 @@
             </div>
           </div>
           <div class="coinContainer">
-            <button class="join-now">JOIN NOW</button>
+            <button class="join-now" id="join-now-btn">JOIN NOW</button>
+            <button
+              type="button"
+              class="log-out"
+              id="log-out-btn"
+              style="display: none"
+            >
+              LOG OUT
+            </button>
           </div>
         </div>
 
@@ -69,7 +74,7 @@
             <img
               src="../assets/images/svg/category.svg"
               alt="category"
-              class="footerNavIcon" 
+              class="footerNavIcon"
             />
             <p>Categories</p>
           </a>
@@ -105,13 +110,13 @@
       </section>
 
       <script>
+        // Handle URL trimming to remove trailing slash
         if (window.location.pathname.endsWith("/")) {
           const newURL = window.location.pathname.slice(0, -1);
           history.replaceState({}, "", newURL);
         }
-      </script>
 
-      <script>
+        // Set active class based on current page
         document.addEventListener("DOMContentLoaded", function () {
           const currentPath = window.location.pathname;
           if (currentPath.includes("categories")) {
@@ -128,20 +133,58 @@
               .classList.add("active");
           }
         });
-      </script>
 
-      <script>
+        // Handle user login/logout logic
         document.addEventListener("DOMContentLoaded", function () {
-          // Retrieve and display total coins from local storage
+          const loginUser = JSON.parse(localStorage.getItem("CurrentUser"));
+          const joinNowBtn = document.getElementById("join-now-btn");
+          const logOutBtn = document.getElementById("log-out-btn");
+
+          if (loginUser) {
+            // Show the "LOG OUT" button and display user email
+            document.getElementById(
+              "user-id"
+            ).innerHTML = `${loginUser.emailId}`;
+            logOutBtn.style.display = "block"; // Show LOG OUT button
+            joinNowBtn.style.display = "none"; // Hide JOIN NOW button
+          } else {
+            // Show the "JOIN NOW" button and hide LOG OUT button
+            logOutBtn.style.display = "none"; // Hide LOG OUT button
+            joinNowBtn.style.display = "block"; // Show JOIN NOW button
+          }
+
+          // Set total coins display from local storage
           const totalCoins = localStorage.getItem("TotalCoin") || 0;
           document.getElementById(
             "totalCoinsDisplay"
           ).innerHTML = `${totalCoins} <span>COINS</span>`;
-          // Update the coin count in the profile container
           document.getElementById("totalCoins").textContent = totalCoins;
         });
-      </script>
 
+        // Log Out Button Click Event
+        document
+          .getElementById("log-out-btn")
+          .addEventListener("click", function () {
+            // Clear localStorage on log out
+            localStorage.removeItem("CurrentUser");
+            localStorage.removeItem("TotalCoin");
+
+            // Update DOM: Hide LOG OUT button and Show JOIN NOW button
+            const logOutBtn = document.getElementById("log-out-btn");
+            const joinNowBtn = document.getElementById("join-now-btn");
+
+            logOutBtn.style.display = "none"; // Hide LOG OUT button
+            joinNowBtn.style.display = "block"; // Show JOIN NOW button
+          });
+
+        // Join Now Button Click Event
+        document
+          .getElementById("join-now-btn")
+          .addEventListener("click", function () {
+            // Redirect to login page
+            window.location.href = "/login";
+          });
+      </script>
     </div>
   </body>
 </html>

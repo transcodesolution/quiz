@@ -14,11 +14,10 @@
   <body>
     <header class="headerContainer">
       <a href="/home/" class="logo">LOGO</a>
-      <div class="rewardContainer">
         <div class="dailyReward">
           <img
             src="../../../assets/images/gif/reward.gif"
-            style="width: 25px; margin-bottom: 8px"
+            style="width: 28px; margin-bottom: 8px"
             al
             t="coin"
             class="coin-image"
@@ -36,7 +35,6 @@
           />
           <p id="totalCoinsDisplay">0 <span>COINS</span></p>
         </div>
-      </div>
     </header>
     <div class="mainContainer">
       <section class="categoriesSection">
@@ -50,9 +48,14 @@
               </div>
             </div>
             <div class="quiz-actions">
-              <button class="join-now">JOIN NOW</button>
-              <div class="or-text">or</div>
-              <a href="quizPlay/quiz" class="play-as-guest">PLAY AS GUEST</a>
+              <button class="join-now" id="join-now-btn" onclick="joinNow()">JOIN NOW</button>
+              <div class="or-text" id="or-text">or</div>
+              <a
+                id="play-as-guest"
+                class="play-as-guest"
+                onclick="cutEntryFee()"
+                >PLAY AS GUEST</a
+              >
             </div>
             <ul class="quiz-rules">
               <li>You've got 90 - 150 seconds to answer all questions</li>
@@ -111,6 +114,43 @@
           <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
         </div>
       </section>
+      <div class="rewardModal hidden" id="rewardContainer">
+        <div class="rewardBox">
+          <div role="button" class="crossIcon" onclick="closeRewardModal()">
+            <img
+              src="../../../assets/images/svg/crossIcon.svg"
+              alt="cross"
+              id="crossIcon"
+            />
+          </div>
+          <img src="../../../assets/images/adpic.png" alt="reward" />
+          <h2 class="NewReward">oops!</h2>
+          <p class="NotEnoughText">Not enough coins to play</p>
+          <button class="watchAdd" id="WatchAd" onclick="watchAdd()">
+            Watch Ad
+          </button>
+        </div>
+        <div class="toast">
+          <div class="toast-content">
+            <img
+              src="../../../assets/images/gif/rewarded.gif"
+              alt="alert"
+              loading="lazy"
+            />
+            <div class="message">
+              <span class="text text-2">100</span>
+            </div>
+          </div>
+          <img
+            src="../../../assets/images/svg/crossIcon.svg"
+            alt="alert"
+            loading="lazy"
+            class="close"
+            style="height: 14px; width: 16px"
+          />
+          <div class="progress"></div>
+        </div>
+      </div>
     </div>
 
     <!-- Script for showing Current path in Footer Start -->
@@ -167,5 +207,100 @@
       }
     </script>
     <!-- Script For Removing Trailing Slash From URL End -->
+
+    <!-- Script for the showing the join now button start  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const loginUser = JSON.parse(localStorage.getItem("CurrentUser"));
+        const joinNowBtn = document.getElementById("join-now-btn");
+        const orText = document.getElementById("or-text");
+        const playAsGuest = document.getElementById("play-as-guest");
+
+        if (loginUser) {
+          joinNowBtn.style.display = "none"; // Hide JOIN NOW button
+          orText.style.display = "none"; // Hide orText button
+          playAsGuest.innerHTML = "PLAY"; // Change text to PLAY QUIZ
+        }
+      });
+    </script>
+    <!-- Script for the showing the join now button end  -->
+
+    <!-- Script for cut the entryFeeCut Start -->
+    <script>
+      function cutEntryFee() {
+        const totalCoins = localStorage.getItem("TotalCoin") || 0;
+        const quizData = JSON.parse(localStorage.getItem("selectedQuiz"));
+        const entryFee = quizData.entryFee;
+        if (Number(totalCoins) >= Number(entryFee)) {
+          window.location.href = "quizPlay/quiz";
+        } else {
+          document.getElementById("rewardContainer").classList.remove("hidden");
+        }
+      }
+      function closeRewardModal() {
+        document.getElementById("rewardContainer").classList.add("hidden");
+      }
+
+      function showToast(message, type) {
+        const toast = document.querySelector(".toast");
+        const progress = document.querySelector(".progress");
+        const closeIcon = document.querySelector(".close");
+
+        // Update toast message
+        document.querySelector(".toast .message .text-2").innerText = message;
+        if (type === "success") {
+          const toastElement = document.querySelector(".toast");
+          if (toastElement) {
+            toastElement.classList.add("success");
+            const iconElement =
+              toastElement.querySelector(".toast-content img");
+            if (iconElement) {
+              iconElement.src = "../../../assets/images/gif/rewarded.gif";
+              iconElement.alt = "reward"; // Update alt text for better semantics
+            }
+          }
+        }
+
+        // Show toast
+        toast.classList.add("active");
+        progress.classList.add("active");
+
+        // Auto-hide toast
+        let timer1 = setTimeout(() => {
+          toast.classList.remove("active");
+          toast.classList.add("hidden");
+          window.location.href = "quizPlay/quiz";
+        }, 2000);
+
+        let timer2 = setTimeout(() => {
+          progress.classList.remove("active");
+          toast.classList.remove("hidden");
+          window.location.href = "quizPlay/quiz";
+        }, 2000);
+
+        // Close toast manually
+        closeIcon.addEventListener("click", () => {
+          toast.classList.remove("active");
+          progress.classList.remove("active");
+          toast.classList.remove("hidden");
+          window.location.href = "quizPlay/quiz";
+
+          clearTimeout(timer1);
+          clearTimeout(timer2);
+        });
+      }
+
+      function watchAdd() {
+        const getCoins = localStorage.getItem("TotalCoin") || 0;
+        const totalReward = Number(getCoins) + 100;
+        localStorage.setItem("TotalCoin", totalReward);
+        showToast(`100 Coins Rewarded !!`, "success");
+      }
+
+      function joinNow() {
+        window.location.href = "/login";
+      }
+    </script>
+    <!-- Script for cut the entryFeeCut End -->
   </body>
 </html>

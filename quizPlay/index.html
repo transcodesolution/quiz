@@ -28,7 +28,9 @@
             </div>
 
             <div class="quizPlay-actions">
-              <a href="../categories" class="play-quiz" id="play-quiz">PLAY QUIZ</a>
+              <a href="../categories" class="play-quiz" id="play-quiz"
+                >PLAY QUIZ</a
+              >
             </div>
             <ul class="quiz-rules">
               <li>You've got 90 - 150 seconds to answer all questions</li>
@@ -76,10 +78,6 @@
         const rewardCoin = localStorage.getItem("RewardCoin") || 0;
         document.getElementById("wonCoinsText").innerHTML = `${rewardCoin}`;
       });
-      document.getElementById("play-quiz").addEventListener("click", function () {
-        localStorage.removeItem("RewardCoin");
-      });
     </script>
   </body>
 </html>
-
