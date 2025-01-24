@@ -2,109 +2,109 @@
     {
       "id": 1,
       "name": "Fun Maths",
-      "imagePath": "../assets/images/mathQuiz.png",
+      "imagePath": "../assets/images/svg/mathQuiz.svg",
       "path": "../assets/json/funMaths.json"
     },
     {
       "id": 2,
       "name": "English Grammar",
-      "imagePath": "../assets/images/grammarQuiz.png",
+      "imagePath": "../assets/images/svg/grammarQuiz.svg",
       "path": "../assets/json/englishGrammar.json"
     },
     {
       "id": 3,
       "name": "Vocabulary",
-      "imagePath": "../assets/images/vocabQuiz.png",
+      "imagePath": "../assets/images/svg/vocabQuiz.svg",
       "path": "../assets/json/vocabulary.json"
     },
     {
       "id": 4,
       "name": "Festivals",
-      "imagePath": "../assets/images/festivalQuiz.png",
+      "imagePath": "../assets/images/svg/festivalQuiz.svg",
       "path": "../assets/json/festivals.json"
     },
     {
       "id": 5,
       "name": "Birds And Animals",
-      "imagePath": "../assets/images/animalQuiz.png",
+      "imagePath": "../assets/images/svg/animalQuiz.svg",
       "path": "../assets/json/birdsAndAnimals.json"
     },
     {
       "id": 6,
       "name": "Famous Personalities",
-      "imagePath": "../assets/images/famousPersonQuiz.png",
+      "imagePath": "../assets/images/svg/famousPersonQuiz.svg",
       "path": "../assets/json/famousPersonalities.json"
     },
     {
       "id": 7,
       "name": "Monuments",
-      "imagePath": "../assets/images/monumentQuiz.png",
+      "imagePath": "../assets/images/svg/monumentQuiz.svg",
       "path": "../assets/json/monuments.json"
     },
     {
       "id": 8,
       "name": "Test Your Knowledge",
-      "imagePath": "../assets/images/testKnowledgeQuiz.png",
+      "imagePath": "../assets/images/svg/testKnowledgeQuiz.svg",
       "path": "../assets/json/testYourKnowledge.json"
     },
     {
       "id": 9,
       "name": "Entertainment",
-      "imagePath": "../assets/images/entertainmentQuiz.png",
+      "imagePath": "../assets/images/svg/entertainmentQuiz.svg",
       "path": "../assets/json/entertainment.json"
     },
     {
       "id": 10,
       "name": "Automobiles",
-      "imagePath": "../assets/images/autoMobileQuiz.png",
+      "imagePath": "../assets/images/svg/autoMobileQuiz.svg",
       "path": "../assets/json/automobiles.json"
     },
     {
       "id": 11,
       "name": "Sports",
-      "imagePath": "../assets/images/sportsQuiz.png",
+      "imagePath": "../assets/images/svg/sportsQuiz.svg",
       "path": "../assets/json/sports.json"
     },
     {
       "id": 12,
       "name": "Food Brands",
-      "imagePath": "../assets/images/brandQuiz.png",
+      "imagePath": "../assets/images/svg/brandQuiz.svg",
       "path": "../assets/json/foodBrands.json"
     },
     {
       "id": 13,
       "name": "Fun Science",
-      "imagePath": "../assets/images/scienceQuiz.png",
+      "imagePath": "../assets/images/svg/scienceQuiz.svg",
       "path": "../assets/json/funScience.json"
     },
     {
       "id": 14,
       "name": "Literature",
-      "imagePath": "../assets/images/literature-minQuiz.png",
+      "imagePath": "../assets/images/svg/literatureQuiz.svg",
       "path": "../assets/json/literature.json"
     },
     {
       "id": 15,
       "name": "Food & Beverages",
-      "imagePath": "../assets/images/foodQuiz.png",
+      "imagePath": "../assets/images/svg/foodQuiz.svg",
       "path": "../assets/json/foodAndBeverages.json"
     },
     {
       "id": 16,
       "name": "General Trivia",
-      "imagePath": "../assets/images/trivia-minQuiz.png",
+      "imagePath": "../assets/images/svg/triviaQuiz.svg",
       "path": "../assets/json/generalTrivia.json"
     },
     {
       "id": 17,
       "name": "Business",
-      "imagePath": "../assets/images/business-minQuiz.png",
+      "imagePath": "../assets/images/svg/businessQuiz.svg",
       "path": "../assets/json/business.json"
     },
     {
       "id": 18,
       "name": "Bollywood",
-      "imagePath": "../assets/images/bollywoodQuiz.png",
+      "imagePath": "../assets/images/svg/bollywoodQuiz.svg",
       "path": "../assets/json/bollywood.json"
     }
   ]

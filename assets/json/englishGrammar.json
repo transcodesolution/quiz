@@ -2,7 +2,7 @@
     {
       "id": "1",
       "title": "Noun-Pronoun",
-      "imagePath": "../assets/images/grammarQuiz.png",
+      "imagePath": "../assets/images/svg/grammarQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "English Grammar",
@@ -65,7 +65,7 @@
     {
       "id": "2",
       "title": "Verb-Adverb",
-      "imagePath": "../assets/images/grammarQuiz.png",
+      "imagePath": "../assets/images/svg/grammarQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "English Grammar",

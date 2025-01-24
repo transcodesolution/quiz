@@ -2,7 +2,7 @@
     {
       "id": "1",
       "title": "Creepy-Crawlies",
-      "imagePath": "../assets/images/animalQuiz.png",
+      "imagePath": "../assets/images/svg/animalQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "Birds And Animals",
@@ -65,7 +65,7 @@
     {
       "id": "2",
       "title": "Find-That-Creature",
-      "imagePath": "../assets/images/animalQuiz.png",
+      "imagePath": "../assets/images/svg/animalQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "Birds And Animals",

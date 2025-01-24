@@ -2,7 +2,7 @@
     {
       "id": "1",
       "title": "Trignometry",
-      "imagePath": "../assets/images/mathQuiz.png",
+      "imagePath": "../assets/images/svg/mathQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "Fun Maths",
@@ -65,7 +65,7 @@
     {
       "id": "2",
       "title": "Easy-Math-Trivia",
-      "imagePath": "../assets/images/mathQuiz.png",
+      "imagePath": "../assets/images/svg/mathQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "Fun Maths",

@@ -2,7 +2,7 @@
     {
       "id": "1",
       "title": "English-Hindi-Translation",
-      "imagePath": "../assets/images/vocabQuiz.png",
+      "imagePath": "../assets/images/svg/vocabQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "Vocabulary",

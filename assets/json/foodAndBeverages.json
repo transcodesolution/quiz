@@ -2,7 +2,7 @@
     {
       "id": "1",
       "title": "Raksha-Bandhan",
-      "imagePath": "../assets/images/festivalQuiz.png",
+      "imagePath": "../assets/images/svg/brandQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "Food & Beverages",
@@ -65,7 +65,7 @@
     {
       "id": "2",
       "title": "Onam",
-      "imagePath": "../assets/images/festivalQuiz.png",
+      "imagePath": "../assets/images/svg/brandQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "Food & Beverages",
