@@ -2,7 +2,7 @@
     {
       "id": "1",
       "title": "Raksha-Bandhan",
-      "imagePath": "../assets/images/triviaQuiz.svg",
+      "imagePath": "../assets/images/svg/triviaQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "General Trivia",
@@ -65,7 +65,7 @@
     {
       "id": "2",
       "title": "Onam",
-      "imagePath": "../assets/images/triviaQuiz.svg",
+      "imagePath": "../assets/images/svg/triviaQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "General Trivia",

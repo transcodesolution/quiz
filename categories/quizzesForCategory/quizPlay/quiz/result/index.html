@@ -57,6 +57,26 @@
           <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
         </div>
       </section>
+      <div class="toast">
+        <div class="toast-content">
+          <img
+            src="../../../../../assets/images/svg/correct.svg"
+            alt="alert"
+            loading="lazy"
+          />
+          <div class="message">
+            <span class="text text-2"></span>
+          </div>
+        </div>
+        <img
+          src="../../../../../assets/images/svg/crossIcon.svg"
+          alt="alert"
+          loading="lazy"
+          class="close"
+          style="height: 14px; width: 16px"
+        />
+        <div class="progress"></div>
+      </div>
     </div>
 
     <!-- Script For Quizzes Play Start -->
@@ -108,6 +128,7 @@
     </script>
     <script>
       function doubleWinning() {
+        showToast(`2X Coins Rewarded`, "success");
         const existingCoins =
           parseFloat(localStorage.getItem("TotalCoin")) || 0;
         const coins = localStorage.getItem("TotalCoinPerGame");
@@ -115,7 +136,54 @@
         localStorage.setItem("TotalCoinPerGame", doubledCoins);
         document.getElementById("coins-value").textContent = doubledCoins;
         localStorage.setItem("TotalCoin", doubledCoins);
-        window.location.href = "/home/";
+      }
+
+      function showToast(message, type) {
+        const toast = document.querySelector(".toast");
+        const progress = document.querySelector(".progress");
+        const closeIcon = document.querySelector(".close");
+
+        // Update toast message
+        document.querySelector(".toast .message .text-2").innerText = message;
+        if (type === "success") {
+          const toastElement = document.querySelector(".toast");
+          if (toastElement) {
+            toastElement.classList.add("success");
+            const iconElement =
+              toastElement.querySelector(".toast-content img");
+            if (iconElement) {
+              iconElement.src = "../../../../../assets/images/svg/correct.svg";
+              iconElement.alt = "reward"; // Update alt text for better semantics
+            }
+          }
+        }
+
+        // Show toast
+        toast.classList.add("active");
+        progress.classList.add("active");
+
+        // Auto-hide toast
+        let timer1 = setTimeout(() => {
+          toast.classList.remove("active");
+          toast.classList.add("hidden");
+          window.location.href = "/home/";
+        }, 2000);
+
+        let timer2 = setTimeout(() => {
+          progress.classList.remove("active");
+          toast.classList.remove("hidden");
+          window.location.href = "/home/";
+        }, 2000);
+
+        // Close toast manually
+        closeIcon.addEventListener("click", () => {
+          toast.classList.remove("active");
+          progress.classList.remove("active");
+          toast.classList.remove("hidden");
+          window.location.href = "/home/";
+          clearTimeout(timer1);
+          clearTimeout(timer2);
+        });
       }
     </script>
   </body>

@@ -65,7 +65,7 @@
     {
       "id": "2",
       "title": "Onam",
-      "imagePath": "../assets/images/svg/entertainmentQuiz.png",
+      "imagePath": "../assets/images/svg/entertainmentQuiz.svg",
       "totalPrice": "10000",
       "entryFee": "100",
       "name": "Entertainment",
