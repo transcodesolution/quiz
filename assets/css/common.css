@@ -78,3 +78,13 @@
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit color from parent element */
 }
+
+
+.header_ads {
+  padding-top: 45px !important;
+  display: flex;
+  justify-content: center;
+}
+.header_space{
+  padding: 10px 0 10px 0;
+}

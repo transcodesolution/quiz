@@ -7,11 +7,29 @@
     <link rel="stylesheet" href="../../../../../assets/css/common.css" />
     <link rel="stylesheet" href="../../../../../assets/css/sideBannner.css" />
     <link rel="stylesheet" href="../../../../../assets/css/result.css" />
+
+    <script
+      async
+      src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    ></script>
+    <script src="../../../../../adscripts/quizTcz_interstial.js"></script>
+    <script src="../../../../../adscripts/quizTcz_reward.js"></script>
   </head>
 
   <body>
+    <!-- interstitial_ad -->
+    <script>
+      googletag.cmd.push(() => {
+        // Ensure the first call to display comes after static ad slot
+        // divs are defined. If you do not have any static ad slots, this
+        // call can be made immediately after services are enabled.
+        googletag.display(interstitialSlot);
+      });
+    </script>
     <div class="mainContainer">
       <section class="categoriesSection">
+        <div id="popupAdContainer"></div>
+
         <div class="container">
           <div class="logo-container">
             <img
@@ -32,7 +50,11 @@
             </div>
           </div>
           <div class="action-container">
-            <button class="action-button" onclick="doubleWinning()">
+            <button
+              class="action-button watchAdButton"
+              data-target="/home/"
+              onclick="doubleWinning()"
+            >
               Double Your winnings<img
                 src="../../../../../assets/images/svg/coin.svg"
                 alt="coin"
@@ -78,6 +100,8 @@
         <div class="progress"></div>
       </div>
     </div>
+
+    <script src="../../../../../adscripts/quizTcz_landing_popUp.js"></script>
 
     <!-- Script For Quizzes Play Start -->
     <script>
