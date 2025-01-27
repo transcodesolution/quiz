@@ -5,7 +5,7 @@
   position: sticky;
   max-width: 520px;
   width: 100%;
-  padding: 10px;
+  padding-top: 10px;
   padding-inline: 20px;
   z-index: 10;
   left: 0;
@@ -38,7 +38,7 @@
   white-space: nowrap;
   margin-left: -14px;
 }
-.dailyReward img{
+.dailyReward img {
   width: 47px;
   margin-bottom: 12px;
 }
@@ -53,7 +53,6 @@
 }
 .totalCoins img {
   width: 15px;
-
 }
 .totalCoins p {
   font-size: 12px;
@@ -64,11 +63,10 @@
   font-weight: 400;
 }
 
-#totalCoinsDisplay{
+#totalCoinsDisplay {
   display: flex;
   white-space: nowrap;
   align-items: center;
   justify-content: center;
   gap: 4px;
-
 }
