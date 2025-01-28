@@ -12,6 +12,7 @@
   top: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: inherit;
 }
 .logo {
   display: flex;
@@ -31,12 +32,15 @@
   align-items: center;
   gap: 4px;
   cursor: pointer;
+  background-color: inherit;
+  border: none;
 }
 .dailyReward p {
   font-size: 14px;
   display: flex;
   white-space: nowrap;
   margin-left: -14px;
+  color: white;
 }
 .dailyReward img {
   width: 47px;

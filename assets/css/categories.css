@@ -12,10 +12,13 @@
   align-items: center;
   max-width: 520px;
   width: 100%;
-  /* gap: 24px; */
   padding-inline: 20px;
   box-sizing: border-box;
   height: calc(100vh - 53px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 /* main categories   Section */
@@ -60,9 +63,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
-  overflow: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
   width: 100%;
   margin-top: 24px;
   padding-bottom: 24px;
@@ -88,4 +88,11 @@
   flex-grow: 1;
   text-align: center;
   font-size: 0.875rem; /* Equivalent to text-sm */
+}
+
+
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+  }
 }

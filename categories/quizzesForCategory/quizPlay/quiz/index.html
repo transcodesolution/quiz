@@ -8,9 +8,26 @@
     <link rel="stylesheet" href="../../../../assets/css/header.css" />
     <link rel="stylesheet" href="../../../../assets/css/sideBannner.css" />
     <link rel="stylesheet" href="../../../../assets/css/quiz.css" />
+
+    <script
+      async
+      src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    ></script>
+    <script src="../../../../adscripts/quizTcz_interstial.js"></script>
+    <script src="../../../../adscripts/quizTcz_inGameQuiz_Center.js"></script>
+    <script src="../../../../adscripts/quizTcz_lifeLine.js"></script>
   </head>
 
   <body>
+    <!-- interstitial_ad -->
+    <script>
+      googletag.cmd.push(() => {
+        // Ensure the first call to display comes after static ad slot
+        // divs are defined. If you do not have any static ad slots, this
+        // call can be made immediately after services are enabled.
+        googletag.display(interstitialSlot);
+      });
+    </script>
     <header class="headerContainer">
       <a href="/home/" class="logo">
         <img
@@ -77,54 +94,17 @@
             </div>
           </div>
         </div>
-        <div class="lifeLineContainer">
-          <div class="lifeLines">
-            <div class="lifeLineTap">
-              <img src="../../../../assets/images/svg/heart.svg" alt="heart" />
-              <p>Tap to use Lifelines</p>
-            </div>
-          </div>
-          <div class="lifeLineOptionsContainer">
-            <div class="lifeLinesContainer">
-              <div class="lifeLineImageContainer">
-                <p class="fiftyFifty">50:50</p>
-              </div>
-              <p>50:50</p>
-            </div>
-            <div class="lifeLinesContainer">
-              <div class="lifeLineImageContainer">
-                <img
-                  src="../../../../assets/images/svg/audiencePoll.svg"
-                  alt="audience poll"
-                />
-              </div>
-              <p>Audience poll</p>
-            </div>
-            <div class="lifeLinesContainer">
-              <div class="lifeLineImageContainer">
-                <img
-                  src="../../../../assets/images/svg/freez.svg"
-                  alt="freeze"
-                />
-              </div>
-              <p>Freeze Timer</p>
-            </div>
-            <div class="lifeLinesContainer">
-              <div class="lifeLineImageContainer">
-                <img src="../../../../assets/images/svg/flip.svg" alt="flip" />
-              </div>
-              <p>Flip Question</p>
-            </div>
-          </div>
-          <div class="AudiencePollContainer hidden">
-            <div class="audiencePollOptionsContainer">
-              <div class="audiencePollOption">A - 49 %</div>
-              <div class="audiencePollOption">B - 4 %</div>
-            </div>
-            <div class="audiencePollOptionsContainer">
-              <div class="audiencePollOption">C - 35 %</div>
-              <div class="audiencePollOption">D - 12 %</div>
-            </div>
+
+        <div class="header_space">
+          <!-- /23201071713/quizTcz_inGameQuiz_Center -->
+          <div
+            id="div-gpt-ad-1737543137369-0"
+          >
+            <script>
+              googletag.cmd.push(function () {
+                googletag.display("div-gpt-ad-1737543137369-0");
+              });
+            </script>
           </div>
         </div>
       </section>
@@ -141,6 +121,69 @@
         </div>
       </section>
     </div>
+    <div class="lifeLineContainer">
+      <div class="lifeLines">
+        <div class="lifeLineTap">
+          <img src="../../../../assets/images/svg/heart.svg" alt="heart" />
+          <p>Tap to use Lifelines</p>
+        </div>
+      </div>
+      <div class="lifeLineOptionsContainer">
+        <button
+          class="lifeLinesContainer watchAdButton"
+          data-button-id="fiftyFifty"
+        >
+          <div class="lifeLineImageContainer">
+            <p class="fiftyFifty">50:50</p>
+          </div>
+          <p>50:50</p>
+        </button>
+        <button
+          class="lifeLinesContainer watchAdButton"
+          data-button-id="audiencePoll"
+        >
+          <div class="lifeLineImageContainer">
+            <img
+              src="../../../../assets/images/svg/audiencePoll.svg"
+              alt="audience poll"
+            />
+          </div>
+          <p>Audience poll</p>
+        </button>
+        <button
+          class="lifeLinesContainer watchAdButton"
+          data-button-id="freezeTimer"
+        >
+          <div class="lifeLineImageContainer">
+            <img
+              src="../../../../assets/images/svg/freez.svg"
+              alt="freeze"
+            />
+          </div>
+          <p>Freeze Timer</p>
+        </button>
+        <button
+          class="lifeLinesContainer watchAdButton"
+          data-button-id="flipQuestion"
+        >
+          <div class="lifeLineImageContainer">
+            <img src="../../../../assets/images/svg/flip.svg" alt="flip" />
+          </div>
+          <p>Flip Question</p>
+        </button>
+      </div>
+      <div class="AudiencePollContainer hidden">
+        <div class="audiencePollOptionsContainer">
+          <div class="audiencePollOption">A - 49 %</div>
+          <div class="audiencePollOption">B - 4 %</div>
+        </div>
+        <div class="audiencePollOptionsContainer">
+          <div class="audiencePollOption">C - 35 %</div>
+          <div class="audiencePollOption">D - 12 %</div>
+        </div>
+      </div>
+    </div>
+    <script src="../../../../adscripts/quizTcz_landing_popUp.js"></script>
 
     <!-- Script For Quizzes Play Start -->
     <script>

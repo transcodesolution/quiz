@@ -376,16 +376,6 @@ header .notification span {
 }
 
 /* ************************************************************************************** */
-
-.header_ads {
-  padding-top: 45px !important;
-  display: flex;
-  justify-content: center;
-}
-.header_space{
-  padding: 10px 0 10px 0;
-}
-
 .popup-ad-container {
   position: fixed;
   top: 0;

@@ -17,7 +17,7 @@ function initializeAd() {
     window.googletag.cmd.push(function () {
         window.googletag.defineSlot(
             "/23201071713/quizTcz_landing_popUp",
-            [[250, 250], [300, 250], [336, 280]], 'div-gpt-ad-1737541487066-0'
+            [[336, 280], [480, 320], [300, 250]], 'div-gpt-ad-1737541487066-0'
         ).addService(window.googletag.pubads());
         window.googletag.pubads().enableSingleRequest();
         window.googletag.pubads().setCentering(true);

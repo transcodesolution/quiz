@@ -13,9 +13,13 @@
   max-width: 520px;
   width: 100%;
   gap: 24px;
-  padding-inline: 20px;
+  /* padding-inline: 20px; */
   box-sizing: border-box;
   height: calc(100vh - 53px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .profileContainer {
@@ -27,10 +31,10 @@
 
 .userProfileContainer {
   display: flex;
-  /* justify-content: center; */
   width: 100%;
   gap: 40px;
   margin-top: 24px;
+
 }
 
 .profileImgContainer {

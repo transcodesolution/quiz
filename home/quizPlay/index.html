@@ -15,7 +15,7 @@
       src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
     ></script>
     <script src="../../../adscripts/quizTcz_interstial.js"></script>
-    <script src="../../../adscripts/quizTcz_top.js"></script>
+    <script src="../../../adscripts/quizTcz_reward.js"></script>
   </head>
 
   <body>
@@ -162,7 +162,12 @@
           <img src="../../../assets/images/adpic.png" alt="reward" />
           <h2 class="NewReward">oops!</h2>
           <p class="NotEnoughText">Not enough coins to play</p>
-          <button class="watchAdd" id="WatchAd" onclick="watchAdd()">
+          <button
+            class="watchAdd watchAdButton"
+            id="WatchAd"
+            data-target="../../categories/quizzesForCategory/quizPlay/quiz/"
+            onclick="watchAdd()"
+          >
             Watch Ad
           </button>
         </div>
@@ -308,14 +313,14 @@
           toast.classList.add("hidden");
           window.location.href =
             "../../categories/quizzesForCategory/quizPlay/quiz/";
-        }, 2000);
+        }, 5000);
 
         let timer2 = setTimeout(() => {
           progress.classList.remove("active");
           toast.classList.remove("hidden");
           window.location.href =
             "../../categories/quizzesForCategory/quizPlay/quiz/";
-        }, 2000);
+        }, 5300);
 
         // Close toast manually
         closeIcon.addEventListener("click", () => {
