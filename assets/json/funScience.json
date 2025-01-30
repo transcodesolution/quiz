@@ -1,9 +1,9 @@
 [
     {
       "id": "1",
-      "title": "Raksha-Bandhan",
-      "imagePath": "../assets/images/svg/scienceQuiz.svg",
-      "totalPrice": "10000",
+      "title": "Fun Science | Space-Exploration",
+      "imagePath": "../assets/images/svg/funScience/spaceExplorationQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Fun Science",
       "questions": [
@@ -64,9 +64,9 @@
     },
     {
       "id": "2",
-      "title": "Onam",
-      "imagePath": "../assets/images/svg/scienceQuiz.svg",
-      "totalPrice": "10000",
+      "title": "Fun Science | Everyday-Science",
+      "imagePath": "../assets/images/svg/funScience/everyDayScienceQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Fun Science",
       "questions": [

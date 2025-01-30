@@ -1,9 +1,9 @@
 [
     {
       "id": "1",
-      "title": "Raksha-Bandhan",
-      "imagePath": "../assets/images/svg/brandQuiz.svg",
-      "totalPrice": "10000",
+      "title": "Food & Beverage | Indian Cuisine",
+      "imagePath": "../assets/images/svg/foodAndBeverages/indianCuisineQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Food & Beverages",
       "questions": [
@@ -64,9 +64,9 @@
     },
     {
       "id": "2",
-      "title": "Onam",
-      "imagePath": "../assets/images/svg/brandQuiz.svg",
-      "totalPrice": "10000",
+      "title": "Food & Beverage | Food Trivia",
+      "imagePath": "../assets/images/svg/foodAndBeverages/foodTriviaQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Food & Beverages",
       "questions": [

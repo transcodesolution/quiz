@@ -1,9 +1,9 @@
 [
     {
       "id": "1",
-      "title": "Creepy-Crawlies",
-      "imagePath": "../assets/images/svg/animalQuiz.svg",
-      "totalPrice": "10000",
+      "title": "Birds And Animals | Creepy-Crawlies",
+      "imagePath": "../assets/images/svg/birdsAndAnimals/creepyCrawliesQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Birds And Animals",
       "questions": [
@@ -64,9 +64,9 @@
     },
     {
       "id": "2",
-      "title": "Find-That-Creature",
-      "imagePath": "../assets/images/svg/animalQuiz.svg",
-      "totalPrice": "10000",
+      "title": "Birds And Animals | Find-That-Creature",
+      "imagePath": "../assets/images/svg/birdsAndAnimals/findThatCreatureQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Birds And Animals",
       "questions": [

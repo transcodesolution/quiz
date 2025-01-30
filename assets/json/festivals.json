@@ -2,8 +2,8 @@
     {
       "id": "1",
       "title": "Raksha-Bandhan",
-      "imagePath": "../assets/images/svg/festivalQuiz.svg",
-      "totalPrice": "10000",
+      "imagePath": "../assets/images/svg/festivals/rakshaBandhanQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Festivals",
       "questions": [
@@ -65,8 +65,8 @@
     {
       "id": "2",
       "title": "Onam",
-      "imagePath": "../assets/images/svg/festivalQuiz.svg",
-      "totalPrice": "10000",
+      "imagePath": "../assets/images/svg/festivals/onamQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Festivals",
       "questions": [

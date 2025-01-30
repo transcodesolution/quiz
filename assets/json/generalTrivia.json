@@ -1,9 +1,9 @@
 [
     {
       "id": "1",
-      "title": "Raksha-Bandhan",
-      "imagePath": "../assets/images/svg/triviaQuiz.svg",
-      "totalPrice": "10000",
+      "title": "General Trivia | Who-Am-l",
+      "imagePath": "../assets/images/svg/generalTrivia/WhoAmlQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "General Trivia",
       "questions": [
@@ -64,9 +64,9 @@
     },
     {
       "id": "2",
-      "title": "Onam",
-      "imagePath": "../assets/images/svg/triviaQuiz.svg",
-      "totalPrice": "10000",
+      "title": "General Trivia | KBC",
+      "imagePath": "../assets/images/svg/generalTrivia/KbcQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "General Trivia",
       "questions": [

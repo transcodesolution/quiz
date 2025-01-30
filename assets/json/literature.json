@@ -1,9 +1,9 @@
 [
     {
       "id": "1",
-      "title": "Raksha-Bandhan",
-      "imagePath": "../assets/images/svg/literatureQuiz.svg",
-      "totalPrice": "10000",
+      "title": "Litrature | Non-Fiction",
+      "imagePath": "../assets/images/svg/literature/nonFictionQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Literature",
       "questions": [
@@ -64,9 +64,9 @@
     },
     {
       "id": "2",
-      "title": "Onam",
-      "imagePath": "../assets/images/svg/literatureQuiz.svg",
-      "totalPrice": "10000",
+      "title": "Litrature | Fiction",
+      "imagePath": "../assets/images/svg/literature/fictionQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Literature",
       "questions": [
