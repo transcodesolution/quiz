@@ -2,13 +2,13 @@
     {
       "id": 1,
       "name": "Fun Maths",
-      "imagePath": "../assets/images/svg/mathQuiz.svg",
+      "imagePath": "../assets/images/svg/funMaths/mathQuiz.svg",
       "path": "../assets/json/funMaths.json"
     },
     {
       "id": 2,
       "name": "English Grammar",
-      "imagePath": "../assets/images/svg/grammarQuiz.svg",
+      "imagePath": "../assets/images/svg/englishGrammar/grammarQuiz.svg",
       "path": "../assets/json/englishGrammar.json"
     },
     {
@@ -32,13 +32,13 @@
     {
       "id": 6,
       "name": "Famous Personalities",
-      "imagePath": "../assets/images/svg/famousPersonQuiz.svg",
+      "imagePath": "../assets/images/svg/famousPersonalities/famousPersonQuiz.svg",
       "path": "../assets/json/famousPersonalities.json"
     },
     {
       "id": 7,
       "name": "Monuments",
-      "imagePath": "../assets/images/svg/monumentQuiz.svg",
+      "imagePath": "../assets/images/svg/monuments/monumentQuiz.svg",
       "path": "../assets/json/monuments.json"
     },
     {
@@ -104,7 +104,7 @@
     {
       "id": 18,
       "name": "Bollywood",
-      "imagePath": "../assets/images/svg/bollywoodQuiz.svg",
+      "imagePath": "../assets/images/svg/bollywood/bollywoodQuiz.svg",
       "path": "../assets/json/bollywood.json"
     }
   ]

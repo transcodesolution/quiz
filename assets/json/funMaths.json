@@ -1,128 +1,254 @@
 [
-    {
-      "id": "1",
-      "title": "Trignometry",
-      "imagePath": "../assets/images/svg/mathQuiz.svg",
-      "totalPrice": "10000",
-      "entryFee": "100",
-      "name": "Fun Maths",
-      "questions": [
-        {
-          "question": "What is the sine of 90 degrees?",
-          "options": ["0", "0.5", "1", "None of the above"],
-          "correctAnswer": "1"
-        },
-        {
-          "question": "What is the cosine of 0 degrees?",
-          "options": ["0", "1", "0.5", "None of the above"],
-          "correctAnswer": "1"
-        },
-        {
-          "question": "What is the tangent of 45 degrees?",
-          "options": ["0", "1", "0.5", "None of the above"],
-          "correctAnswer": "1"
-        },
-        {
-          "question": "What is the sine of 30 degrees?",
-          "options": ["0.5", "0.866", "1", "None of the above"],
-          "correctAnswer": "0.5"
-        },
-        {
-          "question": "What is the cosine of 60 degrees?",
-          "options": ["0.5", "0.866", "1", "None of the above"],
-          "correctAnswer": "0.5"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "What is the sine of 45 degrees?",
-          "options": ["0.707", "0.5", "1", "None of the above"],
-          "correctAnswer": "0.707"
-        },
-        {
-          "question": "What is the cosine of 90 degrees?",
-          "options": ["0", "0.5", "1", "None of the above"],
-          "correctAnswer": "0"
-        },
-        {
-          "question": "What is the tangent of 0 degrees?",
-          "options": ["0", "1", "0.5", "None of the above"],
-          "correctAnswer": "0"
-        },
-        {
-          "question": "What is the sine of 60 degrees?",
-          "options": ["0.5", "0.866", "1", "None of the above"],
-          "correctAnswer": "0.866"
-        },
-        {
-          "question": "What is the cosine of 30 degrees?",
-          "options": ["0.866", "0.5", "1", "None of the above"],
-          "correctAnswer": "0.866"
-        }
-      ],
-      "difficulty": "hard"
-    },
-    {
-      "id": "2",
-      "title": "Easy-Math-Trivia",
-      "imagePath": "../assets/images/svg/mathQuiz.svg",
-      "totalPrice": "10000",
-      "entryFee": "100",
-      "name": "Fun Maths",
-      "questions": [
-        {
-          "question": "What is 2 + 2?",
-          "options": ["3", "4", "5", "6"],
-          "correctAnswer": "4"
-        },
-        {
-          "question": "What is 5 - 3?",
-          "options": ["1", "2", "3", "4"],
-          "correctAnswer": "2"
-        },
-        {
-          "question": "What is 10 / 2?",
-          "options": ["2", "3", "5", "10"],
-          "correctAnswer": "5"
-        },
-        {
-          "question": "What is 3 * 3?",
-          "options": ["6", "9", "12", "15"],
-          "correctAnswer": "9"
-        },
-        {
-          "question": "What is 15 - 5?",
-          "options": ["5", "10", "15", "20"],
-          "correctAnswer": "10"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "What is 3 + 3?",
-          "options": ["5", "6", "7", "8"],
-          "correctAnswer": "6"
-        },
-        {
-          "question": "What is 7 - 2?",
-          "options": ["4", "5", "6", "7"],
-          "correctAnswer": "5"
-        },
-        {
-          "question": "What is 8 / 4?",
-          "options": ["1", "2", "3", "4"],
-          "correctAnswer": "2"
-        },
-        {
-          "question": "What is 4 * 2?",
-          "options": ["6", "7", "8", "9"],
-          "correctAnswer": "8"
-        },
-        {
-          "question": "What is 20 - 10?",
-          "options": ["5", "10", "15", "20"],
-          "correctAnswer": "10"
-        }
-      ],
-      "difficulty": "easy"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Fun Maths | Trignometry",
+    "imagePath": "../assets/images/svg/funMaths/trignometryQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Fun Maths",
+    "questions": [
+      {
+        "question": "What is the sine of 90 degrees?",
+        "options": ["0", "0.5", "1", "None of the above"],
+        "correctAnswer": "1"
+      },
+      {
+        "question": "What is the cosine of 0 degrees?",
+        "options": ["0", "1", "0.5", "None of the above"],
+        "correctAnswer": "1"
+      },
+      {
+        "question": "What is the tangent of 45 degrees?",
+        "options": ["0", "1", "0.5", "None of the above"],
+        "correctAnswer": "1"
+      },
+      {
+        "question": "What is the sine of 30 degrees?",
+        "options": ["0.5", "0.866", "1", "None of the above"],
+        "correctAnswer": "0.5"
+      },
+      {
+        "question": "What is the cosine of 60 degrees?",
+        "options": ["0.5", "0.866", "1", "None of the above"],
+        "correctAnswer": "0.5"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "What is the sine of 45 degrees?",
+        "options": ["0.707", "0.5", "1", "None of the above"],
+        "correctAnswer": "0.707"
+      },
+      {
+        "question": "What is the cosine of 90 degrees?",
+        "options": ["0", "0.5", "1", "None of the above"],
+        "correctAnswer": "0"
+      },
+      {
+        "question": "What is the tangent of 0 degrees?",
+        "options": ["0", "1", "0.5", "None of the above"],
+        "correctAnswer": "0"
+      },
+      {
+        "question": "What is the sine of 60 degrees?",
+        "options": ["0.5", "0.866", "1", "None of the above"],
+        "correctAnswer": "0.866"
+      },
+      {
+        "question": "What is the cosine of 30 degrees?",
+        "options": ["0.866", "0.5", "1", "None of the above"],
+        "correctAnswer": "0.866"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2",
+    "title": "Fun Maths | Easy-Math-Trivia",
+    "imagePath": "../assets/images/svg/funMaths/easyMathTriviaQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Fun Maths",
+    "questions": [
+      {
+        "question": "What is 2 + 2?",
+        "options": ["3", "4", "5", "6"],
+        "correctAnswer": "4"
+      },
+      {
+        "question": "What is 5 - 3?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "2"
+      },
+      {
+        "question": "What is 10 / 2?",
+        "options": ["2", "3", "5", "10"],
+        "correctAnswer": "5"
+      },
+      {
+        "question": "What is 3 * 3?",
+        "options": ["6", "9", "12", "15"],
+        "correctAnswer": "9"
+      },
+      {
+        "question": "What is 15 - 5?",
+        "options": ["5", "10", "15", "20"],
+        "correctAnswer": "10"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "What is 3 + 3?",
+        "options": ["5", "6", "7", "8"],
+        "correctAnswer": "6"
+      },
+      {
+        "question": "What is 7 - 2?",
+        "options": ["4", "5", "6", "7"],
+        "correctAnswer": "5"
+      },
+      {
+        "question": "What is 8 / 4?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "2"
+      },
+      {
+        "question": "What is 4 * 2?",
+        "options": ["6", "7", "8", "9"],
+        "correctAnswer": "8"
+      },
+      {
+        "question": "What is 20 - 10?",
+        "options": ["5", "10", "15", "20"],
+        "correctAnswer": "10"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "3",
+    "title": "Fun Maths | Algebra",
+    "imagePath": "../assets/images/svg/funMaths/algebraQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Fun Maths",
+    "questions": [
+      {
+        "question": "What is the sine of 90 degrees?",
+        "options": ["0", "0.5", "1", "None of the above"],
+        "correctAnswer": "1"
+      },
+      {
+        "question": "What is the cosine of 0 degrees?",
+        "options": ["0", "1", "0.5", "None of the above"],
+        "correctAnswer": "1"
+      },
+      {
+        "question": "What is the tangent of 45 degrees?",
+        "options": ["0", "1", "0.5", "None of the above"],
+        "correctAnswer": "1"
+      },
+      {
+        "question": "What is the sine of 30 degrees?",
+        "options": ["0.5", "0.866", "1", "None of the above"],
+        "correctAnswer": "0.5"
+      },
+      {
+        "question": "What is the cosine of 60 degrees?",
+        "options": ["0.5", "0.866", "1", "None of the above"],
+        "correctAnswer": "0.5"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "What is the sine of 45 degrees?",
+        "options": ["0.707", "0.5", "1", "None of the above"],
+        "correctAnswer": "0.707"
+      },
+      {
+        "question": "What is the cosine of 90 degrees?",
+        "options": ["0", "0.5", "1", "None of the above"],
+        "correctAnswer": "0"
+      },
+      {
+        "question": "What is the tangent of 0 degrees?",
+        "options": ["0", "1", "0.5", "None of the above"],
+        "correctAnswer": "0"
+      },
+      {
+        "question": "What is the sine of 60 degrees?",
+        "options": ["0.5", "0.866", "1", "None of the above"],
+        "correctAnswer": "0.866"
+      },
+      {
+        "question": "What is the cosine of 30 degrees?",
+        "options": ["0.866", "0.5", "1", "None of the above"],
+        "correctAnswer": "0.866"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "4",
+    "title": "Fun Maths | Play-with-Shapes",
+    "imagePath": "../assets/images/svg/funMaths/playWithShapesQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Fun Maths",
+    "questions": [
+      {
+        "question": "What is 2 + 2?",
+        "options": ["3", "4", "5", "6"],
+        "correctAnswer": "4"
+      },
+      {
+        "question": "What is 5 - 3?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "2"
+      },
+      {
+        "question": "What is 10 / 2?",
+        "options": ["2", "3", "5", "10"],
+        "correctAnswer": "5"
+      },
+      {
+        "question": "What is 3 * 3?",
+        "options": ["6", "9", "12", "15"],
+        "correctAnswer": "9"
+      },
+      {
+        "question": "What is 15 - 5?",
+        "options": ["5", "10", "15", "20"],
+        "correctAnswer": "10"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "What is 3 + 3?",
+        "options": ["5", "6", "7", "8"],
+        "correctAnswer": "6"
+      },
+      {
+        "question": "What is 7 - 2?",
+        "options": ["4", "5", "6", "7"],
+        "correctAnswer": "5"
+      },
+      {
+        "question": "What is 8 / 4?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "2"
+      },
+      {
+        "question": "What is 4 * 2?",
+        "options": ["6", "7", "8", "9"],
+        "correctAnswer": "8"
+      },
+      {
+        "question": "What is 20 - 10?",
+        "options": ["5", "10", "15", "20"],
+        "correctAnswer": "10"
+      }
+    ],
+    "difficulty": "easy"
+  }
+]

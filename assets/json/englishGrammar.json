@@ -1,9 +1,9 @@
 [
     {
       "id": "1",
-      "title": "Noun-Pronoun",
-      "imagePath": "../assets/images/svg/grammarQuiz.svg",
-      "totalPrice": "10000",
+      "title": "English Grammar | Noun-Pronoun",
+      "imagePath": "../assets/images/svg/englishGrammar/nounPronounQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "English Grammar",
       "questions": [
@@ -64,9 +64,9 @@
     },
     {
       "id": "2",
-      "title": "Verb-Adverb",
-      "imagePath": "../assets/images/svg/grammarQuiz.svg",
-      "totalPrice": "10000",
+      "title": "English Grammar | Verb-Adverb",
+      "imagePath": "../assets/images/svg/englishGrammar/verbAdverb.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "English Grammar",
       "questions": [

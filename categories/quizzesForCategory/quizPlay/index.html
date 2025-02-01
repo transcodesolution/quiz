@@ -60,9 +60,7 @@
       <section class="categoriesSection">
         <!-- /23201071713/quizTcz_top -->
         <div class="header_space">
-          <div
-            id="div-gpt-ad-1737541278768-0"
-          >
+          <div id="div-gpt-ad-1737541278768-0">
             <script>
               googletag.cmd.push(function () {
                 googletag.display("div-gpt-ad-1737541278768-0");
@@ -70,6 +68,7 @@
             </script>
           </div>
         </div>
+        
         <div class="quiz-container-wrapper">
           <div class="quiz-container">
             <div class="quiz-header">
@@ -218,6 +217,10 @@
       document.addEventListener("DOMContentLoaded", function () {
         const quizData = JSON.parse(localStorage.getItem("selectedQuiz"));
         const totalCoins = localStorage.getItem("TotalCoin") || 0;
+        if ("payment" in quizData) {
+          delete quizData.payment; // Remove the payment key if it exists
+        }
+        localStorage.setItem("selectedQuiz", JSON.stringify(quizData));
 
         if (quizData) {
           document.querySelector(".category-title").textContent =
@@ -309,12 +312,14 @@
           toast.classList.remove("active");
           toast.classList.add("hidden");
           window.location.href = "quizPlay/quiz";
+          document.getElementById("rewardContainer").classList.add("hidden");
         }, 5000);
 
         let timer2 = setTimeout(() => {
           progress.classList.remove("active");
           toast.classList.remove("hidden");
           window.location.href = "quizPlay/quiz";
+          document.getElementById("rewardContainer").classList.add("hidden");
         }, 5300);
 
         // Close toast manually
@@ -323,6 +328,7 @@
           progress.classList.remove("active");
           toast.classList.remove("hidden");
           window.location.href = "quizPlay/quiz";
+          document.getElementById("rewardContainer").classList.add("hidden");
 
           clearTimeout(timer1);
           clearTimeout(timer2);
@@ -332,6 +338,7 @@
       function watchAdd() {
         const getCoins = localStorage.getItem("TotalCoin") || 0;
         const totalReward = Number(getCoins) + 100;
+        console.log("object", getCoins, "totalReward", totalReward);
         localStorage.setItem("TotalCoin", totalReward);
         showToast(`100 Coins Rewarded !!`, "success");
       }

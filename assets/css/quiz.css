@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 75px);
+  padding-top: 50px;
+  padding-bottom: 56px;
   overflow: hidden;
 }
 .categoriesSection {
@@ -13,7 +14,7 @@
   width: 100%;
   gap: 24px;
   box-sizing: border-box;
-  height: calc(100vh - 75px);
+
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: none;
@@ -147,7 +148,7 @@
 }
 
 .lifeLineContainer {
-  position:fixed;
+  position: fixed;
   bottom: 0;
   left: 0;
   margin-top: auto;

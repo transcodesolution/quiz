@@ -1,9 +1,9 @@
 [
     {
       "id": "1",
-      "title": "Raksha-Bandhan",
-      "imagePath": "../assets/images/svg/bollywoodQuiz.svg",
-      "totalPrice": "10000",
+      "title": "Bollywood | Bollywood-Trivia",
+      "imagePath": "../assets/images/svg/bollywood/bollywoodTriviaQuiz.svg",
+      "totalPrice": "500",
       "entryFee": "100",
       "name": "Bollywood",
       "questions": [
@@ -58,74 +58,6 @@
           "question": "Which flower is commonly used in Raksha Bandhan decorations?",
           "options": ["Rose", "Marigold", "Lily", "Tulip"],
           "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    },
-    {
-      "id": "2",
-      "title": "Onam",
-      "imagePath": "../assets/images/svg/bollywoodQuiz.svg",
-      "totalPrice": "10000",
-      "entryFee": "100",
-      "name": "Bollywood",
-      "questions": [
-        {
-          "question": "Onam is a festival celebrated in which Indian state?",
-          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-          "correctAnswer": "Kerala"
-        },
-        {
-          "question": "What is the traditional dance performed during Onam?",
-          "options": [
-            "Kathakali",
-            "Bharatanatyam",
-            "Mohiniyattam",
-            "Kuchipudi"
-          ],
-          "correctAnswer": "Kathakali"
-        },
-        {
-          "question": "What is the traditional feast during Onam called?",
-          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-          "correctAnswer": "Sadya"
-        },
-        {
-          "question": "Which flower is used to make Pookalam during Onam?",
-          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-          "correctAnswer": "Marigold"
-        },
-        {
-          "question": "Onam marks the homecoming of which legendary king?",
-          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-          "correctAnswer": "Mahabali"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Onam is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is the main dish in Sadya?",
-          "options": ["Rice", "Bread", "Pasta", "Noodles"],
-          "correctAnswer": "Rice"
-        },
-        {
-          "question": "Which dance is not performed during Onam?",
-          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-          "correctAnswer": "Ballet"
-        },
-        {
-          "question": "What is the traditional attire worn during Onam?",
-          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-          "correctAnswer": "Saree"
-        },
-        {
-          "question": "Which fruit is commonly used in Onam celebrations?",
-          "options": ["Banana", "Apple", "Grapes", "Orange"],
-          "correctAnswer": "Banana"
         }
       ],
       "difficulty": "medium"
