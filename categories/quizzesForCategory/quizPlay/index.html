@@ -337,7 +337,6 @@
       function watchAdd() {
         const getCoins = localStorage.getItem("TotalCoin") || 0;
         const totalReward = Number(getCoins) + 100;
-        console.log("object", getCoins, "totalReward", totalReward);
         localStorage.setItem("TotalCoin", totalReward);
         showToast(`100 Coins Rewarded !!`, "success");
       }

@@ -97,9 +97,7 @@
 
         <div class="header_space">
           <!-- /23201071713/quizTcz_inGameQuiz_Center -->
-          <div
-            id="div-gpt-ad-1737543137369-0"
-          >
+          <div id="div-gpt-ad-1737543137369-0">
             <script>
               googletag.cmd.push(function () {
                 googletag.display("div-gpt-ad-1737543137369-0");
@@ -155,10 +153,7 @@
           data-button-id="freezeTimer"
         >
           <div class="lifeLineImageContainer">
-            <img
-              src="../../../../assets/images/svg/freez.svg"
-              alt="freeze"
-            />
+            <img src="../../../../assets/images/svg/freez.svg" alt="freeze" />
           </div>
           <p>Freeze Timer</p>
         </button>
@@ -312,6 +307,7 @@
                       clearInterval(interval);
                       saveCalculation();
                       window.location.href = "quiz/result";
+                      localStorage.setItem("quizPlayed", true);
                     } else {
                       document.getElementById("quizTimeOut").innerHTML =
                         totalTime;
@@ -428,6 +424,7 @@
                     } else {
                       saveCalculation();
                       window.location.href = "quiz/result";
+                      localStorage.setItem("quizPlayed", true);
                     }
 
                     // Hide audience poll and show lifeline options again
@@ -626,5 +623,14 @@
       });
     </script>
     <!-- Script For Life Line animation End -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        console.log("true")
+        const isQuizPlayed = localStorage.getItem("quizPlayed");
+        if (isQuizPlayed === "true") {
+          window.location.href = "/home/";
+        }
+      });
+    </script>
   </body>
 </html>

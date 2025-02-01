@@ -1,14 +1,4 @@
-  // window.googletag = window.googletag || {cmd: []};
-  // googletag.cmd.push(function() {
-  //   googletag.defineSlot('/23201071713/quizTcz_interstial', [[800, 600], [480, 320], [300, 250], [336, 280], [320, 480], [1024, 768], [768, 1024]], 'div-gpt-ad-1737541700822-0').addService(googletag.pubads());
-  //   googletag.pubads().enableSingleRequest();
-  //   googletag.enableServices();
-  // });
-
-
-
-
-  window.googletag = window.googletag || { cmd: [] };
+window.googletag = window.googletag || { cmd: [] };
 
 let interstitialSlot;
 

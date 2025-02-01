@@ -160,10 +160,14 @@
           <img src="../../../assets/images/adpic.png" alt="reward" />
           <h2 class="NewReward">oops!</h2>
           <p class="NotEnoughText">Not enough coins to play</p>
-          <button
+          <!-- <button
             class="watchAdd watchAdButton"
             id="WatchAd"
             data-target="../../categories/quizzesForCategory/quizPlay/quiz/"
+            onclick="watchAdd()"
+          > -->
+          <button
+            class="watchAdd"
             onclick="watchAdd()"
           >
             Watch Ad
@@ -338,9 +342,9 @@
 
       function watchAdd() {
         const getCoins = localStorage.getItem("TotalCoin") || 0;
-        const totalReward = Number(getCoins) + 100;
-        localStorage.setItem("TotalCoin", totalReward);
-        showToast(`100 Coins Rewarded !!`, "success");
+         const totalReward = getCoins + 100;
+         localStorage.setItem("TotalCoin", totalReward);
+         showToast(`100 Coins Rewarded !!`, "success");
       }
       function joinNow() {
         window.location.href = "/login";
