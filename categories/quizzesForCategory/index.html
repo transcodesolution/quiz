@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="../../assets/css/footer.css" />
     <link rel="stylesheet" href="../../assets/css/sideBannner.css" />
     <link rel="stylesheet" href="../../assets/css/quizzesForCategory.css" />
+    <script
+      async
+      src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    ></script>
+    <script src="../../adscripts/quizTcz_reward.js"></script>
   </head>
 
   <body>
@@ -20,7 +25,7 @@
           class="logo-image"
           loading="lazy"
       /></a>
-      <div class="dailyReward">
+      <button class="dailyReward watchAdButton" data-fn="dailyReward">
         <img
           src="../../assets/images/gif/reward.gif"
           alt="coin"
@@ -28,7 +33,7 @@
           loading="lazy"
         />
         <p>Daily Reward</p>
-      </div>
+      </button>
       <div class="totalCoins">
         <img
           src="./../assets/images/svg/headerCoin.svg"
@@ -42,7 +47,6 @@
     <div class="mainContainer">
       <section class="categoriesSection">
         <div id="quizzesContainer" class="quizzesContainer"></div>
-
         <footer class="footerContainer">
           <a href="/categories/" class="categories">
             <img
@@ -82,6 +86,26 @@
           <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
         </div>
       </section>
+      <div class="toast">
+        <div class="toast-content">
+          <img
+            src="../assets/images/svg/alert.svg"
+            alt="alert"
+            loading="lazy"
+          />
+          <div class="message">
+            <span class="text text-2"></span>
+          </div>
+        </div>
+        <img
+          src="../assets/images/svg/crossIcon.svg"
+          alt="alert"
+          loading="lazy"
+          class="close"
+          style="height: 14px; width: 16px"
+        />
+        <div class="progress"></div>
+      </div>
     </div>
 
     <!-- Script for showing Current path in Footer Start -->

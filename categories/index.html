@@ -16,6 +16,7 @@
     ></script>
     <script src="../adscripts/quizTcz_interstial.js"></script>
     <script src="../adscripts/quizTcz_Home.js"></script>
+    <script src="../adscripts/quizTcz_reward.js"></script>
   </head>
 
   <body>
@@ -36,7 +37,7 @@
           class="logo-image"
           loading="lazy"
       /></a>
-      <div class="dailyReward">
+      <button class="dailyReward watchAdButton" data-fn="dailyReward">
         <img
           src="assets/images/gif/reward.gif"
           alt="coin"
@@ -44,7 +45,7 @@
           loading="lazy"
         />
         <p>Daily Reward</p>
-      </div>
+      </button>
       <div class="totalCoins">
         <img
           src="assets/images/svg/headerCoin.svg"
@@ -128,6 +129,22 @@
           <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
         </div>
       </section>
+      <div class="toast">
+        <div class="toast-content">
+          <img src="assets/images/svg/alert.svg" alt="alert" loading="lazy" />
+          <div class="message">
+            <span class="text text-2"></span>
+          </div>
+        </div>
+        <img
+          src="assets/images/svg/crossIcon.svg"
+          alt="alert"
+          loading="lazy"
+          class="close"
+          style="height: 14px; width: 16px"
+        />
+        <div class="progress"></div>
+      </div>
     </div>
     <script>
       if (window.location.pathname.endsWith("/")) {

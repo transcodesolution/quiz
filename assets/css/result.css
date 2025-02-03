@@ -120,9 +120,10 @@
   background-color: #121212;
   box-sizing: border-box;
   min-width: 312px;
+  z-index: 99;
 }
 
-.toast.active {
+.toast.activeToast {
   transform: translateX(0%);
 }
 
@@ -201,7 +202,7 @@
   background-color: #07bc0c; /* Success green color */
 }
 
-.progress.active:before {
+.progress.activeToast:before {
   animation: progress 5s linear forwards;
 }
 

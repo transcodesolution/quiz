@@ -1,103 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="../assets/css/common.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/sideBannner.css" />
+    <link rel="stylesheet" href="../assets/css/profile.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quiz App</title>
-  <link rel="stylesheet" href="../assets/css/common.css" />
-  <link rel="stylesheet" href="../assets/css/header.css" />
-  <link rel="stylesheet" href="../assets/css/footer.css" />
-  <link rel="stylesheet" href="../assets/css/sideBannner.css" />
-  <link rel="stylesheet" href="../assets/css/profile.css" />
+    <script
+      async
+      src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    ></script>
+    <script src="../adscripts/quizTcz_interstial.js"></script>
+    <script src="../adscripts/quizTcz_Home.js"></script>
+    <script src="../adscripts/quizTcz_reward.js"></script>
+  </head>
 
-  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-  <script src="../adscripts/quizTcz_interstial.js"></script>
-  <script src="../adscripts/quizTcz_Home.js"></script>
-</head>
-
-<body>
-  <!-- interstitial_ad -->
-  <script>
-    googletag.cmd.push(() => {
-      // Ensure the first call to display comes after static ad slot
-      // divs are defined. If you do not have any static ad slots, this
-      // call can be made immediately after services are enabled.
-      googletag.display(interstitialSlot);
-    });
-  </script>
-  <header class="headerContainer">
-    <a href="../home/" class="logo">
-      <img src="assets/images/svg/logo.svg" alt="logo" class="logo-image" loading="lazy" />
-    </a>
-    <div class="dailyReward">
-      <img src="assets/images/gif/reward.gif" alt="coin" class="coin-image" loading="lazy" />
-      <p>Daily Reward</p>
+  <body>
+    <!-- interstitial_ad -->
+    <script>
+      googletag.cmd.push(() => {
+        // Ensure the first call to display comes after static ad slot
+        // divs are defined. If you do not have any static ad slots, this
+        // call can be made immediately after services are enabled.
+        googletag.display(interstitialSlot);
+      });
+    </script>
+    <header class="headerContainer">
+      <a href="../home/" class="logo">
+        <img
+          src="assets/images/svg/logo.svg"
+          alt="logo"
+          class="logo-image"
+          loading="lazy"
+        />
+      </a>
+      <button class="dailyReward watchAdButton" data-fn="dailyReward">
+        <img
+          src="assets/images/gif/reward.gif"
+          alt="coin"
+          class="coin-image"
+          loading="lazy"
+        />
+        <p>Daily Reward</p>
+      </button>
+      <div class="totalCoins">
+        <img
+          src="assets/images/svg/headerCoin.svg"
+          alt="coin"
+          class="coin-image"
+          loading="lazy"
+        />
+        <p id="totalCoinsDisplay">0 <span>COINS</span></p>
+      </div>
+    </header>
+    <div class="mainContainer">
+      <section class="categoriesSection">
+        <div class="profileContainer">
+          <div class="userProfileContainer">
+            <div class="profileImgContainer">
+              <img
+                src="../assets/images/userProfile.png"
+                alt="user profile"
+                loading="lazy"
+              />
+            </div>
+            <div class="userProfileDetails">
+              <p id="user-id">User X</p>
+            </div>
+          </div>
+          <div class="coinContainer">
+            <div class="coinBox">
+              <div class="coinBoxText">Coins</div>
+              <div class="coinCount" id="totalCoins">0</div>
+            </div>
+          </div>
+          <div class="coinContainer">
+            <button class="join-now" id="join-now-btn">JOIN NOW</button>
+            <button
+              type="button"
+              class="log-out"
+              id="log-out-btn"
+              style="display: none"
+            >
+              LOG OUT
+            </button>
+          </div>
+        </div>
+        <div class="header_space">
+          <!-- /23201071713/quizTcz_quizeHome -->
+          <div
+            id="div-gpt-ad-1738058472013-0"
+            style="min-width: 300px; min-height: 250px"
+          >
+            <script>
+              googletag.cmd.push(function () {
+                googletag.display("div-gpt-ad-1738058472013-0");
+              });
+            </script>
+          </div>
+        </div>
+        <footer class="footerContainer">
+          <a href="../categories/" class="categories">
+            <img
+              src="../assets/images/svg/category.svg"
+              alt="category"
+              class="footerNavIcon"
+            />
+            <p>Categories</p>
+          </a>
+          <a href="/home/" class="home">
+            <img
+              src="../assets/images/svg/home.svg"
+              alt="home"
+              class="footerNavIcon"
+            />
+            <p>Home</p>
+          </a>
+          <a href="../profile/" class="profile">
+            <img
+              src="../assets/images/svg/profile.svg"
+              alt="profile"
+              class="footerNavIcon"
+            />
+            <p>Profile</p>
+          </a>
+        </footer>
+      </section>
+      <section class="rightSection">
+        <img
+          src="../assets/images/svg/sidePoster.svg"
+          alt="right-section"
+          class="poster-image"
+          loading="lazy"
+        />
+        <div class="welcomeText">
+          <h4>Welcome to 5 Minutes Quiz. Play a quiz and earn coins.</h4>
+          <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
+        </div>
+      </section>
+      <div class="toast">
+        <div class="toast-content">
+          <img src="assets/images/svg/alert.svg" alt="alert" loading="lazy" />
+          <div class="message">
+            <span class="text text-2"></span>
+          </div>
+        </div>
+        <img
+          src="assets/images/svg/crossIcon.svg"
+          alt="alert"
+          loading="lazy"
+          class="close"
+          style="height: 14px; width: 16px"
+        />
+        <div class="progress"></div>
+      </div>
     </div>
-    <div class="totalCoins">
-      <img src="assets/images/svg/headerCoin.svg" alt="coin" class="coin-image" loading="lazy" />
-      <p id="totalCoinsDisplay">0 <span>COINS</span></p>
-    </div>
-  </header>
-  <div class="mainContainer">
-    <section class="categoriesSection">
-      <div class="profileContainer">
-        <div class="userProfileContainer">
-          <div class="profileImgContainer">
-            <img src="../assets/images/userProfile.png" alt="user profile" loading="lazy" />
-          </div>
-          <div class="userProfileDetails">
-            <p id="user-id">User X</p>
-          </div>
-        </div>
-        <div class="coinContainer">
-          <div class="coinBox">
-            <div class="coinBoxText">Coins</div>
-            <div class="coinCount" id="totalCoins">0</div>
-          </div>
-        </div>
-        <div class="coinContainer">
-          <button class="join-now" id="join-now-btn">JOIN NOW</button>
-          <button type="button" class="log-out" id="log-out-btn" style="display: none">
-            LOG OUT
-          </button>
-        </div>
-      </div>
-      <div class="header_space">
-       <!-- /23201071713/quizTcz_quizeHome -->
-       <div
-       id="div-gpt-ad-1738058472013-0"
-       style="min-width: 300px; min-height: 250px"
-     >
-       <script>
-         googletag.cmd.push(function () {
-           googletag.display("div-gpt-ad-1738058472013-0");
-         });
-       </script>
-     </div>
-      </div>
-      <footer class="footerContainer">
-        <a href="../categories/" class="categories">
-          <img src="../assets/images/svg/category.svg" alt="category" class="footerNavIcon" />
-          <p>Categories</p>
-        </a>
-        <a href="/home/" class="home">
-          <img src="../assets/images/svg/home.svg" alt="home" class="footerNavIcon" />
-          <p>Home</p>
-        </a>
-        <a href="../profile/" class="profile">
-          <img src="../assets/images/svg/profile.svg" alt="profile" class="footerNavIcon" />
-          <p>Profile</p>
-        </a>
-      </footer>
-    </section>
-    <section class="rightSection">
-      <img src="../assets/images/svg/sidePoster.svg" alt="right-section" class="poster-image" loading="lazy" />
-      <div class="welcomeText">
-        <h4>Welcome to 5 Minutes Quiz. Play a quiz and earn coins.</h4>
-        <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
-      </div>
-    </section>
 
     <script>
       // Handle URL trimming to remove trailing slash
@@ -132,9 +193,7 @@
 
         if (loginUser) {
           // Show the "LOG OUT" button and display user email
-          document.getElementById(
-            "user-id"
-          ).innerHTML = `${loginUser.emailId}`;
+          document.getElementById("user-id").innerHTML = `${loginUser.emailId}`;
           logOutBtn.style.display = "block"; // Show LOG OUT button
           joinNowBtn.style.display = "none"; // Hide JOIN NOW button
         } else {
@@ -175,7 +234,5 @@
           window.location.href = "/login";
         });
     </script>
-  </div>
-</body>
-
+  </body>
 </html>

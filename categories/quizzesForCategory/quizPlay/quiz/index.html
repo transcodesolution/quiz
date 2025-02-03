@@ -13,6 +13,7 @@
       async
       src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
     ></script>
+    <script src="../../../../adscripts/quizTcz_reward.js"></script>
     <script src="../../../../adscripts/quizTcz_interstial.js"></script>
     <script src="../../../../adscripts/quizTcz_inGameQuiz_Center.js"></script>
     <script src="../../../../adscripts/quizTcz_lifeLine.js"></script>
@@ -36,7 +37,7 @@
           class="logo-image"
           loading="lazy"
       /></a>
-      <div class="dailyReward">
+      <button class="dailyReward watchAdButton" data-fn="dailyReward">
         <img
           src="../../../../assets/images/gif/reward.gif"
           alt="coin"
@@ -44,7 +45,7 @@
           loading="lazy"
         />
         <p>Daily Reward</p>
-      </div>
+      </button>
       <div class="totalCoins">
         <img
           src="../../../../assets/images/svg/headerCoin.svg"
@@ -55,6 +56,26 @@
         <p id="totalCoinsDisplay">0 <span>COINS</span></p>
       </div>
     </header>
+    <div class="toast">
+      <div class="toast-content">
+        <img
+          src="../../../../assets/images/svg/alert.svg"
+          alt="alert"
+          loading="lazy"
+        />
+        <div class="message">
+          <span class="text text-2"></span>
+        </div>
+      </div>
+      <img
+        src="../../../../assets/images/svg/crossIcon.svg"
+        alt="alert"
+        loading="lazy"
+        class="close"
+        style="height: 14px; width: 16px"
+      />
+      <div class="progress"></div>
+    </div>
     <div class="mainContainer">
       <section class="categoriesSection">
         <div class="categoriesSectionContainer">
@@ -625,10 +646,10 @@
     <!-- Script For Life Line animation End -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        console.log("true")
         const isQuizPlayed = localStorage.getItem("quizPlayed");
         if (isQuizPlayed === "true") {
           window.location.href = "/home/";
+          localStorage.remove("quizPlayed");
         }
       });
     </script>

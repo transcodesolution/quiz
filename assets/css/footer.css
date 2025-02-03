@@ -39,7 +39,6 @@
 }
 
 .active {
-
     background-color: var(--bg-secondary); /* Change this to your desired background color */
     border-radius: 9999px; /* Optional: Add some styling */
   }
