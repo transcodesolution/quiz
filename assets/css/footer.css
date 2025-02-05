@@ -12,7 +12,7 @@
     cursor: pointer;
     box-shadow:rgb(17, 24, 39) 0px -15px 15px;
     background-color: var(--bg-primary);
-    padding-bottom: 10px;
+    padding-block: 10px;
 }
 
 .categories,

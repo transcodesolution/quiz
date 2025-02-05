@@ -1,13 +1,14 @@
 function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey) {
   window.googletag = window.googletag || { cmd: [] };
 
-  // If "alwaysShowAd" is true, we will always show the ad, ignoring sessionStorage
-  if (sessionStorage.getItem("adShown") && !alwaysShowAd) {
-    // Redirect directly to the target URL if the ad was shown previously
-    window.location.href = targetUrl;
+  // Check if the daily reward ad has been shown twice
+  if (
+    dataFnKey === "dailyReward" &&
+    sessionStorage.getItem("dailyRewardAdShown") >= 2
+  ) {
+    showToast("Daily reward Limit reached", "error", dataFnKey);
     return;
   }
-
   const rewardedSlot = googletag.defineOutOfPageSlot(
     "/23201071713/quizTcz_reward", // Replace with your actual ad slot ID
     googletag.enums.OutOfPageFormat.REWARDED
@@ -22,12 +23,17 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey) {
     });
 
     googletag.pubads().addEventListener("rewardedSlotClosed", () => {
-      if (!alwaysShowAd) sessionStorage.setItem("adShown", "true");
-
+      // Increment the ad shown count for daily reward
+      if (dataFnKey === "dailyReward") {
+        let adShownCount = parseInt(
+          sessionStorage.getItem("dailyRewardAdShown") || "0",
+          10
+        );
+        adShownCount += 1;
+        sessionStorage.setItem("dailyRewardAdShown", adShownCount);
+      }
       if (dataFnKey) {
         giveRewardAfterAds(dataFnKey, false); // Do not trigger extra toast
-      } else {
-        window.location.href = targetUrl;
       }
     });
 
@@ -55,6 +61,14 @@ document.addEventListener("DOMContentLoaded", () => {
       const alwaysShowAd =
         button.getAttribute("data-target") === "../quizPlay/";
       const dataFnKey = button.getAttribute("data-fn");
+
+      // Reset toast and progress bar state
+      const toast = document.querySelector(".toast");
+      const progress = document.querySelector(".progress");
+      toast.classList.remove("activeToast", "hidden");
+      toast.classList.remove("success", "error");
+      progress.classList.remove("activeToast");
+
       setupRewardedAd(targetUrl, alwaysShowAd, dataFnKey);
     };
   });
@@ -78,6 +92,8 @@ function giveRewardAfterAds(key = "", suppressToast = false) {
     handleDailyReward(suppressToast, key);
   } else if (key === "doubleWinning") {
     doubleWinning(suppressToast, key);
+  } else if (key === "claimReward") {
+    claimReward(suppressToast, key);
   }
 }
 // get the reward 100 coin when not have entry fees.
@@ -100,6 +116,7 @@ function handleDailyReward(suppressToast = false, key = "") {
   if (rewardData.date !== today) {
     rewardData.date = today;
     rewardData.claims = 0;
+    sessionStorage.removeItem("dailyRewardAdShown"); // Reset ad shown status for daily reward
   }
 
   if (rewardData.claims < 2) {
@@ -111,8 +128,6 @@ function handleDailyReward(suppressToast = false, key = "") {
     if (!suppressToast) {
       showToast("You have received 100 coins!", "success", key);
     }
-  } else {
-    showToast("Daily reward Limit reached", "error", key);
   }
   localStorage.setItem("rewardData", JSON.stringify(rewardData));
 }
@@ -122,12 +137,17 @@ function doubleWinning(suppressToast = false, key = "") {
   if (!suppressToast) {
     showToast(`2X Coins Rewarded`, "success", key);
   }
-  const existingCoins = parseFloat(localStorage.getItem("TotalCoin")) || 0;
   const coins = localStorage.getItem("TotalCoinPerGame");
   const doubledCoins = parseInt(coins) * 2;
   localStorage.setItem("TotalCoinPerGame", doubledCoins);
   document.getElementById("coins-value").textContent = doubledCoins;
   localStorage.setItem("TotalCoin", doubledCoins);
+}
+
+function claimReward(suppressToast = false, key = "") {
+  if (!suppressToast) {
+    showToast(`100 Coins Rewarded !!`, "success", key);
+  }
 }
 
 //Toaster
@@ -153,7 +173,11 @@ function showToast(message, type, key) {
       toastElement.classList.add("hidden");
       redirectToPage(key);
     },
-    key === "dailyReward" ? 5000 : 1000
+    key === "dailyReward"
+      ? 5000
+      : key === "doubleWinning" || key === "claimReward"
+      ? 3000
+      : 1000
   );
 
   closeIcon.addEventListener("click", () => {
@@ -182,10 +206,21 @@ function setToastStyle(toastElement, iconElement, type, key) {
 function redirectToPage(key) {
   if (key === "quiz-play") {
     window.location.href = "quizPlay/quiz";
+    document.getElementById("rewardContainer").classList.add("hidden");
   } else if (key === "quiz-play-home") {
     window.location.href = "../../categories/quizzesForCategory/quizPlay/quiz/";
-  } else if (key === "doubleWinning") { 
-    // window.location.href = "/home/";
+    document.getElementById("rewardContainer").classList.add("hidden");
+  } else if (key === "doubleWinning") {
+    window.location.href = "/home/";
+    clearLocalStorage();
+  } else if (key === "claimReward") {
+    window.location.href = "../quizPlay/";
+    // Add 'hidden' class from rewardContainer
+    document.getElementById("rewardContainer").classList.add("hidden");
+    // Remove 'hidden' class to mainContainer
+    document.getElementById("mainContainer").classList.remove("hidden");
+  } else {
+    console.error("Unknown key for redirection:", key);
   }
 }
 
@@ -204,8 +239,8 @@ function getToastIconSrc(key, type) {
       return "../../../assets/images/svg/alert.svg"; // Specific error icon for dailyReward
     }
   }
-   // Use the success icon for both success and dailyReward
-   if (key === "doubleWinning") {
+  // Use the success icon for both success and dailyReward
+  if (key === "doubleWinning") {
     if (type === "success") {
       return "../../../../../assets/images/svg/correct.svg"; // Specific success icon for dailyReward
     } else if (type === "error") {
@@ -214,4 +249,13 @@ function getToastIconSrc(key, type) {
   }
 
   return basePaths[type];
+}
+
+function clearLocalStorage() {
+  localStorage.removeItem("TotalCoinPerGame");
+  localStorage.removeItem("quizScore");
+  localStorage.removeItem("selectedCategory");
+  localStorage.removeItem("selectedQuiz");
+  localStorage.removeItem("selectedCategoryPath");
+  localStorage.removeItem("quizPlayed");
 }

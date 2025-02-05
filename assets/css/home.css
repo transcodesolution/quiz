@@ -4,7 +4,7 @@
   align-items: center;
   overflow: hidden;
   padding-top: 50px;
-  padding-bottom: 56px;
+  padding-bottom: 66px;
 }
 .categoriesSection {
   display: flex;
@@ -234,6 +234,9 @@
 
 .toast.success .progress:before {
   background-color: #07bc0c; /* Success green color */
+}
+.toast.error.progress:before {
+  background-color: #e74c3c; /* Success green color */
 }
 
 .progress.activeToast:before {

@@ -144,6 +144,9 @@
           fetch(categoryPath)
             .then((response) => response.json())
             .then((quizzes) => {
+              if (quizzes.length === 0) {
+                window.location.href = "/home/";
+              }
               const container = document.getElementById("quizzesContainer");
               let htmlContent = ``;
               quizzes.forEach((quiz) => {
@@ -173,9 +176,13 @@
               });
               container.innerHTML = htmlContent;
             })
-            .catch((error) => console.error("Error loading quizzes:", error));
+            .catch((error) => {
+              console.error("Error loading quizzes:", error);
+              window.location.href = "/home/";
+            });
         } else {
           console.error("No category selected.");
+          window.location.href = "/home/";
         }
       });
     </script>

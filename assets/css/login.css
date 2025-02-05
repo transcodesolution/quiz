@@ -3,8 +3,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding-top: 50px;
-  padding-bottom: 56px;
+  height: 100vh;
 }
 .categoriesSection {
   display: flex;

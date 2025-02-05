@@ -106,7 +106,7 @@
     <script>
       // Retrieve and display total coins
       document.addEventListener("DOMContentLoaded", function () {
-        const rewardCoin = localStorage.getItem("RewardCoin") || 0;
+        const rewardCoin = sessionStorage.getItem("RewardCoin") || 0;
         document.getElementById("wonCoinsText").innerHTML = `${rewardCoin}`;
       });
     </script>

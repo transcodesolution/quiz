@@ -186,7 +186,6 @@
           <button
             class="watchAdd watchAdButton"
             id="WatchAd"
-            data-target="quizPlay/quiz"
             data-fn="quiz-play-home"
           >
             Watch Ad
@@ -241,9 +240,14 @@
       document.addEventListener("DOMContentLoaded", function () {
         const quizData = JSON.parse(localStorage.getItem("selectedQuiz"));
         const totalCoins = localStorage.getItem("TotalCoin") || 0;
-        if ("payment" in quizData) {
-          delete quizData.payment; // Remove the payment key if it exists
+        if (quizData) {
+          if (quizData["payment"]) {
+            delete quizData.payment; // Remove the payment key if it exists
+          }
+        } else {
+          window.location.href = "/home/"; // Navigate to home if quizData is null
         }
+
         localStorage.setItem("selectedQuiz", JSON.stringify(quizData));
         if (quizData) {
           document.querySelector(".category-title").textContent =
@@ -256,6 +260,7 @@
           ).innerHTML = `Play & Win <img class="coin-image" src="../../../../assets/images/svg/coin.svg" alt="Coin" /> ${quizData.totalPrice}`;
         } else {
           console.error("Quiz data is missing.");
+          window.location.href = "/home/";
         }
         document.getElementById(
           "totalCoinsDisplay"

@@ -1,201 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../../../../../assets/css/common.css" />
+    <link rel="stylesheet" href="../../../../../assets/css/sideBannner.css" />
+    <link rel="stylesheet" href="../../../../../assets/css/result.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quiz</title>
-  <link rel="stylesheet" href="../../../../../assets/css/common.css" />
-  <link rel="stylesheet" href="../../../../../assets/css/sideBannner.css" />
-  <link rel="stylesheet" href="../../../../../assets/css/result.css" />
+    <script
+      async
+      src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    ></script>
+    <script src="../../../../../adscripts/quizTcz_interstial.js"></script>
+    <script src="../../../../../adscripts/quizTcz_reward.js"></script>
+    <script src="../../../../../adscripts/quizTcz_top.js"></script>
+  </head>
 
-  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-  <script src="../../../../../adscripts/quizTcz_interstial.js"></script>
-  <script src="../../../../../adscripts/quizTcz_reward.js"></script>
-  <script src="../../../../../adscripts/quizTcz_top.js"></script>
-</head>
-
-<body>
-  <!-- interstitial_ad -->
-  <script>
-    googletag.cmd.push(() => {
-      // Ensure the first call to display comes after static ad slot
-      // divs are defined. If you do not have any static ad slots, this
-      // call can be made immediately after services are enabled.
-      googletag.display(interstitialSlot);
-    });
-  </script>
-  <div class="mainContainer">
-    <section class="categoriesSection">
-      <!-- /23201071713/quizTcz_top -->
-      <div class="header_ads">
-        <div class="header_space">
-          <div id="div-gpt-ad-1738056273528-0" style="min-width: 300px; min-height: 250px">
-            <script>
-              googletag.cmd.push(function () {
-                googletag.display("div-gpt-ad-1738056273528-0");
-              });
-            </script>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="logo-container">
-          <img src="https://playerstorage.b-cdn.net/quiztwiz/assets/animation.gif" alt="logo" class="logo" />
-          <h1 class="title">Well Played</h1>
-        </div>
-        <div class="score-container">
-          <div class="score-box">
-            <span id="score-value">0</span>
-            <span>Your Score</span>
-          </div>
-          <div class="score-box">
-            <span id="coins-value">25</span>
-            <span>Coins Earned</span>
-          </div>
-        </div>
-        <div class="action-container">
-          <button class="action-button watchAdButton" data-target="/home/" data-fn="doubleWinning">
-            Double Your winnings<img src="../../../../../assets/images/svg/coin.svg" alt="coin" />
-          </button>
-        </div>
-        <hr class="divider" />
-        <div class="home-container">
-          <a href="/home/" class="home-button" id="home-button">Home</a>
-        </div>
-      </div>
-    </section>
-    <section class="rightSection">
-      <img src="../../../../../assets/images/svg/sidePoster.svg" alt="right-section" class="poster-image"
-        loading="lazy" />
-      <div class="welcomeText">
-        <h4>Welcome to 5 Minutes Quiz. Play a quiz and earn coins.</h4>
-        <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
-      </div>
-    </section>
-    <div class="toast">
-      <div class="toast-content">
-        <img src="../../../../../assets/images/svg/correct.svg" alt="alert" loading="lazy" />
-        <div class="message">
-          <span class="text text-2"></span>
-        </div>
-      </div>
-      <img src="../../../../../assets/images/svg/crossIcon.svg" alt="alert" loading="lazy" class="close"
-        style="height: 14px; width: 16px" />
-      <div class="progress"></div>
-    </div>
-  </div>
-  <script src="../../../../../adscripts/quizTcz_landing_popUp.js"></script>
-
-  <!-- Script For Quizzes Play Start -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Retrieve score and coins from local storage
-      const quizScore = localStorage.getItem("quizScore");
-      const totalCoins = localStorage.getItem("TotalCoinPerGame");
-
-      // Display the score and coins
-      if (quizScore !== null) {
-        document.getElementById("score-value").textContent = quizScore;
-      } else {
-        document.getElementById("score-value").textContent = "0";
-      }
-
-      if (totalCoins !== null) {
-        document.getElementById("coins-value").textContent = totalCoins;
-      } else {
-        document.getElementById("coins-value").textContent = "0";
-      }
-    });
-  </script>
-  <!-- Script For Quizzes Play End -->
-
-  <!-- Script For Removing Trailing Slash From URL Start -->
-  <script>
-    if (window.location.pathname.endsWith("/")) {
-      const newURL = window.location.pathname.slice(0, -1);
-      history.replaceState({}, "", newURL);
-    }
-  </script>
-  <!-- Script For Removing Trailing Slash From URL End -->
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Add event listener to the Home button
-      document
-        .getElementById("home-button")
-        .addEventListener("click", function () {
-          // Clear specific local storage items
-          localStorage.removeItem("TotalCoinPerGame");
-          localStorage.removeItem("quizScore");
-          localStorage.removeItem("selectedCategory");
-          localStorage.removeItem("selectedQuiz");
-          localStorage.removeItem("selectedCategoryPath");
-          localStorage.removeItem("quizPlayed");
-        });
-    });
-  </script>
-  <!-- <script>
-    function doubleWinning() {
-      showToast(`2X Coins Rewarded`, "success");
-      const existingCoins =
-        parseFloat(localStorage.getItem("TotalCoin")) || 0;
-      const coins = localStorage.getItem("TotalCoinPerGame");
-      const doubledCoins = parseInt(coins) * 2;
-      localStorage.setItem("TotalCoinPerGame", doubledCoins);
-      document.getElementById("coins-value").textContent = doubledCoins;
-      localStorage.setItem("TotalCoin", doubledCoins);
-    }
-
-    function showToast(message, type) {
-      const toast = document.querySelector(".toast");
-      const progress = document.querySelector(".progress");
-      const closeIcon = document.querySelector(".close");
-
-      // Update toast message
-      document.querySelector(".toast .message .text-2").innerText = message;
-      if (type === "success") {
-        const toastElement = document.querySelector(".toast");
-        if (toastElement) {
-          toastElement.classList.add("success");
-          const iconElement =
-            toastElement.querySelector(".toast-content img");
-          if (iconElement) {
-            iconElement.src = "../../../../../assets/images/svg/correct.svg";
-            iconElement.alt = "reward"; // Update alt text for better semantics
-          }
-        }
-      }
-
-      // Show toast
-      toast.classList.add("active");
-      progress.classList.add("active");
-
-      // Auto-hide toast
-      let timer1 = setTimeout(() => {
-        toast.classList.remove("active");
-        toast.classList.add("hidden");
-        window.location.href = "/home/";
-      }, 5000);
-
-      let timer2 = setTimeout(() => {
-        progress.classList.remove("active");
-        toast.classList.remove("hidden");
-        window.location.href = "/home/";
-      }, 5300);
-
-      // Close toast manually
-      closeIcon.addEventListener("click", () => {
-        toast.classList.remove("active");
-        progress.classList.remove("active");
-        toast.classList.remove("hidden");
-        window.location.href = "/home/";
-        clearTimeout(timer1);
-        clearTimeout(timer2);
+  <body>
+    <!-- interstitial_ad -->
+    <script>
+      googletag.cmd.push(() => {
+        // Ensure the first call to display comes after static ad slot
+        // divs are defined. If you do not have any static ad slots, this
+        // call can be made immediately after services are enabled.
+        googletag.display(interstitialSlot);
       });
-    }
-  </script> -->
-</body>
+    </script>
+    <div class="mainContainer">
+      <section class="categoriesSection">
+        <div class="container">
+          <!-- /23201071713/quizTcz_top -->
 
+          <div class="header_space" style="padding-top: 0px">
+            <div
+              id="div-gpt-ad-1738056273528-0"
+              style="min-width: 300px; min-height: 250px; padding-top: 66px"
+            >
+              <script>
+                googletag.cmd.push(function () {
+                  googletag.display("div-gpt-ad-1738056273528-0");
+                });
+              </script>
+            </div>
+          </div>
+          <div class="logo-container">
+            <img
+              src="https://playerstorage.b-cdn.net/quiztwiz/assets/animation.gif"
+              alt="logo"
+              class="logo"
+            />
+            <h1 class="title">Well Played</h1>
+          </div>
+          <div class="score-container">
+            <div class="score-box">
+              <span id="score-value">0</span>
+              <span>Your Score</span>
+            </div>
+            <div class="score-box">
+              <span id="coins-value">25</span>
+              <span>Coins Earned</span>
+            </div>
+          </div>
+          <div class="action-container">
+            <button class="action-button watchAdButton" data-fn="doubleWinning">
+              Double Your winnings<img
+                src="../../../../../assets/images/svg/coin.svg"
+                alt="coin"
+              />
+            </button>
+          </div>
+          <hr class="divider" />
+          <div class="home-container">
+            <a href="/home/" class="home-button" id="home-button">Home</a>
+          </div>
+        </div>
+      </section>
+      <section class="rightSection">
+        <img
+          src="../../../../../assets/images/svg/sidePoster.svg"
+          alt="right-section"
+          class="poster-image"
+          loading="lazy"
+        />
+        <div class="welcomeText">
+          <h4>Welcome to 5 Minutes Quiz. Play a quiz and earn coins.</h4>
+          <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
+        </div>
+      </section>
+      <div class="toast">
+        <div class="toast-content">
+          <img
+            src="../../../../../assets/images/svg/correct.svg"
+            alt="alert"
+            loading="lazy"
+          />
+          <div class="message">
+            <span class="text text-2"></span>
+          </div>
+        </div>
+        <img
+          src="../../../../../assets/images/svg/crossIcon.svg"
+          alt="alert"
+          loading="lazy"
+          class="close"
+          style="height: 14px; width: 16px"
+        />
+        <div class="progress"></div>
+      </div>
+    </div>
+    <script src="../../../../../adscripts/quizTcz_landing_popUp.js"></script>
+
+    <!-- Script For Quizzes Play Start -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Retrieve score and coins from local storage
+        const quizScore = localStorage.getItem("quizScore");
+        const totalCoins = localStorage.getItem("TotalCoinPerGame");
+
+        // Display the score and coins
+        if (quizScore !== null) {
+          document.getElementById("score-value").textContent = quizScore;
+        } else {
+          document.getElementById("score-value").textContent = "0";
+          window.location.href = "/home/";
+        }
+
+        if (totalCoins !== null) {
+          document.getElementById("coins-value").textContent = totalCoins;
+        } else {
+          document.getElementById("coins-value").textContent = "0";
+        }
+      });
+    </script>
+    <!-- Script For Quizzes Play End -->
+
+    <!-- Script For Removing Trailing Slash From URL Start -->
+    <script>
+      if (window.location.pathname.endsWith("/")) {
+        const newURL = window.location.pathname.slice(0, -1);
+        history.replaceState({}, "", newURL);
+      }
+    </script>
+    <!-- Script For Removing Trailing Slash From URL End -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Add event listener to the Home button
+        document
+          .getElementById("home-button")
+          .addEventListener("click", function () {
+            // Clear specific local storage items
+            localStorage.removeItem("TotalCoinPerGame");
+            localStorage.removeItem("quizScore");
+            localStorage.removeItem("selectedCategory");
+            localStorage.removeItem("selectedQuiz");
+            localStorage.removeItem("selectedCategoryPath");
+            localStorage.removeItem("quizPlayed");
+          });
+      });
+    </script>
+  </body>
 </html>

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let correctAnswersCount = 0;
   let isMounted = false;
 
-  let rewardCoin = localStorage.getItem("RewardCoin");
+  let rewardCoin = sessionStorage.getItem("RewardCoin");
   
   // If CurrentUser is found in localStorage, navigate to home
   if (rewardCoin && !isMounted) {
@@ -58,16 +58,16 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
           // Update the coin count after all questions are answered
           let getCoins = parseInt(localStorage.getItem("TotalCoin"), 10);
-          console.log("Total coins: ", getCoins);
           rewardCoin = (correctAnswersCount * coinsPerCorrectAnswer) + 100;
           const totalCoins = getCoins + rewardCoin;
           localStorage.setItem("TotalCoin", totalCoins.toString());
-          localStorage.setItem("RewardCoin", rewardCoin.toString());
+          sessionStorage.setItem("RewardCoin", rewardCoin.toString());
           // Remove 'hidden' class from rewardContainer
           document.getElementById("rewardContainer").classList.remove("hidden");
           // Add 'hidden' class to mainContainer
           document.getElementById("mainContainer").classList.add("hidden");
         }
+          
       }, 500); // 500 milliseconds = 0.5 second
     }
   }

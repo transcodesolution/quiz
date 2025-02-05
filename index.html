@@ -46,9 +46,9 @@
         <h2 class="instantCoin">Get Instant 100 Coins!</h2>
         <p class="watchAdd">Watch a simple ad and get rewarded</p>
         <button
-          data-target="../quizPlay/"
           class="claimReward watchAdButton"
           id="claimRewardButton"
+          data-fn="claimReward"
         >
           Claim
         </button>
@@ -196,67 +196,16 @@
     <script src="adscripts/quizTcz_landing_popUp.js"></script>
 
     <script>
-      document
-        .getElementById("claimRewardButton")
-        .addEventListener("click", function () {
-          showToast(`100 Coins Rewarded !!`, "success");
-        });
-
       // Add event listener for the cross icon to close the modal
       document
         .getElementById("crossIcon")
         .addEventListener("click", function () {
           window.location.href = "../quizPlay/";
-        });
-
-      function showToast(message, type) {
-        const toast = document.querySelector(".toast");
-        const progress = document.querySelector(".progress");
-        const closeIcon = document.querySelector(".close");
-
-        // Update toast message
-        document.querySelector(".toast .message .text-2").innerText = message;
-        if (type === "success") {
-          const toastElement = document.querySelector(".toast");
-          if (toastElement) {
-            toastElement.classList.add("success");
-            const iconElement =
-              toastElement.querySelector(".toast-content img");
-            if (iconElement) {
-              iconElement.src = "assets/images/gif/rewarded.gif";
-              iconElement.alt = "reward"; // Update alt text for better semantics
-            }
-          }
-        }
-
-        // Show toast
-        toast.classList.add("active");
-        progress.classList.add("active");
-
-        // Auto-hide toast
-        let timer1 = setTimeout(() => {
-          toast.classList.remove("active");
-          toast.classList.add("hidden");
-          window.location.href = "../quizPlay/";
-        }, 5000);
-
-        let timer2 = setTimeout(() => {
-          progress.classList.remove("active");
-          toast.classList.remove("hidden");
-          window.location.href = "../quizPlay/";
-        }, 5300);
-
-        // Close toast manually
-        closeIcon.addEventListener("click", () => {
-          toast.classList.remove("active");
-          progress.classList.remove("active");
-          toast.classList.remove("hidden");
-          window.location.href = "../quizPlay/";
-
-          clearTimeout(timer1);
-          clearTimeout(timer2);
-        });
-      }
+          // Add 'hidden' class from rewardContainer
+          document.getElementById("rewardContainer").classList.add("hidden");
+          // Remove 'hidden' class to mainContainer
+          document.getElementById("mainContainer").classList.remove("hidden");
+        }); 
     </script>
   </body>
 </html>

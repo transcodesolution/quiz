@@ -260,6 +260,7 @@ header .notification span {
   transform: translateX(calc(100% + 30px));
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.35);
   background-color: #555;
+  z-index: 99;
 }
 
 .toast.active {
@@ -336,7 +337,9 @@ header .notification span {
 .toast.success .progress:before {
   background-color: #bb86fc; /* Success green color */
 }
-
+.toast.error .progress:before {
+  background-color: #e74c3c; /* Success green color */
+}
 .progress.active:before {
   animation: progress 5s linear forwards;
 }

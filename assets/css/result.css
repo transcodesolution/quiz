@@ -3,8 +3,6 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding-top: 50px;
-  padding-bottom: 56px;
 }
 
 .categoriesSection {
@@ -16,7 +14,7 @@
   gap: 24px;
   padding-inline: 20px;
   box-sizing: border-box;
-  height: -webkit-fill-available;
+  height: 100vh;
 }
 
 .container {

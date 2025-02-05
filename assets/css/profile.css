@@ -4,7 +4,7 @@
   align-items: center;
   overflow: hidden;
   padding-top: 50px;
-  padding-bottom: 56px;
+  padding-bottom: 66px;
 }
 
 .categoriesSection {
@@ -33,6 +33,8 @@
   width: 100%;
   gap: 40px;
   margin-top: 24px;
+  padding-left: 10px;
+
 }
 
 .profileImgContainer {
@@ -58,7 +60,9 @@
   align-items: center;
   justify-content: center;
   align-items: center;
-  width: -webkit-fill-available;
+  overflow: hidden;
+  margin-right: 30px;
+  /* width: -webkit-fill-available; */
 }
 
 .userProfileDetails p {
@@ -138,7 +142,7 @@
 }
 
 @media (max-width: 450px) {
-  .profileImgContainer {
+  /* .profileImgContainer {
     width: 96px;
     height: 96px;
     min-width: 96px;
@@ -146,7 +150,7 @@
   .profileImgContainer img {
     height: 96px;
     border-radius: 9999px;
-  }
+  } */
 
   .userProfileDetails p {
     font-size: 1.5rem;
@@ -155,9 +159,10 @@
   }
   .userProfileContainer {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 16px;
     align-items: center;
+    justify-content: center;
   }
 }
 .toast {

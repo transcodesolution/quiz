@@ -209,23 +209,31 @@
         );
         const categoryPath = localStorage.getItem("selectedCategoryPath");
 
-        if (selectedQuizInfo?.payment != "Done") {
-          const totalCoins = localStorage.getItem("TotalCoin") || 0;
-          const entryFeeCut = totalCoins - selectedQuizInfo.entryFee;
-          localStorage.setItem("TotalCoin", entryFeeCut || 0);
-          document.getElementById(
-            "totalCoinsDisplay"
-          ).innerHTML = `${entryFeeCut} <span>COINS</span>`;
+        if (selectedQuizInfo) {
+          if (selectedQuizInfo?.payment != "Done") {
+            const totalCoins = localStorage.getItem("TotalCoin") || 0;
+            const entryFeeCut = totalCoins - selectedQuizInfo.entryFee;
+            localStorage.setItem("TotalCoin", entryFeeCut || 0);
+            document.getElementById(
+              "totalCoinsDisplay"
+            ).innerHTML = `${entryFeeCut} <span>COINS</span>`;
 
-          localStorage.setItem(
-            "selectedQuiz",
-            JSON.stringify({ ...selectedQuizInfo, payment: "Done" })
-          );
+            localStorage.setItem(
+              "selectedQuiz",
+              JSON.stringify({ ...selectedQuizInfo, payment: "Done" })
+            );
+          }
+        } else {
+          window.location.href = "/home/";
         }
+
         if (selectedQuizInfo && categoryPath) {
           fetch(`../../../${categoryPath}`)
             .then((response) => response.json())
             .then((quizzes) => {
+              if (quizzes.length === 0) {
+                window.location.href = "/home/";
+              }
               const quizData = quizzes.find(
                 (quiz) => quiz.title === selectedQuizInfo.quizTitle
               );
@@ -502,13 +510,21 @@
                       this.querySelector("p").textContent.trim();
 
                     if (lifeLineType === "50:50") {
-                      useFiftyFifty();
+                      setTimeout(() => {
+                        useFiftyFifty();
+                      }, 2000);
                     } else if (lifeLineType === "Audience poll") {
-                      useAudiencePoll();
+                      setTimeout(() => {
+                        useAudiencePoll();
+                      }, 2000);
                     } else if (lifeLineType === "Freeze Timer") {
-                      useFreezeTimer();
+                      setTimeout(() => {
+                        useFreezeTimer();
+                      }, 2000);
                     } else if (lifeLineType === "Flip Question") {
-                      useFlipQuestion();
+                      setTimeout(() => {
+                        useFlipQuestion();
+                      }, 2000);
                     }
 
                     this.classList.add("used");
@@ -595,13 +611,16 @@
                 }
               } else {
                 console.error("Quiz not found.");
+                window.location.href = "/home/";
               }
             })
-            .catch((error) =>
-              console.error("Error fetching quiz data:", error)
-            );
+            .catch((error) => {
+              console.error("Error fetching quiz data:", error);
+              window.location.href = "/home/";
+            });
         } else {
           console.error("Selected quiz information is missing.");
+          window.location.href = "/home/";
         }
       });
     </script>
