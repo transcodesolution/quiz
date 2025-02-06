@@ -1,10 +1,10 @@
 .mainContainer {
   display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
   padding-top: 50px;
   padding-bottom: 66px;
+  height: 100vh;
+  position: relative;
 }
 .categoriesSection {
   display: flex;
@@ -14,11 +14,11 @@
   width: 100%;
   padding-inline: 20px;
   box-sizing: border-box;
-  overflow-y: auto;
+  overflow-y: scroll;
   overflow-x: hidden;
   scrollbar-width: none;
   -ms-overflow-style: none;
-}
+ }
 .slider-container {
   display: flex;
   align-items: center;
