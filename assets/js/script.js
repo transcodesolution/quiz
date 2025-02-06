@@ -6,11 +6,23 @@ document.addEventListener("DOMContentLoaded", () => {
   let isMounted = false;
 
   let rewardCoin = sessionStorage.getItem("RewardCoin");
-  
+
   // If CurrentUser is found in localStorage, navigate to home
   if (rewardCoin && !isMounted) {
     window.location.href = "home";
   }
+
+  function clearLocalStorage() {
+    localStorage.removeItem("TotalCoinPerGame");
+    localStorage.removeItem("quizScore");
+    localStorage.removeItem("selectedCategory");
+    localStorage.removeItem("selectedQuiz");
+    localStorage.removeItem("selectedCategoryPath");
+    localStorage.removeItem("quizPlayed");
+    localStorage.removeItem("TotalCoin");
+    localStorage.removeItem("rewardData");
+  }
+  clearLocalStorage();
 
   // Initialize total coins in localStorage if not already set
   if (!localStorage.getItem("TotalCoin")) {
@@ -58,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
           // Update the coin count after all questions are answered
           let getCoins = parseInt(localStorage.getItem("TotalCoin"), 10);
-          rewardCoin = (correctAnswersCount * coinsPerCorrectAnswer) + 100;
+          rewardCoin = correctAnswersCount * coinsPerCorrectAnswer + 100;
           const totalCoins = getCoins + rewardCoin;
           localStorage.setItem("TotalCoin", totalCoins.toString());
           sessionStorage.setItem("RewardCoin", rewardCoin.toString());
@@ -67,7 +79,6 @@ document.addEventListener("DOMContentLoaded", () => {
           // Add 'hidden' class to mainContainer
           document.getElementById("mainContainer").classList.add("hidden");
         }
-          
       }, 500); // 500 milliseconds = 0.5 second
     }
   }
