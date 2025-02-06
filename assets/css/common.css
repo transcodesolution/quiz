@@ -18,6 +18,10 @@ html,
   margin: 0;
   padding: 0;
 }
+/* Add this to your CSS file */
+*:focus {
+  outline: none;
+}
 a,
 span,
 a:hover,
@@ -102,4 +106,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
 }
