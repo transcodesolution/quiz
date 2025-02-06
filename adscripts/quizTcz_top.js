@@ -5,7 +5,6 @@ googletag.cmd.push(function () {
       "/23201071713/quizTcz_top",
       [
         [300, 250],
-        [480, 320],
         [336, 280],
       ],
       "div-gpt-ad-1738056273528-0"
