@@ -16,7 +16,6 @@
     <script src="../../../../adscripts/quizTcz_reward.js"></script>
     <script src="../../../../adscripts/quizTcz_interstial.js"></script>
     <script src="../../../../adscripts/quizTcz_inGameQuiz_Center.js"></script>
-    <script src="../../../../adscripts/quizTcz_lifeLine.js"></script>
   </head>
 
   <body>
@@ -650,13 +649,21 @@
         const lifeLineOptionsContainer = document.querySelector(
           ".lifeLineOptionsContainer"
         );
+        const AudiencePollContainer = document.querySelector(
+          ".AudiencePollContainer"
+        );
 
         lifeLineTap.addEventListener("click", function () {
-          if (lifeLineOptionsContainer.style.height === "100px") {
+          if (
+            lifeLineOptionsContainer.style.height === "100px" ||
+            AudiencePollContainer.style.height === "100px"
+          ) {
             lifeLineOptionsContainer.style.height = "0px";
+            AudiencePollContainer.style.height = "0px";
             lifeLineTap.querySelector("p").textContent = "Tap to use Lifelines";
           } else {
             lifeLineOptionsContainer.style.height = "100px";
+            AudiencePollContainer.style.height = "100px";
             lifeLineTap.querySelector("p").textContent = "Lifelines";
           }
         });

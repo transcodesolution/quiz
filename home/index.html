@@ -167,6 +167,7 @@
     </script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
+        localStorage.removeItem("quizPlayed");
         // Retrieve and display total coins from local storage
         const totalCoins = localStorage.getItem("TotalCoin") || 0;
         document.getElementById(

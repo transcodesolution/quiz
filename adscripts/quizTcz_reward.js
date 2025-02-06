@@ -1,6 +1,12 @@
-function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey) {
+function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
   window.googletag = window.googletag || { cmd: [] };
 
+  // Check if the ad has already been shown for this button
+  const adShownKey = `adShown_${buttonId}`;
+  if (sessionStorage.getItem(adShownKey)) {
+    console.log(`Ad already shown for button ${buttonId}.`);
+    return;
+  }
   // Check if the daily reward ad has been shown twice
   if (
     dataFnKey === "dailyReward" &&
@@ -42,6 +48,10 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey) {
         updateStatus("No ad returned for rewarded ad slot.");
         showToast("RewardAds not available", "error", dataFnKey); // Show only this toast
         giveRewardAfterAds(dataFnKey, true); // Reward but don't show extra toast
+      } else {
+        // Set sessionStorage flag after ad is shown for this button
+        const adShownKey = `adShown_${buttonId}`;
+        sessionStorage.setItem(adShownKey, "true");
       }
     });
 
@@ -61,6 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const alwaysShowAd =
         button.getAttribute("data-target") === "../quizPlay/";
       const dataFnKey = button.getAttribute("data-fn");
+      const buttonId = button.getAttribute("data-button-id");
 
       // Reset toast and progress bar state
       const toast = document.querySelector(".toast");
@@ -69,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
       toast.classList.remove("success", "error");
       progress.classList.remove("activeToast");
 
-      setupRewardedAd(targetUrl, alwaysShowAd, dataFnKey);
+      setupRewardedAd(targetUrl, alwaysShowAd, dataFnKey, buttonId);
     };
   });
 });

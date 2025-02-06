@@ -62,3 +62,5 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("Clearing sessionStorage after reload.");
     sessionStorage.clear();
   }
+
+
