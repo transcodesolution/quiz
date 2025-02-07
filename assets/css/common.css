@@ -116,3 +116,11 @@ textarea:focus {
 * {
   -webkit-tap-highlight-color: transparent;
 }
+/* Set a default size for the ad container */
+#div-gpt-ad-1738056273528-0,
+#div-gpt-ad-1738058472013-0,
+#div-gpt-ad-1737543137369-0 {
+  min-width: 300px;
+  min-height: 250px;
+}
+

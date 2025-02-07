@@ -93,6 +93,8 @@ button:hover {
   font-size: 0.875rem; /* 14px */
   line-height: 1.25rem; /* 20px */
   color: #374151;
+  display: flex;
+  gap: 3px;
 }
 .signUp a {
   color: #3b82f6;

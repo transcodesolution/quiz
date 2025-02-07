@@ -74,6 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
           const totalCoins = getCoins + rewardCoin;
           localStorage.setItem("TotalCoin", totalCoins.toString());
           sessionStorage.setItem("RewardCoin", rewardCoin.toString());
+
+          // Trigger interstitial ad before showing the modal
+          googletag.cmd.push(() => {
+              console.log("interstitialSlot", interstitialSlot);
+            googletag.display(interstitialSlot);
+          });
+
           // Remove 'hidden' class from rewardContainer
           document.getElementById("rewardContainer").classList.remove("hidden");
           // Add 'hidden' class to mainContainer

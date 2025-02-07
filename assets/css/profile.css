@@ -1,4 +1,4 @@
-.mainContainer {
+  .mainContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@
 }
 
 @media (max-width: 450px) {
-  /* .profileImgContainer {
+  .profileImgContainer {
     width: 96px;
     height: 96px;
     min-width: 96px;
@@ -150,7 +150,7 @@
   .profileImgContainer img {
     height: 96px;
     border-radius: 9999px;
-  } */
+  }
 
   .userProfileDetails p {
     font-size: 1.5rem;
@@ -163,6 +163,12 @@
     gap: 16px;
     align-items: center;
     justify-content: center;
+  }
+  .profileContainer{
+    gap: 16px;
+  }
+  .categoriesSection{
+    gap: 0px;
   }
 }
 .toast {

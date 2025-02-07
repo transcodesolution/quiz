@@ -31,23 +31,43 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
     googletag.pubads().addEventListener("rewardedSlotClosed", () => {
       // Increment the ad shown count for daily reward
       if (dataFnKey === "dailyReward") {
+        if (rewardPayload) {
+          let adShownCount = parseInt(
+            sessionStorage.getItem("dailyRewardAdShown") || "0",
+            10
+          );
+          adShownCount += 1;
+          sessionStorage.setItem("dailyRewardAdShown", adShownCount);
+          giveRewardAfterAds(dataFnKey, false); // Do not trigger extra toast
+        }
+      }
+      if (dataFnKey && dataFnKey !== "dailyReward") {
+        setTimeout(
+          () => giveRewardAfterAds(dataFnKey, true), // Reward but don't show extra toast
+          [500]
+        );
+      }
+    });
+
+    googletag.pubads().addEventListener("rewardedSlotGranted", (event) => {
+      rewardPayload = event.payload;
+      updateStatus("Reward granted.");
+    });
+
+    googletag.pubads().addEventListener("slotRenderEnded", (event) => {
+      if (event.slot === rewardedSlot && event.isEmpty) {
+        updateStatus("No ad returned for rewarded ad slot.");
         let adShownCount = parseInt(
           sessionStorage.getItem("dailyRewardAdShown") || "0",
           10
         );
         adShownCount += 1;
         sessionStorage.setItem("dailyRewardAdShown", adShownCount);
-      }
-      if (dataFnKey) {
-        giveRewardAfterAds(dataFnKey, false); // Do not trigger extra toast
-      }
-    });
-
-    googletag.pubads().addEventListener("slotRenderEnded", (event) => {
-      if (event.slot === rewardedSlot && event.isEmpty) {
-        updateStatus("No ad returned for rewarded ad slot.");
         showToast("RewardAds not available", "error", dataFnKey); // Show only this toast
-        giveRewardAfterAds(dataFnKey, true); // Reward but don't show extra toast
+        setTimeout(
+          () => giveRewardAfterAds(dataFnKey, true), // Reward but don't show extra toast
+          [500]
+        );
       }
       // Set sessionStorage flag after ad is shown for this button
       const adShownKey = `adShown_${buttonId}`;
@@ -61,7 +81,10 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
   } else {
     updateStatus("Rewarded ads are not supported on this page.");
     showToast("RewardAds not available", "error", dataFnKey); // Show only this toast
-    giveRewardAfterAds(dataFnKey, true); // Reward but don't show extra toast
+    setTimeout(
+      () => giveRewardAfterAds(dataFnKey, true), // Reward but don't show extra toast
+      [500]
+    );
     const adShownKey = `adShown_${buttonId}`;
     if (buttonId && sessionStorage.getItem(adShownKey)) {
       sessionStorage.setItem(adShownKey, "true");
@@ -129,6 +152,9 @@ function handleDailyReward(suppressToast = false, key = "") {
   const rewardData = JSON.parse(localStorage.getItem("rewardData")) || {};
   const totalCoinsDisplay = document.getElementById("totalCoinsDisplay");
 
+  if (!suppressToast) {
+    showToast("You have received 100 coins!", "success", key);
+  }
   if (rewardData.date !== today) {
     rewardData.date = today;
     rewardData.claims = 0;
@@ -141,9 +167,6 @@ function handleDailyReward(suppressToast = false, key = "") {
       parseInt(localStorage.getItem("TotalCoin") || "0", 10) + 100;
     localStorage.setItem("TotalCoin", totalCoins);
     totalCoinsDisplay.innerHTML = `${totalCoins} <span>COINS</span>`;
-    if (!suppressToast) {
-      showToast("You have received 100 coins!", "success", key);
-    }
   }
   localStorage.setItem("rewardData", JSON.stringify(rewardData));
 }
