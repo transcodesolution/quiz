@@ -43,6 +43,8 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
       } else if (dataFnKey === "claimReward") {
         if (rewardPayload) {
           giveRewardAfterAds(dataFnKey, false); // Do not trigger extra toast
+        }else{
+          window.location.href = "../quizPlay/";
         }
       }
       if (dataFnKey && dataFnKey !== "dailyReward" && dataFnKey !== "claimReward") {
