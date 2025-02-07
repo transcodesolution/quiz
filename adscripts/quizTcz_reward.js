@@ -43,11 +43,15 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
       } else if (dataFnKey === "claimReward") {
         if (rewardPayload) {
           giveRewardAfterAds(dataFnKey, false); // Do not trigger extra toast
-        }else{
+        } else {
           window.location.href = "../quizPlay/";
         }
       }
-      if (dataFnKey && dataFnKey !== "dailyReward" && dataFnKey !== "claimReward") {
+      if (
+        dataFnKey &&
+        dataFnKey !== "dailyReward" &&
+        dataFnKey !== "claimReward"
+      ) {
         setTimeout(
           () => giveRewardAfterAds(dataFnKey, true), // Reward but don't show extra toast
           [500]
@@ -219,9 +223,9 @@ function showToast(message, type, key) {
       toastElement.classList.add("hidden");
       redirectToPage(key);
     },
-    key === "dailyReward"
+    key === "dailyReward" || key === "claimReward"
       ? 5000
-      : key === "doubleWinning" || key === "claimReward"
+      : key === "doubleWinning"
       ? 3000
       : 1000
   );
