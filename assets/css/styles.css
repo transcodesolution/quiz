@@ -429,8 +429,8 @@ header .notification span {
 }
 
 #div-gpt-ad-1737541487066-0 {
-  width: 336px;
-  height: 280px;
+  /* width: 336px; */
+  /* height: 280px; */
   margin: 0 auto;
   display: flex;
   justify-content: center;

@@ -198,7 +198,6 @@
         </div>
       </div>
     </div>
-    <script src="../../../../adscripts/quizTcz_landing_popUp.js"></script>
 
     <!-- Script For Quizzes Play Start -->
     <script>
@@ -336,6 +335,7 @@
                       saveCalculation();
                       window.location.href = "quiz/result";
                       localStorage.setItem("quizPlayed", true);
+                      sessionStorage.clear();
                     } else {
                       document.getElementById("quizTimeOut").innerHTML =
                         totalTime;
@@ -453,6 +453,7 @@
                       saveCalculation();
                       window.location.href = "quiz/result";
                       localStorage.setItem("quizPlayed", true);
+                      sessionStorage.clear();
                     }
 
                     // Hide audience poll and show lifeline options again
@@ -507,7 +508,6 @@
 
                     const lifeLineType =
                       this.querySelector("p").textContent.trim();
-
                     if (lifeLineType === "50:50") {
                       setTimeout(() => {
                         useFiftyFifty();
@@ -632,8 +632,10 @@
         history.replaceState({}, "", newURL);
       }
     </script>
+    <!-- Script For Removing Trailing Slash From URL End -->
+
+    <!-- Retrieve and display total coins Start -->
     <script>
-      // Retrieve and display total coins
       document.addEventListener("DOMContentLoaded", function () {
         const totalCoins = localStorage.getItem("TotalCoin") || 0;
         document.getElementById(
@@ -641,7 +643,8 @@
         ).innerHTML = `${totalCoins} <span>COINS</span>`;
       });
     </script>
-    <!-- Script For Removing Trailing Slash From URL End -->
+    <!-- Retrieve and display total coins End -->
+
     <!-- Script For Life Line animation Start -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -670,6 +673,7 @@
       });
     </script>
     <!-- Script For Life Line animation End -->
+
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const isQuizPlayed = localStorage.getItem("quizPlayed");
@@ -677,6 +681,12 @@
           window.location.href = "/home/";
           localStorage.remove("quizPlayed");
         }
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        sessionStorage.clear();
       });
     </script>
   </body>

@@ -3,7 +3,7 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
 
   // Check if the ad has already been shown for this button
   const adShownKey = `adShown_${buttonId}`;
-  if (sessionStorage.getItem(adShownKey)) {
+  if (buttonId && sessionStorage.getItem(adShownKey)) {
     console.log(`Ad already shown for button ${buttonId}.`);
     return;
   }
@@ -48,9 +48,10 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
         updateStatus("No ad returned for rewarded ad slot.");
         showToast("RewardAds not available", "error", dataFnKey); // Show only this toast
         giveRewardAfterAds(dataFnKey, true); // Reward but don't show extra toast
-      } else {
-        // Set sessionStorage flag after ad is shown for this button
-        const adShownKey = `adShown_${buttonId}`;
+      }
+      // Set sessionStorage flag after ad is shown for this button
+      const adShownKey = `adShown_${buttonId}`;
+      if (buttonId) {
         sessionStorage.setItem(adShownKey, "true");
       }
     });
@@ -61,6 +62,10 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
     updateStatus("Rewarded ads are not supported on this page.");
     showToast("RewardAds not available", "error", dataFnKey); // Show only this toast
     giveRewardAfterAds(dataFnKey, true); // Reward but don't show extra toast
+    const adShownKey = `adShown_${buttonId}`;
+    if (buttonId && sessionStorage.getItem(adShownKey)) {
+      sessionStorage.setItem(adShownKey, "true");
+    }
   }
 }
 
