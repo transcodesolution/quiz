@@ -442,3 +442,18 @@ header .notification span {
     min-width: 350px;
   }
 }
+
+.sticky_ads {
+  position: fixed;
+  bottom: 0%;
+  right: auto;
+  left: auto;
+  overflow: hidden;
+  padding: 0px 8px 0px 5px;
+  margin: 0 auto 10px auto;
+  background-color: #000000c2;
+  min-width: 360px;
+  transform: translate(0%, 10%);
+  display: flex;
+  justify-content: center;
+}

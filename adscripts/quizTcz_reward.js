@@ -40,19 +40,24 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
           sessionStorage.setItem("dailyRewardAdShown", adShownCount);
           giveRewardAfterAds(dataFnKey, false); // Do not trigger extra toast
         }
+      } else if (dataFnKey === "claimReward") {
+        if (rewardPayload) {
+          giveRewardAfterAds(dataFnKey, false); // Do not trigger extra toast
+        }
       }
-      if (dataFnKey && dataFnKey !== "dailyReward") {
+      if (dataFnKey && dataFnKey !== "dailyReward" && dataFnKey !== "claimReward") {
         setTimeout(
           () => giveRewardAfterAds(dataFnKey, true), // Reward but don't show extra toast
           [500]
         );
       }
     });
-
-    googletag.pubads().addEventListener("rewardedSlotGranted", (event) => {
-      rewardPayload = event.payload;
-      updateStatus("Reward granted.");
-    });
+    if (dataFnKey === "dailyReward" || dataFnKey === "claimReward") {
+      googletag.pubads().addEventListener("rewardedSlotGranted", (event) => {
+        rewardPayload = event.payload;
+        updateStatus("Reward granted.");
+      });
+    }
 
     googletag.pubads().addEventListener("slotRenderEnded", (event) => {
       if (event.slot === rewardedSlot && event.isEmpty) {
