@@ -263,7 +263,7 @@ header .notification span {
   z-index: 99;
 }
 
-.toast.active {
+.toast.activeToast {
   transform: translateX(0%);
 }
 
@@ -340,7 +340,7 @@ header .notification span {
 .toast.error .progress:before {
   background-color: #e74c3c; /* Success green color */
 }
-.progress.active:before {
+.progress.activeToast:before {
   animation: progress 5s linear forwards;
 }
 
@@ -427,8 +427,8 @@ header .notification span {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 300px; /* Default width */
-  min-height: 250px; /* Default height */
+  min-width: 320px; /* Default width */
+  min-height: 280px; /* Default height */
 }
 
 #div-gpt-ad-1737541487066-0 {

@@ -30,39 +30,36 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
 
     googletag.pubads().addEventListener("rewardedSlotClosed", () => {
       // Increment the ad shown count for daily reward
-      if (dataFnKey === "dailyReward") {
-        if (rewardPayload) {
+
+      if (rewardPayload) {
+        if (dataFnKey === "dailyReward") {
           let adShownCount = parseInt(
             sessionStorage.getItem("dailyRewardAdShown") || "0",
             10
           );
-          adShownCount += 1;
-          sessionStorage.setItem("dailyRewardAdShown", adShownCount);
-          giveRewardAfterAds(dataFnKey, false); // Do not trigger extra toast
+          sessionStorage.setItem("dailyRewardAdShown", ++adShownCount);
         }
-      } else if (dataFnKey === "claimReward") {
-        if (rewardPayload) {
-          giveRewardAfterAds(dataFnKey, false); // Do not trigger extra toast
-        } else {
-          window.location.href = "../quizPlay/";
+        if (
+          ["dailyReward", "claimReward", "doubleWinning"].includes(dataFnKey)
+        ) {
+          giveRewardAfterAds(dataFnKey, false); // Show toast
         }
-      }
-      if (
-        dataFnKey &&
-        dataFnKey !== "dailyReward" &&
-        dataFnKey !== "claimReward"
-      ) {
-        setTimeout(
-          () => giveRewardAfterAds(dataFnKey, true), // Reward but don't show extra toast
-          [500]
-        );
+      } else if (["claimReward", "doubleWinning"].includes(dataFnKey)) {
+        window.location.href =
+          dataFnKey === "claimReward" ? "../quizPlay/" : "/home/";
       }
     });
-    if (dataFnKey === "dailyReward" || dataFnKey === "claimReward") {
+
+    if (["dailyReward", "claimReward", "doubleWinning"].includes(dataFnKey)) {
       googletag.pubads().addEventListener("rewardedSlotGranted", (event) => {
         rewardPayload = event.payload;
         updateStatus("Reward granted.");
       });
+    }
+
+    const nonRewardKeys = ["dailyReward", "claimReward", "doubleWinning"];
+    if (dataFnKey && !nonRewardKeys.includes(dataFnKey)) {
+      setTimeout(() => giveRewardAfterAds(dataFnKey, false), 500); // Reward but don't show extra toast
     }
 
     googletag.pubads().addEventListener("slotRenderEnded", (event) => {
@@ -118,7 +115,6 @@ document.addEventListener("DOMContentLoaded", () => {
       toast.classList.remove("activeToast", "hidden");
       toast.classList.remove("success", "error");
       progress.classList.remove("activeToast");
-
       setupRewardedAd(targetUrl, alwaysShowAd, dataFnKey, buttonId);
     };
   });
@@ -189,9 +185,11 @@ function doubleWinning(suppressToast = false, key = "") {
   }
   const coins = localStorage.getItem("TotalCoinPerGame");
   const doubledCoins = parseInt(coins) * 2;
+  const totalCoins = parseInt(localStorage.getItem("TotalCoin") || "0", 10);
+  const totalReward = totalCoins + doubledCoins;
   localStorage.setItem("TotalCoinPerGame", doubledCoins);
   document.getElementById("coins-value").textContent = doubledCoins;
-  localStorage.setItem("TotalCoin", doubledCoins);
+  localStorage.setItem("TotalCoin", totalReward);
 }
 
 function claimReward(suppressToast = false, key = "") {
@@ -224,7 +222,7 @@ function showToast(message, type, key) {
       redirectToPage(key);
     },
     key === "dailyReward" || key === "claimReward"
-      ? 5000
+      ? 4000
       : key === "doubleWinning"
       ? 3000
       : 1000
