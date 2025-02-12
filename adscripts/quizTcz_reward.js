@@ -221,17 +221,13 @@ function showToast(message, type, key) {
       toastElement.classList.add("hidden");
       redirectToPage(key);
     },
-    key === "dailyReward" || key === "claimReward"
-      ? 4000
-      : key === "doubleWinning"
-      ? 3000
-      : 1000
+    key === "dailyReward" ? 4000 : 1000
   );
 
   closeIcon.addEventListener("click", () => {
     toastElement.classList.remove("activeToast");
     progress.classList.remove("activeToast");
-    toastElement.classList.remove("hidden");
+    toastElement.classList.remove("hidden");  
     redirectToPage(key);
     clearTimeout(timer1);
   });
