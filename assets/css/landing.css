@@ -1,252 +1,150 @@
-/* Quiz Section */
+/* InsuranceContainer Section */
 
-.mainContainer {
+.app_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  overflow: hidden;
 }
-.quizSection {
+.insuranceSection {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   max-width: 520px;
   width: 100%;
   gap: 3px;
-  padding: 12px;
+  padding: 20px 20px 20px 20px;
   box-sizing: border-box;
+  height: 100vh;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
-.quizContainer {
+.insuranceContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 24px;
 }
-header .notification {
-  padding: 10px;
-  text-align: center;
+.flexContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 12px;
-}
-.notification p {
-  color: var(--text-primary);
-  font-size: 0.75rem; /* 12px */
+  justify-content: center;
 }
 
-header .notification span {
-  color: #f39c12;
-}
-
-.quizSection {
-  text-align: center;
+.redeem_box {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  gap: 24px;
+  padding: 12px;
+  padding-block: 24px;
+  background-color: #20213f;
+  border-radius: 24px;
+  border: 1px solid #404380;
+  width: -webkit-fill-available;
 }
-
-.quizSection h2 {
+.redeem_box_text {
   font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.question {
-  font-weight: bold;
-  text-align: center;
-  padding: 0 2.5rem;
-}
-
-.questionContainer {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-}
-
-.optionsGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.75rem;
-  padding: 0 0.75rem;
-  width: 100%;
-  margin-top: 0.5rem;
-}
-
-.option {
-  background: #20213f;
-  border: 2px solid #404380;
-  border-radius: 9999px;
-  padding: 0.5rem;
-  text-align: center;
-  font-size: 14px;
-  cursor: pointer;
-  min-height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.signup {
-  color: var(--text-secondary);
-  margin-top: 10px;
-  font-weight: 700;
-}
-
-.infoSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  gap: 12px;
-  padding-left: 20px;
-}
-
-.infoSection h3 {
-  width: 100%;
-  text-align: left;
-  font-size: 1.125rem; /* 18px */
-  font-weight: 700;
-}
-
-.infoSection ul {
-  list-style: none;
-  padding: 0;
-  color: var(--text-primary);
-  font-size: 14px;
-  list-style-type: disc;
-  padding-left: 1rem;
-  text-align: start;
-  line-height: 1.5;
-}
-
-.infoSection li {
-  margin-bottom: 8px;
-}
-.funFacts {
-  padding: 24px;
-  border: 2px solid #ffffff; /* Change border color to white */
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-}
-.funFacts h1 {
-  font-size: 24px;
-  font-weight: 400;
-  text-align: center;
-  color: var(--text-tertiary);
-}
-.funFacts p {
-  width: 100%;
-  text-align: left;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.contactSection {
-  display: flex;
-  border: 1px solid white;
-  justify-content: center;
-  gap: 1rem;
-  text-align: left;
-  align-items: center;
-  padding: 1rem;
-  border-radius: 0.5rem;
-}
-
-.contactText {
-  flex: 1;
-  line-height: 1.5;
-}
-
-.contactButton {
-  width: 30%;
-  background-color: var(--text-tertiary);
+  line-height: 32px;
   color: white;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 9999px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
+  font-weight: 600;
 }
-
-.contactButton:hover {
-  background-color: #1d4ed8;
+.main_title_text {
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  font-weight: 700;
 }
-
-.rewardContainer {
-  background-color: var(--bg-primary);
-  position: fixed;
-  top: 0;
+.insuranceDetailContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  z-index: 99;
+  gap: 24px;
 }
-
-.rewardBox {
-  background-color: var(--bg-primary);
+.relativeButtonContainer {
   position: relative;
+}
+.ad_Text {
+  position: absolute;
+  top: -8px;
+  font-size: 10px;
+  right: -16px;
+}
+.Pera_Container {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+.blog_post_subtext {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  padding: 0;
+}
+.blog_paragraph_text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.blog_subpost_img {
+  border-radius: 24px;
+}
+.insurance_number {
+  list-style-type: decimal;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 18px;
+}
+.blog_container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 16px;
+}
+.insurance_number li {
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.insurance_point {
+  list-style-type: disc;
+  padding-bottom: 0px;
+  padding-left: 18px;
+}
+
+.insurance_point li {
+  padding-bottom: 10px;
+}
+.best_insurance {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.buttonContainer {
+  gap: 40px;
+}
+.cusBtnOption {
+  display: flex;
   align-items: center;
-  margin-inline: 16px;
-  padding: 38px;
-  border-radius: 1.5rem;
-  border: 2px solid white;
-  width: 40%;
-  color: white;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--bg-secondary);
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 14px rgb(0 0 0 / 40%);
+  color: white !important;
+  border: 1px solid #404380;
+  font-weight: 500;
+  line-height: 21px;
 }
-.crossIcon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 16px;
-  cursor: pointer;
-}
-.crossIcon img {
-  height: 24px;
-  width: 24px;
-}
-.NewReward {
-  font-size: 1.5rem; /* 24px */
-  line-height: 2rem; /* 32px */
-  margin-bottom: 16px;
-  color: #d8e91e;
-}
-.instantCoin {
-  font-size: 2.25rem; /* 36px */
-  line-height: 2.5rem; /* 40px */
-  margin-bottom: 16px;
-}
-.watchAdd {
-  margin-bottom: 24px;
-  color: #8e8f98;
-}
-.claimReward {
-  background-color: #d8e91e;
-  width: 50%;
-  box-shadow: rgba(216, 233, 30, 0.9) 0px 10px 50px -20px,
-    rgba(0, 0, 0, 0.9) 0px 20px 60px -30px;
-  border-radius: 1.5rem;
-  padding: 16px;
-  margin-right: 8px;
-  font-size: 1rem; /* 16px */
-  line-height: 1.5rem; /* 24px */
-  font-weight: 700;
-  cursor: pointer;
-}
+
+/* ***************************************************************************************** */
 
 .toast {
   position: fixed;
@@ -359,23 +257,9 @@ header .notification span {
 }
 
 @media (max-width: 768px) {
-  .contactSection {
-    flex-direction: column;
-    width: -webkit-fill-available;
-  }
-  .contactButton {
-    width: 50%;
-  }
-  .instantCoin {
-    font-size: 1.5rem; /* 24px */
-    line-height: 2rem; /* 32px */
-  }
-  .claimReward {
-    width: 100%;
-  }
-  .rewardBox {
-    width: 68vw;
-  }
+  .redeem_box_text {
+    font-size: 16px;
+  } 
 }
 
 /* ************************************************************************************** */
@@ -390,7 +274,6 @@ header .notification span {
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  
 }
 
 .close-popup {

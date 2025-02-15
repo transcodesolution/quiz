@@ -1,0 +1,175 @@
+.app_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+.insuranceSection {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  max-width: 520px;
+  width: 100%;
+  gap: 3px;
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.insuranceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carInsurance_Text {
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  text-align: start;
+}
+.carInsurance_Button_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.buttonContainer {
+  display: flex;
+  border: 1px solid #404380;
+  border-radius: 12px;
+  padding: 28px;
+  width: -webkit-fill-available;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+}
+
+.toast {
+  position: fixed;
+  top: 25px;
+  right: 20px;
+  border-radius: 4px;
+  background: #fff;
+  padding: 20px 77px 20px 15px;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transform: translateX(calc(100% + 30px));
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.35);
+  background-color: #121212;
+  box-sizing: border-box;
+  min-width: 312px;
+  z-index: 99;
+}
+
+.toast.activeToast {
+  transform: translateX(0%);
+}
+
+.toast .toast-content {
+  display: flex;
+  align-items: center;
+}
+
+.toast-content {
+  display: flex;
+  gap: 16px;
+}
+
+.toast-content .check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  min-width: 35px;
+  background-color: #2770ff;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.toast-content .message {
+  display: flex;
+  flex-direction: column;
+}
+
+.message .text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+}
+
+.message .text.text-1 {
+  font-weight: 600;
+  color: #333;
+}
+
+.toast .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.toast .close:hover {
+  opacity: 1;
+}
+
+.toast .progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+}
+
+.toast .progress:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #e74c3c;
+}
+
+.toast.success .progress:before {
+  background-color: #07bc0c; /* Success green color */
+}
+.toast.error.progress:before {
+  background-color: #e74c3c; /* Success green color */
+}
+
+.progress.activeToast:before {
+  animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+  100% {
+    right: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .toast {
+    top: 0px;
+    right: 0px;
+    padding: 20px 44px 20px 15px;
+  }
+}
