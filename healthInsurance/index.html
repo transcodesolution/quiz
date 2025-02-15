@@ -66,7 +66,7 @@
               ];
               names.forEach((name) => {
                 document.write(`
-                    <div class="buttonContainer">
+                    <div class="buttonContainer" onclick = 'handelButtonClick()'>
                       <div class="buttonWrapper">
                         <p>${name}</p>
                         <img
@@ -120,6 +120,11 @@
       if (window.location.pathname.endsWith("/")) {
         const newURL = window.location.pathname.slice(0, -1);
         history.replaceState({}, "", newURL);
+      }
+    </script>
+     <script>
+      function handelButtonClick() {
+        window.location.href = "/healthInsurenceDetail/";
       }
     </script>
   </body>
