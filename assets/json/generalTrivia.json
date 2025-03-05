@@ -1,133 +1,388 @@
 [
-    {
-      "id": "1",
-      "title": "General Trivia | Who-Am-l",
-      "imagePath": "../assets/images/svg/generalTrivia/WhoAmlQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "General Trivia",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    },
-    {
-      "id": "2",
-      "title": "General Trivia | KBC",
-      "imagePath": "../assets/images/svg/generalTrivia/KbcQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "General Trivia",
-      "questions": [
-        {
-          "question": "Onam is a festival celebrated in which Indian state?",
-          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-          "correctAnswer": "Kerala"
-        },
-        {
-          "question": "What is the traditional dance performed during Onam?",
-          "options": [
-            "Kathakali",
-            "Bharatanatyam",
-            "Mohiniyattam",
-            "Kuchipudi"
-          ],
-          "correctAnswer": "Kathakali"
-        },
-        {
-          "question": "What is the traditional feast during Onam called?",
-          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-          "correctAnswer": "Sadya"
-        },
-        {
-          "question": "Which flower is used to make Pookalam during Onam?",
-          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-          "correctAnswer": "Marigold"
-        },
-        {
-          "question": "Onam marks the homecoming of which legendary king?",
-          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-          "correctAnswer": "Mahabali"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Onam is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is the main dish in Sadya?",
-          "options": ["Rice", "Bread", "Pasta", "Noodles"],
-          "correctAnswer": "Rice"
-        },
-        {
-          "question": "Which dance is not performed during Onam?",
-          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-          "correctAnswer": "Ballet"
-        },
-        {
-          "question": "What is the traditional attire worn during Onam?",
-          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-          "correctAnswer": "Saree"
-        },
-        {
-          "question": "Which fruit is commonly used in Onam celebrations?",
-          "options": ["Banana", "Apple", "Grapes", "Orange"],
-          "correctAnswer": "Banana"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "General Trivia | Who-Am-l",
+    "imagePath": "../assets/images/svg/generalTrivia/WhoAmlQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "General Trivia",
+    "questions": [
+      {
+        "question": "I was an Indian freedom fighter and the first Prime Minister of India. People call me 'Chacha' because of my love for children. Who am I?",
+        "options": [
+          "Mahatma Gandhi",
+          "Jawaharlal Nehru",
+          "Sardar Patel",
+          "Subhash Chandra Bose"
+        ],
+        "correctAnswer": "Jawaharlal Nehru"
+      },
+      {
+        "question": "I discovered gravity when an apple fell from a tree. My laws of motion changed physics forever. Who am I?",
+        "options": [
+          "Albert Einstein",
+          "Isaac Newton",
+          "Galileo Galilei",
+          "Nikola Tesla"
+        ],
+        "correctAnswer": "Isaac Newton"
+      },
+      {
+        "question": "I was the first person to step on the moon in 1969. My famous words were 'That's one small step for man, one giant leap for mankind.' Who am I?",
+        "options": [
+          "Buzz Aldrin",
+          "Neil Armstrong",
+          "Yuri Gagarin",
+          "Michael Collins"
+        ],
+        "correctAnswer": "Neil Armstrong"
+      },
+      {
+        "question": "I am known as the 'Missile Man of India' and played a key role in India's missile and space programs. Who am I?",
+        "options": [
+          "Vikram Sarabhai",
+          "A.P.J. Abdul Kalam",
+          "Homi Bhabha",
+          "Rakesh Sharma"
+        ],
+        "correctAnswer": "A.P.J. Abdul Kalam"
+      },
+      {
+        "question": "I was an Indian queen who fought against the British in 1857. I am known for my bravery and riding into battle with my child. Who am I?",
+        "options": [
+          "Rani Lakshmibai",
+          "Indira Gandhi",
+          "Sarojini Naidu",
+          "Kasturba Gandhi"
+        ],
+        "correctAnswer": "Rani Lakshmibai"
+      },
+      {
+        "question": "I painted the famous Mona Lisa and was also an inventor and scientist. Who am I?",
+        "options": [
+          "Vincent van Gogh",
+          "Leonardo da Vinci",
+          "Pablo Picasso",
+          "Michelangelo"
+        ],
+        "correctAnswer": "Leonardo da Vinci"
+      },
+      {
+        "question": "I was a scientist who developed the theory of relativity and the famous equation E=mc². Who am I?",
+        "options": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Stephen Hawking",
+          "Nikola Tesla"
+        ],
+        "correctAnswer": "Albert Einstein"
+      },
+      {
+        "question": "I was the first President of the United States and played a major role in the American Revolution. Who am I?",
+        "options": [
+          "Thomas Jefferson",
+          "George Washington",
+          "Abraham Lincoln",
+          "John Adams"
+        ],
+        "correctAnswer": "George Washington"
+      },
+      {
+        "question": "I was an Egyptian queen known for my beauty and my relationship with Julius Caesar and Mark Antony. Who am I?",
+        "options": ["Cleopatra", "Nefertiti", "Hatshepsut", "Joan of Arc"],
+        "correctAnswer": "Cleopatra"
+      },
+      {
+        "question": "I was a great Indian mathematician who invented zero. Who am I?",
+        "options": ["Aryabhata", "Ramanujan", "Bhaskara", "Varahamihira"],
+        "correctAnswer": "Aryabhata"
+      },
+      {
+        "question": "I was the 16th President of the United States and played a key role in abolishing slavery. Who am I?",
+        "options": [
+          "George Washington",
+          "Theodore Roosevelt",
+          "Abraham Lincoln",
+          "John F. Kennedy"
+        ],
+        "correctAnswer": "Abraham Lincoln"
+      },
+      {
+        "question": "I was a famous Indian mathematician known for my extraordinary contributions to number theory. My birthday is celebrated as National Mathematics Day in India. Who am I?",
+        "options": [
+          "Aryabhata",
+          "Srinivasa Ramanujan",
+          "Bhaskara II",
+          "P.C. Mahalanobis"
+        ],
+        "correctAnswer": "Srinivasa Ramanujan"
+      },
+      {
+        "question": "I was a legendary warrior king and the founder of the Maratha Empire. I fought against the Mughal Empire. Who am I?",
+        "options": [
+          "Chandragupta Maurya",
+          "Shivaji Maharaj",
+          "Rana Pratap",
+          "Tipu Sultan"
+        ],
+        "correctAnswer": "Shivaji Maharaj"
+      },
+      {
+        "question": "I was a famous physicist who formulated the laws of planetary motion. My discoveries helped shape modern astronomy. Who am I?",
+        "options": [
+          "Galileo Galilei",
+          "Johannes Kepler",
+          "Isaac Newton",
+          "Edwin Hubble"
+        ],
+        "correctAnswer": "Johannes Kepler"
+      },
+      {
+        "question": "I was the first female Prime Minister of the United Kingdom, known as the 'Iron Lady.' Who am I?",
+        "options": [
+          "Margaret Thatcher",
+          "Queen Elizabeth II",
+          "Angela Merkel",
+          "Indira Gandhi"
+        ],
+        "correctAnswer": "Margaret Thatcher"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "I was an Indian freedom fighter known as the 'Father of the Nation' and led the Dandi March against British rule. Who am I?",
+        "options": [
+          "Bhagat Singh",
+          "Mahatma Gandhi",
+          "Sardar Patel",
+          "Subhas Chandra Bose"
+        ],
+        "correctAnswer": "Mahatma Gandhi"
+      },
+      {
+        "question": "I was the first woman to fly solo across the Atlantic Ocean. My plane disappeared mysteriously during my final flight. Who am I?",
+        "options": [
+          "Valentina Tereshkova",
+          "Sally Ride",
+          "Amelia Earhart",
+          "Bessie Coleman"
+        ],
+        "correctAnswer": "Amelia Earhart"
+      },
+      {
+        "question": "I was a Greek philosopher and the teacher of Alexander the Great. My writings formed the foundation of Western philosophy. Who am I?",
+        "options": ["Plato", "Aristotle", "Socrates", "Pythagoras"],
+        "correctAnswer": "Aristotle"
+      },
+      {
+        "question": "I was a famous artist who painted 'The Starry Night' but struggled with mental health issues. Who am I?",
+        "options": [
+          "Leonardo da Vinci",
+          "Pablo Picasso",
+          "Vincent van Gogh",
+          "Claude Monet"
+        ],
+        "correctAnswer": "Vincent van Gogh"
+      },
+      {
+        "question": "I was the first African American President of the United States, serving from 2009 to 2017. Who am I?",
+        "options": [
+          "Barack Obama",
+          "Martin Luther King Jr.",
+          "Colin Powell",
+          "Nelson Mandela"
+        ],
+        "correctAnswer": "Barack Obama"
+      },
+      {
+        "question": "I was an Italian explorer who traveled to China and wrote about my journeys in 'The Travels of Marco Polo.' Who am I?",
+        "options": [
+          "Vasco da Gama",
+          "Christopher Columbus",
+          "Marco Polo",
+          "Ferdinand Magellan"
+        ],
+        "correctAnswer": "Marco Polo"
+      },
+      {
+        "question": "I was an Indian revolutionary known for my role in the Kakori Train Robbery and my bravery against British rule. Who am I?",
+        "options": [
+          "Bhagat Singh",
+          "Chandrasekhar Azad",
+          "Sukhdev",
+          "Ashfaqulla Khan"
+        ],
+        "correctAnswer": "Chandrasekhar Azad"
+      },
+      {
+        "question": "I was the leader of the Soviet Union during World War II and played a major role in the Cold War. Who am I?",
+        "options": [
+          "Joseph Stalin",
+          "Vladimir Lenin",
+          "Leon Trotsky",
+          "Mikhail Gorbachev"
+        ],
+        "correctAnswer": "Joseph Stalin"
+      },
+      {
+        "question": "I am a famous fictional spy created by Ian Fleming. I work for MI6 and have a license to kill. Who am I?",
+        "options": ["Ethan Hunt", "Jason Bourne", "James Bond", "Jack Ryan"],
+        "correctAnswer": "James Bond"
+      },
+      {
+        "question": "I was a Greek warrior who built the Trojan Horse, leading to the fall of Troy. Who am I?",
+        "options": ["Achilles", "Odysseus", "Hector", "Perseus"],
+        "correctAnswer": "Odysseus"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2",
+    "title": "General Trivia | KBC",
+    "imagePath": "../assets/images/svg/generalTrivia/KbcQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "General Trivia",
+    "questions": [
+      {
+        "question": "Which of these sports requires you to shout out a word loudly during play?",
+        "options": ["Kho-Kho", "Playing Cards", "Chess", "Ludo"],
+        "correctAnswer": "Kho-Kho"
+      },
+      {
+        "question": "What would you be using in India if you need an STD code?",
+        "options": ["Computer", "Telephone", "ATM", "Photocopier"],
+        "correctAnswer": "Telephone"
+      },
+      {
+        "question": "What is Kanchipuram famous for?",
+        "options": ["Temples", "Hosiery", "Footwear", "Food"],
+        "correctAnswer": "Temples"
+      },
+      {
+        "question": "Which is the first element on the periodic table of elements?",
+        "options": ["Carbon Dioxide", "Hydrogen", "Nitrogen", "Oxygen"],
+        "correctAnswer": "Hydrogen"
+      },
+      {
+        "question": "What makes up (approx.) 80% of our brain's volume?",
+        "options": ["Blood Pressure", "Nerves", "Water", "Bones"],
+        "correctAnswer": "Water"
+      },
+      {
+        "question": "How many strings does a violin have?",
+        "options": ["4", "3", "2", "6"],
+        "correctAnswer": "4"
+      },
+      {
+        "question": "Which is the second most spoken language of Nepal?",
+        "options": ["Maithili", "Nepali", "Bajjika", "Bhojpuri"],
+        "correctAnswer": "Maithili"
+      },
+      {
+        "question": "Which of the following corresponds to 'ek bataa do'?",
+        "options": ["Sawa", "Adha", "Pauna", "Poora"],
+        "correctAnswer": "Adha"
+      },
+      {
+        "question": "In which of these sports are the terms reverse swing and reverse sweep used?",
+        "options": ["Cricket", "Tennis", "Football", "Hockey"],
+        "correctAnswer": "Cricket"
+      },
+      {
+        "question": "What is the standard taste of the water?",
+        "options": ["Bitter", "Sour", "Tasteless", "Sweet"],
+        "correctAnswer": "Tasteless"
+      },
+      {
+        "question": "Which dance form is believed to have been inspired by Gotipua Nritya?",
+        "options": ["Manipuri", "Kuchipudi", "Odissi", "Kathakali"],
+        "correctAnswer": "Odissi"
+      },
+      {
+        "question": "What is the tallest animal on the earth?",
+        "options": ["Cow", "Calf", "Giraffe", "Lion"],
+        "correctAnswer": "Giraffe"
+      },
+      {
+        "question": "In the film 2 States, a Punjabi boy falls in love with a girl of which state?",
+        "options": ["Maharashtra", "Rajasthan", "Tamil Nadu", "Gujarat"],
+        "correctAnswer": "Tamil Nadu"
+      },
+      {
+        "question": "The wife of which of these famous sports persons was once captain of the Indian volleyball team?",
+        "options": [
+          "K.D. Jadav",
+          "Dhyanchand",
+          "Milkha Singh",
+          "Prakash Padukone"
+        ],
+        "correctAnswer": "Milkha Singh"
+      },
+      {
+        "question": "In Hindu marriages what do bridal couples exchange at mandaps?",
+        "options": ["Garlands", "Jalebis", "Visiting Cards", "Mobile Numbers"],
+        "correctAnswer": "Garlands"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which of the following gods is also known as 'Gauri Nandan'?",
+        "options": ["Agni", "Indra", "Ganesha", "Hanuman"],
+        "correctAnswer": "Ganesha"
+      },
+      {
+        "question": "Which language is spoken in the union territory Lakshadweep Islands?",
+        "options": ["Tamil", "Malayalam", "Telugu", "Hindi"],
+        "correctAnswer": "Malayalam"
+      },
+      {
+        "question": "Which of these musical instruments is held in one hand and played with the other?",
+        "options": ["Tabla", "Dafli", "Santoor", "Mridangam"],
+        "correctAnswer": "Dafli"
+      },
+      {
+        "question": "Which of these terms can only be used for women?",
+        "options": ["Suhagan", "Dirghaayu", "Chiranjeevi", "Sanjeev"],
+        "correctAnswer": "Suhagan"
+      },
+      {
+        "question": "Which of these is the name of the national park located in Madhya Pradesh?",
+        "options": ["Girdhar", "Krishna", "Kanha", "Ghanshyam"],
+        "correctAnswer": "Kanha"
+      },
+      {
+        "question": "What do you call the person who brings a letter to your home from the post office?",
+        "options": ["Postman", "Agent", "Uncle", "Browny"],
+        "correctAnswer": "Postman"
+      },
+      {
+        "question": "How many planets are there in our solar system?",
+        "options": ["7", "8", "9", "6"],
+        "correctAnswer": "8"
+      },
+      {
+        "question": "Which of these stages is one of the four stages of human life according to ancient Indian tradition?",
+        "options": [
+          "Dronacharya",
+          "Brahmacharya",
+          "Vasudevacharya",
+          "Kripacharya"
+        ],
+        "correctAnswer": "Brahmacharya"
+      },
+      {
+        "question": "When is International Literacy Day celebrated?",
+        "options": ["08-Sep", "28-Nov", "05-Jun", "22-Sep"],
+        "correctAnswer": "08-Sep"
+      },
+      {
+        "question": "What kind of creature was Bakasur, whom Kansa sent to kill Sri Krishna in his childhood?",
+        "options": ["Snake", "Bird", "Lizard", "Deer"],
+        "correctAnswer": "Bird"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

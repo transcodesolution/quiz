@@ -1,133 +1,488 @@
 [
-    {
-      "id": "1",
-      "title": "Litrature | Non-Fiction",
-      "imagePath": "../assets/images/svg/literature/nonFictionQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Literature",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    },
-    {
-      "id": "2",
-      "title": "Litrature | Fiction",
-      "imagePath": "../assets/images/svg/literature/fictionQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Literature",
-      "questions": [
-        {
-          "question": "Onam is a festival celebrated in which Indian state?",
-          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-          "correctAnswer": "Kerala"
-        },
-        {
-          "question": "What is the traditional dance performed during Onam?",
-          "options": [
-            "Kathakali",
-            "Bharatanatyam",
-            "Mohiniyattam",
-            "Kuchipudi"
-          ],
-          "correctAnswer": "Kathakali"
-        },
-        {
-          "question": "What is the traditional feast during Onam called?",
-          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-          "correctAnswer": "Sadya"
-        },
-        {
-          "question": "Which flower is used to make Pookalam during Onam?",
-          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-          "correctAnswer": "Marigold"
-        },
-        {
-          "question": "Onam marks the homecoming of which legendary king?",
-          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-          "correctAnswer": "Mahabali"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Onam is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is the main dish in Sadya?",
-          "options": ["Rice", "Bread", "Pasta", "Noodles"],
-          "correctAnswer": "Rice"
-        },
-        {
-          "question": "Which dance is not performed during Onam?",
-          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-          "correctAnswer": "Ballet"
-        },
-        {
-          "question": "What is the traditional attire worn during Onam?",
-          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-          "correctAnswer": "Saree"
-        },
-        {
-          "question": "Which fruit is commonly used in Onam celebrations?",
-          "options": ["Banana", "Apple", "Grapes", "Orange"],
-          "correctAnswer": "Banana"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Litrature | Non-Fiction",
+    "imagePath": "../assets/images/svg/literature/nonFictionQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Literature",
+    "questions": [
+      {
+        "question": "Who wrote the famous non-fiction book 'The Diary of a Young Girl'?",
+        "options": [
+          "Anne Frank",
+          "Helen Keller",
+          "Mahatma Gandhi",
+          "Nelson Mandela"
+        ],
+        "correctAnswer": "Anne Frank"
+      },
+      {
+        "question": "Which book by Michelle Obama became a best-selling memoir?",
+        "options": [
+          "Dreams from My Father",
+          "Becoming",
+          "The Audacity of Hope",
+          "My Life"
+        ],
+        "correctAnswer": "Becoming"
+      },
+      {
+        "question": "Which Indian leader wrote the autobiography 'The Story of My Experiments with Truth'?",
+        "options": [
+          "Jawaharlal Nehru",
+          "B.R. Ambedkar",
+          "Mahatma Gandhi",
+          "Subhash Chandra Bose"
+        ],
+        "correctAnswer": "Mahatma Gandhi"
+      },
+      {
+        "question": "Which scientist wrote the book 'A Brief History of Time'?",
+        "options": [
+          "Albert Einstein",
+          "Stephen Hawking",
+          "Isaac Newton",
+          "Carl Sagan"
+        ],
+        "correctAnswer": "Stephen Hawking"
+      },
+      {
+        "question": "What is the subject of Malcolm Gladwell’s book 'Outliers'?",
+        "options": [
+          "The psychology of success",
+          "The history of world wars",
+          "Space exploration",
+          "Business strategies"
+        ],
+        "correctAnswer": "The psychology of success"
+      },
+      {
+        "question": "Who is the author of 'The Diary of a Young Girl'?",
+        "options": [
+          "Helen Keller",
+          "Anne Frank",
+          "Malala Yousafzai",
+          "Maya Angelou"
+        ],
+        "correctAnswer": "Anne Frank"
+      },
+      {
+        "question": "Which book by Stephen Hawking explains complex physics for general readers?",
+        "options": [
+          "The Grand Design",
+          "A Brief History of Time",
+          "Black Holes and Baby Universes",
+          "The Universe in a Nutshell"
+        ],
+        "correctAnswer": "A Brief History of Time"
+      },
+      {
+        "question": "Who wrote the autobiography 'Long Walk to Freedom'?",
+        "options": [
+          "Mahatma Gandhi",
+          "Nelson Mandela",
+          "Barack Obama",
+          "Martin Luther King Jr."
+        ],
+        "correctAnswer": "Nelson Mandela"
+      },
+      {
+        "question": "Which famous self-help book is written by Dale Carnegie?",
+        "options": [
+          "Think and Grow Rich",
+          "How to Win Friends and Influence People",
+          "The 7 Habits of Highly Effective People",
+          "The Power of Now"
+        ],
+        "correctAnswer": "How to Win Friends and Influence People"
+      },
+      {
+        "question": "Which book is an influential work on personal finance by Robert Kiyosaki?",
+        "options": [
+          "The Millionaire Next Door",
+          "Rich Dad Poor Dad",
+          "The Intelligent Investor",
+          "Think and Grow Rich"
+        ],
+        "correctAnswer": "Rich Dad Poor Dad"
+      },
+      {
+        "question": "Who wrote the historical book 'Sapiens: A Brief History of Humankind'?",
+        "options": [
+          "Noam Chomsky",
+          "Jared Diamond",
+          "Yuval Noah Harari",
+          "Stephen Hawking"
+        ],
+        "correctAnswer": "Yuval Noah Harari"
+      },
+      {
+        "question": "Which book by Michelle Obama is a bestselling memoir?",
+        "options": [
+          "A Promised Land",
+          "Becoming",
+          "Dreams from My Father",
+          "Lean In"
+        ],
+        "correctAnswer": "Becoming"
+      },
+      {
+        "question": "Which book by Malcolm Gladwell discusses how small changes lead to big effects?",
+        "options": [
+          "Blink",
+          "The Tipping Point",
+          "Outliers",
+          "David and Goliath"
+        ],
+        "correctAnswer": "The Tipping Point"
+      },
+      {
+        "question": "Which non-fiction book by Yuval Noah Harari explores the future of humanity?",
+        "options": [
+          "Homo Deus",
+          "Sapiens",
+          "21 Lessons for the 21st Century",
+          "The Selfish Gene"
+        ],
+        "correctAnswer": "Homo Deus"
+      },
+      {
+        "question": "Which book by Viktor Frankl is based on his experiences in Nazi concentration camps?",
+        "options": [
+          "The Art of Happiness",
+          "Man’s Search for Meaning",
+          "The Road Less Traveled",
+          "The Happiness Project"
+        ],
+        "correctAnswer": "Man’s Search for Meaning"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which famous physicist wrote 'The Theory of Everything'?",
+        "options": [
+          "Albert Einstein",
+          "Richard Feynman",
+          "Stephen Hawking",
+          "Carl Sagan"
+        ],
+        "correctAnswer": "Stephen Hawking"
+      },
+      {
+        "question": "Who is the author of the famous self-help book 'The 7 Habits of Highly Effective People'?",
+        "options": [
+          "Dale Carnegie",
+          "Napoleon Hill",
+          "Stephen R. Covey",
+          "Tony Robbins"
+        ],
+        "correctAnswer": "Stephen R. Covey"
+      },
+      {
+        "question": "Which book by Daniel Kahneman explores human thinking and decision-making?",
+        "options": [
+          "Thinking, Fast and Slow",
+          "Predictably Irrational",
+          "The Power of Habit",
+          "The Paradox of Choice"
+        ],
+        "correctAnswer": "Thinking, Fast and Slow"
+      },
+      {
+        "question": "Who wrote 'The Power of Now', a book on mindfulness and spiritual awakening?",
+        "options": [
+          "Deepak Chopra",
+          "Eckhart Tolle",
+          "Rhonda Byrne",
+          "Paulo Coelho"
+        ],
+        "correctAnswer": "Eckhart Tolle"
+      },
+      {
+        "question": "Which book by Siddhartha Mukherjee explores the history of cancer?",
+        "options": [
+          "The Emperor of All Maladies",
+          "The Gene",
+          "When Breath Becomes Air",
+          "Being Mortal"
+        ],
+        "correctAnswer": "The Emperor of All Maladies"
+      },
+      {
+        "question": "Which best-selling book by Marie Kondo focuses on decluttering and organizing?",
+        "options": [
+          "The Life-Changing Magic of Tidying Up",
+          "The Minimalist Home",
+          "Goodbye, Things",
+          "Atomic Habits"
+        ],
+        "correctAnswer": "The Life-Changing Magic of Tidying Up"
+      },
+      {
+        "question": "Who is the author of 'The Subtle Art of Not Giving a F*ck'?",
+        "options": [
+          "Mark Manson",
+          "Tim Ferriss",
+          "Ryan Holiday",
+          "Gary Vaynerchuk"
+        ],
+        "correctAnswer": "Mark Manson"
+      },
+      {
+        "question": "Which book by Angela Duckworth focuses on perseverance and passion?",
+        "options": ["Mindset", "Grit", "The Talent Code", "Outliers"],
+        "correctAnswer": "Grit"
+      },
+      {
+        "question": "Who wrote 'The 4-Hour Workweek', a book on lifestyle design?",
+        "options": [
+          "Tim Ferriss",
+          "James Clear",
+          "David Allen",
+          "Gary Vaynerchuk"
+        ],
+        "correctAnswer": "Tim Ferriss"
+      },
+      {
+        "question": "Which book by Sheryl Sandberg encourages women to lead in the workplace?",
+        "options": [
+          "Lean In",
+          "Dare to Lead",
+          "Girl, Wash Your Face",
+          "The Confidence Code"
+        ],
+        "correctAnswer": "Lean In"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2",
+    "title": "Litrature | Fiction",
+    "imagePath": "../assets/images/svg/literature/fictionQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Literature",
+    "questions": [
+      {
+        "question": "Who wrote the famous novel 'Pride and Prejudice'?",
+        "options": [
+          "Emily Brontë",
+          "Jane Austen",
+          "Charlotte Brontë",
+          "Louisa May Alcott"
+        ],
+        "correctAnswer": "Jane Austen"
+      },
+      {
+        "question": "Which fictional detective lives at 221B Baker Street?",
+        "options": [
+          "Hercule Poirot",
+          "Sherlock Holmes",
+          "Philip Marlowe",
+          "Miss Marple"
+        ],
+        "correctAnswer": "Sherlock Holmes"
+      },
+      {
+        "question": "In J.R.R. Tolkien's 'The Lord of the Rings', what is the name of the Dark Lord?",
+        "options": ["Gandalf", "Saruman", "Sauron", "Boromir"],
+        "correctAnswer": "Sauron"
+      },
+      {
+        "question": "Which book features a young wizard named Harry Potter?",
+        "options": [
+          "Percy Jackson & the Olympians",
+          "The Chronicles of Narnia",
+          "Harry Potter series",
+          "Eragon"
+        ],
+        "correctAnswer": "Harry Potter series"
+      },
+      {
+        "question": "Who is the author of the dystopian novel '1984'?",
+        "options": [
+          "Aldous Huxley",
+          "George Orwell",
+          "Ray Bradbury",
+          "Margaret Atwood"
+        ],
+        "correctAnswer": "George Orwell"
+      },
+      {
+        "question": "What is the name of the island in 'Treasure Island' by Robert Louis Stevenson?",
+        "options": [
+          "Neverland",
+          "Mystery Island",
+          "Treasure Island",
+          "Skull Island"
+        ],
+        "correctAnswer": "Treasure Island"
+      },
+      {
+        "question": "In 'Alice's Adventures in Wonderland', what does Alice follow to enter Wonderland?",
+        "options": [
+          "A magic mirror",
+          "A white rabbit",
+          "A talking cat",
+          "A flying carpet"
+        ],
+        "correctAnswer": "A white rabbit"
+      },
+      {
+        "question": "Which novel features the characters Jay Gatsby and Daisy Buchanan?",
+        "options": [
+          "To Kill a Mockingbird",
+          "The Catcher in the Rye",
+          "The Great Gatsby",
+          "Of Mice and Men"
+        ],
+        "correctAnswer": "The Great Gatsby"
+      },
+      {
+        "question": "Who wrote the novel 'Moby-Dick'?",
+        "options": [
+          "Mark Twain",
+          "Herman Melville",
+          "Nathaniel Hawthorne",
+          "Jules Verne"
+        ],
+        "correctAnswer": "Herman Melville"
+      },
+      {
+        "question": "Which book starts with the line: 'Call me Ishmael'?",
+        "options": ["Dracula", "The Odyssey", "Moby-Dick", "Frankenstein"],
+        "correctAnswer": "Moby-Dick"
+      },
+      {
+        "question": "Who wrote 'The Chronicles of Narnia' series?",
+        "options": [
+          "J.K. Rowling",
+          "J.R.R. Tolkien",
+          "C.S. Lewis",
+          "Philip Pullman"
+        ],
+        "correctAnswer": "C.S. Lewis"
+      },
+      {
+        "question": "In 'To Kill a Mockingbird', what is the name of the lawyer who defends Tom Robinson?",
+        "options": [
+          "Jay Gatsby",
+          "Huckleberry Finn",
+          "Atticus Finch",
+          "Holden Caulfield"
+        ],
+        "correctAnswer": "Atticus Finch"
+      },
+      {
+        "question": "Which science fiction novel features the character Winston Smith?",
+        "options": [
+          "Brave New World",
+          "Fahrenheit 451",
+          "1984",
+          "The Time Machine"
+        ],
+        "correctAnswer": "1984"
+      },
+      {
+        "question": "In 'The Hobbit', what is the name of Bilbo Baggins' home?",
+        "options": ["Hogwarts", "The Burrow", "Rivendell", "Bag End"],
+        "correctAnswer": "Bag End"
+      },
+      {
+        "question": "Who is the main protagonist in 'The Catcher in the Rye'?",
+        "options": [
+          "Holden Caulfield",
+          "Nick Carraway",
+          "Jay Gatsby",
+          "Scout Finch"
+        ],
+        "correctAnswer": "Holden Caulfield"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Who is the author of 'Frankenstein'?",
+        "options": [
+          "Bram Stoker",
+          "Mary Shelley",
+          "H.G. Wells",
+          "Edgar Allan Poe"
+        ],
+        "correctAnswer": "Mary Shelley"
+      },
+      {
+        "question": "What is the name of the young girl in 'The Hunger Games' series?",
+        "options": [
+          "Tris Prior",
+          "Katniss Everdeen",
+          "Hermione Granger",
+          "Bella Swan"
+        ],
+        "correctAnswer": "Katniss Everdeen"
+      },
+      {
+        "question": "Who is the author of the famous horror novel 'Dracula'?",
+        "options": [
+          "Mary Shelley",
+          "H.G. Wells",
+          "Bram Stoker",
+          "Edgar Allan Poe"
+        ],
+        "correctAnswer": "Bram Stoker"
+      },
+      {
+        "question": "Which novel features the characters Pip, Estella, and Miss Havisham?",
+        "options": [
+          "Great Expectations",
+          "Oliver Twist",
+          "David Copperfield",
+          "A Tale of Two Cities"
+        ],
+        "correctAnswer": "Great Expectations"
+      },
+      {
+        "question": "Who is the author of 'The Picture of Dorian Gray'?",
+        "options": [
+          "Oscar Wilde",
+          "F. Scott Fitzgerald",
+          "Edgar Allan Poe",
+          "Mark Twain"
+        ],
+        "correctAnswer": "Oscar Wilde"
+      },
+      {
+        "question": "Which novel is set in the dystopian world of Panem?",
+        "options": [
+          "Divergent",
+          "The Hunger Games",
+          "The Maze Runner",
+          "Brave New World"
+        ],
+        "correctAnswer": "The Hunger Games"
+      },
+      {
+        "question": "In 'The Little Prince', what is the occupation of the narrator?",
+        "options": ["Pilot", "Astronomer", "Teacher", "Doctor"],
+        "correctAnswer": "Pilot"
+      },
+      {
+        "question": "Which novel begins with the line 'It was the best of times, it was the worst of times'?",
+        "options": [
+          "A Tale of Two Cities",
+          "Great Expectations",
+          "Les Misérables",
+          "War and Peace"
+        ],
+        "correctAnswer": "A Tale of Two Cities"
+      },
+      {
+        "question": "In 'The Lion, the Witch and the Wardrobe', who is the first Pevensie child to enter Narnia?",
+        "options": ["Peter", "Susan", "Lucy", "Edmund"],
+        "correctAnswer": "Lucy"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

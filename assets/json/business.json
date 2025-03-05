@@ -1,65 +1,165 @@
 [
-    {
-      "id": "1",
-      "title": "Business | Banking-and-Finance",
-      "imagePath": "../assets/images/svg/business/banking&FinanceQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Business",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Business | Banking-and-Finance",
+    "imagePath": "../assets/images/svg/business/banking&FinanceQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Business",
+    "questions": [
+      {
+        "question": "What is the business which deals with money and credit?",
+        "options": ["Banking", "Healthcare", "Education", "Technology"],
+        "correctAnswer": "Banking"
+      },
+      {
+        "question": "Which banks do not accept deposits?",
+        "options": [
+          "Commercial Banks",
+          "Retail Banks",
+          "Investment Banks",
+          "None"
+        ],
+        "correctAnswer": "Investment Banks"
+      },
+      {
+        "question": "Which of the following taxes is levied and collected by the union, but assigned to the states?",
+        "options": ["Sales tax", "Octroi", "Consignment tax", "Excise"],
+        "correctAnswer": "Excise"
+      },
+      {
+        "question": "When was the International Monetary Fund (IMF) established?",
+        "options": ["1944", "1945", "1948", "1950"],
+        "correctAnswer": "1944"
+      },
+      {
+        "question": "Which one is the largest source of revenue for the Indian government?",
+        "options": ["Corporation Tax", "Income Tax", "VAT", "Customs"],
+        "correctAnswer": "Corporation Tax"
+      },
+      {
+        "question": "What is the contribution of agriculture in the total GDP of the country?",
+        "options": ["4%", "8%", "12%", "17%"],
+        "correctAnswer": "17%"
+      },
+      {
+        "question": "Which of the following is not a nationalized bank?",
+        "options": ["Canara Bank", "IDBI Bank", "PNB", "None"],
+        "correctAnswer": "IDBI Bank"
+      },
+      {
+        "question": "Which of the following is not a direct tax?",
+        "options": [
+          "Estate Duty",
+          "Corporation Tax",
+          "Agricultural Income Tax",
+          "State Excise"
+        ],
+        "correctAnswer": "Agricultural Income Tax"
+      },
+      {
+        "question": "Which is the monetary measure to control inflation?",
+        "options": [
+          "Increases in taxes",
+          "Decreases in taxes",
+          "Credit control",
+          "None of these"
+        ],
+        "correctAnswer": "Credit control"
+      },
+      {
+        "question": "Which is the largest commercial bank in India?",
+        "options": ["RBI", "SBI", "ICICI Bank", "Bank of India"],
+        "correctAnswer": "SBI"
+      },
+      {
+        "question": "Which was the first foreign bank in India?",
+        "options": ["Chartered Bank", "HSBC Bank", "HDFC Bank", "ICICI Bank"],
+        "correctAnswer": "Chartered Bank"
+      },
+      {
+        "question": "The Imperial Bank of India, after its nationalization, came to be known as?",
+        "options": ["Bank of Baroda", "ICICI Bank", "SBI", "Citibank"],
+        "correctAnswer": "SBI"
+      },
+      {
+        "question": "Which country shares the highest percentage of India's imports?",
+        "options": ["Germany", "China", "US", "Australia"],
+        "correctAnswer": "China"
+      },
+      {
+        "question": "Where is the National Stock Exchange (NSE) located?",
+        "options": ["Mumbai", "New Delhi", "Madras", "Calcutta"],
+        "correctAnswer": "Mumbai"
+      },
+      {
+        "question": "What is the average rate on savings account in India?",
+        "options": ["5%", "1-3%", "0.50%", "10%"],
+        "correctAnswer": "1-3%"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "In which city is the headquarters of the Reserve Bank of India located?",
+        "options": ["Delhi", "Gurgaon", "Mumbai", "Chennai"],
+        "correctAnswer": "Mumbai"
+      },
+      {
+        "question": "Who has the sole right to issue bank notes of all denominations?",
+        "options": ["RBI", "ICICI Bank", "CBI", "Parliament"],
+        "correctAnswer": "RBI"
+      },
+      {
+        "question": "By what percentage has India's GDP grown in Q1 FY'22?",
+        "options": ["8.70%", "10.50%", "15.80%", "20.10%"],
+        "correctAnswer": "20.10%"
+      },
+      {
+        "question": "The Stock market index of London Stock Market is referred to as?",
+        "options": ["Sensex", "Footsie", "NIFTY", "Bullish"],
+        "correctAnswer": "Footsie"
+      },
+      {
+        "question": "Which is the largest private bank in India?",
+        "options": ["HDFC", "ICICI Bank", "Axis Bank", "Yes Bank"],
+        "correctAnswer": "HDFC"
+      },
+      {
+        "question": "Government aims to gradually increase the public health expenditure to what percent of Gross Domestic Product by 2025?",
+        "options": ["1.50%", "3.50%", "4.50%", "2.50%"],
+        "correctAnswer": "2.50%"
+      },
+      {
+        "question": "What is the money that a person borrows from a bank or other financial institutions called?",
+        "options": ["Interest", "Commercial", "Loan", "Liabilities"],
+        "correctAnswer": "Loan"
+      },
+      {
+        "question": "What is the money that a person places in a bank account for the bank to use to invest and that also earns interest called?",
+        "options": ["Loan", "Deposit", "Mortgage", "Interest"],
+        "correctAnswer": "Deposit"
+      },
+      {
+        "question": "What is the central bank in the United States called?",
+        "options": [
+          "Federal Reserve",
+          "Bank of America",
+          "Goldman Sachs",
+          "Morgan Stanley"
+        ],
+        "correctAnswer": "Federal Reserve"
+      },
+      {
+        "question": "Which sector is the largest source of employment in India?",
+        "options": [
+          "Agriculture",
+          "Manufacturing",
+          "Financial services",
+          "Mining"
+        ],
+        "correctAnswer": "Agriculture"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

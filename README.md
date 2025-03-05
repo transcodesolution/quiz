@@ -1,6 +1,10 @@
 # Quiz Game - Version 2
 
 
+1. **Quiz Page (Game Page)**
+- Added a quiz question limit of 10 questions in one game.
+- Modified the json now questions will be selected Category-wise.
+
 
 
 

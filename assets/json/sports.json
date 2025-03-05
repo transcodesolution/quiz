@@ -1,201 +1,699 @@
 [
-    {
-      "id": "1",
-      "title": "Sports | T-20",
-      "imagePath": "../assets/images/svg/sports/T-20Quiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Sports",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    },
-    {
-      "id": "2",
-      "title": "Sports | Football",
-      "imagePath": "../assets/images/svg/sports/footBallQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Sports",
-      "questions": [
-        {
-          "question": "Onam is a festival celebrated in which Indian state?",
-          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-          "correctAnswer": "Kerala"
-        },
-        {
-          "question": "What is the traditional dance performed during Onam?",
-          "options": [
-            "Kathakali",
-            "Bharatanatyam",
-            "Mohiniyattam",
-            "Kuchipudi"
-          ],
-          "correctAnswer": "Kathakali"
-        },
-        {
-          "question": "What is the traditional feast during Onam called?",
-          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-          "correctAnswer": "Sadya"
-        },
-        {
-          "question": "Which flower is used to make Pookalam during Onam?",
-          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-          "correctAnswer": "Marigold"
-        },
-        {
-          "question": "Onam marks the homecoming of which legendary king?",
-          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-          "correctAnswer": "Mahabali"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Onam is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is the main dish in Sadya?",
-          "options": ["Rice", "Bread", "Pasta", "Noodles"],
-          "correctAnswer": "Rice"
-        },
-        {
-          "question": "Which dance is not performed during Onam?",
-          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-          "correctAnswer": "Ballet"
-        },
-        {
-          "question": "What is the traditional attire worn during Onam?",
-          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-          "correctAnswer": "Saree"
-        },
-        {
-          "question": "Which fruit is commonly used in Onam celebrations?",
-          "options": ["Banana", "Apple", "Grapes", "Orange"],
-          "correctAnswer": "Banana"
-        }
-      ],
-      "difficulty": "medium"
-    },
-    {
-      "id": "3",
-      "title": "Sports | Cricket",
-      "imagePath": "../assets/images/svg/sports/cricketQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Sports",
-      "questions": [
-        {
-          "question": "Onam is a festival celebrated in which Indian state?",
-          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-          "correctAnswer": "Kerala"
-        },
-        {
-          "question": "What is the traditional dance performed during Onam?",
-          "options": [
-            "Kathakali",
-            "Bharatanatyam",
-            "Mohiniyattam",
-            "Kuchipudi"
-          ],
-          "correctAnswer": "Kathakali"
-        },
-        {
-          "question": "What is the traditional feast during Onam called?",
-          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-          "correctAnswer": "Sadya"
-        },
-        {
-          "question": "Which flower is used to make Pookalam during Onam?",
-          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-          "correctAnswer": "Marigold"
-        },
-        {
-          "question": "Onam marks the homecoming of which legendary king?",
-          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-          "correctAnswer": "Mahabali"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Onam is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is the main dish in Sadya?",
-          "options": ["Rice", "Bread", "Pasta", "Noodles"],
-          "correctAnswer": "Rice"
-        },
-        {
-          "question": "Which dance is not performed during Onam?",
-          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-          "correctAnswer": "Ballet"
-        },
-        {
-          "question": "What is the traditional attire worn during Onam?",
-          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-          "correctAnswer": "Saree"
-        },
-        {
-          "question": "Which fruit is commonly used in Onam celebrations?",
-          "options": ["Banana", "Apple", "Grapes", "Orange"],
-          "correctAnswer": "Banana"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Sports | T-20",
+    "imagePath": "../assets/images/svg/sports/T-20Quiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Sports",
+    "questions": [
+      {
+        "question": "Which year was the inaugural edition of the T20 world cup?",
+        "options": ["2004", "2005", "2008", "2007"],
+        "correctAnswer": "2007"
+      },
+      {
+        "question": "Which bowler took the first ever hattrick in a T20 World Cup?",
+        "options": [
+          "Pravin Kumar",
+          "Shahid Afridi",
+          "Brett Lee",
+          "Stuart Broad"
+        ],
+        "correctAnswer": "Brett Lee"
+      },
+      {
+        "question": "Who was the highest run scorer in the inaugural edition of the T20 World Cup?",
+        "options": [
+          "Matthew Hayden",
+          "Virender Sehwag",
+          "Gautham Gambhir",
+          "Yuvraj Singh"
+        ],
+        "correctAnswer": "Matthew Hayden"
+      },
+      {
+        "question": "Who was the winner of the first T20 World Cup?",
+        "options": ["Australia", "England", "West Indies", "India"],
+        "correctAnswer": "India"
+      },
+      {
+        "question": "What is the highest team total in a match in the T20 World Cup?",
+        "options": ["250", "230", "210", "260"],
+        "correctAnswer": "260"
+      },
+      {
+        "question": "Who captained India in the inaugural edition of the T20 World Cup?",
+        "options": [
+          "Dinesh Karthik",
+          "Gautham Gambhir",
+          "Virender Sehwag",
+          "MS Dhoni"
+        ],
+        "correctAnswer": "MS Dhoni"
+      },
+      {
+        "question": "Which bowler was hit for six sixes by Yuvraj Singh?",
+        "options": [
+          "Stuart Broad",
+          "James Anderson",
+          "Paul Collingwood",
+          "Andrew Flintoff"
+        ],
+        "correctAnswer": "Stuart Broad"
+      },
+      {
+        "question": "Who was the highest wicket taker in 2009 T20 World Cup?",
+        "options": ["Umar Gul", "RP Singh", "Sreesanth", "Brett Lee"],
+        "correctAnswer": "Umar Gul"
+      },
+      {
+        "question": "Who were the hosts for the 2009 T20 World Cup?",
+        "options": ["England", "West Indies", "India", "Sri Lanka"],
+        "correctAnswer": "England"
+      },
+      {
+        "question": "Where was the final of the 2009 T20 World Cup held?",
+        "options": ["Lord's", "Old Trafford", "The Oval", "Trent Bridge"],
+        "correctAnswer": "Lord's"
+      },
+      {
+        "question": "What was the highest score by a batsman in the 2010 T20 World Cup?",
+        "options": ["101", "100", "87", "154"],
+        "correctAnswer": "101"
+      },
+      {
+        "question": "Who scored India's first T20 World Cup century?",
+        "options": ["Suresh Raina", "KL Rahul", "Rohit Sharma", "Virat Kohli"],
+        "correctAnswer": "Suresh Raina"
+      },
+      {
+        "question": "Who took the most wickets in the 2010 T20 World Cup?",
+        "options": ["Dirk Nannes", "Brett Lee", "Shahid Afridi", "Saeed Ajmal"],
+        "correctAnswer": "Dirk Nannes"
+      },
+      {
+        "question": "Who were the Runners-up for the 2010 T20 World Cup?",
+        "options": ["Pakistan", "India", "Sri Lanka", "Australia"],
+        "correctAnswer": "Australia"
+      },
+      {
+        "question": "Who was the man of the match in the final of the 2010 T20 World Cup?",
+        "options": [
+          "Craig Kieswetter",
+          "Cameron White",
+          "Paul Collingwood",
+          "Kevin Pieterson"
+        ],
+        "correctAnswer": "Craig Kieswetter"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Who was the player of the tournament in the 2012 T20 World Cup?",
+        "options": [
+          "Shane Watson",
+          "Virat Kohli",
+          "Steve Smith",
+          "Kamran Akmal"
+        ],
+        "correctAnswer": "Shane Watson"
+      },
+      {
+        "question": "Who took the most wickets in the 2012 T20 World Cup?",
+        "options": [
+          "Ajantha Mendis",
+          "Bhuvneshwar Kumar",
+          "Lakshmipathy Balaji",
+          "Harbhajan Singh"
+        ],
+        "correctAnswer": "Ajantha Mendis"
+      },
+      {
+        "question": "Who were the hosts of the 2012 T20 World Cup?",
+        "options": ["Sri Lanka", "India", "Australia", "West Indies"],
+        "correctAnswer": "Sri Lanka"
+      },
+      {
+        "question": "Who was the player of the tournament in the 2014 T20 World Cup?",
+        "options": [
+          "Virat Kohli",
+          "Imran Tahir",
+          "AB De Villiers",
+          "Faf Du Plessis"
+        ],
+        "correctAnswer": "Virat Kohli"
+      },
+      {
+        "question": "Who scored the most number of fifties in the 2014 T20 World Cup?",
+        "options": [
+          "Angelo Mathews",
+          "Kumar Sangakkara",
+          "Virat Kohli",
+          "Glenn Maxwell"
+        ],
+        "correctAnswer": "Virat Kohli"
+      },
+      {
+        "question": "Who was the only batsman to score a century in the 2014 T20 World Cup?",
+        "options": [
+          "Alex Hales",
+          "Virat Kohli",
+          "Faf Du Plessis",
+          "Mahela Jayawardane"
+        ],
+        "correctAnswer": "Alex Hales"
+      },
+      {
+        "question": "Who was the highest run scorer in the 2016 T20 World Cup?",
+        "options": ["Virat Kohli", "Tamim Iqbal", "Jos Buttler", "Joe Root"],
+        "correctAnswer": "Tamim Iqbal"
+      },
+      {
+        "question": "Who was the highest wicket taker in the 2016 T20 World Cup?",
+        "options": [
+          "Mohamad Nabi",
+          "Bhuvneshwar Kumar",
+          "Liam Plunkett",
+          "Mohamed Amir"
+        ],
+        "correctAnswer": "Mohamad Nabi"
+      },
+      {
+        "question": "Which team emerged as Runners-up of the 2016 T20 World Cup?",
+        "options": ["England", "India", "Sri Lanka", "Bangladesh"],
+        "correctAnswer": "England"
+      },
+      {
+        "question": "Who bowled the infamous last over for England in the final against West Indies in the 2016 T20 World Cup?",
+        "options": ["Liam Plunkett", "Ben Stokes", "Adil Rashid", "Moeen Ali"],
+        "correctAnswer": "Ben Stokes"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2",
+    "title": "Sports | Cricket",
+    "imagePath": "../assets/images/svg/sports/cricketQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Sports",
+    "questions": [
+      {
+        "question": "Who did England beat in the final of the 2019 Cricket World Cup?",
+        "options": ["Chennai Super Kings", "India", "Australia", "New Zealand"],
+        "correctAnswer": "New Zealand"
+      },
+      {
+        "question": "Which famous cricketer served as the Prime Minister of Pakistan?",
+        "options": ["Shoaib Akhtar", "Wasim Akram", "Azhar Ali", "Imran Khan"],
+        "correctAnswer": "Imran Khan"
+      },
+      {
+        "question": "Who bowled the fastest ball in IPL 2022?",
+        "options": [
+          "Umran Malik",
+          "Jasprit Bumrah",
+          "Dale Steyn",
+          "Umesh Yadav"
+        ],
+        "correctAnswer": "Umran Malik"
+      },
+      {
+        "question": "Who is the first batsman to cross 10000 runs in Tests?",
+        "options": [
+          "Sachin Tendulkar",
+          "Sunil Gavaskar",
+          "Virat Kohli",
+          "Rohit Sharma"
+        ],
+        "correctAnswer": "Sunil Gavaskar"
+      },
+      {
+        "question": "Which Year did India win the Cricket World Cup?",
+        "options": ["1983 & 2011", "1983 & 2015", "2011 & 2015", "2015 & 2019"],
+        "correctAnswer": "1983 & 2011"
+      },
+      {
+        "question": "How many teams participated in the ICC World Cup 2019?",
+        "options": ["8", "9", "10", "11"],
+        "correctAnswer": "10"
+      },
+      {
+        "question": "Who was the Indian Captain when India won the Cricket World Cup in 1983?",
+        "options": [
+          "Virat Kohli",
+          "Rohit Sharma",
+          "Kapil Dev",
+          "Sunil Gavaskar"
+        ],
+        "correctAnswer": "Kapil Dev"
+      },
+      {
+        "question": "Who was the Indian Captain when India won the Cricket World Cup in 2011?",
+        "options": [
+          "MS Dhoni",
+          "Sachin Tendulkar",
+          "Yuvraj Singh",
+          "Gautam Gambhir"
+        ],
+        "correctAnswer": "MS Dhoni"
+      },
+      {
+        "question": "After how many years does the ICC World Cup take place?",
+        "options": ["2", "3", "4", "5"],
+        "correctAnswer": "4"
+      },
+      {
+        "question": "Which Indian Captain holds the record for most Tests wins?",
+        "options": [
+          "Virat Kohli",
+          "MS Dhoni",
+          "Rohit Sharma",
+          "Sunil Gavaskar"
+        ],
+        "correctAnswer": "Virat Kohli"
+      },
+      {
+        "question": "Who is the most successful Captain in the IPL?",
+        "options": ["Rohit Sharma", "MS Dhoni", "Virat Kohli", "David Warner"],
+        "correctAnswer": "Rohit Sharma"
+      },
+      {
+        "question": "When was the India Women's Cricket team established?",
+        "options": ["1976", "1982", "2003", "2015"],
+        "correctAnswer": "1976"
+      },
+      {
+        "question": "Which cricketer is known as Turbanator?",
+        "options": [
+          "Harbhajan Singh",
+          "Shahid Afridi",
+          "Ravindra Jadeja",
+          "Shane Warne"
+        ],
+        "correctAnswer": "Harbhajan Singh"
+      },
+      {
+        "question": "How many players are there in a cricket team?",
+        "options": ["9", "10", "11", "12"],
+        "correctAnswer": "11"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which is the largest cricket stadium in the world?",
+        "options": [
+          "Eden Gardens",
+          "Lords",
+          "Narendra Modi Stadium",
+          "Melbourne Cricket Stadium"
+        ],
+        "correctAnswer": "Narendra Modi Stadium"
+      },
+      {
+        "question": "Which Australian player has scored the most test runs?",
+        "options": [
+          "Steve Waugh",
+          "Don Bradman",
+          "Ricky Ponting",
+          "Matthew Hayden"
+        ],
+        "correctAnswer": "Ricky Ponting"
+      },
+      {
+        "question": "When was the World Cup founded?",
+        "options": ["1965", "1975", "1983", "2000"],
+        "correctAnswer": "1975"
+      },
+      {
+        "question": "When was the first women's cricket match recorded?",
+        "options": ["1745", "1850", "1999", "2015"],
+        "correctAnswer": "1745"
+      },
+      {
+        "question": "Which batsman has the highest score in an ODI match?",
+        "options": [
+          "Virat Kohli",
+          "Sachin Tendulkar",
+          "Rohit Sharma",
+          "MS Dhoni"
+        ],
+        "correctAnswer": "Rohit Sharma"
+      },
+      {
+        "question": "Which player is considered to be the greatest captain in the world?",
+        "options": ["Rohit Sharma", "Virat Kohli", "MS Dhoni", "Ricky Ponting"],
+        "correctAnswer": "MS Dhoni"
+      },
+      {
+        "question": "Which player has scored three double centuries in ODI?",
+        "options": ["Brian Lara", "Babar Azam", "Virat Kohli", "Rohit Sharma"],
+        "correctAnswer": "Rohit Sharma"
+      },
+      {
+        "question": "Which Australian cricketer is widely acknowledged as the greatest batsman of all time?",
+        "options": [
+          "Ricky Ponting",
+          "Steve Waugh",
+          "Steve Smith",
+          "Don Bradman"
+        ],
+        "correctAnswer": "Don Bradman"
+      },
+      {
+        "question": "How many overs are there in one IPL game?",
+        "options": ["50 overs", "20 overs", "100 overs", "40 overs"],
+        "correctAnswer": "20 overs"
+      },
+      {
+        "question": "Which batsman scored the first-ever Test match triple hundred?",
+        "options": [
+          "Sachin Tendulkar",
+          "Brian Lara",
+          "Andy Sandham",
+          "Rohit Sharma"
+        ],
+        "correctAnswer": "Andy Sandham"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "3",
+    "title": "Sports | Football",
+    "imagePath": "../assets/images/svg/sports/footBallQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Sports",
+    "questions": [
+      {
+        "question": "Which German multinational sportswear company is Messi an ambassador for?",
+        "options": ["Nike", "Adidas", "Puma", "New Balance"],
+        "correctAnswer": "Adidas"
+      },
+      {
+        "question": "Which club has won the most Champions League titles?",
+        "options": ["Real Madrid", "Barcelona", "Liverpool", "AC Milan"],
+        "correctAnswer": "Real Madrid"
+      },
+      {
+        "question": "Which club is associated with 'Galacticos'?",
+        "options": ["Real Madrid", "Man City", "Chelsea", "Barcelona"],
+        "correctAnswer": "Real Madrid"
+      },
+      {
+        "question": "In video game FIFA 20, team Piemonte Calcio represents which real-life club?",
+        "options": ["AC Milan", "Inter Milan", "Juventus", "Napoli"],
+        "correctAnswer": "Juventus"
+      },
+      {
+        "question": "Who has the most assists in football history?",
+        "options": ["Lionel Messi", "Wayne Rooney", "Xavi", "Kevin De Bruyne"],
+        "correctAnswer": "Lionel Messi"
+      },
+      {
+        "question": "Messi famously retired from international duty in which year before reversing his decision?",
+        "options": ["2012", "2014", "2016", "2018"],
+        "correctAnswer": "2016"
+      },
+      {
+        "question": "At which club did Ronaldo start his professional career?",
+        "options": ["Sporting Lisbon", "Man UTD", "Liverpool", "Real Madrid"],
+        "correctAnswer": "Sporting Lisbon"
+      },
+      {
+        "question": "What nationality is Sadio Mane?",
+        "options": ["Portuguese", "Spanish", "Nigerian", "Senegalese"],
+        "correctAnswer": "Senegalese"
+      },
+      {
+        "question": "In which city is Ajax FC located?",
+        "options": ["Amsterdam", "Sevilla", "Milan", "Napoli"],
+        "correctAnswer": "Amsterdam"
+      },
+      {
+        "question": "Diego Maradona won two Serie A titles with which club?",
+        "options": ["Juventus", "Napoli", "Florentino", "AC Milan"],
+        "correctAnswer": "Napoli"
+      },
+      {
+        "question": "Where was FIFA founded?",
+        "options": ["Germany", "France", "Spain", "India"],
+        "correctAnswer": "France"
+      },
+      {
+        "question": "Who won the 2021 Ballon d'Or award?",
+        "options": [
+          "Lionel Messi",
+          "Pedri",
+          "Robert Lewandowski",
+          "Mohamed Salah"
+        ],
+        "correctAnswer": "Lionel Messi"
+      },
+      {
+        "question": "Which of the following country hosted the first Football World Cup?",
+        "options": ["America", "Argentina", "Brazil", "Uruguay"],
+        "correctAnswer": "Uruguay"
+      },
+      {
+        "question": "How many La Liga titles has Lionel Messi won?",
+        "options": ["8", "9", "10", "11"],
+        "correctAnswer": "10"
+      },
+      {
+        "question": "When did Cristiano Ronaldo first win the Ballon d'Or?",
+        "options": ["2006", "2007", "2008", "2009"],
+        "correctAnswer": "2008"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Who won the BallonD’or of 2014?",
+        "options": [
+          "Thomas Muller",
+          "Angel Di Maria",
+          "Kun Aguero",
+          "Cristiano Ronaldo"
+        ],
+        "correctAnswer": "Cristiano Ronaldo"
+      },
+      {
+        "question": "Which MLS franchise team does David Beckham own?",
+        "options": ["LA Galaxy", "DC United", "Los Angeles FC", "Inter Miami"],
+        "correctAnswer": "Inter Miami"
+      },
+      {
+        "question": "Which English football club has the nickname 'The Gunners'?",
+        "options": ["Chelsea", "Aston Villa", "Arsenal", "Leeds"],
+        "correctAnswer": "Arsenal"
+      },
+      {
+        "question": "Which is the largest stadium in Europe?",
+        "options": ["Santiago Bernabeu", "Old Trafford", "Anfield", "Camp Nou"],
+        "correctAnswer": "Camp Nou"
+      },
+      {
+        "question": "Messi has spent his entire professional career at Barcelona, but what was his schoolboy team?",
+        "options": [
+          "Sporting",
+          "Newell's Old Boys",
+          "Boca Juniors",
+          "River Plate"
+        ],
+        "correctAnswer": "Newell's Old Boys"
+      },
+      {
+        "question": "Which multinational sportswear company is Ronaldo an ambassador for?",
+        "options": ["Nike", "Puma", "New Balance", "Adidas"],
+        "correctAnswer": "Nike"
+      },
+      {
+        "question": "Which company is the current main sponsor of La Liga?",
+        "options": ["CVC Capital", "Barclays", "Santander", "Rolex"],
+        "correctAnswer": "Santander"
+      },
+      {
+        "question": "Which country won the 2018 World Cup Final?",
+        "options": ["Croatia", "France", "England", "Argentina"],
+        "correctAnswer": "France"
+      },
+      {
+        "question": "David Beckham played for which MLS team?",
+        "options": ["Inter Miami", "DC United", "Los Angeles FC", "LA Galaxy"],
+        "correctAnswer": "LA Galaxy"
+      },
+      {
+        "question": "Who won the 2014 World Cup Final?",
+        "options": ["Portugal", "France", "Argentina", "Germany"],
+        "correctAnswer": "Germany"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "4",
+    "title": "Sports | FIFA",
+    "imagePath": "../assets/images/svg/sports/FifaQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Sports",
+    "questions": [
+      {
+        "question": "Who is the top goal scorer in a single edition of the FIFA World Cup?",
+        "options": ["Pele", "Harry Kane", "George Best", "Just Fontaine"],
+        "correctAnswer": "Just Fontaine"
+      },
+      {
+        "question": "Who has appeared in the most number of matches in the FIFA World Cup?",
+        "options": [
+          "Lionel Messi",
+          "Cristiano Ronaldo",
+          "Paolo Maldini",
+          "Lothar Matthaus"
+        ],
+        "correctAnswer": "Lothar Matthaus"
+      },
+      {
+        "question": "Which player has won the most FIFA World Cups?",
+        "options": ["Pele", "Ronaldo Nazario", "Cafu", "Ronaldinho"],
+        "correctAnswer": "Pele"
+      },
+      {
+        "question": "Which country has won the most number of matches in the FIFA World Cup?",
+        "options": ["Argentina", "Germany", "Brazil", "Netherlands"],
+        "correctAnswer": "Brazil"
+      },
+      {
+        "question": "Which country has won the most FIFA World Cups?",
+        "options": ["Brazil", "Argentina", "Netherlands", "Uruguay"],
+        "correctAnswer": "Brazil"
+      },
+      {
+        "question": "Which country emerged as Champions of the first FIFA World Cup?",
+        "options": ["Chile", "Brazil", "Colombia", "Uruguay"],
+        "correctAnswer": "Uruguay"
+      },
+      {
+        "question": "What is the most goals scored by a player in a single edition of the FIFA World Cup?",
+        "options": ["13", "17", "12", "15"],
+        "correctAnswer": "13"
+      },
+      {
+        "question": "Which country is hosting the 2022 FIFA World Cup?",
+        "options": ["Qatar", "Australia", "South Africa", "Belgium"],
+        "correctAnswer": "Qatar"
+      },
+      {
+        "question": "Which country hosted the first FIFA World Cup?",
+        "options": ["Uruguay", "Chile", "Portugal", "Spain"],
+        "correctAnswer": "Uruguay"
+      },
+      {
+        "question": "Which country has played the most number of matches in the FIFA World Cup?",
+        "options": ["Brazil", "Argentina", "Spain", "Belgium"],
+        "correctAnswer": "Brazil"
+      },
+      {
+        "question": "Which year was the first FIFA World Cup held?",
+        "options": ["1930", "1926", "1922", "1934"],
+        "correctAnswer": "1930"
+      },
+      {
+        "question": "Who is the top scorer in the FIFA World Cup?",
+        "options": [
+          "Miroslav Klose",
+          "Pele",
+          "Diego Maradona",
+          "Ronaldo Nazario"
+        ],
+        "correctAnswer": "Miroslav Klose"
+      },
+      {
+        "question": "Who has the most assists in the FIFA World Cups?",
+        "options": [
+          "Diego Maradona",
+          "Mesut Ozil",
+          "Angel Di Maria",
+          "Kevin De Bruyne"
+        ],
+        "correctAnswer": "Diego Maradona"
+      },
+      {
+        "question": "Which player scored the first hattrick ever in the FIFA World Cup?",
+        "options": ["Bert Patenaude", "Ronaldo Nazario", "Pele", "Gerd Muller"],
+        "correctAnswer": "Bert Patenaude"
+      },
+      {
+        "question": "Which country has lost the most number of matches in the FIFA World Cup?",
+        "options": ["Mexico", "USA", "Japan", "Switzerland"],
+        "correctAnswer": "Mexico"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "When was FIFA founded?",
+        "options": ["1904", "1920", "1930", "1945"],
+        "correctAnswer": "1904"
+      },
+      {
+        "question": "Which country has won the most FIFA World Cups?",
+        "options": ["Germany", "Brazil", "Argentina", "Italy"],
+        "correctAnswer": "Brazil"
+      },
+      {
+        "question": "How many teams participate in the FIFA World Cup?",
+        "options": ["28", "32", "36", "40"],
+        "correctAnswer": "32"
+      },
+      {
+        "question": "Who won the FIFA World Cup in 2018?",
+        "options": ["France", "Croatia", "Brazil", "Germany"],
+        "correctAnswer": "France"
+      },
+      {
+        "question": "Which country hosted the first-ever FIFA World Cup?",
+        "options": ["Brazil", "Uruguay", "Italy", "Argentina"],
+        "correctAnswer": "Uruguay"
+      },
+      {
+        "question": "Which player has scored the most goals in FIFA World Cup history?",
+        "options": [
+          "Pelé",
+          "Miroslav Klose",
+          "Cristiano Ronaldo",
+          "Lionel Messi"
+        ],
+        "correctAnswer": "Miroslav Klose"
+      },
+      {
+        "question": "What is the official ball used in FIFA World Cup 2022 called?",
+        "options": ["Telstar 18", "Jabulani", "Al Rihla", "Teamgeist"],
+        "correctAnswer": "Al Rihla"
+      },
+      {
+        "question": "Which country won the first FIFA World Cup?",
+        "options": ["Brazil", "Uruguay", "Italy", "Argentina"],
+        "correctAnswer": "Uruguay"
+      },
+      {
+        "question": "Which player has won the most FIFA World Cups?",
+        "options": [
+          "Diego Maradona",
+          "Pelé",
+          "Zinedine Zidane",
+          "Cristiano Ronaldo"
+        ],
+        "correctAnswer": "Pelé"
+      },
+      {
+        "question": "Which city hosted the FIFA World Cup final in 2014?",
+        "options": ["Rio de Janeiro", "Berlin", "Moscow", "Paris"],
+        "correctAnswer": "Rio de Janeiro"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

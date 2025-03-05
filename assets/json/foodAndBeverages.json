@@ -1,133 +1,303 @@
 [
-    {
-      "id": "1",
-      "title": "Food & Beverage | Indian Cuisine",
-      "imagePath": "../assets/images/svg/foodAndBeverages/indianCuisineQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Food & Beverages",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    },
-    {
-      "id": "2",
-      "title": "Food & Beverage | Food Trivia",
-      "imagePath": "../assets/images/svg/foodAndBeverages/foodTriviaQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Food & Beverages",
-      "questions": [
-        {
-          "question": "Onam is a festival celebrated in which Indian state?",
-          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-          "correctAnswer": "Kerala"
-        },
-        {
-          "question": "What is the traditional dance performed during Onam?",
-          "options": [
-            "Kathakali",
-            "Bharatanatyam",
-            "Mohiniyattam",
-            "Kuchipudi"
-          ],
-          "correctAnswer": "Kathakali"
-        },
-        {
-          "question": "What is the traditional feast during Onam called?",
-          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-          "correctAnswer": "Sadya"
-        },
-        {
-          "question": "Which flower is used to make Pookalam during Onam?",
-          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-          "correctAnswer": "Marigold"
-        },
-        {
-          "question": "Onam marks the homecoming of which legendary king?",
-          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-          "correctAnswer": "Mahabali"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Onam is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is the main dish in Sadya?",
-          "options": ["Rice", "Bread", "Pasta", "Noodles"],
-          "correctAnswer": "Rice"
-        },
-        {
-          "question": "Which dance is not performed during Onam?",
-          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-          "correctAnswer": "Ballet"
-        },
-        {
-          "question": "What is the traditional attire worn during Onam?",
-          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-          "correctAnswer": "Saree"
-        },
-        {
-          "question": "Which fruit is commonly used in Onam celebrations?",
-          "options": ["Banana", "Apple", "Grapes", "Orange"],
-          "correctAnswer": "Banana"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Food & Beverage | Indian Cuisine",
+    "imagePath": "../assets/images/svg/foodAndBeverages/indianCuisineQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Food & Beverages",
+    "questions": [
+      {
+        "question": "Which of these spices is commonly used in Indian cooking?",
+        "options": ["Cumin", "Pepper", "Oregano", "Basil"],
+        "correctAnswer": "Cumin"
+      },
+      {
+        "question": "What is the name of the Indian yogurt-based drink that is flavored with spices?",
+        "options": ["Lassi", "Chai", "Sambar", "Thandai"],
+        "correctAnswer": "Lassi"
+      },
+      {
+        "question": "Which Indian dish is made by cooking rice with spices, vegetables, and sometimes meat?",
+        "options": ["Biryani", "Dal", "Samosa", "Roti"],
+        "correctAnswer": "Biryani"
+      },
+      {
+        "question": "What is the name of the flatbread commonly served in Indian meals?",
+        "options": ["Roti", "Naan", "Pita", "Bagel"],
+        "correctAnswer": "Naan"
+      },
+      {
+        "question": "What is the key ingredient in the Indian dish 'dal'?",
+        "options": ["Lentils", "Rice", "Chickpeas", "Paneer"],
+        "correctAnswer": "Lentils"
+      },
+      {
+        "question": "Which type of Indian bread is stuffed with potatoes and spices?",
+        "options": ["Paratha", "Naan", "Puri", "Roti"],
+        "correctAnswer": "Paratha"
+      },
+      {
+        "question": "What is the name of the sweet dish made from milk and sugar, often served as a dessert in India?",
+        "options": ["Gulab Jamun", "Rasgulla", "Ladoo", "Barfi"],
+        "correctAnswer": "Gulab Jamun"
+      },
+      {
+        "question": "Which Indian dish is known for its tangy and spicy yogurt-based curry?",
+        "options": ["Butter Chicken", "Rogan Josh", "Dhokla", "Kadhi"],
+        "correctAnswer": "Kadhi"
+      },
+      {
+        "question": "Which type of rice is commonly used in Indian dishes like biryani?",
+        "options": ["Basmati Rice", "Jasmine Rice", "Brown Rice", "Sushi Rice"],
+        "correctAnswer": "Basmati Rice"
+      },
+      {
+        "question": "What is the name of the popular Indian dish made from fried dough balls soaked in syrup?",
+        "options": ["Gulab Jamun", "Jalebi", "Kachori", "Pani Puri"],
+        "correctAnswer": "Gulab Jamun"
+      },
+      {
+        "question": "Which of these is a traditional Indian beverage made from black tea, milk, sugar, and spices?",
+        "options": ["Chai", "Lassi", "Jaljeera", "Thandai"],
+        "correctAnswer": "Chai"
+      },
+      {
+        "question": "Which Indian snack is made by deep-frying gram flour and spices?",
+        "options": ["Samosa", "Pakora", "Pani Puri", "Chaat"],
+        "correctAnswer": "Pakora"
+      },
+      {
+        "question": "What is the traditional Indian name for a mixture of spices used in cooking?",
+        "options": [
+          "Garam Masala",
+          "Curry Powder",
+          "Sambar Powder",
+          "Tandoori Masala"
+        ],
+        "correctAnswer": "Garam Masala"
+      },
+      {
+        "question": "Which type of curry is commonly served with naan or rice in India?",
+        "options": [
+          "Butter Chicken",
+          "Korma",
+          "Tikka Masala",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "Which dish is made from steamed rice and fermented batter?",
+        "options": ["Dosa", "Naan", "Puri", "Roti"],
+        "correctAnswer": "Dosa"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which of these is a famous Indian street food made from puffed rice and sev?",
+        "options": ["Bhel Puri", "Chaat", "Pani Puri", "Dhokla"],
+        "correctAnswer": "Bhel Puri"
+      },
+      {
+        "question": "What is the traditional Indian drink made from yogurt, cucumber, and spices?",
+        "options": ["Raita", "Lassi", "Chaas", "Jaljeera"],
+        "correctAnswer": "Raita"
+      },
+      {
+        "question": "Which of these ingredients is essential for making the famous Indian dessert 'rasgulla'?",
+        "options": ["Paneer", "Rice Flour", "Sugar", "Wheat Flour"],
+        "correctAnswer": "Paneer"
+      },
+      {
+        "question": "What type of meat is traditionally used in a 'mutton curry'?",
+        "options": ["Goat meat", "Chicken", "Beef", "Pork"],
+        "correctAnswer": "Goat meat"
+      },
+      {
+        "question": "Which dish is made of lentils, rice, and a mix of vegetables, commonly served in South India?",
+        "options": ["Sambar", "Vada", "Biryani", "Kadhi"],
+        "correctAnswer": "Sambar"
+      },
+      {
+        "question": "Which popular Indian bread is traditionally cooked in a tandoor oven?",
+        "options": ["Naan", "Roti", "Paratha", "Puri"],
+        "correctAnswer": "Naan"
+      },
+      {
+        "question": "What is the name of the spicy Indian snack made from chickpea flour and fried into crispy dough?",
+        "options": ["Bhujia", "Pani Puri", "Pakora", "Bhel Puri"],
+        "correctAnswer": "Bhujia"
+      },
+      {
+        "question": "Which of these is a popular Indian vegetarian dish made from chickpeas and spices?",
+        "options": ["Chole", "Dal Tadka", "Makhani", "Rogan Josh"],
+        "correctAnswer": "Chole"
+      },
+      {
+        "question": "Which of these is a famous dessert made with milk, sugar, and a few other ingredients, often served chilled in India?",
+        "options": ["Kulfi", "Rasgulla", "Gulab Jamun", "Jalebi"],
+        "correctAnswer": "Kulfi"
+      },
+      {
+        "question": "Which spice blend is commonly used in Indian cooking to enhance the flavor of dishes like curry?",
+        "options": [
+          "Garam Masala",
+          "Chaat Masala",
+          "Curry Powder",
+          "Cumin Powder"
+        ],
+        "correctAnswer": "Garam Masala"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2",
+    "title": "Food & Beverage | Food Trivia",
+    "imagePath": "../assets/images/svg/foodAndBeverages/foodTriviaQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Food & Beverages",
+    "questions": [
+      {
+        "question": "Which fruit is known as the 'king of fruits'?",
+        "options": ["Durian", "Mango", "Apple", "Banana"],
+        "correctAnswer": "Durian"
+      },
+      {
+        "question": "Which of these is a main ingredient in guacamole?",
+        "options": ["Tomato", "Avocado", "Onion", "Cucumber"],
+        "correctAnswer": "Avocado"
+      },
+      {
+        "question": "Which country is the origin of sushi?",
+        "options": ["China", "Japan", "Korea", "Thailand"],
+        "correctAnswer": "Japan"
+      },
+      {
+        "question": "What is the name of the Italian dish made of layers of pasta, cheese, and meat or vegetables?",
+        "options": ["Spaghetti", "Lasagna", "Ravioli", "Frittata"],
+        "correctAnswer": "Lasagna"
+      },
+      {
+        "question": "What type of pasta is shaped like small rice grains and often used in soups?",
+        "options": ["Fusilli", "Penne", "Orzo", "Farfalle"],
+        "correctAnswer": "Orzo"
+      },
+      {
+        "question": "What vegetable is traditionally used to make guacamole?",
+        "options": ["Tomato", "Onion", "Avocado", "Cucumber"],
+        "correctAnswer": "Avocado"
+      },
+      {
+        "question": "Which beverage is made from fermented tea?",
+        "options": ["Coffee", "Kombucha", "Lemonade", "Milk"],
+        "correctAnswer": "Kombucha"
+      },
+      {
+        "question": "Which of these is a type of nut?",
+        "options": ["Cashew", "Coconut", "Olive", "All of the above"],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "Which country is known for originating the dish 'paella'?",
+        "options": ["France", "Spain", "Italy", "Portugal"],
+        "correctAnswer": "Spain"
+      },
+      {
+        "question": "What is the primary ingredient in traditional hummus?",
+        "options": ["Chickpeas", "Lentils", "Tomatoes", "Cucumber"],
+        "correctAnswer": "Chickpeas"
+      },
+      {
+        "question": "What is the name of the Indian drink made from yogurt and spices?",
+        "options": ["Lassi", "Chai", "Tandoori", "Samosa"],
+        "correctAnswer": "Lassi"
+      },
+      {
+        "question": "Which fruit is typically used to make wine?",
+        "options": ["Apple", "Grapes", "Peach", "Pineapple"],
+        "correctAnswer": "Grapes"
+      },
+      {
+        "question": "Which of these dishes is typically made with fish and chips?",
+        "options": [
+          "Burger",
+          "Bangers and Mash",
+          "Fish and Chips",
+          "Steak and Potatoes"
+        ],
+        "correctAnswer": "Fish and Chips"
+      },
+      {
+        "question": "Which type of chocolate is made from cocoa butter, milk, and sugar?",
+        "options": [
+          "Dark Chocolate",
+          "White Chocolate",
+          "Milk Chocolate",
+          "Ruby Chocolate"
+        ],
+        "correctAnswer": "Milk Chocolate"
+      },
+      {
+        "question": "What is the main ingredient of a Caesar salad?",
+        "options": ["Lettuce", "Cabbage", "Spinach", "Tomato"],
+        "correctAnswer": "Lettuce"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which country is famous for creating the dish 'sushi'?",
+        "options": ["Japan", "China", "Korea", "Thailand"],
+        "correctAnswer": "Japan"
+      },
+      {
+        "question": "Which fruit is known for having its seeds on the outside?",
+        "options": ["Strawberry", "Apple", "Banana", "Peach"],
+        "correctAnswer": "Strawberry"
+      },
+      {
+        "question": "What is the primary ingredient in tofu?",
+        "options": ["Soybeans", "Wheat", "Rice", "Corn"],
+        "correctAnswer": "Soybeans"
+      },
+      {
+        "question": "Which type of cheese is used in a traditional Greek salad?",
+        "options": ["Feta", "Cheddar", "Mozzarella", "Gouda"],
+        "correctAnswer": "Feta"
+      },
+      {
+        "question": "Which of these vegetables is typically used in a 'coleslaw' salad?",
+        "options": ["Cabbage", "Carrot", "Spinach", "Cucumber"],
+        "correctAnswer": "Cabbage"
+      },
+      {
+        "question": "Which fruit is commonly used to make guacamole?",
+        "options": ["Avocado", "Tomato", "Mango", "Pineapple"],
+        "correctAnswer": "Avocado"
+      },
+      {
+        "question": "Which of these is a type of pasta?",
+        "options": ["Fusilli", "Frittata", "Taco", "Sushi"],
+        "correctAnswer": "Fusilli"
+      },
+      {
+        "question": "Which vegetable is commonly used to make pickles?",
+        "options": ["Cucumber", "Carrot", "Radish", "Onion"],
+        "correctAnswer": "Cucumber"
+      },
+      {
+        "question": "What is the name of the Italian flatbread often topped with tomato and cheese?",
+        "options": ["Pizza", "Focaccia", "Ciabatta", "Panini"],
+        "correctAnswer": "Pizza"
+      },
+      {
+        "question": "Which of these spices is commonly used in Indian cuisine?",
+        "options": ["Cumin", "Cinnamon", "Oregano", "Thyme"],
+        "correctAnswer": "Cumin"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

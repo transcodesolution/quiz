@@ -1,65 +1,165 @@
 [
-    {
-      "id": "1",
-      "title": "Automobile | Ultimate-Car- Trivia",
-      "imagePath": "../assets/images/svg/autoMobiles/ultimateCar.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Automobiles",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Automobile | Ultimate-Car-Trivia",
+    "imagePath": "../assets/images/svg/autoMobiles/ultimateCar.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Automobiles",
+    "questions": [
+      {
+        "question": "Which of the following is an Indian car manufacturing brand?",
+        "options": ["Honda", "Suzuki", "Mahindra", "Nissan"],
+        "correctAnswer": "Mahindra"
+      },
+      {
+        "question": "Which company owns the following brands: Bentley, Bugatti, Lamborghini & Audi?",
+        "options": ["GM", "Volkswagen", "Maruthi", "Mercedes-Benz"],
+        "correctAnswer": "Volkswagen"
+      },
+      {
+        "question": "What is the Rolls Royce hood ornament called?",
+        "options": ["Flying Spur", "Spirit of Ecstasy", "The Star", "Flying B"],
+        "correctAnswer": "Spirit of Ecstasy"
+      },
+      {
+        "question": "Who built the first ever 4-wheel car?",
+        "options": ["Karl Benz", "Henry Ford", "Thomas Edison", "Nicola Tesla"],
+        "correctAnswer": "Karl Benz"
+      },
+      {
+        "question": "Which iconic car manufacturer also makes airplane engines?",
+        "options": ["Bentley", "Rolls Royce", "Mercedes-Benz", "Honda"],
+        "correctAnswer": "Rolls Royce"
+      },
+      {
+        "question": "What is Nissan's all-electric car model called?",
+        "options": ["Micra", "Sunny", "Leaf", "GTR"],
+        "correctAnswer": "Leaf"
+      },
+      {
+        "question": "MG' stands for?",
+        "options": [
+          "Morris Garage",
+          "Morgan Garage",
+          "Mighty Garage",
+          "Milly Garage"
+        ],
+        "correctAnswer": "Morris Garage"
+      },
+      {
+        "question": "Chevrolet is an American automobile division of which company?",
+        "options": ["General Motors", "BMW", "Ford", "Volkswagen"],
+        "correctAnswer": "General Motors"
+      },
+      {
+        "question": "Shock absorbers are a part of which component of the car?",
+        "options": ["Suspension", "Brake", "Drivetrain", "Seats"],
+        "correctAnswer": "Suspension"
+      },
+      {
+        "question": "BMW was founded in which year?",
+        "options": ["1913", "1915", "1944", "1916"],
+        "correctAnswer": "1913"
+      },
+      {
+        "question": "Which is the best-selling electric car in history?",
+        "options": [
+          "Toyota Prius",
+          "Nissan Leaf",
+          "Tesla Model 3",
+          "TATA Nexon EV"
+        ],
+        "correctAnswer": "Tesla Model 3"
+      },
+      {
+        "question": "Which car manufacturer is famous for making the largest vehicles?",
+        "options": ["Hummer", "Chrysler", "Ford", "Jeep"],
+        "correctAnswer": "Hummer"
+      },
+      {
+        "question": "Where is the headquarters of BMW located?",
+        "options": ["Frankfurt", "Munich", "Berlin", "None of the above"],
+        "correctAnswer": "Munich"
+      },
+      {
+        "question": "What was the original color for all Ferrari models?",
+        "options": ["Red", "Yellow", "Black", "White"],
+        "correctAnswer": "Red"
+      },
+      {
+        "question": "Who was a driver for Alfa Romeo before founding his own company?",
+        "options": [
+          "Enzo Ferrari",
+          "Bruce McLaren",
+          "Ken Miles",
+          "Jack Brabham"
+        ],
+        "correctAnswer": "Enzo Ferrari"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which is the oldest car company that is still in business today?",
+        "options": ["Volkswagen", "GM", "Mercedes Benz", "Fiat"],
+        "correctAnswer": "Mercedes Benz"
+      },
+      {
+        "question": "Which is the largest automobile company by market value?",
+        "options": ["Toyota", "Tesla", "Volkswagen", "Ford"],
+        "correctAnswer": "Tesla"
+      },
+      {
+        "question": "Which was the first ever hypercar?",
+        "options": [
+          "Ferrari 250 GT",
+          "Lamborghini Miura",
+          "Ford GT",
+          "Bugatti EB110"
+        ],
+        "correctAnswer": "Lamborghini Miura"
+      },
+      {
+        "question": "Which is the world's all-time best-selling car?",
+        "options": [
+          "Tesla Model 3",
+          "Toyota Corolla",
+          "Ford Model T",
+          "Honda Jazz"
+        ],
+        "correctAnswer": "Toyota Corolla"
+      },
+      {
+        "question": "What does the odometer measure?",
+        "options": ["Distance", "Time", "Speed", "Tyre pressure"],
+        "correctAnswer": "Distance"
+      },
+      {
+        "question": "In which company did Ford invest $1.2 billion?",
+        "options": ["Renault", "Rimac", "Revolt", "Rivian"],
+        "correctAnswer": "Rivian"
+      },
+      {
+        "question": "Which popular Volkswagen car dropped the word 'New' from its 2012 model?",
+        "options": ["VW Van", "VW Jetta", "VW Polo", "VW Beetle"],
+        "correctAnswer": "VW Beetle"
+      },
+      {
+        "question": "What are referred to as the legs of the vehicles?",
+        "options": ["Engine", "Wheels", "Steering Wheel", "Brakes"],
+        "correctAnswer": "Wheels"
+      },
+      {
+        "question": "Entrepreneur Elon Musk is associated with which car?",
+        "options": ["Bugatti", "Tata Motors", "Tesla", "Buick"],
+        "correctAnswer": "Tesla"
+      },
+      {
+        "question": "Which is not a French car brand?",
+        "options": ["Renault", "SAAB", "Citroen", "Peugeot"],
+        "correctAnswer": "SAAB"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

@@ -239,21 +239,29 @@
               if (quizData) {
                 let currentQuestionIndex = 0;
                 let score = 0;
-                const totalQuestions = quizData.questions.length;
+                const totalQuestions = 10; // Always aim for 10 questions
+                // Shuffle questions and select 10 (or all if fewer than 10)
+                const shuffledQuestions = quizData.questions.sort(
+                  () => 0.5 - Math.random()
+                );
+                const selectedQuestions = shuffledQuestions.slice(
+                  0,
+                  Math.min(totalQuestions, shuffledQuestions.length)
+                );
 
                 const totalPrice = quizData.totalPrice;
                 const coinsPerCorrectAnswer = totalPrice / totalQuestions;
                 document.getElementById("total-questions").textContent =
-                  totalQuestions;
+                  selectedQuestions.length;;
                 document.getElementById("total-score").textContent =
-                  totalQuestions;
+                selectedQuestions.length;;
 
                 const optionsGrid = document.getElementById(
                   "hiddenQuestionContainer"
                 );
 
                 // Load all questions into the DOM
-                quizData.questions.forEach((questionData, index) => {
+                selectedQuestions.forEach((questionData, index) => {
                   const questionContainer = document.createElement("div");
                   questionContainer.className = "questionContainer";
 
@@ -466,8 +474,8 @@
                 showQuestion(currentQuestionIndex);
 
                 function saveCalculation() {
-                  const coins = score * coinsPerCorrectAnswer;
-                  const existingCoins =
+                  const coins = Math.round(score * coinsPerCorrectAnswer); // Round off the coins
+                    const existingCoins =
                     parseFloat(localStorage.getItem("TotalCoin")) || 0;
                   const newTotalCoins = existingCoins + coins;
                   localStorage.setItem("TotalCoin", newTotalCoins);

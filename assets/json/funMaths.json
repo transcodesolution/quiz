@@ -8,56 +8,146 @@
     "name": "Fun Maths",
     "questions": [
       {
-        "question": "What is the sine of 90 degrees?",
-        "options": ["0", "0.5", "1", "None of the above"],
+        "question": "If the value of a + ß = 90°, and a : ß = 2 : 1, then what is the ratio of cos a to cos ß?",
+        "options": ["01:03", "√3 : 1", "1 : √3", "None"],
+        "correctAnswer": "1 : √3"
+      },
+      {
+        "question": "How is cosec ? related to the sides of a triangle?",
+        "options": ["H/O", "O/H", "A/H", "O/A"],
+        "correctAnswer": "H/O"
+      },
+      {
+        "question": "What is cos (90° – x) equal to?",
+        "options": ["Sin x", "Cos x", "Sec x", "Cosec x"],
+        "correctAnswer": "Sin x"
+      },
+      {
+        "question": "What is the value of 1/cos x?",
+        "options": ["Sin x", "Cot x", "Tan x", "Sec x"],
+        "correctAnswer": "Sec x"
+      },
+      {
+        "question": "How is cos related to the sides of a triangle?",
+        "options": ["A/O", "O/H", "A/H", "H/O"],
+        "correctAnswer": "A/H"
+      },
+      {
+        "question": "How is sec related to the sides of a triangle?",
+        "options": ["H/A", "A/H", "O/H", "O/A"],
+        "correctAnswer": "H/A"
+      },
+      {
+        "question": "What is the value of tan ?/(1 - cot ?) + cot ?/(1 - tan ?)?",
+        "options": [
+          "Tan ? - Cot ? - 1",
+          "Tan ? + Cot ? - 1",
+          "Tan ? - Cot ? + 1",
+          "Tan ? + Cot ? + 1"
+        ],
+        "correctAnswer": "Tan ? + Cot ? + 1"
+      },
+      {
+        "question": "What is the value of cot 30°/tan 60°?",
+        "options": ["0", "9", "1", "-2"],
         "correctAnswer": "1"
       },
       {
-        "question": "What is the cosine of 0 degrees?",
-        "options": ["0", "1", "0.5", "None of the above"],
-        "correctAnswer": "1"
+        "question": "What is the value of y when y sin 45° cos 45° = tan² 45° – cos² 30°?",
+        "options": ["-1/2", "1/2", "-2", "2"],
+        "correctAnswer": "1/2"
       },
       {
-        "question": "What is the tangent of 45 degrees?",
-        "options": ["0", "1", "0.5", "None of the above"],
-        "correctAnswer": "1"
+        "question": "What is 1+cot² A / 1+tan² A?",
+        "options": ["Tan 2 A", "Sec 2 A", "Cosec 2 A - 1", "1 - Sin 2 A"],
+        "correctAnswer": "Cosec 2 A - 1"
       },
       {
-        "question": "What is the sine of 30 degrees?",
-        "options": ["0.5", "0.866", "1", "None of the above"],
-        "correctAnswer": "0.5"
+        "question": "What is the value of (tan² ? - sec² ?)?",
+        "options": ["2", "-1", "1", "None"],
+        "correctAnswer": "-1"
       },
       {
-        "question": "What is the cosine of 60 degrees?",
-        "options": ["0.5", "0.866", "1", "None of the above"],
-        "correctAnswer": "0.5"
+        "question": "What is 5 tan² A – 5 sec² A + 1 equal to?",
+        "options": ["6", "-5", "1", "-4"],
+        "correctAnswer": "-4"
+      },
+      {
+        "question": "What is the value of tan³ ?, If tan⁷ ? tan² ? = 1?",
+        "options": ["√3", "1/√3", "-1/√3", "None"],
+        "correctAnswer": "1/√3"
+      },
+      {
+        "question": "What will be the value of 3cos80°.cosec10° + 2cos59°.cosec31°?",
+        "options": ["3", "2", "5", "None"],
+        "correctAnswer": "5"
+      },
+      {
+        "question": "What is cot equal to?",
+        "options": ["1/Tangent", "1/Sin", "1/Cos", "3/Cos"],
+        "correctAnswer": "1/Tangent"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "What is the sine of 45 degrees?",
-        "options": ["0.707", "0.5", "1", "None of the above"],
-        "correctAnswer": "0.707"
+        "question": "If the value of sin(? + 30°) is 3/√12, then what is the value of cos² ??",
+        "options": ["3/4", "4/3", "1/4", "None"],
+        "correctAnswer": "3/4"
       },
       {
-        "question": "What is the cosine of 90 degrees?",
-        "options": ["0", "0.5", "1", "None of the above"],
-        "correctAnswer": "0"
+        "question": "How can we write sin?",
+        "options": ["1 / Cosec", "Cosec / Tan", "Sin / Cos", "1/ Sec"],
+        "correctAnswer": "1 / Cosec"
       },
       {
-        "question": "What is the tangent of 0 degrees?",
-        "options": ["0", "1", "0.5", "None of the above"],
-        "correctAnswer": "0"
+        "question": "Which of the following is the correct numerical value of 5 tan² A - 5 sec² A + 1?",
+        "options": ["-3", "9", "5", "-4"],
+        "correctAnswer": "-4"
       },
       {
-        "question": "What is the sine of 60 degrees?",
-        "options": ["0.5", "0.866", "1", "None of the above"],
-        "correctAnswer": "0.866"
+        "question": "What will be the value of 2cos² ? - 1, if cos⁴ ? - sin⁴ ? = 2/3?",
+        "options": ["1", "2", "3/2", "2/3"],
+        "correctAnswer": "2/3"
       },
       {
-        "question": "What is the cosine of 30 degrees?",
-        "options": ["0.866", "0.5", "1", "None of the above"],
-        "correctAnswer": "0.866"
+        "question": "Which of the statement is true When x and y are complementary angles?",
+        "options": [
+          "Sin x = Sin y",
+          "Tan x = Tan y",
+          "Cos x = Cos y",
+          "Sec x = Cosec y"
+        ],
+        "correctAnswer": "Sec x = Cosec y"
+      },
+      {
+        "question": "If r cos ? = √3, and r sin ? = 1, what is the value of r² tan ??",
+        "options": ["4/√3", "√3/4", "√3", "None"],
+        "correctAnswer": "4/√3"
+      },
+      {
+        "question": "If tan ? - cot ? = 0, what will be the value of sin ? + cos ??",
+        "options": ["1", "√2", "1/√2", "None"],
+        "correctAnswer": "√2"
+      },
+      {
+        "question": "What is 1 - cos A / Sin A equal to?",
+        "options": [
+          "Sin A / 1 - Cos A",
+          "Cos A / 1 - Cos A",
+          "Sin A / 1 + Cos A",
+          "None"
+        ],
+        "correctAnswer": "Sin A / 1 + Cos A"
+      },
+      {
+        "question": "What will be the value of sec⁴ ? - tan⁴ ?, if sec² ? + tan² ? = 7/12?",
+        "options": ["1/2", "7/12", "2/3", "1"],
+        "correctAnswer": "7/12"
+      },
+      {
+        "question": "What value of A will make sin 2A = 2 sin A true?",
+        "options": ["30°", "45°", "0°", "60°"],
+        "correctAnswer": "0°"
       }
     ],
     "difficulty": "hard"
@@ -71,56 +161,131 @@
     "name": "Fun Maths",
     "questions": [
       {
-        "question": "What is 2 + 2?",
-        "options": ["3", "4", "5", "6"],
-        "correctAnswer": "4"
+        "question": "961 - 43 - 3 = ?",
+        "options": ["915", "926", "970", "930"],
+        "correctAnswer": "915"
       },
       {
-        "question": "What is 5 - 3?",
-        "options": ["1", "2", "3", "4"],
-        "correctAnswer": "2"
+        "question": "81 x 5 = ?",
+        "options": ["450", "405", "455", "460"],
+        "correctAnswer": "405"
       },
       {
-        "question": "What is 10 / 2?",
-        "options": ["2", "3", "5", "10"],
-        "correctAnswer": "5"
+        "question": "212 + 33 + 8 = ?",
+        "options": ["250", "200", "218", "253"],
+        "correctAnswer": "253"
       },
       {
-        "question": "What is 3 * 3?",
-        "options": ["6", "9", "12", "15"],
+        "question": "627 + 58 + 2 = ?",
+        "options": ["750", "700", "710", "687"],
+        "correctAnswer": "687"
+      },
+      {
+        "question": "321 / 3 = ?",
+        "options": ["107", "108", "110", "100"],
+        "correctAnswer": "107"
+      },
+      {
+        "question": "181 x 9 = ?",
+        "options": ["1540", "1682", "1629", "1600"],
+        "correctAnswer": "1629"
+      },
+      {
+        "question": "117 / 13 = ?",
+        "options": ["9", "8", "6", "7"],
         "correctAnswer": "9"
       },
       {
-        "question": "What is 15 - 5?",
-        "options": ["5", "10", "15", "20"],
-        "correctAnswer": "10"
+        "question": "908 + 19 + 6 = ?",
+        "options": ["960", "933", "930", "940"],
+        "correctAnswer": "933"
+      },
+      {
+        "question": "615 / 3 = ?",
+        "options": ["205", "215", "200", "125"],
+        "correctAnswer": "205"
+      },
+      {
+        "question": "(89 + 65) x 2 = ?",
+        "options": ["180", "308", "102", "803"],
+        "correctAnswer": "308"
+      },
+      {
+        "question": "851 + 89 + 6 = ?",
+        "options": ["946", "800", "860", "890"],
+        "correctAnswer": "946"
+      },
+      {
+        "question": "23 x 15 = ?",
+        "options": ["345", "340", "430", "360"],
+        "correctAnswer": "345"
+      },
+      {
+        "question": "23 x 5 = ?",
+        "options": ["115", "125", "135", "102"],
+        "correctAnswer": "115"
+      },
+      {
+        "question": "341 / 11 = ?",
+        "options": ["31", "30", "41", "51"],
+        "correctAnswer": "31"
+      },
+      {
+        "question": "347 x 13 = ?",
+        "options": ["4510", "4511", "4512", "4513"],
+        "correctAnswer": "4511"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "What is 3 + 3?",
-        "options": ["5", "6", "7", "8"],
-        "correctAnswer": "6"
+        "question": "177 x 3 = ?",
+        "options": ["177", "59", "60", "531"],
+        "correctAnswer": "531"
       },
       {
-        "question": "What is 7 - 2?",
-        "options": ["4", "5", "6", "7"],
-        "correctAnswer": "5"
+        "question": "1131 - 7 = ?",
+        "options": ["1124", "1152", "1265", "1254"],
+        "correctAnswer": "1124"
       },
       {
-        "question": "What is 8 / 4?",
-        "options": ["1", "2", "3", "4"],
-        "correctAnswer": "2"
+        "question": "465 - 82 - 1 = ?",
+        "options": ["206", "200", "382", "216"],
+        "correctAnswer": "382"
       },
       {
-        "question": "What is 4 * 2?",
-        "options": ["6", "7", "8", "9"],
-        "correctAnswer": "8"
+        "question": "108 + 22 + 5 = ?",
+        "options": ["135", "130", "145", "140"],
+        "correctAnswer": "135"
       },
       {
-        "question": "What is 20 - 10?",
-        "options": ["5", "10", "15", "20"],
-        "correctAnswer": "10"
+        "question": "985 / 5 = ?",
+        "options": ["190", "197", "179", "170"],
+        "correctAnswer": "197"
+      },
+      {
+        "question": "321 / 3 = ?",
+        "options": ["120", "121", "170", "107"],
+        "correctAnswer": "107"
+      },
+      {
+        "question": "139 - 34 - 8 = ?",
+        "options": ["97", "95", "90", "79"],
+        "correctAnswer": "97"
+      },
+      {
+        "question": "927 - 65 - 37 = ?",
+        "options": ["852", "825", "800", "835"],
+        "correctAnswer": "825"
+      },
+      {
+        "question": "774 + 56 + 7 = ?",
+        "options": ["84", "837", "458", "812"],
+        "correctAnswer": "837"
+      },
+      {
+        "question": "116 x 11 = ?",
+        "options": ["1,267", "6,217", "1,276", "1,762"],
+        "correctAnswer": "1,276"
       }
     ],
     "difficulty": "easy"
@@ -134,56 +299,131 @@
     "name": "Fun Maths",
     "questions": [
       {
-        "question": "What is the sine of 90 degrees?",
-        "options": ["0", "0.5", "1", "None of the above"],
+        "question": "2x − 12 = 9 is equal to?",
+        "options": ["-1", "2", "-1, 2", "None"],
+        "correctAnswer": "-1, 2"
+      },
+      {
+        "question": "A basket has x number of mangoes, how many mangoes are there in 5 baskets?",
+        "options": ["4X", "6X", "X", "5X"],
+        "correctAnswer": "5X"
+      },
+      {
+        "question": "What will be the expression if 'a' is divided by 5?",
+        "options": ["a+5", "a/5", "5a", "a5"],
+        "correctAnswer": "a/5"
+      },
+      {
+        "question": "Meena's present age is Y years, what will be her age 5 years from now?",
+        "options": ["Y+5", "5Y", "Y 5", "5/Y"],
+        "correctAnswer": "Y+5"
+      },
+      {
+        "question": "Find the value of 'z' if 3z = 9?",
+        "options": ["9", "3", "6", "27"],
+        "correctAnswer": "3"
+      },
+      {
+        "question": "What is the answer after solving: m – 2 = 3?",
+        "options": ["6", "4", "3", "5"],
+        "correctAnswer": "5"
+      },
+      {
+        "question": "What is the answer after solving 7a - 4b if a = 3, b = 2?",
+        "options": ["17", "29", "13", "None"],
+        "correctAnswer": "13"
+      },
+      {
+        "question": "Find the value of 'u' if 3/6u = 13?",
+        "options": ["26", "13", "7", "11"],
+        "correctAnswer": "26"
+      },
+      {
+        "question": "Which is the constant term in the expression 1+x²+x?",
+        "options": ["1", "1+X", "1+X²", "X²"],
         "correctAnswer": "1"
       },
       {
-        "question": "What is the cosine of 0 degrees?",
-        "options": ["0", "1", "0.5", "None of the above"],
-        "correctAnswer": "1"
+        "question": "What is the difference after subtracting 5m² from 30m²?",
+        "options": ["25M²", "25M", "30M", "27M²"],
+        "correctAnswer": "25M²"
       },
       {
-        "question": "What is the tangent of 45 degrees?",
-        "options": ["0", "1", "0.5", "None of the above"],
-        "correctAnswer": "1"
+        "question": "Which of the following is an equation?",
+        "options": ["2X + 3 = 5", "2X + 3 < 5", "2X + 3 ≤ 5", "2X + 3 > 5"],
+        "correctAnswer": "2X + 3 = 5"
       },
       {
-        "question": "What is the sine of 30 degrees?",
-        "options": ["0.5", "0.866", "1", "None of the above"],
-        "correctAnswer": "0.5"
+        "question": "If Meenu's present age is X years, what was her age in years, 10 years back?",
+        "options": ["X+10", "X-10", "X/10", "– X – 10"],
+        "correctAnswer": "X-10"
       },
       {
-        "question": "What is the cosine of 60 degrees?",
-        "options": ["0.5", "0.866", "1", "None of the above"],
-        "correctAnswer": "0.5"
+        "question": "What is the value, if 7 is multiplied by the cube of H?",
+        "options": ["H³", "7H³", "3H³", "H³"],
+        "correctAnswer": "7H³"
+      },
+      {
+        "question": "The side of a square is L. What is its perimeter?",
+        "options": ["3L", "2L", "4L", "6L"],
+        "correctAnswer": "4L"
+      },
+      {
+        "question": "What is the value of d if 52 = 3/9d?",
+        "options": ["153", "143", "156", "150"],
+        "correctAnswer": "156"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "What is the sine of 45 degrees?",
-        "options": ["0.707", "0.5", "1", "None of the above"],
-        "correctAnswer": "0.707"
+        "question": "What is the value of x,y,z in x+y = 3x, 3z = 9, -7y+7z = 7?",
+        "options": ["X=1,Y=2,Z=3", "X=2,Y=3,Z=1", "X=3,Y=1,Z=2", "X=2,Y=1,Z=3"],
+        "correctAnswer": "X=1,Y=2,Z=3"
       },
       {
-        "question": "What is the cosine of 90 degrees?",
-        "options": ["0", "0.5", "1", "None of the above"],
-        "correctAnswer": "0"
+        "question": "What is the equation if a number when added to 7 gives 10 as the answer?",
+        "options": ["X+7=10", "X-7=10", "X=7/10", "7X=10"],
+        "correctAnswer": "X+7=10"
       },
       {
-        "question": "What is the tangent of 0 degrees?",
-        "options": ["0", "1", "0.5", "None of the above"],
-        "correctAnswer": "0"
+        "question": "What is the expression if 1 is added to x and 2 is multiplied by their sum?",
+        "options": ["2(X+1)", "2X+1", "2+X", "2-X"],
+        "correctAnswer": "2(X+1)"
       },
       {
-        "question": "What is the sine of 60 degrees?",
-        "options": ["0.5", "0.866", "1", "None of the above"],
-        "correctAnswer": "0.866"
+        "question": "What will be the product of 5, x, 9, 11, y, z?",
+        "options": ["495XYZ", "99XY", "5Z", "45XYZ"],
+        "correctAnswer": "495XYZ"
       },
       {
-        "question": "What is the cosine of 30 degrees?",
-        "options": ["0.866", "0.5", "1", "None of the above"],
-        "correctAnswer": "0.866"
+        "question": "What is the expression for 'P multiplied by -2'?",
+        "options": ["-2P", "– P/2", "P/3", "P 3"],
+        "correctAnswer": "-2P"
+      },
+      {
+        "question": "Find the value of 'q' if 9q = 11/3?",
+        "options": ["3", "9", "11", "33"],
+        "correctAnswer": "33"
+      },
+      {
+        "question": "What is the answer after adding 3mn, -5mn, 8mn, -4mn?",
+        "options": ["2MN", "20MN", "2M", "2MN+6"],
+        "correctAnswer": "2MN"
+      },
+      {
+        "question": "Find the value of y if y/3 = 5?",
+        "options": ["15", "20", "5", "3"],
+        "correctAnswer": "15"
+      },
+      {
+        "question": "What is the value, if F is multiplied by itself thrice?",
+        "options": ["F³", "F", "F²", "3F"],
+        "correctAnswer": "F³"
+      },
+      {
+        "question": "For what value of 'm' is 9-5m = (-1)?",
+        "options": ["-1", "-2", "2", "1"],
+        "correctAnswer": "2"
       }
     ],
     "difficulty": "hard"
@@ -197,58 +437,169 @@
     "name": "Fun Maths",
     "questions": [
       {
-        "question": "What is 2 + 2?",
-        "options": ["3", "4", "5", "6"],
-        "correctAnswer": "4"
+        "question": "How many sides does a triangle have?",
+        "options": ["2", "3", "4", "5"],
+        "correctAnswer": "3"
       },
       {
-        "question": "What is 5 - 3?",
-        "options": ["1", "2", "3", "4"],
-        "correctAnswer": "2"
+        "question": "What type of shape is a triangle?",
+        "options": ["Rhombus", "Pentagon", "Polygon", "Parallelogram"],
+        "correctAnswer": "Polygon"
       },
       {
-        "question": "What is 10 / 2?",
-        "options": ["2", "3", "5", "10"],
-        "correctAnswer": "5"
+        "question": "Which of the following is not a triangle?",
+        "options": ["Equilateral", "Isosceles", "Scalene", "Scaler"],
+        "correctAnswer": "Scaler"
       },
       {
-        "question": "What is 3 * 3?",
-        "options": ["6", "9", "12", "15"],
-        "correctAnswer": "9"
+        "question": "All angles of which triangle measure below 90°?",
+        "options": [
+          "Right Angle Triangle",
+          "Equilateral Triangle",
+          "Acute Triangle",
+          "Obtuse Triangle"
+        ],
+        "correctAnswer": "Acute Triangle"
       },
       {
-        "question": "What is 15 - 5?",
-        "options": ["5", "10", "15", "20"],
-        "correctAnswer": "10"
-      }
-    ],
-    "ExtraQuestion": [
-      {
-        "question": "What is 3 + 3?",
-        "options": ["5", "6", "7", "8"],
-        "correctAnswer": "6"
+        "question": "What is the measure of each angle if the angles of a triangle are in 2 : 3 : 4?",
+        "options": ["20°, 30°, 100°", "40°, 60°, 80°", "40°, 30°, 80°", "None"],
+        "correctAnswer": "40°, 60°, 80°"
       },
       {
-        "question": "What is 7 - 2?",
-        "options": ["4", "5", "6", "7"],
-        "correctAnswer": "5"
+        "question": "What will be the third angle if two angles of a triangle are 50° and 80°?",
+        "options": ["80°", "50°", "30°", "180°"],
+        "correctAnswer": "50°"
       },
       {
-        "question": "What is 8 / 4?",
-        "options": ["1", "2", "3", "4"],
-        "correctAnswer": "2"
-      },
-      {
-        "question": "What is 4 * 2?",
+        "question": "How many sides does an octagon have?",
         "options": ["6", "7", "8", "9"],
         "correctAnswer": "8"
       },
       {
-        "question": "What is 20 - 10?",
-        "options": ["5", "10", "15", "20"],
-        "correctAnswer": "10"
+        "question": "In a triangle, the angle opposite to the largest side is?",
+        "options": ["Largest", "Smallest", "Right Angle", "None"],
+        "correctAnswer": "Largest"
+      },
+      {
+        "question": "How many angles does a triangle have?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "3"
+      },
+      {
+        "question": "How many corners does a cube have?",
+        "options": ["1", "6", "8", "7"],
+        "correctAnswer": "8"
       }
     ],
+    "ExtraQuestion": [
+      {
+        "question": "What is the sum of the interior angles of a triangle?",
+        "options": ["90°", "180°", "270°", "360°"],
+        "correctAnswer": "180°"
+      },
+      {
+        "question": "What type of triangle has all sides equal?",
+        "options": ["Isosceles", "Scalene", "Equilateral", "Right"],
+        "correctAnswer": "Equilateral"
+      },
+      {
+        "question": "What is the longest side of a right triangle called?",
+        "options": ["Base", "Height", "Hypotenuse", "Leg"],
+        "correctAnswer": "Hypotenuse"
+      },
+      {
+        "question": "What is the area formula for a triangle?",
+        "options": [
+          "1/2 * base * height",
+          "base * height",
+          "base + height",
+          "base - height"
+        ],
+        "correctAnswer": "1/2 * base * height"
+      },
+      {
+        "question": "What is the perimeter of a triangle?",
+        "options": [
+          "Sum of all sides",
+          "Sum of angles",
+          "Base + Height",
+          "None"
+        ],
+        "correctAnswer": "Sum of all sides"
+      },
+      {
+        "question": "Which triangle has one angle greater than 90°?",
+        "options": [
+          "Acute Triangle",
+          "Obtuse Triangle",
+          "Right Triangle",
+          "Equilateral Triangle"
+        ],
+        "correctAnswer": "Obtuse Triangle"
+      },
+      {
+        "question": "What is the name of a triangle with two equal sides?",
+        "options": ["Scalene", "Isosceles", "Equilateral", "Right"],
+        "correctAnswer": "Isosceles"
+      },
+      {
+        "question": "What is the relationship between the angles in a triangle?",
+        "options": [
+          "They are all equal",
+          "They add up to 90°",
+          "They add up to 180°",
+          "They add up to 360°"
+        ],
+        "correctAnswer": "They add up to 180°"
+      },
+      {
+        "question": "What is the smallest angle in a right triangle?",
+        "options": ["0°", "45°", "90°", "Less than 90°"],
+        "correctAnswer": "Less than 90°"
+      },
+      {
+        "question": "What is the name of a triangle with no equal sides?",
+        "options": ["Scalene", "Isosceles", "Equilateral", "Right"],
+        "correctAnswer": "Scalene"
+      },
+      {
+        "question": "What is the height of a triangle?",
+        "options": [
+          "The longest side",
+          "The perpendicular from a vertex to the opposite side",
+          "The sum of all sides",
+          "None"
+        ],
+        "correctAnswer": "The perpendicular from a vertex to the opposite side"
+      },
+      {
+        "question": "What is the base of a triangle?",
+        "options": [
+          "The longest side",
+          "The side on which the triangle stands",
+          "The height",
+          "None"
+        ],
+        "correctAnswer": "The side on which the triangle stands"
+      },
+      {
+        "question": "What is the formula for the area of an equilateral triangle?",
+        "options": ["s²√3/4", "1/2 * base * height", "base * height", "None"],
+        "correctAnswer": "s²√3/4"
+      },
+      {
+        "question": "What is the exterior angle of a triangle?",
+        "options": [
+          "An angle formed by one side and the extension of another",
+          "An angle inside the triangle",
+          "The largest angle",
+          "None"
+        ],
+        "correctAnswer": "An angle formed by one side and the extension of another"
+      }
+    ],
+
     "difficulty": "easy"
   }
 ]

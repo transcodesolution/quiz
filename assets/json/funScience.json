@@ -1,133 +1,313 @@
 [
-    {
-      "id": "1",
-      "title": "Fun Science | Space-Exploration",
-      "imagePath": "../assets/images/svg/funScience/spaceExplorationQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Fun Science",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    },
-    {
-      "id": "2",
-      "title": "Fun Science | Everyday-Science",
-      "imagePath": "../assets/images/svg/funScience/everyDayScienceQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Fun Science",
-      "questions": [
-        {
-          "question": "Onam is a festival celebrated in which Indian state?",
-          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-          "correctAnswer": "Kerala"
-        },
-        {
-          "question": "What is the traditional dance performed during Onam?",
-          "options": [
-            "Kathakali",
-            "Bharatanatyam",
-            "Mohiniyattam",
-            "Kuchipudi"
-          ],
-          "correctAnswer": "Kathakali"
-        },
-        {
-          "question": "What is the traditional feast during Onam called?",
-          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-          "correctAnswer": "Sadya"
-        },
-        {
-          "question": "Which flower is used to make Pookalam during Onam?",
-          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-          "correctAnswer": "Marigold"
-        },
-        {
-          "question": "Onam marks the homecoming of which legendary king?",
-          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-          "correctAnswer": "Mahabali"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Onam is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is the main dish in Sadya?",
-          "options": ["Rice", "Bread", "Pasta", "Noodles"],
-          "correctAnswer": "Rice"
-        },
-        {
-          "question": "Which dance is not performed during Onam?",
-          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-          "correctAnswer": "Ballet"
-        },
-        {
-          "question": "What is the traditional attire worn during Onam?",
-          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-          "correctAnswer": "Saree"
-        },
-        {
-          "question": "Which fruit is commonly used in Onam celebrations?",
-          "options": ["Banana", "Apple", "Grapes", "Orange"],
-          "correctAnswer": "Banana"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Fun Science | Space-Exploration",
+    "imagePath": "../assets/images/svg/funScience/spaceExplorationQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Fun Science",
+    "questions": [
+      {
+        "question": "Raksha Bandhan is celebrated in which month?",
+        "options": ["January", "August", "December", "March"],
+        "correctAnswer": "August"
+      },
+      {
+        "question": "How much time does it take for the light from the sun to reach the Earth?",
+        "options": ["10 Minutes", "1 Hour", "7 Minutes", "8.5 Minutes"],
+        "correctAnswer": "8.5 Minutes"
+      },
+      {
+        "question": "Which planet is sometimes called Earth's sister planet?",
+        "options": ["Mercury", "Neptune", "Jupiter", "Venus"],
+        "correctAnswer": "Venus"
+      },
+      {
+        "question": "Which planet takes almost 30 years to orbit the sun?",
+        "options": ["Neptune", "Saturn", "Venus", "Mercury"],
+        "correctAnswer": "Saturn"
+      },
+      {
+        "question": "Which heat energy is generated within the Earth?",
+        "options": ["Biofuel", "Wind", "Geothermal", "Hydroelectric"],
+        "correctAnswer": "Geothermal"
+      },
+      {
+        "question": "How long does the Earth's rotation last?",
+        "options": ["90 Hours", "About 1 Hour", "24 Hours", "48 Hours"],
+        "correctAnswer": "24 Hours"
+      },
+      {
+        "question": "What was the first artificial satellite?",
+        "options": ["Appollo 11", "Sputnik 1", "Salyut 1", "Vostok 1"],
+        "correctAnswer": "Stupnik 1"
+      },
+      {
+        "question": "Which is the first satellite of the United States of America?",
+        "options": ["Explorer 1", "Viking 1", "Voyager 1", "Mariner 1"],
+        "correctAnswer": "Explorer 1"
+      },
+      {
+        "question": "Name the first women who went into space?",
+        "options": [
+          "Valentina Tereshkova",
+          "Svetlana Savitskaya",
+          "Yelena Serova",
+          "Sally Ride"
+        ],
+        "correctAnswer": "Valentina Tereshkova"
+      },
+      {
+        "question": "Who did the first spacewalk by a living being?",
+        "options": ["Yuri Gagarin", "Aleksei Leonov", "Neil Armstrong", "None"],
+        "correctAnswer": "Aleksei Leonov"
+      },
+      {
+        "question": "What was the first space station called?",
+        "options": ["Apollo 1", "Sputnik 1", "Salyut 1", "None"],
+        "correctAnswer": "Salyut 1"
+      },
+      {
+        "question": "When was the first flight of the space shuttle program by NASA launched?",
+        "options": ["1979", "1980", "1981", "1982"],
+        "correctAnswer": "1981"
+      },
+      {
+        "question": "Which among the following is not a NASA space shuttle?",
+        "options": ["Discovery", "Endeavour", "Challenger", "Fortune"],
+        "correctAnswer": "Fortune"
+      },
+      {
+        "question": "Which of the following is called the Blue Planet?",
+        "options": ["Earth", "Jupiter", "Uranus", "Neptune"],
+        "correctAnswer": "Earth"
+      },
+      {
+        "question": "Which of the following does not have its own light?",
+        "options": ["Sun", "Moon", "Stars", "None"],
+        "correctAnswer": "Moon"
+      },
+      {
+        "question": "What of the following will the sun become?",
+        "options": ["Black hole", "Supernova", "A white dwarf", "Planet"],
+        "correctAnswer": "A white dwarf"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Raksha Bandhan is celebrated in which season?",
+        "options": ["Winter", "Summer", "Monsoon", "Spring"],
+        "correctAnswer": "Monsoon"
+      },
+      {
+        "question": "The star nearest to the Earth is?",
+        "options": ["Polaris", "Sun", "Arcturus", "Rasalhague"],
+        "correctAnswer": "Sun"
+      },
+      {
+        "question": "Which planet has the Great Red spot?",
+        "options": ["Jupiter", "Mars", "Saturn", "Mercury"],
+        "correctAnswer": "Jupiter"
+      },
+      {
+        "question": "How many planets are there between the Earth and the Sun?",
+        "options": ["1", "2", "3", "6"],
+        "correctAnswer": "2"
+      },
+      {
+        "question": "Who among the following was the first American to be sent into space?",
+        "options": ["Alan Shepard", "Neil Armstrong", "John Glenn", "None"],
+        "correctAnswer": "Alan Shepard"
+      },
+      {
+        "question": "What does the Earth rotate (spin) around?",
+        "options": ["Sun", "Moon", "It's Axis", "Other Planets"],
+        "correctAnswer": "It's Axis"
+      },
+      {
+        "question": "What was the first successful human spaceflight called?",
+        "options": ["Sputnik 1", "Sputnik 2", "Apollo 1", "Vostok 1"],
+        "correctAnswer": "Vostok 1"
+      },
+      {
+        "question": "Which is the largest moon of Saturn?",
+        "options": ["Titan", "Dione", "Mimas", "Rhea"],
+        "correctAnswer": "Titan"
+      },
+      {
+        "question": "What was the first animal sent to space?",
+        "options": ["Dog", "Cat", "Sheep", "Goat"],
+        "correctAnswer": "Dog"
+      },
+      {
+        "question": "What was the first moon landing mission called?",
+        "options": ["Apollo 11", "Sputnik 1", "Salyut 1", "None"],
+        "correctAnswer": "Apollo 11"
+      },
+      {
+        "question": "What do the planets revolve around?",
+        "options": ["Solar System", "Star", "Sun", "Earth"],
+        "correctAnswer": "Sun"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2",
+    "title": "Fun Science | Everyday-Science",
+    "imagePath": "../assets/images/svg/funScience/everyDayScienceQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Fun Science",
+    "questions": [
+      {
+        "question": "Which organ has four chambers?",
+        "options": ["Stomach", "Lungs", "Kidney", "Heart"],
+        "correctAnswer": "Heart"
+      },
+      {
+        "question": "What causes deficiency of Vitamin-A?",
+        "options": ["Rickets", "Scurvy", "Hair Fall", "Night Blindness"],
+        "correctAnswer": "Night Blindness"
+      },
+      {
+        "question": "Which of the following substance is not a conductor?",
+        "options": ["Aluminum", "Silicon", "Graphite", "All are conductors"],
+        "correctAnswer": "All are conductors"
+      },
+      {
+        "question": "Which nutrients do eggs contain?",
+        "options": ["Avidin", "Biotin", "Riboflavin", "Carbohydrates"],
+        "correctAnswer": "Carbohydrates"
+      },
+      {
+        "question": "How many vertebrae does the average human have?",
+        "options": ["45", "33", "57", "89"],
+        "correctAnswer": "33"
+      },
+      {
+        "question": "What are human beings?",
+        "options": ["Omnivores", "Herbivores", "Carnivores", "Decomposers"],
+        "correctAnswer": "Omnivores"
+      },
+      {
+        "question": "How long does a human red blood cell survive?",
+        "options": ["10 days", "2 days", "120 days", "100 days"],
+        "correctAnswer": "120 days"
+      },
+      {
+        "question": "What is the study of mushrooms called?",
+        "options": ["Mycology", "Molds", "Yeast", "None"],
+        "correctAnswer": "Mycologist"
+      },
+      {
+        "question": "How many bones are in the human body?",
+        "options": ["206", "208", "200", "210"],
+        "correctAnswer": "206"
+      },
+      {
+        "question": "What's the boiling point of water?",
+        "options": ["0°C", "10°C", "100°C", "1000°C"],
+        "correctAnswer": "100°C"
+      },
+      {
+        "question": "What is used in the making of alloys?",
+        "options": ["Gypsum", "Granite", "Chromium", "Lime Stone"],
+        "correctAnswer": "Chromium"
+      },
+      {
+        "question": "Diabetes is the result of a problem with which organ in the body?",
+        "options": ["Liver", "Pancreas", "Heart", "Kidney"],
+        "correctAnswer": "Pancreas"
+      },
+      {
+        "question": "How many teeth does an adult human have?",
+        "options": ["20", "30", "32", "34"],
+        "correctAnswer": "32"
+      },
+      {
+        "question": "Which cooking oil has the highest amount of essential fatty acid?",
+        "options": [
+          "Groundnut Oil",
+          "Coconut Oil",
+          "Sunflower Oil",
+          "Caster Oil"
+        ],
+        "correctAnswer": "Sunflower Oil"
+      },
+      {
+        "question": "What do bees collect and use to create honey?",
+        "options": ["Pollen", "Nectar", "Flowers", "Sugar"],
+        "correctAnswer": "Nectar"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "What is a root vegetable?",
+        "options": ["Carrot", "Potato", "Lady finger", "Brinjal"],
+        "correctAnswer": "Carrot"
+      },
+      {
+        "question": "Where are your patellas?",
+        "options": ["Shoulder", "Knees", "Toes", "Head"],
+        "correctAnswer": "Knees"
+      },
+      {
+        "question": "Which essential gas is important so that we can breath?",
+        "options": ["Oxygen", "Nitrogen", "Hydrogen", "Carbon dioxide"],
+        "correctAnswer": "Oxygen"
+      },
+      {
+        "question": "Energy in a current carrying coil is stored in the form of?",
+        "options": [
+          "Electric field",
+          "Magnetic field",
+          "Dielectric strength",
+          "Heat"
+        ],
+        "correctAnswer": "Magnetic field"
+      },
+      {
+        "question": "What is the longest bone in the human body?",
+        "options": ["The femur", "The ulna", "The shin", "The vertebrae"],
+        "correctAnswer": "The femur"
+      },
+      {
+        "question": "What is the suitable material for an electric fuse?",
+        "options": ["Copper", "Constantan", "Tin-lead alloy", "Nichrome"],
+        "correctAnswer": "Tin-lead alloy"
+      },
+      {
+        "question": "Who invented the periodic table?",
+        "options": [
+          "Newton",
+          "Rinky Martin",
+          "David Joseph",
+          "Dmitri Mendeleev"
+        ],
+        "correctAnswer": "Dmitri Mendeleev"
+      },
+      {
+        "question": "When do teeth come in babies?",
+        "options": ["1 Month", "3 Months", "6 Months", "10 Months"],
+        "correctAnswer": "6 Months"
+      },
+      {
+        "question": "What is the universal recipient blood type?",
+        "options": ["A+", "B+", "AB+", "O+"],
+        "correctAnswer": "AB+"
+      },
+      {
+        "question": "The rusting of an iron nail is?",
+        "options": [
+          "Reversible change",
+          "Irreversible change",
+          "Periodic change",
+          "Non-Periodic change"
+        ],
+        "correctAnswer": "Irreversible change"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

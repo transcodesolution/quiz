@@ -1,65 +1,225 @@
 [
-    {
-      "id": "1",
-      "title": "Bollywood | Bollywood-Trivia",
-      "imagePath": "../assets/images/svg/bollywood/bollywoodTriviaQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Bollywood",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Bollywood | Bollywood-Trivia",
+    "imagePath": "../assets/images/svg/bollywood/bollywoodTriviaQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Bollywood",
+    "questions": [
+      {
+        "question": "Who was the first female Bollywood actor to receive the Padma Bhushan?",
+        "options": [
+          "Madhuri Dixit",
+          "Sridevi",
+          "Hema Malini",
+          "Sharmila Tagore"
+        ],
+        "correctAnswer": "Hema Malini"
+      },
+      {
+        "question": "Which Bollywood movie is known for the famous song 'Pehla Nasha'?",
+        "options": [
+          "Dilwale Dulhania Le Jayenge",
+          "Jo Jeeta Wohi Sikandar",
+          "Kabhi Khushi Kabhie Gham",
+          "Dil To Pagal Hai"
+        ],
+        "correctAnswer": "Jo Jeeta Wohi Sikandar"
+      },
+      {
+        "question": "Which actor played the role of 'Munna Bhai' in the movie 'Munna Bhai M.B.B.S.'?",
+        "options": [
+          "Salman Khan",
+          "Aamir Khan",
+          "Shah Rukh Khan",
+          "Sanjay Dutt"
+        ],
+        "correctAnswer": "Sanjay Dutt"
+      },
+      {
+        "question": "Who is known as the 'King of Romance' in Bollywood?",
+        "options": [
+          "Salman Khan",
+          "Aamir Khan",
+          "Shah Rukh Khan",
+          "Ranbir Kapoor"
+        ],
+        "correctAnswer": "Shah Rukh Khan"
+      },
+      {
+        "question": "In which film did Amitabh Bachchan first appear with Rajesh Khanna?",
+        "options": ["Zanjeer", "Anand", "Sholay", "Chupke Chupke"],
+        "correctAnswer": "Anand"
+      },
+      {
+        "question": "Which Bollywood film was India's official entry for the 2020 Academy Awards (Oscars) for Best International Feature Film?",
+        "options": ["Andhadhun", "Gully Boy", "Article 15", "Lagaan"],
+        "correctAnswer": "Gully Boy"
+      },
+      {
+        "question": "Who played the role of 'Poo' in the iconic Bollywood movie 'Kabhi Khushi Kabhie Gham'?",
+        "options": ["Rani Mukerji", "Kajol", "Kareena Kapoor", "Preity Zinta"],
+        "correctAnswer": "Kareena Kapoor"
+      },
+      {
+        "question": "Which Bollywood actor is popularly known as 'The Greek God of Bollywood'?",
+        "options": [
+          "Hrithik Roshan",
+          "Salman Khan",
+          "Ranveer Singh",
+          "Shah Rukh Khan"
+        ],
+        "correctAnswer": "Hrithik Roshan"
+      },
+      {
+        "question": "Who was the first Bollywood actor to appear on the cover of TIME magazine?",
+        "options": [
+          "Amitabh Bachchan",
+          "Shah Rukh Khan",
+          "Salman Khan",
+          "Aamir Khan"
+        ],
+        "correctAnswer": "Shah Rukh Khan"
+      },
+      {
+        "question": "In which movie did Deepika Padukone play the role of 'Leela'?",
+        "options": ["Chennai Express", "Ram-Leela", "Tamasha", "Piku"],
+        "correctAnswer": "Ram-Leela"
+      },
+      {
+        "question": "Which Bollywood actress won the National Award for Best Actress for her role in 'Piku'?",
+        "options": [
+          "Kangana Ranaut",
+          "Deepika Padukone",
+          "Priyanka Chopra",
+          "Vidya Balan"
+        ],
+        "correctAnswer": "Deepika Padukone"
+      },
+      {
+        "question": "Who was the first actress to receive the Filmfare Award for Best Actress?",
+        "options": ["Madhubala", "Nutan", "Meena Kumari", "Nargis"],
+        "correctAnswer": "Nutan"
+      },
+      {
+        "question": "Which movie features the song 'Tujhe Dekha To'?",
+        "options": [
+          "Dilwale Dulhania Le Jayenge",
+          "Kabhi Alvida Na Kehna",
+          "Tujhe Dekha To",
+          "Dil To Pagal Hai"
+        ],
+        "correctAnswer": "Dilwale Dulhania Le Jayenge"
+      },
+      {
+        "question": "Which actor is famously known for his 'Dabangg' role?",
+        "options": ["Aamir Khan", "Ranbir Kapoor", "Salman Khan", "Ajay Devgn"],
+        "correctAnswer": "Salman Khan"
+      },
+      {
+        "question": "In which film did Rajinikanth play the role of 'Chitti', the robot?",
+        "options": ["Shivaji", "Baasha", "Robot", "Kabali"],
+        "correctAnswer": "Robot"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Who played the role of 'Rancho' in the film '3 Idiots'?",
+        "options": [
+          "Aamir Khan",
+          "Shah Rukh Khan",
+          "Salman Khan",
+          "Ranbir Kapoor"
+        ],
+        "correctAnswer": "Aamir Khan"
+      },
+      {
+        "question": "Which Bollywood film is based on the true story of a female wrestler?",
+        "options": [
+          "M.S. Dhoni: The Untold Story",
+          "Dangal",
+          "Chakde! India",
+          "Padmaavat"
+        ],
+        "correctAnswer": "Dangal"
+      },
+      {
+        "question": "In which film did Shah Rukh Khan play the role of 'Devdas'?",
+        "options": [
+          "Kabhi Alvida Na Kehna",
+          "Devdas",
+          "Dilwale Dulhania Le Jayenge",
+          "My Name is Khan"
+        ],
+        "correctAnswer": "Devdas"
+      },
+      {
+        "question": "Who was the leading actress in the film 'Piku'?",
+        "options": [
+          "Deepika Padukone",
+          "Kareena Kapoor",
+          "Priyanka Chopra",
+          "Anushka Sharma"
+        ],
+        "correctAnswer": "Deepika Padukone"
+      },
+      {
+        "question": "Which Bollywood film features the song 'Badtameez Dil'?",
+        "options": [
+          "Yeh Jawaani Hai Deewani",
+          "Ae Dil Hai Mushkil",
+          "Dil Dhadakne Do",
+          "Rockstar"
+        ],
+        "correctAnswer": "Yeh Jawaani Hai Deewani"
+      },
+      {
+        "question": "Who directed the Bollywood film 'Lagaan'?",
+        "options": [
+          "Rajkumar Hirani",
+          "Aamir Khan",
+          "Ashutosh Gowariker",
+          "Sanjay Leela Bhansali"
+        ],
+        "correctAnswer": "Ashutosh Gowariker"
+      },
+      {
+        "question": "Which Bollywood actor starred in the movie 'Dabangg 3'?",
+        "options": [
+          "Salman Khan",
+          "Aamir Khan",
+          "Akshay Kumar",
+          "Ranveer Singh"
+        ],
+        "correctAnswer": "Salman Khan"
+      },
+      {
+        "question": "In which movie did Alia Bhatt play the role of 'Veronica'?",
+        "options": ["Highway", "2 States", "Student of the Year", "Tamasha"],
+        "correctAnswer": "Student of the Year"
+      },
+      {
+        "question": "Which Bollywood film features the song 'Tujh Mein Rab Dikhta Hai'?",
+        "options": [
+          "Rab Ne Bana Di Jodi",
+          "Jab Tak Hai Jaan",
+          "Dilwale Dulhania Le Jayenge",
+          "Kabhi Alvida Na Kehna"
+        ],
+        "correctAnswer": "Rab Ne Bana Di Jodi"
+      },
+      {
+        "question": "Who is known as the 'King of Bollywood'?",
+        "options": [
+          "Amitabh Bachchan",
+          "Salman Khan",
+          "Shah Rukh Khan",
+          "Ranbir Kapoor"
+        ],
+        "correctAnswer": "Shah Rukh Khan"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

@@ -1,133 +1,333 @@
 [
-    {
-      "id": "1",
-      "title": "Raksha-Bandhan",
-      "imagePath": "../assets/images/svg/festivals/rakshaBandhanQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Festivals",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    },
-    {
-      "id": "2",
-      "title": "Onam",
-      "imagePath": "../assets/images/svg/festivals/onamQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Festivals",
-      "questions": [
-        {
-          "question": "Onam is a festival celebrated in which Indian state?",
-          "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-          "correctAnswer": "Kerala"
-        },
-        {
-          "question": "What is the traditional dance performed during Onam?",
-          "options": [
-            "Kathakali",
-            "Bharatanatyam",
-            "Mohiniyattam",
-            "Kuchipudi"
-          ],
-          "correctAnswer": "Kathakali"
-        },
-        {
-          "question": "What is the traditional feast during Onam called?",
-          "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-          "correctAnswer": "Sadya"
-        },
-        {
-          "question": "Which flower is used to make Pookalam during Onam?",
-          "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-          "correctAnswer": "Marigold"
-        },
-        {
-          "question": "Onam marks the homecoming of which legendary king?",
-          "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-          "correctAnswer": "Mahabali"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Onam is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is the main dish in Sadya?",
-          "options": ["Rice", "Bread", "Pasta", "Noodles"],
-          "correctAnswer": "Rice"
-        },
-        {
-          "question": "Which dance is not performed during Onam?",
-          "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-          "correctAnswer": "Ballet"
-        },
-        {
-          "question": "What is the traditional attire worn during Onam?",
-          "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-          "correctAnswer": "Saree"
-        },
-        {
-          "question": "Which fruit is commonly used in Onam celebrations?",
-          "options": ["Banana", "Apple", "Grapes", "Orange"],
-          "correctAnswer": "Banana"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Raksha-Bandhan",
+    "imagePath": "../assets/images/svg/festivals/rakshaBandhanQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Festivals",
+    "questions": [
+      {
+        "question": "What does Raksha Bandhan mean according to the Sanskrit language?",
+        "options": [
+          "Bond of protection",
+          "Bond of duty",
+          "Bond of care",
+          "All of the above"
+        ],
+        "correctAnswer": "Bond of protection"
+      },
+      {
+        "question": "In which month is Raksha Bandhan celebrated?",
+        "options": ["January", "March", "August", "October"],
+        "correctAnswer": "August"
+      },
+      {
+        "question": "Who tied the Rakhi on Lord Krishna's hand?",
+        "options": ["Draupadi", "Radha", "Kausalya", "None of these"],
+        "correctAnswer": "Draupadi"
+      },
+      {
+        "question": "Which festival is Rakhi associated with?",
+        "options": ["Diwali", "Bhai Dooj", "Holi", "All of the above"],
+        "correctAnswer": "Bhai Dooj"
+      },
+      {
+        "question": "Complete this song - 'Brother, my Rakhi's...'",
+        "options": [
+          "To celebrate the festival",
+          "To maintain the bond",
+          "To maintain the relationship",
+          "None of these"
+        ],
+        "correctAnswer": "To maintain the bond"
+      },
+      {
+        "question": "On which day (date) is Raksha Bandhan celebrated according to the Hindu calendar?",
+        "options": [
+          "Shravan Shuddha Dashami",
+          "Shravan Krishna Ekadashi",
+          "Shravan Amavasya",
+          "Shravan Purnima"
+        ],
+        "correctAnswer": "Shravan Purnima"
+      },
+      {
+        "question": "What is done during the festival of Raksha Bandhan?",
+        "options": [
+          "Applying Tilak",
+          "Tying Rakhi",
+          "Feeding sweets",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "What is the name of Ravana's sister?",
+        "options": ["Sita", "Radha", "Shurpanakha", "Draupadi"],
+        "correctAnswer": "Shurpanakha"
+      },
+      {
+        "question": "Complete this song - 'Flowers and stars, everyone says, my...'",
+        "options": ["Wife", "Mother", "Sister", "None of these"],
+        "correctAnswer": "Sister"
+      },
+      {
+        "question": "In which part of India is Raksha Bandhan primarily celebrated?",
+        "options": ["North-Western", "North-Eastern", "South", "West"],
+        "correctAnswer": "North-Western"
+      },
+      {
+        "question": "In which month is the festival of Raksha Bandhan celebrated?",
+        "options": ["Chaitra", "Shravan", "Kartika", "Aghan"],
+        "correctAnswer": "Shravan"
+      },
+      {
+        "question": "What does a sister tie on her brother's wrist during Raksha Bandhan?",
+        "options": ["Mouli", "Rakhi", "Bangle", "Amulet"],
+        "correctAnswer": "Rakhi"
+      },
+      {
+        "question": "What does a brother give to his sister on Raksha Bandhan?",
+        "options": ["Blessings", "Gifts", "Money", "All of the above"],
+        "correctAnswer": "All of the above"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which historical story is also associated with Raksha Bandhan?",
+        "options": [
+          "Krishna and Draupadi",
+          "Ram and Sita",
+          "Shiva and Parvati",
+          "Arjun and Subhadra"
+        ],
+        "correctAnswer": "Krishna and Draupadi"
+      },
+      {
+        "question": "What is the main purpose of celebrating Raksha Bandhan in India?",
+        "options": [
+          "To show the love between brothers and sisters",
+          "To promote valor",
+          "To encourage education",
+          "For harvesting"
+        ],
+        "correctAnswer": "To show the love between brothers and sisters"
+      },
+      {
+        "question": "Historically, which queen sent a Rakhi to Mughal Emperor Humayun asking for help?",
+        "options": [
+          "Queen Padmavati",
+          "Queen Durgavati",
+          "Queen Karnavati",
+          "Queen Lakshmibai"
+        ],
+        "correctAnswer": "Queen Karnavati"
+      },
+      {
+        "question": "What special food is prepared on the day of Raksha Bandhan?",
+        "options": ["Pani Puri", "Gulab Jamun", "Khichdi", "Ladoo"],
+        "correctAnswer": "Ladoo"
+      },
+      {
+        "question": "Which religion primarily celebrates Raksha Bandhan?",
+        "options": ["Hindu", "Muslim", "Sikh", "Christian"],
+        "correctAnswer": "Hindu"
+      },
+      {
+        "question": "On which lunar date is Raksha Bandhan celebrated?",
+        "options": ["Purnima", "Amavasya", "Pratipada", "Shashthi"],
+        "correctAnswer": "Purnima"
+      },
+      {
+        "question": "What does a sister do after tying the Rakhi?",
+        "options": [
+          "Performs Aarti for her brother",
+          "Feeds sweets to her brother",
+          "Prays for her brother's long life",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "In which ancient scripture is Raksha Bandhan mentioned?",
+        "options": ["Ramayana", "Mahabharata", "Vedas", "Puranas"],
+        "correctAnswer": "Mahabharata"
+      },
+      {
+        "question": "Who tied a Rakhi on Lord Krishna's wrist in the Mahabharata?",
+        "options": ["Kunti", "Subhadra", "Draupadi", "Gandhari"],
+        "correctAnswer": "Draupadi"
+      },
+      {
+        "question": "In which state of India is the tradition of tying 'Lumba Rakhi' to the bride followed?",
+        "options": ["Uttar Pradesh", "Gujarat", "Rajasthan", "Bihar"],
+        "correctAnswer": "Rajasthan"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2",
+    "title": "Onam",
+    "imagePath": "../assets/images/svg/festivals/onamQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Festivals",
+    "questions": [
+      {
+        "question": "King Mahabali was whose grandson?",
+        "options": ["Prahlad", "Ashoka", "Vishnu", "Surya"],
+        "correctAnswer": "Prahlad"
+      },
+      {
+        "question": "What is gifting of new clothes during Onam called?",
+        "options": ["Alaimala", "Onakudi", "Othuyu", "Poshak"],
+        "correctAnswer": "Onakudi"
+      },
+      {
+        "question": "Which is the famous dance performed during Onam celebrations?",
+        "options": [
+          "Mohiniyattam",
+          "Kathakali",
+          "Thiruvathirakali",
+          "Kumattikali"
+        ],
+        "correctAnswer": "Thiruvathirakali"
+      },
+      {
+        "question": "During Onam, which tree is planted outside temples and burnt to denote Mahabali's sacrifice?",
+        "options": [
+          "Banana Tree",
+          "Coconut Tree",
+          "Ashoka Tree",
+          "Palmyra Tree"
+        ],
+        "correctAnswer": "Palmyra Tree"
+      },
+      {
+        "question": "What kind of dish is Payasam?",
+        "options": ["Pickle", "Dessert", "Starter", "Rice meal"],
+        "correctAnswer": "Dessert"
+      },
+      {
+        "question": "In which place is Onathallu played during Onam?",
+        "options": ["Palakkad", "Kannur", "Thrissur", "Alleppey"],
+        "correctAnswer": "Palakkad"
+      },
+      {
+        "question": "What is the 7th day of Onam called?",
+        "options": ["Moolam", "Pooradam", "Anizham", "Chitthira"],
+        "correctAnswer": "Moolam"
+      },
+      {
+        "question": "Which is the song sung during Onam while playing on the swing?",
+        "options": ["Onappaatt", "Onathull", "Kuttanandan", "Theyyam"],
+        "correctAnswer": "Onappaatt"
+      },
+      {
+        "question": "What is the folk dance of Kerala performed during Onam called?",
+        "options": ["Mohiniattam", "Pulikali", "Bharatnatyam", "Achyutam"],
+        "correctAnswer": "Pulikali"
+      },
+      {
+        "question": "What kind of dance is Onathallu, performed during Onam?",
+        "options": [
+          "Classical Dance",
+          "Folk Dance",
+          "Martial Dance",
+          "Tantrik Dance"
+        ],
+        "correctAnswer": "Martial Dance"
+      },
+      {
+        "question": "During which nakshatra is Onam celebrated?",
+        "options": ["Atham", "Rohini", "Ashvini", "Bharani"],
+        "correctAnswer": "Atham"
+      },
+      {
+        "question": "For how many days is Onam celebrated?",
+        "options": ["5", "3", "10", "7"],
+        "correctAnswer": "10"
+      },
+      {
+        "question": "What among the following would you find men commonly wearing during Onam?",
+        "options": [
+          "Mundu and Shirt",
+          "Achkan",
+          "Pathani Kurta",
+          "Kurta Payjama"
+        ],
+        "correctAnswer": "Mundu and Shirt"
+      },
+      {
+        "question": "What is the name of statue used during Onam to represent King Maveli and Vamana?",
+        "options": ["Onthappan", "Mutkhal", "Moorti", "Mukhauta"],
+        "correctAnswer": "Onthappan"
+      },
+      {
+        "question": "What is the name of saree worn by women during Onam called?",
+        "options": ["Patola Saree", "Kasavu", "Mekhlachadar", "Linen"],
+        "correctAnswer": "Kasavu"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "In Hinduism, King Mahabali is believed to be the king of which place in next yuga?",
+        "options": ["Pataal", "Lanka", "Prithvi", "Swarg"],
+        "correctAnswer": "Swarg"
+      },
+      {
+        "question": "During which Malayalam month is Onam celebrated?",
+        "options": ["Bhaado", "Karthik", "Chingam", "Kanni"],
+        "correctAnswer": "Chingam"
+      },
+      {
+        "question": "Which day is the most important day of Onam?",
+        "options": ["Chitthira", "Thiruvonam", "Anizham", "Moolam"],
+        "correctAnswer": "Thiruvonam"
+      },
+      {
+        "question": "Which game is Keralite version of Kabaddi, played during Onam?",
+        "options": ["Sitoliya", "Ambeyyal", "Kutukutu", "Chuppam Chupaayi"],
+        "correctAnswer": "Kutukutu"
+      },
+      {
+        "question": "Mahabali was the king of whom?",
+        "options": ["Asuras", "Aryans", "Brahmins", "Manushya"],
+        "correctAnswer": "Asuras"
+      },
+      {
+        "question": "Which is the first day of the Onam festival?",
+        "options": ["Chithira", "Atham", "Moolam", "Pooradam"],
+        "correctAnswer": "Atham"
+      },
+      {
+        "question": "Which set of stars are known as Vamana's 3 footprints?",
+        "options": ["Big Dipper", "Ursa Major", "Altair", "North Star"],
+        "correctAnswer": "Altair"
+      },
+      {
+        "question": "What do you associate with 'Onavillu', used in celebrations devoted to Lord Vishnu?",
+        "options": ["Dish", "Dress", "Musical Instrument", "Bhajan"],
+        "correctAnswer": "Musical Instrument"
+      },
+      {
+        "question": "Onam celebrates which crop's harvest?",
+        "options": ["Banana", "Wheat", "Sugarcane", "Rice"],
+        "correctAnswer": "Rice"
+      },
+      {
+        "question": "Which among the following is NOT a part of Onam celebrations?",
+        "options": [
+          "Pookallam",
+          "Vallam Kali",
+          "Onathappan",
+          "Varlakshmi Vrat"
+        ],
+        "correctAnswer": "Varlakshmi Vrat"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

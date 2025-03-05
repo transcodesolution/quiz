@@ -1,65 +1,145 @@
 [
-    {
-      "id": "1",
-      "title": "Food Brand | Guess the brand",
-      "imagePath": "../assets/images/svg/foodBrands/guessTheBrandQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Food Brands",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Food Brand | Guess the brand",
+    "imagePath": "../assets/images/svg/foodBrands/guessTheBrandQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Food Brands",
+    "questions": [
+      {
+        "question": "Which candy brand has the slogan 'It melts in your mouth, not in your hands'?",
+        "options": ["M&Ms", "Skittles", "Tic Tac", "Doublemint"],
+        "correctAnswer": "M&Ms"
+      },
+      {
+        "question": "Which fast-food chain has the famous slogan, 'Eat fresh!'?",
+        "options": ["McDonald's", "Dominos", "Subway", "Pizza Hut"],
+        "correctAnswer": "Subway"
+      },
+      {
+        "question": "Which fast food chain has the slogan 'I'm Lovin' It'?",
+        "options": ["McDonald's", "Burger King", "Dominos", "Pizza Hut"],
+        "correctAnswer": "McDonald's"
+      },
+      {
+        "question": "Taste the thunder' is the slogan of which soft drink company?",
+        "options": ["Sprite", "Thums Up", "Coca Cola", "Pepsi"],
+        "correctAnswer": "Thums Up"
+      },
+      {
+        "question": "100% Squeezed Sunshine' has been which company's ad slogan?",
+        "options": ["Real", "Tropicana", "Tang", "Sprite"],
+        "correctAnswer": "Tropicana"
+      },
+      {
+        "question": "Which fast food chain has the slogan 'Finger-Lickin' Good'?",
+        "options": ["KFC", "McDonald's", "Burger King", "Taco Bell"],
+        "correctAnswer": "KFC"
+      },
+      {
+        "question": "Which food chain has the slogan 'Eat Fresh'?",
+        "options": ["Panera", "Olive Garden", "Little Caesar's", "Subway"],
+        "correctAnswer": "Subway"
+      },
+      {
+        "question": "Which fast food chain has the slogan 'Better Ingredients. Better Pizza'?",
+        "options": ["Dominos", "Pizza Hut", "Papa John's", "Little Caesar's"],
+        "correctAnswer": "Papa John's"
+      },
+      {
+        "question": "Which energy drink brand has the slogan 'Unleash the Beast'?",
+        "options": ["Schweppes", "Red Bull", "Monster", "Gatorade"],
+        "correctAnswer": "Monster"
+      },
+      {
+        "question": "Never Had It, Never Will' has been which company's ad slogan?",
+        "options": ["Coca Cola", "Pepsi", "Sprite", "7UP"],
+        "correctAnswer": "7UP"
+      },
+      {
+        "question": "Which soft drink company's slogan is 'Taste the Feeling'?",
+        "options": ["Fanta", "Sprite", "Pepsi", "Coca Cola"],
+        "correctAnswer": "Coca Cola"
+      },
+      {
+        "question": "Which fast food chain has the slogan 'Think outside the bun'?",
+        "options": ["Chipotle", "Taco Bell", "McDonald's", "Burger King"],
+        "correctAnswer": "Taco Bell"
+      },
+      {
+        "question": "The taste of India' is the slogan of which brand?",
+        "options": ["Dabur", "Vadilal", "Mother Dairy", "Amul"],
+        "correctAnswer": "Amul"
+      },
+      {
+        "question": "Which chocolate bar has the slogan 'The taste of paradise'?",
+        "options": ["Bounty", "Twix", "Skittles", "M&Ms"],
+        "correctAnswer": "Bounty"
+      },
+      {
+        "question": "Which fast food chain has the slogan 'Be Your Way'?",
+        "options": ["Subway", "Taco Bell", "Burger King", "Pizza Hut"],
+        "correctAnswer": "Burger King"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which U.S. restaurant chain has the slogan 'Service with the speed of sound'?",
+        "options": ["Sonic", "McDonald's", "Wendy's", "White Castle"],
+        "correctAnswer": "Sonic"
+      },
+      {
+        "question": "Which potato chips brand has the slogan 'Betcha can't eat just one'?",
+        "options": ["Pringles", "Doritos", "Lays", "Cheetos"],
+        "correctAnswer": "Lays"
+      },
+      {
+        "question": "Break Out Of The Ordinary' has been which company's ad slogan?",
+        "options": ["Snickers", "Nestle", "Mars", "Twix"],
+        "correctAnswer": "Nestle"
+      },
+      {
+        "question": "Which beverage has been marketed with the slogan 'Great Taste, Zero Sugar'?",
+        "options": [
+          "Coke Zero",
+          "Sprite Zero Sugar",
+          "Pepsi Max",
+          "Diet Pepsi"
+        ],
+        "correctAnswer": "Coke Zero"
+      },
+      {
+        "question": "Which mineral water has been marketed with the slogan 'Live Young'?",
+        "options": ["Fiji", "Aquafina", "Kinley", "Evian"],
+        "correctAnswer": "Evian"
+      },
+      {
+        "question": "Which company has used the ad slogan 'It's A Kick In A Glass'?",
+        "options": ["Tang", "Tropicana", "Raw", "Mountain Dew"],
+        "correctAnswer": "Tang"
+      },
+      {
+        "question": "Which fast-food brand is known for its golden arches?",
+        "options": ["Burger King", "KFC", "McDonald's", "Subway"],
+        "correctAnswer": "McDonald's"
+      },
+      {
+        "question": "Which brand is famous for its fried chicken and uses the slogan 'Finger Lickin' Good'?",
+        "options": ["Popeyes", "KFC", "Chick-fil-A", "Wendy's"],
+        "correctAnswer": "KFC"
+      },
+      {
+        "question": "Which chocolate brand is known for its 'melts in your mouth, not in your hands' slogan?",
+        "options": ["Snickers", "M&M's", "Hershey's", "KitKat"],
+        "correctAnswer": "M&M's"
+      },
+      {
+        "question": "Which brand is famous for its instant noodles?",
+        "options": ["Maggi", "Top Ramen", "Maruchan", "Nissin"],
+        "correctAnswer": "Maggi"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

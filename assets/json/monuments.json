@@ -1,65 +1,155 @@
 [
-    {
-      "id": "1",
-      "title": "Monuments | National",
-      "imagePath": "../assets/images/svg/monuments/nationalQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Monuments",
-      "questions": [
-        {
-          "question": "Raksha Bandhan is celebrated in which month?",
-          "options": ["January", "August", "December", "March"],
-          "correctAnswer": "August"
-        },
-        {
-          "question": "What is tied on the wrist during Raksha Bandhan?",
-          "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-          "correctAnswer": "Rakhi"
-        },
-        {
-          "question": "Raksha Bandhan celebrates the bond between?",
-          "options": ["Friends", "Siblings", "Parents", "Teachers"],
-          "correctAnswer": "Siblings"
-        },
-        {
-          "question": "Which sweet is commonly associated with Raksha Bandhan?",
-          "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-          "correctAnswer": "Barfi"
-        },
-        {
-          "question": "What is the traditional color of Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Red"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Raksha Bandhan is celebrated in which season?",
-          "options": ["Winter", "Summer", "Monsoon", "Spring"],
-          "correctAnswer": "Monsoon"
-        },
-        {
-          "question": "What is the main ingredient in Barfi?",
-          "options": ["Milk", "Flour", "Sugar", "Butter"],
-          "correctAnswer": "Milk"
-        },
-        {
-          "question": "Which color is not traditionally associated with Rakhi?",
-          "options": ["Red", "Blue", "Green", "Yellow"],
-          "correctAnswer": "Blue"
-        },
-        {
-          "question": "What is the traditional gift given during Raksha Bandhan?",
-          "options": ["Money", "Clothes", "Jewelry", "Books"],
-          "correctAnswer": "Money"
-        },
-        {
-          "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-          "options": ["Rose", "Marigold", "Lily", "Tulip"],
-          "correctAnswer": "Marigold"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Monuments | National",
+    "imagePath": "../assets/images/svg/monuments/nationalQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Monuments",
+    "questions": [
+      {
+        "question": "Golconda Fort is located in which of the following?",
+        "options": ["Telangana", "Delhi", "Rajasthan", "Punjab"],
+        "correctAnswer": "Telangana"
+      },
+      {
+        "question": "Where is the Bishnupur group of temples located in India?",
+        "options": ["Uttarakhand", "Uttar Pradesh", "Bihar", "West Bengal"],
+        "correctAnswer": "West Bengal"
+      },
+      {
+        "question": "Which among the following is the national monument of India?",
+        "options": ["India Gate", "Gateway of India", "Taj Mahal", "Agra Fort"],
+        "correctAnswer": "India Gate"
+      },
+      {
+        "question": "Which of the following is the oldest stone structure in India?",
+        "options": ["Taj Mahal", "Qutb Minar", "Red Fort", "Sanchi"],
+        "correctAnswer": "Sanchi"
+      },
+      {
+        "question": "Where is the Laxman Temple in India?",
+        "options": ["Jaipur", "Chhattisgarh", "Bhopal", "Meghalaya"],
+        "correctAnswer": "Chhattisgarh"
+      },
+      {
+        "question": "Buland Darwaja is located in which city?",
+        "options": ["Delhi", "Fatehpur Sikri", "Bhopal", "Chandigarh"],
+        "correctAnswer": "Fatehpur Sikri"
+      },
+      {
+        "question": "Golden Temple is located in which city?",
+        "options": ["Amritsar", "Chandigarh", "Ahmedabad", "Dehradun"],
+        "correctAnswer": "Amritsar"
+      },
+      {
+        "question": "Where are Elephanta caves located?",
+        "options": ["Madurai", "Vizag", "Mumbai", "Bhopal"],
+        "correctAnswer": "Mumbai"
+      },
+      {
+        "question": "Karla, one of the best preserved Buddhist Caves are in which Indian State?",
+        "options": [
+          "Madhya Pradesh",
+          "Uttar Pradesh",
+          "Uttarakhand",
+          "Maharashtra"
+        ],
+        "correctAnswer": "Maharashtra"
+      },
+      {
+        "question": "Where is Jahangir Mahal located?",
+        "options": ["Maharashtra", "Madhya Pradesh", "Delhi", "Gujarat"],
+        "correctAnswer": "Madhya Pradesh"
+      },
+      {
+        "question": "Where is the Deeg Palace located in India?",
+        "options": ["Rajasthan", "Madhya Pradesh", "Maharashtra", "Gujarat"],
+        "correctAnswer": "Rajasthan"
+      },
+      {
+        "question": "Where is Lord Cornwallis' Tomb located in India?",
+        "options": ["Bihar", "Assam", "Uttar Pradesh", "Madhya Pradesh"],
+        "correctAnswer": "Uttar Pradesh"
+      },
+      {
+        "question": "Anand Bhavan is located in which city?",
+        "options": ["Allahabad", "Fatehpur Sikri", "Delhi", "Agra"],
+        "correctAnswer": "Allahabad"
+      },
+      {
+        "question": "Amber Palace is located in which city?",
+        "options": ["Mysore", "Delhi", "Bhopal", "Jaipur"],
+        "correctAnswer": "Jaipur"
+      },
+      {
+        "question": "Where is Karanghar Palace located?",
+        "options": ["Assam", "Odisha", "Rajasthan", "Delhi"],
+        "correctAnswer": "Assam"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Where is Akbar's Tomb located?",
+        "options": ["Ghaziabad", "Agra", "Noida", "Allahabad"],
+        "correctAnswer": "Agra"
+      },
+      {
+        "question": "In which Indian state is the Ashoka Pillar located?",
+        "options": [
+          "Uttarakhand",
+          "Uttar Pradesh",
+          "Jharkhand",
+          "Madhya Pradesh"
+        ],
+        "correctAnswer": "Uttar Pradesh"
+      },
+      {
+        "question": "Where is Dindigul Fort located?",
+        "options": ["Andhra Pradesh", "Tamil Nadu", "Telangana", "Karnataka"],
+        "correctAnswer": "Tamil Nadu"
+      },
+      {
+        "question": "Who was the first muslim ruler of Delhi?",
+        "options": ["Akbar", "Humayun", "Qutb-ud-din", "None"],
+        "correctAnswer": "Qutb-ud-din"
+      },
+      {
+        "question": "Where are the Ajanta and Ellora caves located?",
+        "options": ["Odisha", "Telangana", "Maharashtra", "Karnataka"],
+        "correctAnswer": "Maharashtra"
+      },
+      {
+        "question": "Where is the Jantar Mantar located?",
+        "options": ["Delhi", "Hyderabad", "Rajasthan", "Jammu"],
+        "correctAnswer": "Delhi"
+      },
+      {
+        "question": "Which among the following is a UNESCO world heritage site near Agra?",
+        "options": ["Mathura", "Vrindavan", "Fatehpur Sikri", "Bharatpur"],
+        "correctAnswer": "Fatehpur Sikri"
+      },
+      {
+        "question": "Where is Ranthambore Fort located in India?",
+        "options": ["Rajasthan", "Madhya Pradesh", "Maharashtra", "Gujarat"],
+        "correctAnswer": "Rajasthan"
+      },
+      {
+        "question": "Jal Mahal is situated in?",
+        "options": ["Patna", "Jaipur", "Siliguri", "Ropar"],
+        "correctAnswer": "Jaipur"
+      },
+      {
+        "question": "Which monument in Kolkata was inspired by the architecture of the Taj Mahal?",
+        "options": [
+          "Nizam Palace",
+          "Metclaffe Hall",
+          "Fort William",
+          "Victoria's Memorial"
+        ],
+        "correctAnswer": "Victoria's Memorial"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

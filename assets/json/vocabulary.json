@@ -8,56 +8,131 @@
     "name": "Vocabulary",
     "questions": [
       {
-        "question": "Translate 'Apple' to Hindi.",
-        "options": ["Seb", "Kela", "Aam", "Angoor"],
-        "correctAnswer": "Seb"
+        "question": "What is the Hindi meaning of 'Brave'?",
+        "options": ["डरपोक", "बहादुर", "शांत", "कमजोर"],
+        "correctAnswer": "बहादुर"
       },
       {
-        "question": "Translate 'Water' to Hindi.",
-        "options": ["Pani", "Doodh", "Chai", "Nimbu"],
-        "correctAnswer": "Pani"
+        "question": "Translate 'Beautiful' into Hindi.",
+        "options": ["सुंदर", "भयानक", "छोटा", "तेज"],
+        "correctAnswer": "सुंदर"
       },
       {
-        "question": "Translate 'Book' to Hindi.",
-        "options": ["Kitab", "Pustak", "Kalam", "Patrika"],
-        "correctAnswer": "Kitab"
+        "question": "What is the English meaning of 'आशा'?",
+        "options": ["Love", "Hope", "Fear", "Happiness"],
+        "correctAnswer": "Hope"
       },
       {
-        "question": "Translate 'Milk' to Hindi.",
-        "options": ["Doodh", "Pani", "Chai", "Nimbu"],
-        "correctAnswer": "Doodh"
+        "question": "Translate 'Kindness' into Hindi.",
+        "options": ["क्रूरता", "दयालुता", "धैर्य", "गंभीरता"],
+        "correctAnswer": "दयालुता"
       },
       {
-        "question": "Translate 'Sun' to Hindi.",
-        "options": ["Surya", "Chand", "Tara", "Dharti"],
-        "correctAnswer": "Surya"
+        "question": "What is the Hindi meaning of 'Journey'?",
+        "options": ["सफर", "गंतव्य", "आराम", "समाप्ति"],
+        "correctAnswer": "सफर"
+      },
+      {
+        "question": "Translate 'Friendship' into Hindi.",
+        "options": ["परिचय", "मित्रता", "रिश्ता", "नाता"],
+        "correctAnswer": "मित्रता"
+      },
+      {
+        "question": "What is the English meaning of 'सफलता'?",
+        "options": ["Success", "Effort", "Failure", "Practice"],
+        "correctAnswer": "Success"
+      },
+      {
+        "question": "Translate 'Wisdom' into Hindi.",
+        "options": ["ज्ञान", "धन", "क्रोध", "आलस्य"],
+        "correctAnswer": "ज्ञान"
+      },
+      {
+        "question": "What is the Hindi meaning of 'Honesty'?",
+        "options": ["ईमानदारी", "चालाकी", "मजाक", "गंभीरता"],
+        "correctAnswer": "ईमानदारी"
+      },
+      {
+        "question": "Translate 'Victory' into Hindi.",
+        "options": ["हार", "जीत", "अवसर", "युद्ध"],
+        "correctAnswer": "जीत"
+      },
+      {
+        "question": "What is the Hindi meaning of 'Respect'?",
+        "options": ["आदर", "घृणा", "डर", "शांति"],
+        "correctAnswer": "आदर"
+      },
+      {
+        "question": "Translate 'Courage' into Hindi.",
+        "options": ["साहस", "भय", "क्रोध", "आलस्य"],
+        "correctAnswer": "साहस"
+      },
+      {
+        "question": "What is the English meaning of 'विश्वास'?",
+        "options": ["Doubt", "Trust", "Anger", "Knowledge"],
+        "correctAnswer": "Trust"
+      },
+      {
+        "question": "Translate 'Generosity' into Hindi.",
+        "options": ["कंजूसी", "उदारता", "स्वार्थ", "लालच"],
+        "correctAnswer": "उदारता"
+      },
+      {
+        "question": "What is the Hindi meaning of 'Hardwork'?",
+        "options": ["मेहनत", "आलस्य", "शौक", "आराम"],
+        "correctAnswer": "मेहनत"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Translate 'Dog' to Hindi.",
-        "options": ["Kutta", "Billi", "Gadha", "Ghoda"],
-        "correctAnswer": "Kutta"
+        "question": "Translate 'Forgiveness' into Hindi.",
+        "options": ["क्षमा", "दंड", "क्रोध", "नफरत"],
+        "correctAnswer": "क्षमा"
       },
       {
-        "question": "Translate 'Tree' to Hindi.",
-        "options": ["Ped", "Phool", "Patta", "Ghar"],
-        "correctAnswer": "Ped"
+        "question": "What is the English meaning of 'धैर्य'?",
+        "options": ["Patience", "Haste", "Courage", "Fear"],
+        "correctAnswer": "Patience"
       },
       {
-        "question": "Translate 'House' to Hindi.",
-        "options": ["Ghar", "Makan", "Kothi", "Bangla"],
-        "correctAnswer": "Ghar"
+        "question": "Translate 'Honour' into Hindi.",
+        "options": ["मान-सम्मान", "मजाक", "झूठ", "अपमान"],
+        "correctAnswer": "मान-सम्मान"
       },
       {
-        "question": "Translate 'River' to Hindi.",
-        "options": ["Nadi", "Samudra", "Jheel", "Talab"],
-        "correctAnswer": "Nadi"
+        "question": "What is the Hindi meaning of 'Happiness'?",
+        "options": ["खुशी", "दुःख", "डर", "क्रोध"],
+        "correctAnswer": "खुशी"
       },
       {
-        "question": "Translate 'Sky' to Hindi.",
-        "options": ["Aakash", "Zameen", "Pani", "Hawa"],
-        "correctAnswer": "Aakash"
+        "question": "Translate 'Confidence' into Hindi.",
+        "options": ["विश्वास", "डर", "शंका", "आलस्य"],
+        "correctAnswer": "विश्वास"
+      },
+      {
+        "question": "What is the English meaning of 'माफ़ करना'?",
+        "options": ["Forgive", "Punish", "Blame", "Hate"],
+        "correctAnswer": "Forgive"
+      },
+      {
+        "question": "Translate 'Sincerity' into Hindi.",
+        "options": ["ईमानदारी", "धोखा", "आलस्य", "चालाकी"],
+        "correctAnswer": "ईमानदारी"
+      },
+      {
+        "question": "What is the Hindi meaning of 'Struggle'?",
+        "options": ["संघर्ष", "आराम", "त्याग", "मजा"],
+        "correctAnswer": "संघर्ष"
+      },
+      {
+        "question": "Translate 'Compassion' into Hindi.",
+        "options": ["करुणा", "क्रोध", "नफरत", "धोखा"],
+        "correctAnswer": "करुणा"
+      },
+      {
+        "question": "What is the English meaning of 'स्वतंत्रता'?",
+        "options": ["Freedom", "Slavery", "Rule", "Obligation"],
+        "correctAnswer": "Freedom"
       }
     ],
     "difficulty": "easy"

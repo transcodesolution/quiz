@@ -1,128 +1,313 @@
 [
-    {
-      "id": "1",
-      "title": "English Grammar | Noun-Pronoun",
-      "imagePath": "../assets/images/svg/englishGrammar/nounPronounQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "English Grammar",
-      "questions": [
-        {
-          "question": "Which of the following is a pronoun?",
-          "options": ["He", "Table", "Run", "Blue"],
-          "correctAnswer": "He"
-        },
-        {
-          "question": "Identify the noun in the sentence: 'The cat sleeps.'",
-          "options": ["The", "cat", "sleeps", "None"],
-          "correctAnswer": "cat"
-        },
-        {
-          "question": "Which of the following is a noun?",
-          "options": ["Quickly", "Happiness", "Run", "Blue"],
-          "correctAnswer": "Happiness"
-        },
-        {
-          "question": "Which word is a pronoun in the sentence: 'She is happy.'",
-          "options": ["She", "is", "happy", "None"],
-          "correctAnswer": "She"
-        },
-        {
-          "question": "Identify the noun in the sentence: 'The dog barks.'",
-          "options": ["The", "dog", "barks", "None"],
-          "correctAnswer": "dog"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Which of the following is a noun?",
-          "options": ["Run", "Jump", "Happiness", "Quickly"],
-          "correctAnswer": "Happiness"
-        },
-        {
-          "question": "Identify the pronoun in the sentence: 'They are playing.'",
-          "options": ["They", "are", "playing", "None"],
-          "correctAnswer": "They"
-        },
-        {
-          "question": "Which word is a noun in the sentence: 'The sun is bright.'",
-          "options": ["The", "sun", "is", "bright"],
-          "correctAnswer": "sun"
-        },
-        {
-          "question": "Which of the following is a pronoun?",
-          "options": ["He", "Table", "Run", "Blue"],
-          "correctAnswer": "He"
-        },
-        {
-          "question": "Identify the noun in the sentence: 'The bird sings.'",
-          "options": ["The", "bird", "sings", "None"],
-          "correctAnswer": "bird"
-        }
-      ],
-      "difficulty": "medium"
-    },
-    {
-      "id": "2",
-      "title": "English Grammar | Verb-Adverb",
-      "imagePath": "../assets/images/svg/englishGrammar/verbAdverb.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "English Grammar",
-      "questions": [
-        {
-          "question": "Which of the following is a verb?",
-          "options": ["Quickly", "Run", "Blue", "Table"],
-          "correctAnswer": "Run"
-        },
-        {
-          "question": "Which word is an adverb in the sentence: 'She sings beautifully.'",
-          "options": ["She", "sings", "beautifully", "None"],
-          "correctAnswer": "beautifully"
-        },
-        {
-          "question": "Identify the verb in the sentence: 'The dog barks loudly.'",
-          "options": ["dog", "barks", "loudly", "The"],
-          "correctAnswer": "barks"
-        },
-        {
-          "question": "Which of the following is an adverb?",
-          "options": ["Quick", "Quickly", "Quicker", "Quickest"],
-          "correctAnswer": "Quickly"
-        },
-        {
-          "question": "What is the adverb in the sentence: 'He runs very fast.'",
-          "options": ["He", "runs", "very", "fast"],
-          "correctAnswer": "fast"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Which of the following is a verb?",
-          "options": ["Quickly", "Run", "Blue", "Table"],
-          "correctAnswer": "Run"
-        },
-        {
-          "question": "Which word is an adverb in the sentence: 'He runs swiftly.'",
-          "options": ["He", "runs", "swiftly", "None"],
-          "correctAnswer": "swiftly"
-        },
-        {
-          "question": "Identify the verb in the sentence: 'The cat jumps high.'",
-          "options": ["cat", "jumps", "high", "The"],
-          "correctAnswer": "jumps"
-        },
-        {
-          "question": "Which of the following is an adverb?",
-          "options": ["Quick", "Quickly", "Quicker", "Quickest"],
-          "correctAnswer": "Quickly"
-        },
-        {
-          "question": "What is the adverb in the sentence: 'She speaks softly.'",
-          "options": ["She", "speaks", "softly", "None"],
-          "correctAnswer": "softly"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "English Grammar | Noun-Pronoun",
+    "imagePath": "../assets/images/svg/englishGrammar/nounPronounQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "English Grammar",
+    "questions": [
+      {
+        "question": "Kabir is an example of what type of noun?",
+        "options": [
+          "Proper noun",
+          "Common noun",
+          "Abstract noun",
+          "Concrete noun"
+        ],
+        "correctAnswer": "Proper noun"
+      },
+      {
+        "question": "Identify the odd one out",
+        "options": ["Chennai", "Bangalore", "Mumbai", "Toronto"],
+        "correctAnswer": "Toronto"
+      },
+      {
+        "question": "Pick the odd one out",
+        "options": ["Venus", "Earth", "Neptune", "Satellite"],
+        "correctAnswer": "Satellite"
+      },
+      {
+        "question": "Which among the following is not a noun?",
+        "options": ["Play", "Dance", "Sing", "Melbourne"],
+        "correctAnswer": "Melbourne"
+      },
+      {
+        "question": "Collective noun for a group of sheep is?",
+        "options": ["Herd", "Swarm", "Flock", "Company"],
+        "correctAnswer": "Flock"
+      },
+      {
+        "question": "Identify the odd one out",
+        "options": ["Walk", "Listen", "Jump", "Swim"],
+        "correctAnswer": "Listen"
+      },
+      {
+        "question": "Identify the odd one out",
+        "options": ["Banana", "Mango", "Cashew", "Guava"],
+        "correctAnswer": "Cashew"
+      },
+      {
+        "question": "Which of the following is not a noun?",
+        "options": ["Modernism", "Employee", "Student", "Teacher"],
+        "correctAnswer": "Modernism"
+      },
+      {
+        "question": "What is the collective noun for directors?",
+        "options": ["Board", "Herd", "Bunch", "Fleet"],
+        "correctAnswer": "Board"
+      },
+      {
+        "question": "Identify the odd one out",
+        "options": ["Love", "Honesty", "Freedom", "Window"],
+        "correctAnswer": "Window"
+      },
+      {
+        "question": "Identify the antonym of 'pass'?",
+        "options": ["Complete", "Fail", "Die", "Hang"],
+        "correctAnswer": "Fail"
+      },
+      {
+        "question": "Which one of these is not a noun?",
+        "options": ["Church", "Temple", "Mosque", "France"],
+        "correctAnswer": "France"
+      },
+      {
+        "question": "Which among the following is not a noun?",
+        "options": ["San Francisco", "Runner", "Player", "Golfer"],
+        "correctAnswer": "San Francisco"
+      },
+      {
+        "question": "Collective noun for a group of musicians is?",
+        "options": ["Band", "Flock", "Group", "Bench"],
+        "correctAnswer": "Band"
+      },
+      {
+        "question": "Which of the following is a proper noun?",
+        "options": ["Bag", "Desk", "Ted", "Fan"],
+        "correctAnswer": "Ted"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "What will be the masculine form of the noun 'vixen'?",
+        "options": ["Ant", "Elephant", "Fox", "Lamb"],
+        "correctAnswer": "Fox"
+      },
+      {
+        "question": "What is the synonym of dancing?",
+        "options": ["Singing", "Grooving", "Climbing", "Playing"],
+        "correctAnswer": "Grooving"
+      },
+      {
+        "question": "The plural of father-in-law is?",
+        "options": [
+          "Fathers-in-law",
+          "Father-ins-law",
+          "Father-in-laws",
+          "Fathers-ins-laws"
+        ],
+        "correctAnswer": "Fathers-in-law"
+      },
+      {
+        "question": "What is the masculine form of the noun 'mare'?",
+        "options": ["Horse", "Cat", "Dog", "Goat"],
+        "correctAnswer": "Horse"
+      },
+      {
+        "question": "What is the synonym of 'unlawful'?",
+        "options": ["Influence", "Illegitimate", "Legal", "Elicit"],
+        "correctAnswer": "Illegitimate"
+      },
+      {
+        "question": "What is the feminine form of the noun 'monk'?",
+        "options": ["Nun", "Priestess", "Wife", "Woman"],
+        "correctAnswer": "Nun"
+      },
+      {
+        "question": "What is the collective noun for 'ants'?",
+        "options": ["Colony", "Bunch", "Team", "Board"],
+        "correctAnswer": "Colony"
+      },
+      {
+        "question": "Which of the following is not a noun?",
+        "options": ["India", "London", "New York", "Nation"],
+        "correctAnswer": "Nation"
+      },
+      {
+        "question": "What is the synonym of 'include'?",
+        "options": ["Delete", "Remove", "Contain", "Reject"],
+        "correctAnswer": "Contain"
+      },
+      {
+        "question": "Identify the odd one out",
+        "options": ["May", "August", "March", "Friday"],
+        "correctAnswer": "Friday"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "2",
+    "title": "English Grammar | Verb-Adverb",
+    "imagePath": "../assets/images/svg/englishGrammar/verbAdverb.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "English Grammar",
+    "questions": [
+      {
+        "question": "Which of the following is not an adverb?",
+        "options": ["In", "Out", "Outside", "notebook"],
+        "correctAnswer": "notebook"
+      },
+      {
+        "question": "Identify the correct spellings",
+        "options": ["Reminiscence", "Reminsense", "Remensence", "Reminisense"],
+        "correctAnswer": "Reminiscence"
+      },
+      {
+        "question": "Pick out 'adverb of place'",
+        "options": ["Everywhere", "Later", "Now", "Lately"],
+        "correctAnswer": "Everywhere"
+      },
+      {
+        "question": "Which of the following is a type of adverb?",
+        "options": [
+          "Adverbs of rain",
+          "Adverbs of snow",
+          "Adverbs of fog",
+          "Adverbs of frequency"
+        ],
+        "correctAnswer": "Adverbs of frequency"
+      },
+      {
+        "question": "Identify correct usage of verb",
+        "options": [
+          "The lion roared.",
+          "The lion barked.",
+          "The lion chattered.",
+          "The lion crowed."
+        ],
+        "correctAnswer": "The lion roared."
+      },
+      {
+        "question": "Which among the following is an adverb of manner?",
+        "options": ["How much", "When", "Where", "How"],
+        "correctAnswer": "How"
+      },
+      {
+        "question": "Which of these is not a verb?",
+        "options": ["Driving", "Digging", "Drinking", "Soft"],
+        "correctAnswer": "Soft"
+      },
+      {
+        "question": "Which of these is not a verb?",
+        "options": ["Riding", "Knitting", "Harp", "Blowing"],
+        "correctAnswer": "Harp"
+      },
+      {
+        "question": "Which of the following is not a verb?",
+        "options": ["Knock", "Squeeze", "Twirl", "Television"],
+        "correctAnswer": "Television"
+      },
+      {
+        "question": "Which of these is not an adverb?",
+        "options": ["Just", "Recently", "Lately", "Traffic"],
+        "correctAnswer": "Traffic"
+      },
+      {
+        "question": "Which of these is not a verb?",
+        "options": ["Rumour", "Fidgeting", "Nudging", "Prompting"],
+        "correctAnswer": "Rumour"
+      },
+      {
+        "question": "Choose the correct verb.",
+        "options": [
+          "The fire burnt.",
+          "The fire blessed.",
+          "The fire brings.",
+          "The fire begins."
+        ],
+        "correctAnswer": "The fire burnt."
+      },
+      {
+        "question": "Which of the following is a verb?",
+        "options": ["Drugs", "Medicines", "Cleaning", "Doses"],
+        "correctAnswer": "Cleaning"
+      },
+      {
+        "question": "Which of these is not a verb?",
+        "options": ["Straining", "String", "Sprinting", "Drilling"],
+        "correctAnswer": "String"
+      },
+      {
+        "question": "Identify the correct spellings",
+        "options": ["Seperete", "Separate", "Seperate", "Saparate"],
+        "correctAnswer": "Separate"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which of these is not an adverb?",
+        "options": ["Boldly", "Softly", "Phone", "Quickly"],
+        "correctAnswer": "Phone"
+      },
+      {
+        "question": "Identify the correct spellings",
+        "options": [
+          "Encyclopedia",
+          "Encyclopidia",
+          "Encyclopedea",
+          "Encyclopeedea"
+        ],
+        "correctAnswer": "Encyclopedia"
+      },
+      {
+        "question": "Which of these is not an adverb?",
+        "options": ["Near", "Soon", "Out", "Drama"],
+        "correctAnswer": "Drama"
+      },
+      {
+        "question": "Identify the correct spellings",
+        "options": ["Environment", "Enviroment", "Environent", "Enviromnent"],
+        "correctAnswer": "Environment"
+      },
+      {
+        "question": "Identify correct usage of verb",
+        "options": [
+          "I went there.",
+          "I go to there.",
+          "I will went.",
+          "I will there."
+        ],
+        "correctAnswer": "I went there."
+      },
+      {
+        "question": "Which among the following is an adverb of time?",
+        "options": ["How much", "When", "How often", "Where"],
+        "correctAnswer": "When"
+      },
+      {
+        "question": "Identify the correct spellings",
+        "options": ["Definately", "Defenitely", "Definitely", "Difinitely"],
+        "correctAnswer": "Definitely"
+      },
+      {
+        "question": "Which of the following is an adverb?",
+        "options": ["Playfully", "Chair", "Lamp", "notebook"],
+        "correctAnswer": "Playfully"
+      },
+      {
+        "question": "Which of the following is not an adverb?",
+        "options": ["Hardly", "Generously", "Mouse", "Usually"],
+        "correctAnswer": "Mouse"
+      },
+      {
+        "question": "Identify verb",
+        "options": ["Tram", "Tramp", "Tapping", "Tap"],
+        "correctAnswer": "Tapping"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

@@ -8,56 +8,251 @@
     "name": "Famous Personalities",
     "questions": [
       {
-        "question": "Raksha Bandhan is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Who was the first Emperor of China?",
+        "options": [
+          "Qin Shi Huang",
+          "Emperor Wu",
+          "Gaozu of Han",
+          "Emperor Taizong"
+        ],
+        "correctAnswer": "Qin Shi Huang"
       },
       {
-        "question": "What is tied on the wrist during Raksha Bandhan?",
-        "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-        "correctAnswer": "Rakhi"
+        "question": "Which famous historical figure is known for leading the Mongol Empire to become the largest contiguous empire in history?",
+        "options": [
+          "Alexander the Great",
+          "Genghis Khan",
+          "Napoleon Bonaparte",
+          "Julius Caesar"
+        ],
+        "correctAnswer": "Genghis Khan"
       },
       {
-        "question": "Raksha Bandhan celebrates the bond between?",
-        "options": ["Friends", "Siblings", "Parents", "Teachers"],
-        "correctAnswer": "Siblings"
+        "question": "Who is credited with inventing the telephone?",
+        "options": [
+          "Nikola Tesla",
+          "Alexander Graham Bell",
+          "Thomas Edison",
+          "Elisha Gray"
+        ],
+        "correctAnswer": "Alexander Graham Bell"
       },
       {
-        "question": "Which sweet is commonly associated with Raksha Bandhan?",
-        "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-        "correctAnswer": "Barfi"
+        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "options": [
+          "Bessie Coleman",
+          "Amelia Earhart",
+          "Harriet Quimby",
+          "Jacqueline Cochran"
+        ],
+        "correctAnswer": "Amelia Earhart"
       },
       {
-        "question": "What is the traditional color of Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Red"
+        "question": "Who is known as the 'Father of India' and led the country to independence through non-violent civil disobedience?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Bhagat Singh",
+          "Subhas Chandra Bose",
+          "Mahatma Gandhi"
+        ],
+        "correctAnswer": "Mahatma Gandhi"
+      },
+      {
+        "question": "Which famous inventor is known for creating the light bulb?",
+        "options": [
+          "Nikola Tesla",
+          "Michael Faraday",
+          "Thomas Edison",
+          "James Watt"
+        ],
+        "correctAnswer": "Thomas Edison"
+      },
+      {
+        "question": "Who was the first woman to receive a Nobel Prize in Physics?",
+        "options": [
+          "Marie Curie",
+          "Rosalind Franklin",
+          "Dorothy Crowfoot Hodgkin",
+          "Lise Meitner"
+        ],
+        "correctAnswer": "Marie Curie"
+      },
+      {
+        "question": "Which historical figure famously said, 'Let them eat cake'?",
+        "options": [
+          "Catherine the Great",
+          "Queen Elizabeth I",
+          "Marie Antoinette",
+          "Cleopatra"
+        ],
+        "correctAnswer": "Marie Antoinette"
+      },
+      {
+        "question": "Who is known for his theory of evolution and wrote 'On the Origin of Species'?",
+        "options": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Charles Darwin",
+          "Galileo Galilei"
+        ],
+        "correctAnswer": "Charles Darwin"
+      },
+      {
+        "question": "Who was the first president of the United States?",
+        "options": [
+          "Thomas Jefferson",
+          "Abraham Lincoln",
+          "George Washington",
+          "John Adams"
+        ],
+        "correctAnswer": "George Washington"
+      },
+      {
+        "question": "Which historical figure led the charge against apartheid in South Africa and became its first black president?",
+        "options": [
+          "Desmond Tutu",
+          "Nelson Mandela",
+          "Steven Biko",
+          "Albertina Sisulu"
+        ],
+        "correctAnswer": "Nelson Mandela"
+      },
+      {
+        "question": "Which famous figure is known for leading the American Revolution and was one of the Founding Fathers of the United States?",
+        "options": [
+          "Thomas Paine",
+          "Benjamin Franklin",
+          "George Washington",
+          "Alexander Hamilton"
+        ],
+        "correctAnswer": "George Washington"
+      },
+      {
+        "question": "Who was the first person to circumnavigate the Earth?",
+        "options": [
+          "Christopher Columbus",
+          "Ferdinand Magellan",
+          "Marco Polo",
+          "Vasco da Gama"
+        ],
+        "correctAnswer": "Ferdinand Magellan"
+      },
+      {
+        "question": "Which historical figure is famous for his leadership during the French Revolution and became the ruler of France?",
+        "options": [
+          "Louis XVI",
+          "Napoleon Bonaparte",
+          "Maximilien Robespierre",
+          "Jean-Paul Marat"
+        ],
+        "correctAnswer": "Napoleon Bonaparte"
+      },
+      {
+        "question": "Which famous historical figure is known for his work in civil rights, famously delivering the 'I Have a Dream' speech?",
+        "options": [
+          "Malcolm X",
+          "Rosa Parks",
+          "Martin Luther King Jr.",
+          "Harriet Tubman"
+        ],
+        "correctAnswer": "Martin Luther King Jr."
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Raksha Bandhan is celebrated in which season?",
-        "options": ["Winter", "Summer", "Monsoon", "Spring"],
-        "correctAnswer": "Monsoon"
+        "question": "Who is considered the father of modern physics and developed the theory of relativity?",
+        "options": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Max Planck",
+          "Niels Bohr"
+        ],
+        "correctAnswer": "Albert Einstein"
       },
       {
-        "question": "What is the main ingredient in Barfi?",
-        "options": ["Milk", "Flour", "Sugar", "Butter"],
-        "correctAnswer": "Milk"
+        "question": "Which world leader is famous for his role in the Cuban Missile Crisis and served as the 35th president of the United States?",
+        "options": [
+          "John F. Kennedy",
+          "Richard Nixon",
+          "Dwight D. Eisenhower",
+          "Lyndon B. Johnson"
+        ],
+        "correctAnswer": "John F. Kennedy"
       },
       {
-        "question": "Which color is not traditionally associated with Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Blue"
+        "question": "Which famous leader played a crucial role in India's independence movement and became the country's first prime minister?",
+        "options": [
+          "Mahatma Gandhi",
+          "Jawaharlal Nehru",
+          "Sardar Vallabhbhai Patel",
+          "Indira Gandhi"
+        ],
+        "correctAnswer": "Jawaharlal Nehru"
       },
       {
-        "question": "What is the traditional gift given during Raksha Bandhan?",
-        "options": ["Money", "Clothes", "Jewelry", "Books"],
-        "correctAnswer": "Money"
+        "question": "Who was the famous scientist known for his laws of motion and universal gravitation?",
+        "options": [
+          "Galileo Galilei",
+          "Albert Einstein",
+          "Isaac Newton",
+          "Nikola Tesla"
+        ],
+        "correctAnswer": "Isaac Newton"
       },
       {
-        "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-        "options": ["Rose", "Marigold", "Lily", "Tulip"],
-        "correctAnswer": "Marigold"
+        "question": "Which famous figure is known for founding the Mongol Empire, which later became the largest contiguous empire in world history?",
+        "options": [
+          "Genghis Khan",
+          "Kublai Khan",
+          "Alexander the Great",
+          "Attila the Hun"
+        ],
+        "correctAnswer": "Genghis Khan"
+      },
+      {
+        "question": "Who was the first woman to win a Nobel Prize, and also the first person to win Nobel Prizes in two different sciences?",
+        "options": [
+          "Marie Curie",
+          "Rosalind Franklin",
+          "Dorothy Crowfoot Hodgkin",
+          "Lise Meitner"
+        ],
+        "correctAnswer": "Marie Curie"
+      },
+      {
+        "question": "Which leader is known for his role in the Russian Revolution and the founding of the Soviet Union?",
+        "options": [
+          "Joseph Stalin",
+          "Vladimir Lenin",
+          "Leon Trotsky",
+          "Nikita Khrushchev"
+        ],
+        "correctAnswer": "Vladimir Lenin"
+      },
+      {
+        "question": "Which famous writer is known for penning the play 'Romeo and Juliet'?",
+        "options": [
+          "Charles Dickens",
+          "William Shakespeare",
+          "Oscar Wilde",
+          "Jane Austen"
+        ],
+        "correctAnswer": "William Shakespeare"
+      },
+      {
+        "question": "Who was the first emperor of Rome and played a key role in the transformation of the Roman Republic into the Roman Empire?",
+        "options": ["Julius Caesar", "Augustus", "Tiberius", "Nero"],
+        "correctAnswer": "Augustus"
+      },
+      {
+        "question": "Which famous political leader was assassinated in 1963 and served as the 35th president of the United States?",
+        "options": [
+          "John F. Kennedy",
+          "Abraham Lincoln",
+          "Richard Nixon",
+          "Franklin D. Roosevelt"
+        ],
+        "correctAnswer": "John F. Kennedy"
       }
     ],
     "difficulty": "medium"
@@ -71,56 +266,251 @@
     "name": "Famous Personalities",
     "questions": [
       {
-        "question": "Onam is a festival celebrated in which Indian state?",
-        "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-        "correctAnswer": "Kerala"
+        "question": "Which cricketer is known for his record of 100 international centuries?",
+        "options": [
+          "Sachin Tendulkar",
+          "Virat Kohli",
+          "Brian Lara",
+          "Ricky Ponting"
+        ],
+        "correctAnswer": "Sachin Tendulkar"
       },
       {
-        "question": "What is the traditional dance performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Kuchipudi"],
-        "correctAnswer": "Kathakali"
+        "question": "Who was the first woman to win an Olympic medal for India?",
+        "options": [
+          "P.T. Usha",
+          "Karnam Malleswari",
+          "Mary Kom",
+          "Sania Mirza"
+        ],
+        "correctAnswer": "Karnam Malleswari"
       },
       {
-        "question": "What is the traditional feast during Onam called?",
-        "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-        "correctAnswer": "Sadya"
+        "question": "Which Indian cricketer is known as 'The Wall' for his solid technique?",
+        "options": [
+          "Sachin Tendulkar",
+          "Rahul Dravid",
+          "Virat Kohli",
+          "Anil Kumble"
+        ],
+        "correctAnswer": "Rahul Dravid"
       },
       {
-        "question": "Which flower is used to make Pookalam during Onam?",
-        "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-        "correctAnswer": "Marigold"
+        "question": "Who is the first Indian to win a Grand Slam singles title?",
+        "options": [
+          "Leander Paes",
+          "Mahesh Bhupathi",
+          "Sania Mirza",
+          "Rohan Bopanna"
+        ],
+        "correctAnswer": "Sania Mirza"
       },
       {
-        "question": "Onam marks the homecoming of which legendary king?",
-        "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-        "correctAnswer": "Mahabali"
+        "question": "Which Indian cricketer holds the record for the most wickets in T20 internationals?",
+        "options": [
+          "Ravichandran Ashwin",
+          "Jasprit Bumrah",
+          "Lasith Malinga",
+          "Yuzvendra Chahal"
+        ],
+        "correctAnswer": "Ravichandran Ashwin"
+      },
+      {
+        "question": "Who is the first female Indian athlete to win an Olympic silver medal?",
+        "options": [
+          "Saina Nehwal",
+          "Mary Kom",
+          "P.V. Sindhu",
+          "Karnam Malleswari"
+        ],
+        "correctAnswer": "P.V. Sindhu"
+      },
+      {
+        "question": "Which sports person is known as 'The God of Cricket'?",
+        "options": [
+          "Ricky Ponting",
+          "Sachin Tendulkar",
+          "Don Bradman",
+          "Virat Kohli"
+        ],
+        "correctAnswer": "Sachin Tendulkar"
+      },
+      {
+        "question": "Which famous footballer is called 'CR7'?",
+        "options": [
+          "Cristiano Ronaldo",
+          "Lionel Messi",
+          "Neymar",
+          "David Beckham"
+        ],
+        "correctAnswer": "Cristiano Ronaldo"
+      },
+      {
+        "question": "Who was the first woman to win a medal in boxing at the Olympics for India?",
+        "options": [
+          "Mary Kom",
+          "Sania Mirza",
+          "P.T. Usha",
+          "Karnam Malleswari"
+        ],
+        "correctAnswer": "Mary Kom"
+      },
+      {
+        "question": "Who holds the record for the most goals in the history of the FIFA World Cup?",
+        "options": ["Cristiano Ronaldo", "Pele", "Marta", "Miroslav Klose"],
+        "correctAnswer": "Miroslav Klose"
+      },
+      {
+        "question": "Which tennis player has won the most Grand Slam singles titles in history?",
+        "options": [
+          "Rafael Nadal",
+          "Roger Federer",
+          "Novak Djokovic",
+          "Serena Williams"
+        ],
+        "correctAnswer": "Novak Djokovic"
+      },
+      {
+        "question": "Who was the first Indian cricketer to score a double century in Test cricket?",
+        "options": [
+          "Sachin Tendulkar",
+          "Virender Sehwag",
+          "Sunil Gavaskar",
+          "Rahul Dravid"
+        ],
+        "correctAnswer": "Virender Sehwag"
+      },
+      {
+        "question": "Which footballer has won the most FIFA Ballon d'Or awards?",
+        "options": [
+          "Lionel Messi",
+          "Cristiano Ronaldo",
+          "Pelé",
+          "Diego Maradona"
+        ],
+        "correctAnswer": "Lionel Messi"
+      },
+      {
+        "question": "Who is the first Indian woman to win a silver medal in the Olympics?",
+        "options": [
+          "Saina Nehwal",
+          "PV Sindhu",
+          "Mary Kom",
+          "Karnam Malleswari"
+        ],
+        "correctAnswer": "PV Sindhu"
+      },
+      {
+        "question": "Which legendary boxer was nicknamed 'The Greatest'?",
+        "options": [
+          "Mike Tyson",
+          "Muhammad Ali",
+          "Floyd Mayweather",
+          "Joe Frazier"
+        ],
+        "correctAnswer": "Muhammad Ali"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Onam is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Who won the FIFA World Cup Golden Boot in 2018?",
+        "options": [
+          "Kylian Mbappé",
+          "Cristiano Ronaldo",
+          "Harry Kane",
+          "Lionel Messi"
+        ],
+        "correctAnswer": "Harry Kane"
       },
       {
-        "question": "What is the main dish in Sadya?",
-        "options": ["Rice", "Bread", "Pasta", "Noodles"],
-        "correctAnswer": "Rice"
+        "question": "Which Indian athlete is known as the 'Express Train of India'?",
+        "options": [
+          "Milkha Singh",
+          "P.T. Usha",
+          "Sania Mirza",
+          "Vinesh Phogat"
+        ],
+        "correctAnswer": "P.T. Usha"
       },
       {
-        "question": "Which dance is not performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-        "correctAnswer": "Ballet"
+        "question": "Which cricketer is known as 'Captain Cool' for his calm demeanor?",
+        "options": [
+          "Sachin Tendulkar",
+          "Virat Kohli",
+          "MS Dhoni",
+          "Ricky Ponting"
+        ],
+        "correctAnswer": "MS Dhoni"
       },
       {
-        "question": "What is the traditional attire worn during Onam?",
-        "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-        "correctAnswer": "Saree"
+        "question": "Which Indian cricketer is the fastest to score 8000 runs in One Day Internationals?",
+        "options": [
+          "Virat Kohli",
+          "Shikhar Dhawan",
+          "Rohit Sharma",
+          "Suresh Raina"
+        ],
+        "correctAnswer": "Virat Kohli"
       },
       {
-        "question": "Which fruit is commonly used in Onam celebrations?",
-        "options": ["Banana", "Apple", "Grapes", "Orange"],
-        "correctAnswer": "Banana"
+        "question": "Which player holds the record for the most points in NBA history?",
+        "options": [
+          "Kareem Abdul-Jabbar",
+          "Michael Jordan",
+          "LeBron James",
+          "Kobe Bryant"
+        ],
+        "correctAnswer": "Kareem Abdul-Jabbar"
+      },
+      {
+        "question": "Who is known as the 'Wizard of Oz' in cricket?",
+        "options": [
+          "Shane Warne",
+          "Muttiah Muralitharan",
+          "Ricky Ponting",
+          "Michael Clarke"
+        ],
+        "correctAnswer": "Shane Warne"
+      },
+      {
+        "question": "Which tennis player holds the record for the most Wimbledon singles titles?",
+        "options": [
+          "Roger Federer",
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Pete Sampras"
+        ],
+        "correctAnswer": "Roger Federer"
+      },
+      {
+        "question": "Which Indian cricketer is known as the 'Six Machine'?",
+        "options": [
+          "Yuvraj Singh",
+          "Virender Sehwag",
+          "MS Dhoni",
+          "Rohit Sharma"
+        ],
+        "correctAnswer": "MS Dhoni"
+      },
+      {
+        "question": "Who won the 2008 Olympic gold medal in Men's 100m sprint?",
+        "options": [
+          "Michael Phelps",
+          "Usain Bolt",
+          "Tyson Gay",
+          "Asafa Powell"
+        ],
+        "correctAnswer": "Usain Bolt"
+      },
+      {
+        "question": "Which cricket player has the most number of test centuries?",
+        "options": [
+          "Ricky Ponting",
+          "Brian Lara",
+          "Sachin Tendulkar",
+          "Virat Kohli"
+        ],
+        "correctAnswer": "Sachin Tendulkar"
       }
     ],
     "difficulty": "medium"
@@ -134,56 +524,256 @@
     "name": "Famous Personalities",
     "questions": [
       {
-        "question": "Raksha Bandhan is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Who is the first woman to win a Nobel Prize?",
+        "options": [
+          "Marie Curie",
+          "Rosalind Franklin",
+          "Ada Lovelace",
+          "Mother Teresa"
+        ],
+        "correctAnswer": "Marie Curie"
       },
       {
-        "question": "What is tied on the wrist during Raksha Bandhan?",
-        "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-        "correctAnswer": "Rakhi"
+        "question": "Who was the first female Prime Minister of India?",
+        "options": [
+          "Indira Gandhi",
+          "Sarojini Naidu",
+          "Pratibha Patil",
+          "Kiran Bedi"
+        ],
+        "correctAnswer": "Indira Gandhi"
       },
       {
-        "question": "Raksha Bandhan celebrates the bond between?",
-        "options": ["Friends", "Siblings", "Parents", "Teachers"],
-        "correctAnswer": "Siblings"
+        "question": "Which wonder-woman became the first female astronaut to fly into space in 1963?",
+        "options": [
+          "Valentina Tereshkova",
+          "Sally Ride",
+          "Mae Jemison",
+          "Yuri Gagarin"
+        ],
+        "correctAnswer": "Valentina Tereshkova"
       },
       {
-        "question": "Which sweet is commonly associated with Raksha Bandhan?",
-        "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-        "correctAnswer": "Barfi"
+        "question": "Which famous female writer is known for creating the Harry Potter series?",
+        "options": [
+          "J.K. Rowling",
+          "Agatha Christie",
+          "Charlotte Brontë",
+          "Toni Morrison"
+        ],
+        "correctAnswer": "J.K. Rowling"
       },
       {
-        "question": "What is the traditional color of Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Red"
+        "question": "Who was the first woman to be awarded the Booker Prize?",
+        "options": [
+          "V.S. Naipaul",
+          "Kiran Desai",
+          "Arundhati Roy",
+          "Beryl Bainbridge"
+        ],
+        "correctAnswer": "Arundhati Roy"
+      },
+      {
+        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "options": [
+          "Amelia Earhart",
+          "Bessie Coleman",
+          "Jacqueline Cochran",
+          "Sally Ride"
+        ],
+        "correctAnswer": "Amelia Earhart"
+      },
+      {
+        "question": "Which famous activist fought for women's rights and was instrumental in the women's suffrage movement in the United States?",
+        "options": [
+          "Rosa Parks",
+          "Sojourner Truth",
+          "Susan B. Anthony",
+          "Harriet Tubman"
+        ],
+        "correctAnswer": "Susan B. Anthony"
+      },
+      {
+        "question": "Which famous female athlete is known for her achievements in tennis and equality advocacy?",
+        "options": [
+          "Serena Williams",
+          "Venus Williams",
+          "Martina Navratilova",
+          "Billie Jean King"
+        ],
+        "correctAnswer": "Serena Williams"
+      },
+      {
+        "question": "Who was the first female chancellor of Germany?",
+        "options": [
+          "Angela Merkel",
+          "Margaret Thatcher",
+          "Theresa May",
+          "Hillary Clinton"
+        ],
+        "correctAnswer": "Angela Merkel"
+      },
+      {
+        "question": "Which famous female scientist discovered the radioactive elements polonium and radium?",
+        "options": [
+          "Marie Curie",
+          "Dorothy Crowfoot Hodgkin",
+          "Rosalind Franklin",
+          "Barbara McClintock"
+        ],
+        "correctAnswer": "Marie Curie"
+      },
+      {
+        "question": "Which iconic woman led the Indian National Congress and was known for her role in the Indian independence movement?",
+        "options": [
+          "Sarojini Naidu",
+          "Indira Gandhi",
+          "Annie Besant",
+          "Kasturba Gandhi"
+        ],
+        "correctAnswer": "Sarojini Naidu"
+      },
+      {
+        "question": "Which Wonder Woman was known for her work in social reform and the women's rights movement in the U.S.?",
+        "options": [
+          "Susan B. Anthony",
+          "Eleanor Roosevelt",
+          "Clara Barton",
+          "Jane Addams"
+        ],
+        "correctAnswer": "Susan B. Anthony"
+      },
+      {
+        "question": "Who is known as the 'Iron Lady' of British politics?",
+        "options": [
+          "Margaret Thatcher",
+          "Theresa May",
+          "Queen Elizabeth II",
+          "Bessie Coleman"
+        ],
+        "correctAnswer": "Margaret Thatcher"
+      },
+      {
+        "question": "Who was the first woman to receive the Fields Medal in mathematics?",
+        "options": [
+          "Mary Cartwright",
+          "Julia Robinson",
+          "Sophie Germain",
+          "Maryam Mirzakhani"
+        ],
+        "correctAnswer": "Maryam Mirzakhani"
+      },
+      {
+        "question": "Who was the first female to serve as the United States Secretary of State?",
+        "options": [
+          "Condoleezza Rice",
+          "Hillary Clinton",
+          "Madeleine Albright",
+          "Kamala Harris"
+        ],
+        "correctAnswer": "Madeleine Albright"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Raksha Bandhan is celebrated in which season?",
-        "options": ["Winter", "Summer", "Monsoon", "Spring"],
-        "correctAnswer": "Monsoon"
+        "question": "Who was the first woman to receive the Nobel Peace Prize?",
+        "options": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Bertha Felicie von Suttner",
+          "Aung San Suu Kyi"
+        ],
+        "correctAnswer": "Bertha Felicie von Suttner"
       },
       {
-        "question": "What is the main ingredient in Barfi?",
-        "options": ["Milk", "Flour", "Sugar", "Butter"],
-        "correctAnswer": "Milk"
+        "question": "Who was the first woman to win a Pulitzer Prize for fiction?",
+        "options": [
+          "Edith Wharton",
+          "Toni Morrison",
+          "Willa Cather",
+          "Flannery O'Connor"
+        ],
+        "correctAnswer": "Edith Wharton"
       },
       {
-        "question": "Which color is not traditionally associated with Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Blue"
+        "question": "Which famous Wonder Woman is credited for being the first woman to fly a fighter jet in combat?",
+        "options": [
+          "Sally Ride",
+          "Valentina Tereshkova",
+          "Jeannie Leavitt",
+          "Eileen Collins"
+        ],
+        "correctAnswer": "Jeannie Leavitt"
       },
       {
-        "question": "What is the traditional gift given during Raksha Bandhan?",
-        "options": ["Money", "Clothes", "Jewelry", "Books"],
-        "correctAnswer": "Money"
+        "question": "Which famous Wonder Woman was the first female African-American to be elected to the U.S. Congress?",
+        "options": [
+          "Shirley Chisholm",
+          "Condoleezza Rice",
+          "Kamala Harris",
+          "Michelle Obama"
+        ],
+        "correctAnswer": "Shirley Chisholm"
       },
       {
-        "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-        "options": ["Rose", "Marigold", "Lily", "Tulip"],
-        "correctAnswer": "Marigold"
+        "question": "Who was the first woman to be the Chief Justice of India?",
+        "options": [
+          "Leila Seth",
+          "Ranjana Prakash Desai",
+          "Indu Malhotra",
+          "M. Fathima Beevi"
+        ],
+        "correctAnswer": "Indu Malhotra"
+      },
+      {
+        "question": "Which famous Wonder Woman was the first woman to cross the English Channel?",
+        "options": [
+          "Gertrude Ederle",
+          "Bessie Coleman",
+          "Amelia Earhart",
+          "Diana Nyad"
+        ],
+        "correctAnswer": "Gertrude Ederle"
+      },
+      {
+        "question": "Who was the first woman to win a Grammy Award for Best New Artist?",
+        "options": [
+          "Billie Holiday",
+          "Barbra Streisand",
+          "Beyoncé",
+          "Aretha Franklin"
+        ],
+        "correctAnswer": "Barbra Streisand"
+      },
+      {
+        "question": "Who is known for being the first female prime minister of a European country?",
+        "options": [
+          "Margaret Thatcher",
+          "Benazir Bhutto",
+          "Indira Gandhi",
+          "Golda Meir"
+        ],
+        "correctAnswer": "Golda Meir"
+      },
+      {
+        "question": "Which famous Wonder Woman was the first woman to receive a medical degree in the United States?",
+        "options": [
+          "Elizabeth Blackwell",
+          "Virginia Apgar",
+          "Mary Edwards Walker",
+          "Sally Ride"
+        ],
+        "correctAnswer": "Elizabeth Blackwell"
+      },
+      {
+        "question": "Who was the first woman to win the Fields Medal, often referred to as the Nobel Prize of mathematics?",
+        "options": [
+          "Maryam Mirzakhani",
+          "Sophie Germain",
+          "Emmy Noether",
+          "Julia Robinson"
+        ],
+        "correctAnswer": "Maryam Mirzakhani"
       }
     ],
     "difficulty": "medium"
@@ -197,56 +787,216 @@
     "name": "Famous Personalities",
     "questions": [
       {
-        "question": "Onam is a festival celebrated in which Indian state?",
-        "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-        "correctAnswer": "Kerala"
+        "question": "Which Bollywood singer is known for her melodious voice in 'Sun Raha Hai Na Tu'?",
+        "options": [
+          "Neha Kakkar",
+          "Shreya Ghoshal",
+          "Tulsi Kumar",
+          "Alka Yagnik"
+        ],
+        "correctAnswer": "Shreya Ghoshal"
       },
       {
-        "question": "What is the traditional dance performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Kuchipudi"],
-        "correctAnswer": "Kathakali"
+        "question": "Which famous Bollywood singer is the younger sister of Lata Mangeshkar?",
+        "options": [
+          "Shreya Ghoshal",
+          "Asha Bhosle",
+          "Alka Yagnik",
+          "Anuradha Paudwal"
+        ],
+        "correctAnswer": "Asha Bhosle"
       },
       {
-        "question": "What is the traditional feast during Onam called?",
-        "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-        "correctAnswer": "Sadya"
+        "question": "Which Bollywood singer is known for his song 'Tum Hi Ho' from the movie *Aashiqui 2*?",
+        "options": ["Arijit Singh", "Atif Aslam", "K.K.", "Sonu Nigam"],
+        "correctAnswer": "Arijit Singh"
       },
       {
-        "question": "Which flower is used to make Pookalam during Onam?",
-        "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-        "correctAnswer": "Marigold"
+        "question": "Who is known as the 'Nightingale of India' and is famous for her songs in Bollywood, especially during the 1950s and 60s?",
+        "options": [
+          "Lata Mangeshkar",
+          "Asha Bhosle",
+          "Suman Kalyanpur",
+          "Shreya Ghoshal"
+        ],
+        "correctAnswer": "Lata Mangeshkar"
       },
       {
-        "question": "Onam marks the homecoming of which legendary king?",
-        "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-        "correctAnswer": "Mahabali"
+        "question": "Which Bollywood singer has the hit song 'Chaiyya Chaiyya' from the movie *Dil Se*?",
+        "options": [
+          "Sonu Nigam",
+          "Udit Narayan",
+          "Sukhwinder Singh",
+          "Kailasa Kher"
+        ],
+        "correctAnswer": "Sukhwinder Singh"
+      },
+      {
+        "question": "Which playback singer is famous for his romantic tracks like 'Pehla Nasha' from *Jo Jeeta Wohi Sikandar*?",
+        "options": ["Kishore Kumar", "Mohammad Rafi", "K.K.", "Udit Narayan"],
+        "correctAnswer": "Udit Narayan"
+      },
+      {
+        "question": "Which singer became immensely popular for his song 'Kal Ho Naa Ho' from the movie *Kal Ho Naa Ho*?",
+        "options": [
+          "Kunal Ganjawala",
+          "Sonu Nigam",
+          "Arijit Singh",
+          "Hariharan"
+        ],
+        "correctAnswer": "Sonu Nigam"
+      },
+      {
+        "question": "Which playback singer is known for her peppy numbers like 'Koi Kahe Kehta Rahe' from *Dil Chahta Hai*?",
+        "options": [
+          "Neha Kakkar",
+          "Alka Yagnik",
+          "Kavita Krishnamurthy",
+          "Shreya Ghoshal"
+        ],
+        "correctAnswer": "Alka Yagnik"
+      },
+      {
+        "question": "Which Bollywood playback singer is renowned for his contribution to the song 'Dil Dhadakne Do' from *Zindagi Na Milegi Dobara*?",
+        "options": [
+          "Arijit Singh",
+          "Shaarib & Toshi",
+          "Mohit Chauhan",
+          "Atif Aslam"
+        ],
+        "correctAnswer": "Mohit Chauhan"
+      },
+      {
+        "question": "Which legendary singer sang the iconic song 'Mere Haath Mein' from the movie *Fanaa*?",
+        "options": ["Kishore Kumar", "Sonu Nigam", "Mohammad Rafi", "Mukesh"],
+        "correctAnswer": "Sonu Nigam"
+      },
+      {
+        "question": "Which Bollywood playback singer is known for his soulful tracks like 'Tujh Mein Rab Dikhta Hai' from *Rab Ne Bana Di Jodi*?",
+        "options": [
+          "Arijit Singh",
+          "Shreya Ghoshal",
+          "Sonu Nigam",
+          "Kailasa Kher"
+        ],
+        "correctAnswer": "Arijit Singh"
+      },
+      {
+        "question": "Which playback singer gained fame for the hit song 'Jab Tak' from the movie *M.S. Dhoni: The Untold Story*?",
+        "options": ["Arijit Singh", "Mohit Chauhan", "K.K.", "Hariharan"],
+        "correctAnswer": "Arijit Singh"
+      },
+      {
+        "question": "Which playback singer is famous for her songs in films like *Dilwale Dulhania Le Jayenge*, *Kabhi Khushi Kabhie Gham* and *Devdas*?",
+        "options": [
+          "Lata Mangeshkar",
+          "Asha Bhosle",
+          "Alka Yagnik",
+          "Shreya Ghoshal"
+        ],
+        "correctAnswer": "Alka Yagnik"
+      },
+      {
+        "question": "Which Bollywood singer is famous for his unique voice and his superhit songs in *Kabir Singh* like 'Bekhayali'?",
+        "options": [
+          "Arijit Singh",
+          "Atif Aslam",
+          "Kunal Ganjawala",
+          "Kailasa Kher"
+        ],
+        "correctAnswer": "Arijit Singh"
+      },
+      {
+        "question": "Who is the famous playback singer behind the hit songs 'Tum Jo Aaye' and 'Tujh Mein Rab Dikhta Hai'?",
+        "options": ["Shaan", "Kunal Ganjawala", "Atif Aslam", "Arijit Singh"],
+        "correctAnswer": "Atif Aslam"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Onam is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Which singer is known for the hit song 'Dil Dhadakne Do' from *Zindagi Na Milegi Dobara*?",
+        "options": [
+          "Vishal Dadlani",
+          "Arijit Singh",
+          "Benny Dayal",
+          "Mohit Chauhan"
+        ],
+        "correctAnswer": "Vishal Dadlani"
       },
       {
-        "question": "What is the main dish in Sadya?",
-        "options": ["Rice", "Bread", "Pasta", "Noodles"],
-        "correctAnswer": "Rice"
+        "question": "Which playback singer is famous for his romantic tracks such as 'Tum Hi Tum' from *Rockstar*?",
+        "options": [
+          "Arijit Singh",
+          "Mohit Chauhan",
+          "Udit Narayan",
+          "Sonu Nigam"
+        ],
+        "correctAnswer": "Mohit Chauhan"
       },
       {
-        "question": "Which dance is not performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-        "correctAnswer": "Ballet"
+        "question": "Which Bollywood singer has sung the famous song 'Pani Da Rang' from the movie *Vicky Donor*?",
+        "options": [
+          "Amaal Mallik",
+          "Arijit Singh",
+          "Ayushmann Khurrana",
+          "Kailasa Kher"
+        ],
+        "correctAnswer": "Ayushmann Khurrana"
       },
       {
-        "question": "What is the traditional attire worn during Onam?",
-        "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-        "correctAnswer": "Saree"
+        "question": "Which Bollywood singer is known for the iconic song 'Badtameez Dil' from *Yeh Jawaani Hai Deewani*?",
+        "options": ["Shaan", "Arijit Singh", "Mohit Chauhan", "Benny Dayal"],
+        "correctAnswer": "Benny Dayal"
       },
       {
-        "question": "Which fruit is commonly used in Onam celebrations?",
-        "options": ["Banana", "Apple", "Grapes", "Orange"],
-        "correctAnswer": "Banana"
+        "question": "Which singer is famous for his renditions of songs like 'Madhushala' and 'Pehchaan'?",
+        "options": ["Kishore Kumar", "Mukesh", "Bhupinder Singh", "Hariharan"],
+        "correctAnswer": "Bhupinder Singh"
+      },
+      {
+        "question": "Which Bollywood playback singer has sung 'Tera Ban Jaunga' from the movie *Kabir Singh*?",
+        "options": [
+          "Arijit Singh",
+          "Atif Aslam",
+          "Kailasa Kher",
+          "Kunal Ganjawala"
+        ],
+        "correctAnswer": "Arijit Singh"
+      },
+      {
+        "question": "Which Bollywood singer is famous for his song 'Channa Mereya' from *Ae Dil Hai Mushkil*?",
+        "options": [
+          "Arijit Singh",
+          "Mohit Chauhan",
+          "Sukhwinder Singh",
+          "Udit Narayan"
+        ],
+        "correctAnswer": "Arijit Singh"
+      },
+      {
+        "question": "Which playback singer is known for his soulful voice and his hit song 'Tujh Mein Rab Dikhta Hai' from *Rab Ne Bana Di Jodi*?",
+        "options": [
+          "Roop Kumar Rathod",
+          "Sonu Nigam",
+          "Arijit Singh",
+          "Shreya Ghoshal"
+        ],
+        "correctAnswer": "Roop Kumar Rathod"
+      },
+      {
+        "question": "Which singer is known for his hit songs 'Zindagi Ek Safar Hai Suhana' from *Andheri Raat Mein*?",
+        "options": ["Kishore Kumar", "Mukesh", "Shamshad Begum", "Manna Dey"],
+        "correctAnswer": "Kishore Kumar"
+      },
+      {
+        "question": "Which famous Bollywood singer is behind the song 'Raabta' from the movie *Agent Vinod*?",
+        "options": [
+          "Arijit Singh",
+          "Kailasa Kher",
+          "Shreya Ghoshal",
+          "Himesh Reshammiya"
+        ],
+        "correctAnswer": "Arijit Singh"
       }
     ],
     "difficulty": "medium"

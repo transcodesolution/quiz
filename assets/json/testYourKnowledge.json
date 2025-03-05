@@ -8,56 +8,116 @@
     "name": "Test Your Knowledge",
     "questions": [
       {
-        "question": "Raksha Bandhan is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Which element is said to keep the bones of a human body strong?",
+        "options": ["Calcium", "Fibre", "Protein", "Water"],
+        "correctAnswer": "Calcium"
       },
       {
-        "question": "What is tied on the wrist during Raksha Bandhan?",
-        "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-        "correctAnswer": "Rakhi"
+        "question": "Franz Josef Strauss Airport is located in which country?",
+        "options": ["Germany", "Netherlands", "Australia", "Singapore"],
+        "correctAnswer": "Germany"
       },
       {
-        "question": "Raksha Bandhan celebrates the bond between?",
-        "options": ["Friends", "Siblings", "Parents", "Teachers"],
-        "correctAnswer": "Siblings"
+        "question": "Caledonia was the Roman name for which modern day country?",
+        "options": ["Ireland", "France", "Portugal", "Scotland"],
+        "correctAnswer": "Scotland"
       },
       {
-        "question": "Which sweet is commonly associated with Raksha Bandhan?",
-        "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-        "correctAnswer": "Barfi"
-      },
-      {
-        "question": "What is the traditional color of Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
+        "question": "Rojo is the Spanish word for which colour?",
+        "options": ["Black", "White", "Red", "Blue"],
         "correctAnswer": "Red"
+      },
+      {
+        "question": "According to George Orwell, who is watching us?",
+        "options": ["Big Brother", "God", "Aliens", "Tech companies"],
+        "correctAnswer": "Big Brother"
+      },
+      {
+        "question": "Jacinda Ardern became the Prime Minister of which country in 2017?",
+        "options": ["India", "Singapore", "Brazil", "New Zealand"],
+        "correctAnswer": "New Zealand"
+      },
+      {
+        "question": "How many wisdom teeth does the average adult have?",
+        "options": ["1", "2", "4", "6"],
+        "correctAnswer": "4"
+      },
+      {
+        "question": "What type of rice is risotto usually made from?",
+        "options": ["Basmati", "Arborio", "Brown", "White"],
+        "correctAnswer": "Arborio"
+      },
+      {
+        "question": "How many rings does the Olympic symbol have?",
+        "options": ["4", "5", "6", "7"],
+        "correctAnswer": "5"
+      },
+      {
+        "question": "What is a young giraffe called?",
+        "options": ["Kitten", "Calf", "Cub", "Foal"],
+        "correctAnswer": "Calf"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Raksha Bandhan is celebrated in which season?",
-        "options": ["Winter", "Summer", "Monsoon", "Spring"],
-        "correctAnswer": "Monsoon"
+        "question": "Which US agency has the motto 'For the benefit of all'?",
+        "options": ["CIA", "FBI", "IRS", "NASA"],
+        "correctAnswer": "NASA"
       },
       {
-        "question": "What is the main ingredient in Barfi?",
-        "options": ["Milk", "Flour", "Sugar", "Butter"],
-        "correctAnswer": "Milk"
+        "question": "Which singer had a hit in the 1970s called 'Maggie May'?",
+        "options": [
+          "Rod Stewart",
+          "Elton John",
+          "James Brown",
+          "Stevie Wonder"
+        ],
+        "correctAnswer": "Rod Stewart"
       },
       {
-        "question": "Which color is not traditionally associated with Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Blue"
+        "question": "The Beach' starring Leonardo DiCaprio is set in which country?",
+        "options": ["Vietnam", "Maldives", "Thailand", "Australia"],
+        "correctAnswer": "Thailand"
       },
       {
-        "question": "What is the traditional gift given during Raksha Bandhan?",
-        "options": ["Money", "Clothes", "Jewelry", "Books"],
-        "correctAnswer": "Money"
+        "question": "Hitler's party which came into power in 1933 is known as?",
+        "options": [
+          "Labour Party",
+          "Ku-Klux-Klan",
+          "Nazi Party",
+          "Democratic Party"
+        ],
+        "correctAnswer": "Nazi Party"
       },
       {
-        "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-        "options": ["Rose", "Marigold", "Lily", "Tulip"],
-        "correctAnswer": "Marigold"
+        "question": "Which crop is sown on the largest area in India?",
+        "options": ["Rice", "Wheat", "Sugarcane", "Maize"],
+        "correctAnswer": "Rice"
+      },
+      {
+        "question": "What is the second largest country (in size) in the world?",
+        "options": ["Canada", "USA", "China", "Russia"],
+        "correctAnswer": "Canada"
+      },
+      {
+        "question": "What did Galileo invent?",
+        "options": ["Barometer", "Pendulum clock", "Microscope", "Thermometer"],
+        "correctAnswer": "Thermometer"
+      },
+      {
+        "question": "In which decade was the telephone invented?",
+        "options": ["1850s", "1860s", "1870s", "1880s"],
+        "correctAnswer": "1870s"
+      },
+      {
+        "question": "Which English city is known as the Steel City?",
+        "options": ["Liverpool", "Sheffield", "Birmingham", "Manchester"],
+        "correctAnswer": "Sheffield"
+      },
+      {
+        "question": "The logo for luxury car maker Porsche features which animal?",
+        "options": ["Cow", "Dog", "Horse", "Bull"],
+        "correctAnswer": "Horse"
       }
     ],
     "difficulty": "medium"
@@ -71,56 +131,196 @@
     "name": "Test Your Knowledge",
     "questions": [
       {
-        "question": "Onam is a festival celebrated in which Indian state?",
-        "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-        "correctAnswer": "Kerala"
+        "question": "India has how many Union Territories?",
+        "options": ["6", "9", "8", "7"],
+        "correctAnswer": "8"
       },
       {
-        "question": "What is the traditional dance performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Kuchipudi"],
-        "correctAnswer": "Kathakali"
+        "question": "Pakistan continues to remain on which list of FATF?",
+        "options": ["Grey", "Black", "White", "Red"],
+        "correctAnswer": "Grey"
       },
       {
-        "question": "What is the traditional feast during Onam called?",
-        "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-        "correctAnswer": "Sadya"
+        "question": "Which Indian city tops the Ease of Living Index 2020?",
+        "options": ["Chennai", "Chandigarh", "Bengaluru", "Mumbai"],
+        "correctAnswer": "Bengaluru"
       },
       {
-        "question": "Which flower is used to make Pookalam during Onam?",
-        "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-        "correctAnswer": "Marigold"
+        "question": "Which company became the world's first to hit $3 trillion market-cap?",
+        "options": ["Apple", "Microsoft", "TCL", "Google"],
+        "correctAnswer": "Apple"
       },
       {
-        "question": "Onam marks the homecoming of which legendary king?",
-        "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-        "correctAnswer": "Mahabali"
+        "question": "National Statistics Day is celebrated every year on whose birth anniversary?",
+        "options": [
+          "Manmohan Singh",
+          "Amartya Sen",
+          "PC Mahalanobis",
+          "Abhijit Bannerjee"
+        ],
+        "correctAnswer": "PC Mahalanobis"
+      },
+      {
+        "question": "What is the new name for Turkey?",
+        "options": ["Tarkesh", "Taarik", "Tarkey", "Turkiye"],
+        "correctAnswer": "Turkiye"
+      },
+      {
+        "question": "How many public sectors bank now remain in India?",
+        "options": ["20", "18", "10", "12"],
+        "correctAnswer": "12"
+      },
+      {
+        "question": "Which is the world's happiest country?",
+        "options": ["Bhutan", "Finaland", "Denmark", "Sweden"],
+        "correctAnswer": "Finaland"
+      },
+      {
+        "question": "How many languages feature on an Indian currency note?",
+        "options": ["18", "17", "20", "14"],
+        "correctAnswer": "17"
+      },
+      {
+        "question": "Who was sworn in as Philippines 17th president?",
+        "options": [
+          "Ferdinand Marcos Jr.",
+          "Sara Duterte",
+          "Noberto Gonzalles",
+          "Ernesto Abella"
+        ],
+        "correctAnswer": "Ferdinand Marcos Jr."
+      },
+      {
+        "question": "Who is the first lady of US?",
+        "options": [
+          "Kamala Harris",
+          "Ivanka Trump",
+          "Jill Biden",
+          "Michelle Obama"
+        ],
+        "correctAnswer": "Jill Biden"
+      },
+      {
+        "question": "Who acquired Air India?",
+        "options": ["Reliance", "Birla", "Tata", "Adani"],
+        "correctAnswer": "Tata"
+      },
+      {
+        "question": "India has no trade deal with which among the following?",
+        "options": ["Brazil", "Japan", "Singapore", "Nepal"],
+        "correctAnswer": "Brazil"
+      },
+      {
+        "question": "Who became the new chairman of Reliance Jio?",
+        "options": [
+          "Akash Ambani",
+          "Isha Ambani",
+          "Anant Ambani",
+          "Anil Ambani"
+        ],
+        "correctAnswer": "Akash Ambani"
+      },
+      {
+        "question": "Who is the incumbent Minister of Information and Broadcasting?",
+        "options": [
+          "Prakash Javadekar",
+          "Smriti Irani",
+          "Anurag Thakur",
+          "Nitin Gadkari"
+        ],
+        "correctAnswer": "Anurag Thakur"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Onam is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Who is the author of the book 'The Battle of Belonging'?",
+        "options": [
+          "Shobha De",
+          "Romila Thapar",
+          "Shashi Tharoor",
+          "General VK. Singh"
+        ],
+        "correctAnswer": "Shashi Tharoor"
       },
       {
-        "question": "What is the main dish in Sadya?",
-        "options": ["Rice", "Bread", "Pasta", "Noodles"],
-        "correctAnswer": "Rice"
+        "question": "Who is the current RBI governor?",
+        "options": [
+          "Raghuram Rajan",
+          "Shaktikant Das",
+          "C. Rangrajan",
+          "Urjit Patel"
+        ],
+        "correctAnswer": "Shaktikant Das"
       },
       {
-        "question": "Which dance is not performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-        "correctAnswer": "Ballet"
+        "question": "Who chaired the 14th BRICS summit?",
+        "options": [
+          "Narendra Modi",
+          "Vladimir Putin",
+          "Xi Jinping",
+          "Cyril Ramaphosa"
+        ],
+        "correctAnswer": "Xi Jinping"
       },
       {
-        "question": "What is the traditional attire worn during Onam?",
-        "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-        "correctAnswer": "Saree"
+        "question": "What was the theme of International Yoga Day 2022?",
+        "options": [
+          "Yoga for peace",
+          "Yoga for mind",
+          "Yoga for heart",
+          "Yoga for humanity"
+        ],
+        "correctAnswer": "Yoga for humanity"
       },
       {
-        "question": "Which fruit is commonly used in Onam celebrations?",
-        "options": ["Banana", "Apple", "Grapes", "Orange"],
-        "correctAnswer": "Banana"
+        "question": "Which Olympic medallist broke its own record to set a new national record?",
+        "options": [
+          "Mirabai Chanu",
+          "PV Sindhu",
+          "Neeraj Chopra",
+          "Ravi K. Dahiya"
+        ],
+        "correctAnswer": "Neeraj Chopra"
+      },
+      {
+        "question": "Which couple is the most recent to join the trending billionaire's divorce club?",
+        "options": [
+          "Bill-Melinda",
+          "Elon-Riley",
+          "Jerry-Rupert",
+          "Jeff-MacKenzie"
+        ],
+        "correctAnswer": "Jerry-Rupert"
+      },
+      {
+        "question": "Which city is likely to host G20 in 2023?",
+        "options": ["Sao Paulo", "Kashmir", "Beijing", "Kathmandu"],
+        "correctAnswer": "Kashmir"
+      },
+      {
+        "question": "Where is GIFT City located?",
+        "options": ["Hong Kong", "Gujarat", "Mexico", "Maharashtra"],
+        "correctAnswer": "Gujarat"
+      },
+      {
+        "question": "Whose 216 ft. long statue has been declared as Statue of Equality?",
+        "options": [
+          "Vallabhbhai Patel",
+          "Guru Rinpoche",
+          "Ramanujacharya",
+          "Rishabhanatha"
+        ],
+        "correctAnswer": "Ramanujacharya"
+      },
+      {
+        "question": "Who is the current Secretary-General of the United Nations?",
+        "options": [
+          "António Guterres",
+          "Ban Ki-moon",
+          "Kofi Annan",
+          "Tedros Adhanom"
+        ],
+        "correctAnswer": "António Guterres"
       }
     ],
     "difficulty": "medium"
@@ -134,56 +334,131 @@
     "name": "Test Your Knowledge",
     "questions": [
       {
-        "question": "Onam is a festival celebrated in which Indian state?",
-        "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-        "correctAnswer": "Kerala"
+        "question": "How many days are there in a leap year?",
+        "options": ["365", "366", "367", "29"],
+        "correctAnswer": "366"
       },
       {
-        "question": "What is the traditional dance performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Kuchipudi"],
-        "correctAnswer": "Kathakali"
+        "question": "How many letters are there in the English alphabet?",
+        "options": ["25", "22", "24", "26"],
+        "correctAnswer": "26"
       },
       {
-        "question": "What is the traditional feast during Onam called?",
-        "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-        "correctAnswer": "Sadya"
+        "question": "Which is the longest river on the Earth?",
+        "options": ["Atlantic ocean", "Ganga", "Beas", "Nile"],
+        "correctAnswer": "Nile"
       },
       {
-        "question": "Which flower is used to make Pookalam during Onam?",
-        "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-        "correctAnswer": "Marigold"
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Mercury", "Saturn", "Mars", "Jupiter"],
+        "correctAnswer": "Mars"
       },
       {
-        "question": "Onam marks the homecoming of which legendary king?",
-        "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-        "correctAnswer": "Mahabali"
+        "question": "Which animal is known as the ship of desert?",
+        "options": ["Camel", "Panda", "Dog", "Lion"],
+        "correctAnswer": "Camel"
+      },
+      {
+        "question": "How many consonants are there in the English alphabets?",
+        "options": ["25", "26", "20", "21"],
+        "correctAnswer": "21"
+      },
+      {
+        "question": "What type of gas is absorbed by plants?",
+        "options": ["Oxygen", "Carbon monoxide", "Hydrogen", "Carbon dioxide"],
+        "correctAnswer": "Carbon dioxide"
+      },
+      {
+        "question": "How many seconds are there in an hour?",
+        "options": ["360", "3600", "60", "600"],
+        "correctAnswer": "3600"
+      },
+      {
+        "question": "What are baby frogs known as?",
+        "options": ["Little frogs", "Baby frogs", "Tadpoles", "Frolly"],
+        "correctAnswer": "Tadpoles"
+      },
+      {
+        "question": "Which is the National bird of India?",
+        "options": ["Peacock", "Camel", "Frog", "Lion"],
+        "correctAnswer": "Peacock"
+      },
+      {
+        "question": "What is the National fruit of India?",
+        "options": ["Apple", "Grapes", "Mango", "Date"],
+        "correctAnswer": "Mango"
+      },
+      {
+        "question": "Which is the largest 'Democracy' in the world?",
+        "options": ["USA", "UK", "India", "Africa"],
+        "correctAnswer": "India"
+      },
+      {
+        "question": "Which is the smallest continent?",
+        "options": ["Asia", "Australia", "Africa", "America"],
+        "correctAnswer": "Australia"
+      },
+      {
+        "question": "Which is the smallest bone in the human body?",
+        "options": ["Ear bone", "Knee bone", "Arm bone", "Neck bone"],
+        "correctAnswer": "Ear bone"
+      },
+      {
+        "question": "Which is the principal source of energy for the Earth?",
+        "options": ["Earth", "Sun", "Moon", "Sky"],
+        "correctAnswer": "Sun"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Onam is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "How many millimetres are there in a centimetre?",
+        "options": ["1", "10", "100", "50"],
+        "correctAnswer": "10"
       },
       {
-        "question": "What is the main dish in Sadya?",
-        "options": ["Rice", "Bread", "Pasta", "Noodles"],
-        "correctAnswer": "Rice"
+        "question": "Which is the hardest natural substance available on Earth?",
+        "options": ["Platinum", "Silver", "Gold", "Diamond"],
+        "correctAnswer": "Diamond"
       },
       {
-        "question": "Which dance is not performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-        "correctAnswer": "Ballet"
+        "question": "What is the national tree of India?",
+        "options": ["Apple tree", "Banana tree", "Mango tree", "Banyan tree"],
+        "correctAnswer": "Banyan tree"
       },
       {
-        "question": "What is the traditional attire worn during Onam?",
-        "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-        "correctAnswer": "Saree"
+        "question": "What is the baby of a horse known as?",
+        "options": ["Foal", "Tadpole", "Mare", "Baby horse"],
+        "correctAnswer": "Foal"
       },
       {
-        "question": "Which fruit is commonly used in Onam celebrations?",
-        "options": ["Banana", "Apple", "Grapes", "Orange"],
-        "correctAnswer": "Banana"
+        "question": "How many players are there on a cricket team?",
+        "options": ["11", "8", "7", "4"],
+        "correctAnswer": "11"
+      },
+      {
+        "question": "How many players are there on a Kho-Kho team?",
+        "options": ["9", "10", "11", "5"],
+        "correctAnswer": "11"
+      },
+      {
+        "question": "Which instrument is used to measure Atmospheric Pressure?",
+        "options": ["Barometer", "Poison", "Helium", "Mercury"],
+        "correctAnswer": "Barometer"
+      },
+      {
+        "question": "Which is the natural satellite of Earth?",
+        "options": ["Moon", "Sun", "Mercury", "Stars"],
+        "correctAnswer": "Moon"
+      },
+      {
+        "question": "Which bird lays the largest eggs?",
+        "options": ["Ostrich", "Peacock", "Dove", "Pigeon"],
+        "correctAnswer": "Ostrich"
+      },
+      {
+        "question": "What is the National game of the USA?",
+        "options": ["Hockey", "Football", "Pool", "Baseball"],
+        "correctAnswer": "Baseball"
       }
     ],
     "difficulty": "medium"

@@ -1,128 +1,293 @@
 [
-    {
-      "id": "1",
-      "title": "Birds And Animals | Creepy-Crawlies",
-      "imagePath": "../assets/images/svg/birdsAndAnimals/creepyCrawliesQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Birds And Animals",
-      "questions": [
-        {
-          "question": "Which of the following is an insect?",
-          "options": ["Spider", "Ant", "Lizard", "Frog"],
-          "correctAnswer": "Ant"
-        },
-        {
-          "question": "Which insect is known for making honey?",
-          "options": ["Butterfly", "Bee", "Ant", "Beetle"],
-          "correctAnswer": "Bee"
-        },
-        {
-          "question": "Which insect is known for its colorful wings?",
-          "options": ["Butterfly", "Bee", "Ant", "Beetle"],
-          "correctAnswer": "Butterfly"
-        },
-        {
-          "question": "Which insect is known for its ability to jump long distances?",
-          "options": ["Grasshopper", "Bee", "Ant", "Beetle"],
-          "correctAnswer": "Grasshopper"
-        },
-        {
-          "question": "Which insect is known for its ability to glow?",
-          "options": ["Firefly", "Bee", "Ant", "Beetle"],
-          "correctAnswer": "Firefly"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Which insect is known for its ability to fly?",
-          "options": ["Ant", "Bee", "Spider", "Worm"],
-          "correctAnswer": "Bee"
-        },
-        {
-          "question": "Which insect is known for its ability to spin webs?",
-          "options": ["Spider", "Ant", "Bee", "Butterfly"],
-          "correctAnswer": "Spider"
-        },
-        {
-          "question": "Which insect is known for its ability to camouflage?",
-          "options": ["Chameleon", "Grasshopper", "Ant", "Bee"],
-          "correctAnswer": "Grasshopper"
-        },
-        {
-          "question": "Which insect is known for its ability to produce silk?",
-          "options": ["Silkworm", "Bee", "Ant", "Butterfly"],
-          "correctAnswer": "Silkworm"
-        },
-        {
-          "question": "Which insect is known for its ability to live in colonies?",
-          "options": ["Ant", "Bee", "Spider", "Butterfly"],
-          "correctAnswer": "Ant"
-        }
-      ],
-      "difficulty": "easy"
-    },
-    {
-      "id": "2",
-      "title": "Birds And Animals | Find-That-Creature",
-      "imagePath": "../assets/images/svg/birdsAndAnimals/findThatCreatureQuiz.svg",
-      "totalPrice": "500",
-      "entryFee": "100",
-      "name": "Birds And Animals",
-      "questions": [
-        {
-          "question": "Which animal is known as the 'King of the Jungle'?",
-          "options": ["Elephant", "Tiger", "Lion", "Bear"],
-          "correctAnswer": "Lion"
-        },
-        {
-          "question": "Which bird is known for its colorful feathers?",
-          "options": ["Peacock", "Sparrow", "Crow", "Pigeon"],
-          "correctAnswer": "Peacock"
-        },
-        {
-          "question": "Which animal is known for its long neck?",
-          "options": ["Elephant", "Giraffe", "Lion", "Bear"],
-          "correctAnswer": "Giraffe"
-        },
-        {
-          "question": "Which bird is known for its ability to mimic sounds?",
-          "options": ["Parrot", "Sparrow", "Crow", "Pigeon"],
-          "correctAnswer": "Parrot"
-        },
-        {
-          "question": "Which animal is known for its ability to change color?",
-          "options": ["Chameleon", "Tiger", "Lion", "Bear"],
-          "correctAnswer": "Chameleon"
-        }
-      ],
-      "ExtraQuestion": [
-        {
-          "question": "Which animal is known for its ability to swim?",
-          "options": ["Elephant", "Fish", "Lion", "Tiger"],
-          "correctAnswer": "Fish"
-        },
-        {
-          "question": "Which bird is known for its ability to fly long distances?",
-          "options": ["Eagle", "Sparrow", "Crow", "Pigeon"],
-          "correctAnswer": "Eagle"
-        },
-        {
-          "question": "Which animal is known for its ability to climb trees?",
-          "options": ["Elephant", "Monkey", "Lion", "Bear"],
-          "correctAnswer": "Monkey"
-        },
-        {
-          "question": "Which bird is known for its ability to sing?",
-          "options": ["Nightingale", "Sparrow", "Crow", "Pigeon"],
-          "correctAnswer": "Nightingale"
-        },
-        {
-          "question": "Which animal is known for its ability to run fast?",
-          "options": ["Cheetah", "Elephant", "Lion", "Bear"],
-          "correctAnswer": "Cheetah"
-        }
-      ],
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Birds And Animals | Creepy-Crawlies",
+    "imagePath": "../assets/images/svg/birdsAndAnimals/creepyCrawliesQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Birds And Animals",
+    "questions": [
+      {
+        "question": "Which insect is known for its ability to produce light?",
+        "options": ["Firefly", "Ladybug", "Dragonfly", "Moth"],
+        "correctAnswer": "Firefly"
+      },
+      {
+        "question": "What is the largest species of spider in the world?",
+        "options": [
+          "Tarantula",
+          "Goliath Birdeater",
+          "Black Widow",
+          "Wolf Spider"
+        ],
+        "correctAnswer": "Goliath Birdeater"
+      },
+      {
+        "question": "Which bird is famous for its ability to mimic human speech?",
+        "options": ["Parrot", "Pigeon", "Crow", "Sparrow"],
+        "correctAnswer": "Parrot"
+      },
+      {
+        "question": "What type of animal is a Komodo dragon?",
+        "options": ["Lizard", "Snake", "Bird", "Mammal"],
+        "correctAnswer": "Lizard"
+      },
+      {
+        "question": "Which insect is known for its loud chirping sound?",
+        "options": ["Cricket", "Grasshopper", "Beetle", "Ant"],
+        "correctAnswer": "Cricket"
+      },
+      {
+        "question": "Which animal is known for changing its color to blend into its surroundings?",
+        "options": ["Chameleon", "Octopus", "Cuttlefish", "Both A and B"],
+        "correctAnswer": "Both A and B"
+      },
+      {
+        "question": "What is the primary diet of a koala?",
+        "options": ["Eucalyptus leaves", "Bamboo", "Insects", "Fruits"],
+        "correctAnswer": "Eucalyptus leaves"
+      },
+      {
+        "question": "Which animal has the longest lifespan?",
+        "options": ["Tortoise", "Elephant", "Blue Whale", "Human"],
+        "correctAnswer": "Tortoise"
+      },
+      {
+        "question": "What is a group of lions called?",
+        "options": ["Pack", "Herd", "Pride", "Gaggle"],
+        "correctAnswer": "Pride"
+      },
+      {
+        "question": "Which bird is known for its ability to fly backward?",
+        "options": ["Hummingbird", "Pigeon", "Eagle", "Pelican"],
+        "correctAnswer": "Hummingbird"
+      },
+      {
+        "question": "What is the main food source for bees?",
+        "options": ["Nectar", "Pollen", "Honey", "Both A and B"],
+        "correctAnswer": "Both A and B"
+      },
+      {
+        "question": "Which animal is known as the 'King of the Jungle'?",
+        "options": ["Lion", "Tiger", "Elephant", "Bear"],
+        "correctAnswer": "Lion"
+      },
+      {
+        "question": "Which insect can live without its head for several days?",
+        "options": ["Cockroach", "Ant", "Fly", "Mosquito"],
+        "correctAnswer": "Cockroach"
+      },
+      {
+        "question": "Which animal can sleep for up to 3 years at a time?",
+        "options": ["Snail", "Bear", "Bat", "Frog"],
+        "correctAnswer": "Snail"
+      },
+      {
+        "question": "What is the largest species of bird?",
+        "options": ["Ostrich", "Penguin", "Eagle", "Albatross"],
+        "correctAnswer": "Ostrich"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which insect is known for carrying its young on its back?",
+        "options": ["Ladybug", "Beetle", "Tarantula", "Pill Bug"],
+        "correctAnswer": "Pill Bug"
+      },
+      {
+        "question": "Which bird has the largest wingspan?",
+        "options": ["Albatross", "Eagle", "Condor", "Penguin"],
+        "correctAnswer": "Albatross"
+      },
+      {
+        "question": "What is the primary diet of a panda?",
+        "options": ["Bamboo", "Fish", "Insects", "Meat"],
+        "correctAnswer": "Bamboo"
+      },
+      {
+        "question": "Which animal is known for producing the substance 'silk'?",
+        "options": ["Spider", "Worm", "Caterpillar", "Ant"],
+        "correctAnswer": "Spider"
+      },
+      {
+        "question": "Which bird is famous for its 'whooping' call?",
+        "options": ["Eagle", "Owl", "Whip-poor-will", "Whooping Crane"],
+        "correctAnswer": "Whooping Crane"
+      },
+      {
+        "question": "Which creepy-crawly can regrow its limbs if they get cut off?",
+        "options": ["Tarantula", "Scorpion", "Centipede", "Crab"],
+        "correctAnswer": "Tarantula"
+      },
+      {
+        "question": "Which insect is known for spreading the deadly disease malaria?",
+        "options": ["Housefly", "Mosquito", "Termite", "Beetle"],
+        "correctAnswer": "Mosquito"
+      },
+      {
+        "question": "Which of these creepy-crawlies can live for weeks without its head?",
+        "options": ["Scorpion", "Cockroach", "Spider", "Moth"],
+        "correctAnswer": "Cockroach"
+      },
+      {
+        "question": "Which insect is known for having a lifespan of only 24 hours?",
+        "options": ["Dragonfly", "Mayfly", "Mosquito", "Butterfly"],
+        "correctAnswer": "Mayfly"
+      },
+      {
+        "question": "Which creepy-crawly is known for walking sideways?",
+        "options": ["Crab", "Centipede", "Scorpion", "Beetle"],
+        "correctAnswer": "Crab"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "2",
+    "title": "Birds And Animals | Find-That-Creature",
+    "imagePath": "../assets/images/svg/birdsAndAnimals/findThatCreatureQuiz.svg",
+    "totalPrice": "500",
+    "entryFee": "100",
+    "name": "Birds And Animals",
+    "questions": [
+      {
+        "question": "Which animal is considered the largest land mammal?",
+        "options": ["Elephant", "Giraffe", "Rhinoceros", "Hippopotamus"],
+        "correctAnswer": "Elephant"
+      },
+      {
+        "question": "What type of animal is a 'Komodo Dragon'?",
+        "options": ["Lizard", "Snake", "Mammal", "Bird"],
+        "correctAnswer": "Lizard"
+      },
+      {
+        "question": "Which animal is known for its unique ability to sleep standing up?",
+        "options": ["Horse", "Cow", "Giraffe", "Kangaroo"],
+        "correctAnswer": "Horse"
+      },
+      {
+        "question": "Which bird is the national symbol of the United States?",
+        "options": ["Eagle", "Hawk", "Owl", "Falcon"],
+        "correctAnswer": "Eagle"
+      },
+      {
+        "question": "Which animal is known to have a 'pouch' for carrying its young?",
+        "options": ["Kangaroo", "Koala", "Possum", "All of the above"],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "Which animal has the longest migration route?",
+        "options": [
+          "Humpback Whale",
+          "Caribou",
+          "Elephant",
+          "Monarch Butterfly"
+        ],
+        "correctAnswer": "Humpback Whale"
+      },
+      {
+        "question": "Which of these animals is capable of flight?",
+        "options": ["Bat", "Penguin", "Platypus", "Cheetah"],
+        "correctAnswer": "Bat"
+      },
+      {
+        "question": "Which sea creature is known for having eight tentacles?",
+        "options": ["Octopus", "Squid", "Jellyfish", "Crab"],
+        "correctAnswer": "Octopus"
+      },
+      {
+        "question": "What animal is known for its distinctive black and white stripes?",
+        "options": ["Zebra", "Panda", "Tiger", "Badger"],
+        "correctAnswer": "Zebra"
+      },
+      {
+        "question": "Which animal is famous for its ability to regenerate its limbs?",
+        "options": ["Starfish", "Axolotl", "Lizard", "Octopus"],
+        "correctAnswer": "Axolotl"
+      },
+      {
+        "question": "Which bird is known for its brightly colored feathers and loud call?",
+        "options": ["Parrot", "Penguin", "Peacock", "Toucan"],
+        "correctAnswer": "Parrot"
+      },
+      {
+        "question": "Which animal is known for living in a hive and producing honey?",
+        "options": ["Bee", "Ant", "Spider", "Fly"],
+        "correctAnswer": "Bee"
+      },
+      {
+        "question": "Which mammal is known for having the longest migration?",
+        "options": [
+          "Humpback Whale",
+          "Monarch Butterfly",
+          "Elephant",
+          "Caribou"
+        ],
+        "correctAnswer": "Humpback Whale"
+      },
+      {
+        "question": "Which animal is famous for its ability to play dead when threatened?",
+        "options": ["Opossum", "Raccoon", "Skunk", "Armadillo"],
+        "correctAnswer": "Opossum"
+      },
+      {
+        "question": "Which animal is known for its long, sharp claws and living in trees?",
+        "options": ["Sloth", "Bear", "Cheetah", "Koala"],
+        "correctAnswer": "Sloth"
+      }
+    ],
+    "ExtraQuestion": [
+      {
+        "question": "Which animal is known to have the strongest bite force?",
+        "options": ["Crocodile", "Shark", "Lion", "Hippo"],
+        "correctAnswer": "Crocodile"
+      },
+      {
+        "question": "Which bird is known for its ability to imitate human speech?",
+        "options": ["Parrot", "Crow", "Canary", "Pigeon"],
+        "correctAnswer": "Parrot"
+      },
+      {
+        "question": "Which animal has the longest lifespan?",
+        "options": ["Bowhead Whale", "Elephant", "Tortoise", "Human"],
+        "correctAnswer": "Bowhead Whale"
+      },
+      {
+        "question": "Which animal is the largest species of cat in the world?",
+        "options": ["Tiger", "Lion", "Leopard", "Cheetah"],
+        "correctAnswer": "Tiger"
+      },
+      {
+        "question": "Which insect is known for its ability to produce light?",
+        "options": ["Firefly", "Dragonfly", "Butterfly", "Moth"],
+        "correctAnswer": "Firefly"
+      },
+      {
+        "question": "Which animal is known for having a hump on its back to store fat?",
+        "options": ["Camel", "Horse", "Zebra", "Cow"],
+        "correctAnswer": "Camel"
+      },
+      {
+        "question": "Which creature is known for its ability to change its sex during its lifetime?",
+        "options": ["Clownfish", "Salmon", "Penguin", "Shark"],
+        "correctAnswer": "Clownfish"
+      },
+      {
+        "question": "Which bird is famous for migrating across continents during winter?",
+        "options": ["Swan", "Pigeon", "Eagle", "Arctic Tern"],
+        "correctAnswer": "Arctic Tern"
+      },
+      {
+        "question": "Which animal is known for having a long neck and feeding on tall trees?",
+        "options": ["Giraffe", "Camel", "Elephant", "Kangaroo"],
+        "correctAnswer": "Giraffe"
+      },
+      {
+        "question": "Which animal can live for weeks without its head?",
+        "options": ["Cockroach", "Moth", "Spider", "Ant"],
+        "correctAnswer": "Cockroach"
+      }
+    ],
+    "difficulty": "medium"
+  }
+]

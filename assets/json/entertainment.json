@@ -8,56 +8,176 @@
     "name": "Entertainment",
     "questions": [
       {
-        "question": "Raksha Bandhan is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "What was Leonardo DiCaprio's name in the movie 'The Wolf of Wall Street'?",
+        "options": [
+          "Jordan Belfort",
+          "John Belfort",
+          "Sam Belfort",
+          "Jack Belfort"
+        ],
+        "correctAnswer": "Jordan Belfort"
       },
       {
-        "question": "What is tied on the wrist during Raksha Bandhan?",
-        "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-        "correctAnswer": "Rakhi"
+        "question": "How many times does Sheldon have to knock on a door and say a person's name before he'll go in?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "3"
       },
       {
-        "question": "Raksha Bandhan celebrates the bond between?",
-        "options": ["Friends", "Siblings", "Parents", "Teachers"],
-        "correctAnswer": "Siblings"
+        "question": "What is Captain America's shield made of?",
+        "options": ["Titanium", "Vibranium", "Steel", "Carbon Fibre"],
+        "correctAnswer": "Titanium"
       },
       {
-        "question": "Which sweet is commonly associated with Raksha Bandhan?",
-        "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-        "correctAnswer": "Barfi"
+        "question": "In season 3 of 'Stranger Things', who is Dustin's girlfriend he met at camp?",
+        "options": ["Suzie", "Max", "Nancy", "Eleven"],
+        "correctAnswer": "Suzie"
       },
       {
-        "question": "What is the traditional color of Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Red"
+        "question": "Where is Hollywood?",
+        "options": ["San Francisco", "New York", "San Diego", "Los Angeles"],
+        "correctAnswer": "Los Angeles"
+      },
+      {
+        "question": "What is the name of the fictional land where 'Frozen' takes place?",
+        "options": ["Grimm", "Arendelle", "Naples", "Florin"],
+        "correctAnswer": "Arendelle"
+      },
+      {
+        "question": "Where is Captain America from?",
+        "options": ["Queens", "Brooklyn", "Manhattan", "Staten Island"],
+        "correctAnswer": "Brooklyn"
+      },
+      {
+        "question": "Who played Jack in Titanic?",
+        "options": [
+          "Leonardo DiCaprio",
+          "Brad Pitt",
+          "Chris Hemsworth",
+          "The Rock"
+        ],
+        "correctAnswer": "Leonardo DiCaprio"
+      },
+      {
+        "question": "What pirate ship attacks Port Royal?",
+        "options": [
+          "Black Pearl",
+          "Flying Dutchman",
+          "Queen Anne's Revenge",
+          "Interceptor"
+        ],
+        "correctAnswer": "Black Pearl"
+      },
+      {
+        "question": "In the TV show 'Friends', how many sisters does Joey have?",
+        "options": ["4", "5", "6", "7"],
+        "correctAnswer": "7"
+      },
+      {
+        "question": "What is the main pub called in Peaky Blinders where the Shelby's meet?",
+        "options": [
+          "Small Heath",
+          "Birmingham",
+          "The Garrison Pub",
+          "Shelby Pub"
+        ],
+        "correctAnswer": "The Garrison Pub"
+      },
+      {
+        "question": "What is the name of Jack Sparrow's ship?",
+        "options": [
+          "The Black Pearl",
+          "Interceptor",
+          "Queen Anne's Revenge",
+          "Flying Dutchman"
+        ],
+        "correctAnswer": "The Black Pearl"
+      },
+      {
+        "question": "Who is Fluffy in 'Harry Potter'?",
+        "options": [
+          "Three-Headed-Dog",
+          "Harry's owl",
+          "Hagrid's dragon",
+          "Hermione's cat"
+        ],
+        "correctAnswer": "Three-Headed-Dog"
+      },
+      {
+        "question": "How did Hermione take extra lessons in her third year?",
+        "options": [
+          "Weekend classes",
+          "She made a clone",
+          "The time turner",
+          "The pensieve"
+        ],
+        "correctAnswer": "The time turner"
+      },
+      {
+        "question": "What is Harry's Patronus?",
+        "options": ["A rabbit", "A unicorn", "An owl", "A stag"],
+        "correctAnswer": "A stag"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Raksha Bandhan is celebrated in which season?",
-        "options": ["Winter", "Summer", "Monsoon", "Spring"],
-        "correctAnswer": "Monsoon"
+        "question": "In which year did the first 'Iron Man' release?",
+        "options": ["2006", "2007", "2008", "2014"],
+        "correctAnswer": "2008"
       },
       {
-        "question": "What is the main ingredient in Barfi?",
-        "options": ["Milk", "Flour", "Sugar", "Butter"],
-        "correctAnswer": "Milk"
+        "question": "Who is the lead cast of the Marvel Superhero 'Deadpool'?",
+        "options": [
+          "Ryan Guzman",
+          "Ryan Reynolds",
+          "Ryan Gosling",
+          "Ryan Cooper"
+        ],
+        "correctAnswer": "Ryan Reynolds"
       },
       {
-        "question": "Which color is not traditionally associated with Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Blue"
+        "question": "In which movie did Will and Jaden Smith first appear together?",
+        "options": [
+          "The Pursuit of Happyness",
+          "Titanic",
+          "Men in Black",
+          "Ozark"
+        ],
+        "correctAnswer": "The Pursuit of Happyness"
       },
       {
-        "question": "What is the traditional gift given during Raksha Bandhan?",
-        "options": ["Money", "Clothes", "Jewelry", "Books"],
-        "correctAnswer": "Money"
+        "question": "Season 1 of 'Stranger Things' takes place in which year?",
+        "options": ["1981", "1982", "1983", "1985"],
+        "correctAnswer": "1983"
       },
       {
-        "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-        "options": ["Rose", "Marigold", "Lily", "Tulip"],
-        "correctAnswer": "Marigold"
+        "question": "When was the first season of Breaking Bad released?",
+        "options": ["2006", "2007", "2008", "2020"],
+        "correctAnswer": "2008"
+      },
+      {
+        "question": "How many Infinity Stones are there?",
+        "options": ["4", "5", "6", "7"],
+        "correctAnswer": "6"
+      },
+      {
+        "question": "Who is the firstborn child of Odin?",
+        "options": ["Thor", "Loki", "Hela", "Balder"],
+        "correctAnswer": "Hela"
+      },
+      {
+        "question": "What was the name of the giant spider that appeared in 'Harry Potter and the Chamber of Secrets'?",
+        "options": ["Giant spider", "Aracno", "Aragog", "Ron"],
+        "correctAnswer": "Aragog"
+      },
+      {
+        "question": "Who led the mutiny against Captain Jack Sparrow?",
+        "options": ["Barbossa", "Murtogg", "Ragetti", "Gibbs"],
+        "correctAnswer": "Barbossa"
+      },
+      {
+        "question": "How many seasons of 'Friends' are there?",
+        "options": ["6", "7", "8", "10"],
+        "correctAnswer": "10"
       }
     ],
     "difficulty": "medium"
@@ -71,56 +191,161 @@
     "name": "Entertainment",
     "questions": [
       {
-        "question": "Onam is a festival celebrated in which Indian state?",
-        "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-        "correctAnswer": "Kerala"
+        "question": "I'll make him an offer he can't refuse' is a quote from which famous film?",
+        "options": [
+          "American Gangster",
+          "Goodfellas",
+          "The Godfather",
+          "Scarface"
+        ],
+        "correctAnswer": "The Godfather"
       },
       {
-        "question": "What is the traditional dance performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Kuchipudi"],
-        "correctAnswer": "Kathakali"
+        "question": "In Mean Girls, the Plastics declare that they wear pink on which of the following days?",
+        "options": ["Monday", "Wednesday", "Friday", "Sunday"],
+        "correctAnswer": "Wednesday"
       },
       {
-        "question": "What is the traditional feast during Onam called?",
-        "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-        "correctAnswer": "Sadya"
+        "question": "Mary Poppins sings that a spoonful of what helps the medicine go down?",
+        "options": ["Sugar", "Milk", "Tyenol", "Butter"],
+        "correctAnswer": "Sugar"
       },
       {
-        "question": "Which flower is used to make Pookalam during Onam?",
-        "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-        "correctAnswer": "Marigold"
+        "question": "Anarkali, Salim ki mohabbat tumhe marne nahin degi aur hum tumhe jeene nahin denge' is the dialogue of which film?",
+        "options": [
+          "Mother India",
+          "Jodhaa Akbar",
+          "Mughal-e-Azam",
+          "Pakeezah"
+        ],
+        "correctAnswer": "Mughal-e-Azam"
       },
       {
-        "question": "Onam marks the homecoming of which legendary king?",
-        "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-        "correctAnswer": "Mahabali"
+        "question": "Thappad se nahi , pyar she darr lagta hai', is the dialogue of which film?",
+        "options": ["Dabangg", "Sholay", "Hum Tum", "Wanted"],
+        "correctAnswer": "Dabangg"
+      },
+      {
+        "question": "Tareekh pe tareekh milti rahi hain lekin insaaf nahin milta' is the dialogue of which film?",
+        "options": ["Damini", "Meri Jung", "Rangeela", "Dil se"],
+        "correctAnswer": "Damini"
+      },
+      {
+        "question": "Talk to me Goose' is the dialogue of which film?",
+        "options": ["Top Gun", "Toy Story 2", "Troy", "300"],
+        "correctAnswer": "Top Gun"
+      },
+      {
+        "question": "I feel the need, the need for speed' is the dialogue of which film?",
+        "options": ["Top Gun", "Dirty Dancing", "Batman Begins", "Braveheart"],
+        "correctAnswer": "Top Gun"
+      },
+      {
+        "question": "Uska toh na bad luck hi kharab hai' is the dialogue of which film?",
+        "options": ["Rangeela", "Pardes", "Satya", "1942: A love story"],
+        "correctAnswer": "Rangeela"
+      },
+      {
+        "question": "To saari kayanat usey milane me jud jaati hai', is the dialogue of which film?",
+        "options": ["Om Shanti Om", "Fashion", "Titanic", "Nayak"],
+        "correctAnswer": "Om Shanti Om"
+      },
+      {
+        "question": "Hum jahaan pe khade ho jaate hain, line wahin se shuru hoti hai', is the dialogue of which film?",
+        "options": ["Sholay", "Kaalia", "Don", "Agneepath"],
+        "correctAnswer": "Kaalia"
+      },
+      {
+        "question": "The secret ingredient is that there is no secret ingredient' is the dialogue of which film?",
+        "options": ["Kung Fu Panda", "Pulp Fiction", "Gravity", "Interstellar"],
+        "correctAnswer": "Kung Fu Panda"
+      },
+      {
+        "question": "I can talk English, I can walk English, I can run English' is the dialogue of which film?",
+        "options": ["Namak Halal", "Deewar", "Devdas", "Sholay"],
+        "correctAnswer": "Namak Halal"
+      },
+      {
+        "question": "Jahanpanah! Tussi great ho…Tohfa kabool karo!' is the dialogue of which film?",
+        "options": ["3 Idiots", "Dhoom", "Singham 2", "Don"],
+        "correctAnswer": "3 Idiots"
+      },
+      {
+        "question": "Rahul, naam toh suna hoga' is the dialogue of which film?",
+        "options": ["DDLJ", "Dil To Pagal Hai", "Dil se", "Don 2"],
+        "correctAnswer": "Dil To Pagal Hai"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Onam is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Come with me if you want to live', is the dialogue of which film?",
+        "options": ["300", "Terminator 2", "James Bond", "Kung Fu Panda"],
+        "correctAnswer": "Terminator 2"
       },
       {
-        "question": "What is the main dish in Sadya?",
-        "options": ["Rice", "Bread", "Pasta", "Noodles"],
-        "correctAnswer": "Rice"
+        "question": "Mama always said life was like a box of chocolates, you never know what you're gonna get', is the dialogue of which film?",
+        "options": ["Joker", "Oceans 11", "Top Gun", "Forrest Gump"],
+        "correctAnswer": "Forrest Gump"
       },
       {
-        "question": "Which dance is not performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-        "correctAnswer": "Ballet"
+        "question": "Houston, we have a problem' was a quote made famous in which movie?",
+        "options": ["Apollo 13", "Apollo 11", "Gravity", "Interstellar"],
+        "correctAnswer": "Apollo 13"
       },
       {
-        "question": "What is the traditional attire worn during Onam?",
-        "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-        "correctAnswer": "Saree"
+        "question": "Dosti ka ek usool hai madam, no sorry, no thank you' is the dialogue of which film?",
+        "options": [
+          "Ekk Deewana Tha",
+          "Akaash Vani",
+          "Maine Pyaar Kiya",
+          "Ishaqzaade"
+        ],
+        "correctAnswer": "Maine Pyaar Kiya"
       },
       {
-        "question": "Which fruit is commonly used in Onam celebrations?",
-        "options": ["Banana", "Apple", "Grapes", "Orange"],
-        "correctAnswer": "Banana"
+        "question": "Rishte mein toh hum tumhare baap lagte hain, naam hai Shahenshah', is the dialogue of which film?",
+        "options": ["Souten", "Shahenshah", "Sholay", "Mughal-e-Azam"],
+        "correctAnswer": "Shahenshah"
+      },
+      {
+        "question": "It's not who I am underneath, but what I do that defines me' is the dialogue of which film?",
+        "options": [
+          "Casino Royale",
+          "V for Vendetta",
+          "Batman Begins",
+          "SpiderMan"
+        ],
+        "correctAnswer": "Batman Begins"
+      },
+      {
+        "question": "Which character said, 'remember the force will be with you, always' in George Lucas' Star Wars – A New Hope?",
+        "options": ["Han Solo", "Darth Vader", "Obi-Wan Kenobi", "Yoda"],
+        "correctAnswer": "Obi-Wan Kenobi"
+      },
+      {
+        "question": "Which actor said, 'I'll be back' in 1984's The Terminator?",
+        "options": [
+          "Matt Smith",
+          "Arnold Schwarzenegger",
+          "Robert Patrick",
+          "Gabriel Luna"
+        ],
+        "correctAnswer": "Arnold Schwarzenegger"
+      },
+      {
+        "question": "I shall never let go, I promise', is the dialogue of which film?",
+        "options": ["Toy Story", "Titanic", "ZNMD", "Joker"],
+        "correctAnswer": "Titanic"
+      },
+      {
+        "question": "With great power comes great responsibility', is the dialogue of which film?",
+        "options": [
+          "Man of Steel",
+          "SpiderMan",
+          "Batman Begins",
+          "Green Lantern"
+        ],
+        "correctAnswer": "SpiderMan"
       }
     ],
     "difficulty": "medium"
@@ -134,56 +359,186 @@
     "name": "Entertainment",
     "questions": [
       {
-        "question": "Raksha Bandhan is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Rachel Green used to work with which fashion company?",
+        "options": [
+          "Ralph Lauren",
+          "Dolce & Gabbana",
+          "Vero Moda",
+          "Peter England"
+        ],
+        "correctAnswer": "Ralph Lauren"
       },
       {
-        "question": "What is tied on the wrist during Raksha Bandhan?",
-        "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-        "correctAnswer": "Rakhi"
+        "question": "Who was Phoebe's grandmother's grandmother?",
+        "options": [
+          "Alice Knight",
+          "Ursula Buffay",
+          "Elizabeth II",
+          "Nestle Toulouse"
+        ],
+        "correctAnswer": "Nestle Toulouse"
       },
       {
-        "question": "Raksha Bandhan celebrates the bond between?",
-        "options": ["Friends", "Siblings", "Parents", "Teachers"],
-        "correctAnswer": "Siblings"
+        "question": "Childhood Monica weighed how much?",
+        "options": ["90 Pounds", "100 Pounds", "150 Pounds", "255 Pounds"],
+        "correctAnswer": "255 Pounds"
       },
       {
-        "question": "Which sweet is commonly associated with Raksha Bandhan?",
-        "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-        "correctAnswer": "Barfi"
+        "question": "What job did Chandler really do?",
+        "options": [
+          "DVD business",
+          "Statistical analyst",
+          "Financial broker",
+          "Noone knew"
+        ],
+        "correctAnswer": "Statistical analyst"
       },
       {
-        "question": "What is the traditional color of Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Red"
+        "question": "How long was Rachel's letter to Ross?",
+        "options": ["5 pages", "1 page", "18 pages", "50 pages"],
+        "correctAnswer": "18 pages"
+      },
+      {
+        "question": "What is a moo point?",
+        "options": [
+          "Something debatable",
+          "Cow's opinion",
+          "White lie",
+          "Boring fact"
+        ],
+        "correctAnswer": "Cow's opinion"
+      },
+      {
+        "question": "America has 50 states, which one did Ross miss out?",
+        "options": ["Delaware", "Newada", "Alaska", "Ohio"],
+        "correctAnswer": "Delaware"
+      },
+      {
+        "question": "What was the name of Ross and Carol's son?",
+        "options": ["Jack Geller", "Emm Geller", "Ben Geller", "Mike Geller"],
+        "correctAnswer": "Ben Geller"
+      },
+      {
+        "question": "Who was Dr. Drake Ramoray?",
+        "options": [
+          "Ross's official name",
+          "Monica's gynecologist",
+          "Joey's character",
+          "Phoebe's boyfriend"
+        ],
+        "correctAnswer": "Joey's character"
+      },
+      {
+        "question": "If you are in Friends, what would your Trifle have?",
+        "options": [
+          "Jam and Beef",
+          "Strawberry and Cream",
+          "Cake and Berry",
+          "Custard and Jelly"
+        ],
+        "correctAnswer": "Jam and Beef"
+      },
+      {
+        "question": "What happened in Vegas that didn't stay in Vegas?",
+        "options": [
+          "Joey's gambling",
+          "Phoebe's robbery",
+          "Rachel's marriage",
+          "Chandler's cheating"
+        ],
+        "correctAnswer": "Rachel's marriage"
+      },
+      {
+        "question": "Who was Monica's first kiss?",
+        "options": ["Chandler", "Mike", "Richard", "Ross"],
+        "correctAnswer": "Ross"
+      },
+      {
+        "question": "In the first episode, who did Rachel run out on her wedding?",
+        "options": ["Barry", "Ross", "Tyson", "Gunther"],
+        "correctAnswer": "Barry"
+      },
+      {
+        "question": "Who is chosen to be the priest for Monica and Chandler's wedding?",
+        "options": ["Mike", "Richard Burke", "Jack Geller", "Joey Tribbiani"],
+        "correctAnswer": "Joey Tribbiani"
+      },
+      {
+        "question": "What did Rachel's dad gift her when she was 15?",
+        "options": ["Pony", "Shopping mall", "Boat", "2 Kittens"],
+        "correctAnswer": "Boat"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Raksha Bandhan is celebrated in which season?",
-        "options": ["Winter", "Summer", "Monsoon", "Spring"],
-        "correctAnswer": "Monsoon"
+        "question": "Who was Monica's richest boyfriend?",
+        "options": [
+          "Pete Becker",
+          "Richard Burker",
+          "Chandler Bing",
+          "Chip Matthews"
+        ],
+        "correctAnswer": "Pete Becker"
       },
       {
-        "question": "What is the main ingredient in Barfi?",
-        "options": ["Milk", "Flour", "Sugar", "Butter"],
-        "correctAnswer": "Milk"
+        "question": "What would Ross never have in his pizza topping?",
+        "options": ["Jalapenos", "Cherry tomato", "Anchovies", "Olives"],
+        "correctAnswer": "Anchovies"
       },
       {
-        "question": "Which color is not traditionally associated with Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Blue"
+        "question": "Whom did Santa send as his representative on Christmas for Ben?",
+        "options": ["Turkey", "Porcupine", "Superman", "Holiday Armadillo"],
+        "correctAnswer": "Holiday Armadillo"
       },
       {
-        "question": "What is the traditional gift given during Raksha Bandhan?",
-        "options": ["Money", "Clothes", "Jewelry", "Books"],
-        "correctAnswer": "Money"
+        "question": "Who was Regina Falange?",
+        "options": [
+          "Central Perk owner",
+          "Joey's girlfriend",
+          "Phoebe",
+          "Rachel's daughter"
+        ],
+        "correctAnswer": "Phoebe"
       },
       {
-        "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-        "options": ["Rose", "Marigold", "Lily", "Tulip"],
-        "correctAnswer": "Marigold"
+        "question": "What is Ross likely to talk about when he is flirting?",
+        "options": ["Dinosaurs", "Gas", "News", "Science comic"],
+        "correctAnswer": "Gas"
+      },
+      {
+        "question": "OH MY GOD' is likely to be said by whom?",
+        "options": ["Ursula", "Janice", "Carol", "Monica"],
+        "correctAnswer": "Janice"
+      },
+      {
+        "question": "When did Rachel turn 30?",
+        "options": ["05-May", "02-Jun", "15-Aug", "08-Sep"],
+        "correctAnswer": "05-May"
+      },
+      {
+        "question": "How many Thanksgivings do the friends celebrate?",
+        "options": ["2", "8", "10", "12"],
+        "correctAnswer": "10"
+      },
+      {
+        "question": "What was the superpower Ross' Science comic character had?",
+        "options": [
+          "Remembering numbers",
+          "Thirst for knowledge",
+          "Making weapons",
+          "Flying"
+        ],
+        "correctAnswer": "Thirst for knowledge"
+      },
+      {
+        "question": "What was Monica's nickname given by her dad?",
+        "options": [
+          "Little Harmonica",
+          "Round pie",
+          "Cookie Pookie",
+          "Montana"
+        ],
+        "correctAnswer": "Little Harmonica"
       }
     ],
     "difficulty": "medium"
@@ -197,56 +552,131 @@
     "name": "Entertainment",
     "questions": [
       {
-        "question": "Onam is a festival celebrated in which Indian state?",
-        "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-        "correctAnswer": "Kerala"
+        "question": "What was the name of Ned Stark's sword?",
+        "options": ["Ice", "Fire", "Iron", "Steel"],
+        "correctAnswer": "Ice"
       },
       {
-        "question": "What is the traditional dance performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Kuchipudi"],
-        "correctAnswer": "Kathakali"
+        "question": "Who wielded the Oathkeeper?",
+        "options": ["Nala", "Ned", "Brienne", "Rhaegar"],
+        "correctAnswer": "Brienne"
       },
       {
-        "question": "What is the traditional feast during Onam called?",
-        "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-        "correctAnswer": "Sadya"
+        "question": "Who destroyed the Iron Throne?",
+        "options": ["Vwaserion", "Rhaegal", "Drogon", "Rickon"],
+        "correctAnswer": "Drogon"
       },
       {
-        "question": "Which flower is used to make Pookalam during Onam?",
-        "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-        "correctAnswer": "Marigold"
+        "question": "What was Daenerys's mother tongue?",
+        "options": ["Spanwash", "Valyrian", "Vwaserion", "Targaryen"],
+        "correctAnswer": "Valyrian"
       },
       {
-        "question": "Onam marks the homecoming of which legendary king?",
-        "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-        "correctAnswer": "Mahabali"
+        "question": "Who did Euron plan to marry?",
+        "options": ["Jaime", "Cersei", "Rickon", "Casterly"],
+        "correctAnswer": "Cersei"
+      },
+      {
+        "question": "Whom did Theon die protecting?",
+        "options": ["Sansa Stark", "Lyanna Stark", "Bran Stark", "Daenerys"],
+        "correctAnswer": "Bran Stark"
+      },
+      {
+        "question": "Who did Theon consider as his brother?",
+        "options": ["Robb Stark", "Bran Stark", "Sansa Stark", "Lyanna Stark"],
+        "correctAnswer": "Robb Stark"
+      },
+      {
+        "question": "What nasty creature felled a drunken King Robert?",
+        "options": ["Pig", "Boar", "Bat", "Lizard"],
+        "correctAnswer": "Boar"
+      },
+      {
+        "question": "How many seasons of Game of Thrones are there?",
+        "options": ["2", "4", "6", "8"],
+        "correctAnswer": "8"
+      },
+      {
+        "question": "Which dragon was turned into a wight?",
+        "options": ["Vwaserion", "Rhaegal", "Bruce", "Drogon"],
+        "correctAnswer": "Vwaserion"
+      },
+      {
+        "question": "Who was Loras briefly betrothed to?",
+        "options": ["Cersei", "Brienne", "Nymeria", "Joanna"],
+        "correctAnswer": "Cersei"
+      },
+      {
+        "question": "What was the name of Jon's direwolf?",
+        "options": ["Ghost", "Ben", "Ned", "Ice"],
+        "correctAnswer": "Ghost"
+      },
+      {
+        "question": "Which name was given to the bastards of The Reach?",
+        "options": ["Flower", "Ice", "Water", "Iron"],
+        "correctAnswer": "Flower"
+      },
+      {
+        "question": "What was Olenna's relationship to Mace Tyrell?",
+        "options": ["Swaster", "Wife", "Mother", "Mother in law"],
+        "correctAnswer": "Mother"
+      },
+      {
+        "question": "Which name was given to the bastards of The Westerlands?",
+        "options": ["Hill", "Snow", "Stone", "River"],
+        "correctAnswer": "Hill"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Onam is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Which name was given to the inhabitants of The Neck?",
+        "options": ["Free Folk", "Dornwashmen", "Ironborn", "Crannogmen"],
+        "correctAnswer": "Crannogmen"
       },
       {
-        "question": "What is the main dish in Sadya?",
-        "options": ["Rice", "Bread", "Pasta", "Noodles"],
-        "correctAnswer": "Rice"
+        "question": "Which sword was wielded by Vwasenya Targaryen?",
+        "options": ["Dark Swaster", "Heartsbane", "Ice", "Fire"],
+        "correctAnswer": "Dark Swaster"
       },
       {
-        "question": "Which dance is not performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-        "correctAnswer": "Ballet"
+        "question": "What was Jon Snow's real name?",
+        "options": ["Aaron", "Caitlyn", "Aegon", "Bran"],
+        "correctAnswer": "Aegon"
       },
       {
-        "question": "What is the traditional attire worn during Onam?",
-        "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-        "correctAnswer": "Saree"
+        "question": "Which of the Starks was the last to die onscreen?",
+        "options": ["Caitlyn", "Rickon", "Nymeria", "Casterly"],
+        "correctAnswer": "Rickon"
       },
       {
-        "question": "Which fruit is commonly used in Onam celebrations?",
-        "options": ["Banana", "Apple", "Grapes", "Orange"],
-        "correctAnswer": "Banana"
+        "question": "Who was the older Lannister twin?",
+        "options": ["Cersei", "Casterly", "Jaime", "Joanna"],
+        "correctAnswer": "Cersei"
+      },
+      {
+        "question": "What was the name of Arya Stark's direwolf?",
+        "options": ["Bran", "Nymeria", "Rickon", "Sansa"],
+        "correctAnswer": "Nymeria"
+      },
+      {
+        "question": "Which dragon did Jon Snow ride?",
+        "options": ["Drogon", "Vwaserion", "Rhaegal", "Tyrion"],
+        "correctAnswer": "Rhaegal"
+      },
+      {
+        "question": "Which of these was not a family in Game of Thrones?",
+        "options": ["Lannister", "Valyrian", "Stark", "Mortensen"],
+        "correctAnswer": "Mortensen"
+      },
+      {
+        "question": "Which was the main color of House Tarly's sigil?",
+        "options": ["Red", "Yellow", "Green", "Blue"],
+        "correctAnswer": "Green"
+      },
+      {
+        "question": "Who murdered Tywin Lannister?",
+        "options": ["Joffrey", "Tyrion", "Jaime", "Rickon"],
+        "correctAnswer": "Tyrion"
       }
     ],
     "difficulty": "medium"
@@ -260,56 +690,166 @@
     "name": "Entertainment",
     "questions": [
       {
-        "question": "Raksha Bandhan is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Which player has the highest FIFA rating of 93?",
+        "options": [
+          "Robert Lewandowski",
+          "Lionel Messi",
+          "Bruno Fernandes",
+          "Cristiano Ronaldo"
+        ],
+        "correctAnswer": "Lionel Messi"
       },
       {
-        "question": "What is tied on the wrist during Raksha Bandhan?",
-        "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-        "correctAnswer": "Rakhi"
+        "question": "Which of the following vehicles can not be driven in PUBG mobile?",
+        "options": ["Buggy", "Tractor", "Motorcycle", "Aquarail"],
+        "correctAnswer": "Tractor"
       },
       {
-        "question": "Raksha Bandhan celebrates the bond between?",
-        "options": ["Friends", "Siblings", "Parents", "Teachers"],
-        "correctAnswer": "Siblings"
+        "question": "Where does the opening scene of 'Modern Warfare 3' take place?",
+        "options": ["Cuba", "NYC", "Washington DC", "Mumbai"],
+        "correctAnswer": "NYC"
       },
       {
-        "question": "Which sweet is commonly associated with Raksha Bandhan?",
-        "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-        "correctAnswer": "Barfi"
+        "question": "How long did it take developers to create the first version of Minecraft?",
+        "options": ["6 days", "6 weeks", "6 months", "6 years"],
+        "correctAnswer": "6 days"
       },
       {
-        "question": "What is the traditional color of Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Red"
+        "question": "In which country did Minecraft become a mandatory part of school curriculum for all 13-year olds?",
+        "options": ["India", "Sweden", "England", "China"],
+        "correctAnswer": "Sweden"
+      },
+      {
+        "question": "Minecraft has been used in educational environments to teach computer science, computer-aided design, and what other subject?",
+        "options": ["Chemistry", "Maths", "English", "Physics"],
+        "correctAnswer": "Chemistry"
+      },
+      {
+        "question": "Which is the most powerful weapon in PUBG?",
+        "options": ["SLR", "UPM-45", "AWM", "AKM"],
+        "correctAnswer": "AWM"
+      },
+      {
+        "question": "What was the name of the second game released in the Angry Birds series?",
+        "options": [
+          "Angry Birds Rio",
+          "Angry Birds 2",
+          "Angry Birds Star Wars",
+          "Angry Birds Seasons"
+        ],
+        "correctAnswer": "Angry Birds Seasons"
+      },
+      {
+        "question": "How many players can participate in Fortnite Battle Royale?",
+        "options": ["8", "50", "100", "200"],
+        "correctAnswer": "100"
+      },
+      {
+        "question": "What is the mobile version of the Angry Birds game called?",
+        "options": [
+          "Minecraft Mobile",
+          "MinecraftM",
+          "Minecraft Earth",
+          "Minecraft 2"
+        ],
+        "correctAnswer": "Minecraft Earth"
+      },
+      {
+        "question": "Zombies, one of Call of Duty's most popular game modes, first appeared in which game?",
+        "options": [
+          "Modern Warfare 2",
+          "World At War",
+          "Call of Duty 2",
+          "Black Ops"
+        ],
+        "correctAnswer": "World At War"
+      },
+      {
+        "question": "In which year was Minecraft fully released?",
+        "options": ["2010", "2011", "2019", "2021"],
+        "correctAnswer": "2011"
+      },
+      {
+        "question": "What is the name of the hot air balloon in Fortnite?",
+        "options": [
+          "Battle Balloon",
+          "Battle Carrier",
+          "Battle Bus",
+          "Carrier Bus"
+        ],
+        "correctAnswer": "Battle Bus"
+      },
+      {
+        "question": "What is the highest rank you can reach in PUBG Mobile?",
+        "options": ["Crown", "Ace", "Grand Master", "Conqueror"],
+        "correctAnswer": "Conqueror"
+      },
+      {
+        "question": "Minecraft follows a day and night cycle. How long does one full cycle last in real-time?",
+        "options": ["10 minutes", "20 minutes", "1 hour", "24 hours"],
+        "correctAnswer": "20 minutes"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Raksha Bandhan is celebrated in which season?",
-        "options": ["Winter", "Summer", "Monsoon", "Spring"],
-        "correctAnswer": "Monsoon"
+        "question": "Which is the most-played video game of all time?",
+        "options": ["PUBG", "Call of Duty", "Minecraft", "Fortnite"],
+        "correctAnswer": "Fortnite"
       },
       {
-        "question": "What is the main ingredient in Barfi?",
-        "options": ["Milk", "Flour", "Sugar", "Butter"],
-        "correctAnswer": "Milk"
+        "question": "Who developed FIFA?",
+        "options": ["EA Sports", "Epic Games", "Activision", "Microsoft"],
+        "correctAnswer": "EA Sports"
       },
       {
-        "question": "Which color is not traditionally associated with Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Blue"
+        "question": "In which year was the first Call of Duty game released?",
+        "options": ["2003", "2004", "2005", "2006"],
+        "correctAnswer": "2003"
       },
       {
-        "question": "What is the traditional gift given during Raksha Bandhan?",
-        "options": ["Money", "Clothes", "Jewelry", "Books"],
-        "correctAnswer": "Money"
+        "question": "What cash prize was handed out to the top Call of Duty advanced warfare gamers in 2015?",
+        "options": ["5,00,000", "1 million", "2 million", "5 million"],
+        "correctAnswer": "1 million"
       },
       {
-        "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-        "options": ["Rose", "Marigold", "Lily", "Tulip"],
-        "correctAnswer": "Marigold"
+        "question": "What is the name of the largest red bird in Angry Birds?",
+        "options": ["Travis", "Thomas", "Terence", "Chuck"],
+        "correctAnswer": "Terence"
+      },
+      {
+        "question": "How many bolt action snipers are there in PUBG Mobile?",
+        "options": ["3", "4", "5", "6"],
+        "correctAnswer": "4"
+      },
+      {
+        "question": "How many players can play together, at the same time, on Minecraft Realms?",
+        "options": ["5", "10", "20", "100"],
+        "correctAnswer": "10"
+      },
+      {
+        "question": "Who developed Fortnite?",
+        "options": ["Marvel", "Epic Games", "Walt Disney", "DC Comics"],
+        "correctAnswer": "Epic Games"
+      },
+      {
+        "question": "Which is the highest-selling gaming console till date?",
+        "options": [
+          "Playstation 2",
+          "Playstation 3",
+          "Xbox One",
+          "Playstation 4"
+        ],
+        "correctAnswer": "Playstation 2"
+      },
+      {
+        "question": "What are the in-game purchases in Fortnite Battle Royale called?",
+        "options": [
+          "Battle Passes",
+          "Battle Packs",
+          "Life Passes",
+          "Life Packs"
+        ],
+        "correctAnswer": "Battle Passes"
       }
     ],
     "difficulty": "medium"
@@ -323,56 +863,111 @@
     "name": "Entertainment",
     "questions": [
       {
-        "question": "Onam is a festival celebrated in which Indian state?",
-        "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
-        "correctAnswer": "Kerala"
+        "question": "Guess the Hindi movie title: Most powerful weapon",
+        "options": ["Krishna", "Sudarshan Chakra", "Atom Bomb", "Brahmastra"],
+        "correctAnswer": "Brahmastra"
       },
       {
-        "question": "What is the traditional dance performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Kuchipudi"],
-        "correctAnswer": "Kathakali"
+        "question": "Guess the English movie title: Aqndhera Jawaan",
+        "options": [
+          "Blind Youth",
+          "Mistakes of Youth",
+          "The Dark Knight",
+          "Blind Love"
+        ],
+        "correctAnswer": "The Dark Knight"
       },
       {
-        "question": "What is the traditional feast during Onam called?",
-        "options": ["Sadya", "Biryani", "Thali", "Pongal"],
-        "correctAnswer": "Sadya"
+        "question": "Guess the English movie title: Nyaay Sangh",
+        "options": [
+          "Justice League",
+          "Law n Order",
+          "The Courtroom",
+          "Justice Squad"
+        ],
+        "correctAnswer": "Justice League"
       },
       {
-        "question": "Which flower is used to make Pookalam during Onam?",
-        "options": ["Marigold", "Rose", "Jasmine", "Lotus"],
-        "correctAnswer": "Marigold"
+        "question": "Guess the English movie title: Angaarey Bane Sholay",
+        "options": [
+          "Captain Marvel",
+          "The Avengers",
+          "Endgame",
+          "Ice and Fire"
+        ],
+        "correctAnswer": "The Avengers"
       },
       {
-        "question": "Onam marks the homecoming of which legendary king?",
-        "options": ["Mahabali", "Rama", "Krishna", "Ashoka"],
-        "correctAnswer": "Mahabali"
+        "question": "Guess the English movie title: Fauladi Aadmi",
+        "options": ["Iron Man", "Captain America", "Thor", "The Hulk"],
+        "correctAnswer": "Iron Man"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Onam is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Guess the Hindi movie title: ek bewakoof, do bewakoof, teen bewakoof",
+        "options": ["Kaminey", "3 Gadhe", "123 Gadhe", "3 Idiots"],
+        "correctAnswer": "3 Idiots"
       },
       {
-        "question": "What is the main dish in Sadya?",
-        "options": ["Rice", "Bread", "Pasta", "Noodles"],
-        "correctAnswer": "Rice"
+        "question": "Guess the English movie title: Angoothiyon ka Malik",
+        "options": ["Lord of Rings", "King of Rings", "King Ring", "Keyring"],
+        "correctAnswer": "Lord of Rings"
       },
       {
-        "question": "Which dance is not performed during Onam?",
-        "options": ["Kathakali", "Bharatanatyam", "Mohiniyattam", "Ballet"],
-        "correctAnswer": "Ballet"
+        "question": "Guess the Hindi movie title: Heart wants",
+        "options": [
+          "Dil chahta hai",
+          "Jigad Ki Awaaz",
+          "Dil Maange Mor",
+          "Dil Bole"
+        ],
+        "correctAnswer": "Dil Chahta Hai"
       },
       {
-        "question": "What is the traditional attire worn during Onam?",
-        "options": ["Saree", "Dhoti", "Kurta", "Jeans"],
-        "correctAnswer": "Saree"
+        "question": "Guess the Hindi movie title: Fearless",
+        "options": ["Nidar", "Bahaadur", "Darna Mana hai", "Dabangg"],
+        "correctAnswer": "Dabangg"
       },
       {
-        "question": "Which fruit is commonly used in Onam celebrations?",
-        "options": ["Banana", "Apple", "Grapes", "Orange"],
-        "correctAnswer": "Banana"
+        "question": "Guess the Hindi movie title: Long live my mother",
+        "options": [
+          "Jai Mummy Di",
+          "Jai Mata Di",
+          "Jugjug Jeeyo",
+          "Maa Tujhe Salam"
+        ],
+        "correctAnswer": "Jai Mummy Di"
+      },
+      {
+        "question": "Guess the Hindi movie title: Series/Continuation",
+        "options": ["Nirantar", "Badhte Chalo", "Silsila", "Chaley Chalo"],
+        "correctAnswer": "Silsila"
+      },
+      {
+        "question": "Guess the Hindi movie title: Shrimaan Bharat",
+        "options": ["Bharat", "Mr. India", "Shrimaan", "The Great Bharat"],
+        "correctAnswer": "Mr. India"
+      },
+      {
+        "question": "Guess the English movie title: Yeh kaam nahi ho sakta",
+        "options": [
+          "Incomplete work",
+          "Mission Impossible",
+          "Difficult Level 99",
+          "Tough Work"
+        ],
+        "correctAnswer": "Mission: Impossible"
+      },
+      {
+        "question": "Guess the Hindi movie title: Blind Law",
+        "options": ["Andhkaar", "Andha Nyaay", "Andha Kanoon", "Bharshtachar"],
+        "correctAnswer": "Andha Kanoon"
+      },
+      {
+        "question": "Guess the Hindi movie title: Power over Power",
+        "options": ["Satte pe Satta", "Mahashakti", "Shaktimaan", "Dum a Dum"],
+        "correctAnswer": "Satte pe Satta"
       }
     ],
     "difficulty": "medium"
@@ -386,56 +981,181 @@
     "name": "Entertainment",
     "questions": [
       {
-        "question": "Raksha Bandhan is celebrated in which month?",
-        "options": ["January", "August", "December", "March"],
-        "correctAnswer": "August"
+        "question": "Who was called 'Chuck Norris with Glasses'?",
+        "options": ["Professor", "Raquel", "Angel Rubio", "Tamayo"],
+        "correctAnswer": "Professor"
       },
       {
-        "question": "What is tied on the wrist during Raksha Bandhan?",
-        "options": ["Rakhi", "Bracelet", "Watch", "Ring"],
-        "correctAnswer": "Rakhi"
+        "question": "What did Pablo Escobar do?",
+        "options": [
+          "Bury the loot",
+          "Killed Police",
+          "Painted",
+          "Scammed stock market"
+        ],
+        "correctAnswer": "Bury the loot"
       },
       {
-        "question": "Raksha Bandhan celebrates the bond between?",
-        "options": ["Friends", "Siblings", "Parents", "Teachers"],
-        "correctAnswer": "Siblings"
+        "question": "Who killed Oslo?",
+        "options": [
+          "Helsinki did",
+          "Police shots",
+          "Sagasto's sniper",
+          "Professor's mistake"
+        ],
+        "correctAnswer": "Helsinki did"
       },
       {
-        "question": "Which sweet is commonly associated with Raksha Bandhan?",
-        "options": ["Ladoo", "Jalebi", "Barfi", "Gulab Jamun"],
-        "correctAnswer": "Barfi"
+        "question": "What does 'Bella Ciao' mean?",
+        "options": [
+          "Goodbye beautiful",
+          "We outlive",
+          "We shine",
+          "Hail people"
+        ],
+        "correctAnswer": "Goodbye beautiful"
       },
       {
-        "question": "What is the traditional color of Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Red"
+        "question": "What does Berlin's son do?",
+        "options": [
+          "Hacker",
+          "Electronic engineer",
+          "Graphic designer",
+          "Driver"
+        ],
+        "correctAnswer": "Electronic engineer"
+      },
+      {
+        "question": "Who was the most important hostage in the Royal Mint of Spain?",
+        "options": [
+          "Arturo",
+          "Alison Parker",
+          "Monica Gaztambide",
+          "Sierra Tuli"
+        ],
+        "correctAnswer": "Alison Parker"
+      },
+      {
+        "question": "What does Alicia name her baby?",
+        "options": ["Tatiana", "Victoria", "Perry", "Ibiza"],
+        "correctAnswer": "Victoria"
+      },
+      {
+        "question": "Who announced 'Let the matriarchy begin'?",
+        "options": ["Nairobi", "Tokyo", "Raquel", "Angel"],
+        "correctAnswer": "Nairobi"
+      },
+      {
+        "question": "What does 'La Casa De Papel' translate to?",
+        "options": [
+          "House of Crime",
+          "House of Paper",
+          "Underground House",
+          "House of Power"
+        ],
+        "correctAnswer": "House of Paper"
+      },
+      {
+        "question": "How much did the gang steal from the Royal Mint of Spain?",
+        "options": [
+          "€1 million",
+          "€2.5 billion",
+          "€670 million",
+          "€984 million"
+        ],
+        "correctAnswer": "€984 million"
+      },
+      {
+        "question": "How does Raquel know Professor is alive?",
+        "options": ["Secret message", "Calls her", "His watch", "His shoes"],
+        "correctAnswer": "His watch"
+      },
+      {
+        "question": "Who is helping Professor from outside the country?",
+        "options": [
+          "Rafael from MIT",
+          "Hackers from Brazil",
+          "Pakistani associates",
+          "Mumbai underworld"
+        ],
+        "correctAnswer": "Pakistani associates"
+      },
+      {
+        "question": "What does Berlin and his son steal?",
+        "options": [
+          "Red Diamonds",
+          "Viking Gold",
+          "Queen's jewelry",
+          "Emerald"
+        ],
+        "correctAnswer": "Viking Gold"
+      },
+      {
+        "question": "What mask do the robbers and hostages wear?",
+        "options": ["Clown", "Batman", "Dali", "Superman"],
+        "correctAnswer": "Dali"
+      },
+      {
+        "question": "What was the Professor's father by profession?",
+        "options": ["Governor", "Teacher", "Beggar", "Robber"],
+        "correctAnswer": "Robber"
       }
     ],
     "ExtraQuestion": [
       {
-        "question": "Raksha Bandhan is celebrated in which season?",
-        "options": ["Winter", "Summer", "Monsoon", "Spring"],
-        "correctAnswer": "Monsoon"
+        "question": "The Paris plan is to save whom?",
+        "options": ["Lisbon", "Rio", "Nairobi", "Denver"],
+        "correctAnswer": "Lisbon"
       },
       {
-        "question": "What is the main ingredient in Barfi?",
-        "options": ["Milk", "Flour", "Sugar", "Butter"],
-        "correctAnswer": "Milk"
+        "question": "Whom did the Blue teddy belong to?",
+        "options": ["Alison Parker", "Axel", "Gueterres", "Tokyo"],
+        "correctAnswer": "Axel"
       },
       {
-        "question": "Which color is not traditionally associated with Rakhi?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "correctAnswer": "Blue"
+        "question": "Where were the first two seasons shot?",
+        "options": ["France", "England", "Madrid", "Portugal"],
+        "correctAnswer": "Madrid"
       },
       {
-        "question": "What is the traditional gift given during Raksha Bandhan?",
-        "options": ["Money", "Clothes", "Jewelry", "Books"],
-        "correctAnswer": "Money"
+        "question": "Who was Berlin's wife?",
+        "options": ["Nairobi", "Alicia", "Alison", "Tatiana"],
+        "correctAnswer": "Tatiana"
       },
       {
-        "question": "Which flower is commonly used in Raksha Bandhan decorations?",
-        "options": ["Rose", "Marigold", "Lily", "Tulip"],
-        "correctAnswer": "Marigold"
+        "question": "Raquel's mother suffers from which disease?",
+        "options": ["Paralysis", "Parkinson's", "Alzheimer", "Schizophrenia"],
+        "correctAnswer": "Alzheimer"
+      },
+      {
+        "question": "How much gold could the gang melt?",
+        "options": ["10 tons", "100 tons", "90 tons", "150 tons"],
+        "correctAnswer": "90 tons"
+      },
+      {
+        "question": "Where do Alicia and Professor hide?",
+        "options": [
+          "Underground tunnel",
+          "Inside sofa",
+          "Behind cupboard",
+          "On a tree"
+        ],
+        "correctAnswer": "Inside sofa"
+      },
+      {
+        "question": "How many robbers have died till Season 5 part 1?",
+        "options": ["2", "3", "4", "5"],
+        "correctAnswer": "5"
+      },
+      {
+        "question": "Whose glasses were bugged?",
+        "options": ["Arturo Roman", "Sagasta", "Colonel Tamayo", "Angel Rubio"],
+        "correctAnswer": "Angel Rubio"
+      },
+      {
+        "question": "In the hospital scene, the professor disguised himself as?",
+        "options": ["Inspector", "Hostage", "Clown", "Police"],
+        "correctAnswer": "Clown"
       }
     ],
     "difficulty": "medium"
