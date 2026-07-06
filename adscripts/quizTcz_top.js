@@ -10,7 +10,7 @@ googletag.cmd.push(function () {
     )
     .addService(googletag.pubads());
 
-  googletag.pubads().collapseEmptyDivs();
+  googletag.setConfig({ collapseDiv: { enabled: true } });
   googletag.enableServices();
 
   // Add event listener to handle ad loading

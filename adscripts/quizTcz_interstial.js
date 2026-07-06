@@ -23,8 +23,6 @@ googletag.cmd.push(() => {
     });
 
   }
-  // Enable SRA and services.
-  googletag.pubads().enableSingleRequest();
-  googletag.pubads().collapseEmptyDivs();
+  googletag.setConfig({ collapseDiv: { enabled: true } });
   googletag.enableServices();
 });
