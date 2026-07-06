@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="../assets/css/sideBannner.css" />
     <link rel="stylesheet" href="../assets/css/home.css" />
 
+    <link rel="preconnect" href="https://securepubads.g.doubleclick.net" />
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
     <script
       async
       src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
     ></script>
-    <script src="../adscripts/quizTcz_interstial.js"></script>
-    <script src="../adscripts/quizTcz_Home.js"></script>
-    <script src="../adscripts/quizTcz_reward.js"></script>
+    <script async src="../adscripts/quizTcz_interstial.js"></script>
+    <script async src="../adscripts/quizTcz_Home.js"></script>
   </head>
 
   <body>
@@ -43,6 +44,7 @@
           alt="coin"
           class="coin-image"
           loading="lazy"
+          fetchpriority="low"
         />
         <p>Daily Reward</p>
       </button>
@@ -85,6 +87,7 @@
           alt="right-section"
           class="poster-image"
           loading="lazy"
+          fetchpriority="low"
         />
         <div class="welcomeText">
           <h4>Welcome to 5 Minutes Quiz. Play a quiz and earn coins.</h4>
@@ -118,6 +121,7 @@
           src="../assets/images/svg/category.svg"
           alt="category"
           class="footerNavIcon"
+          loading="lazy"
         />
         <p>Categories</p>
       </a>
@@ -126,6 +130,7 @@
           src="../assets/images/svg/home.svg"
           alt="home"
           class="footerNavIcon"
+          loading="lazy"
         />
         <p>Home</p>
       </a>
@@ -134,6 +139,7 @@
           src="../assets/images/svg/profile.svg"
           alt="profile"
           class="footerNavIcon"
+          loading="lazy"
         />
         <p>Profile</p>
       </a>
@@ -145,7 +151,8 @@
         history.replaceState({}, "", newURL);
       }
     </script>
-    <script src="../assets/js/home.js"></script>
+    <script defer src="../assets/js/home.js"></script>
+    <script defer src="../adscripts/quizTcz_reward.js"></script>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
