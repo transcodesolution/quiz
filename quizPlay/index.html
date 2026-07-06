@@ -4,30 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz Play</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/images/svg/logo.svg" />
     <link rel="stylesheet" href="../assets/css/common.css" />
     <link rel="stylesheet" href="../assets/css/sideBannner.css" />
     <link rel="stylesheet" href="../assets/css/quizePlay.css" />
 
     <link rel="preconnect" href="https://securepubads.g.doubleclick.net" />
-    <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
-    <script
-      async
-      src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
-    ></script>
-    <script async src="../adscripts/quizTcz_interstial.js"></script>
-    <script async src="../adscripts/quizTcz_top.js"></script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script src="../adscripts/quizTcz_top.js?v=2"></script>
   </head>
 
   <body>
-    <!-- interstitial_ad -->
-    <script>
-      googletag.cmd.push(() => {
-        // Ensure the first call to display comes after static ad slot
-        // divs are defined. If you do not have any static ad slots, this
-        // call can be made immediately after services are enabled.
-        googletag.display(interstitialSlot);
-      });
-    </script>
+    <!-- interstitial_ad loaded at bottom -->
     <div class="mainContainer" style="padding-top: 0px; padding-top: 20px">
       <section class="categoriesSection">
         <!-- /23201071713/quizTcz_top -->
@@ -111,6 +99,14 @@
       document.addEventListener("DOMContentLoaded", function () {
         const rewardCoin = sessionStorage.getItem("RewardCoin") || 0;
         document.getElementById("wonCoinsText").innerHTML = `${rewardCoin}`;
+      });
+    </script>
+    <script src="../adscripts/quizTcz_interstial.js?v=2"></script>
+    <script>
+      googletag.cmd.push(() => {
+        if (typeof interstitialSlot !== "undefined") {
+          googletag.display(interstitialSlot);
+        }
       });
     </script>
   </body>

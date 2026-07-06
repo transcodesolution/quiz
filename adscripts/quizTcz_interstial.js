@@ -23,6 +23,5 @@ googletag.cmd.push(() => {
     });
 
   }
-  googletag.setConfig({ collapseDiv: { enabled: true } });
   googletag.enableServices();
 });

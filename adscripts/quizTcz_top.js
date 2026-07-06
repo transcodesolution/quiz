@@ -1,20 +1,20 @@
+window.googletag = window.googletag || { cmd: [] };
 googletag.cmd.push(function () {
   googletag
     .defineSlot(
       "/23201071713/quizTcz_top",
       [
-        [300, 250],
-        [336, 280],
+        [300, 250],[320, 480], [336, 280]
       ],
       "div-gpt-ad-1738056273528-0"
     )
     .addService(googletag.pubads());
 
-  googletag.setConfig({ collapseDiv: { enabled: true } });
+//   googletag.pubads().collapseEmptyDivs();
   googletag.enableServices();
 
   // Add event listener to handle ad loading
-  googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+  googletag.pubads().addEventListener('slotRenderEnded', function (event) {
     if (event.slot.getSlotElementId() === 'div-gpt-ad-1738056273528-0') {
       if (!event.isEmpty) {
         // Ad has loaded, remove the default size
@@ -27,4 +27,3 @@ googletag.cmd.push(function () {
     }
   });
 });
- 

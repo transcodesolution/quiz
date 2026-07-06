@@ -10,7 +10,6 @@ googletag.cmd.push(function () {
       "div-gpt-ad-1738058472013-0"
     )
     .addService(googletag.pubads());
-  googletag.setConfig({ collapseDiv: { enabled: true } });
   googletag.enableServices();
 
   // Add event listener to handle ad loading

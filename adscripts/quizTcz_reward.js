@@ -1,13 +1,55 @@
+function showAdLoader() {
+  let overlay = document.getElementById("adLoaderOverlay");
+  if (!overlay) {
+    overlay = document.createElement("div");
+    overlay.id = "adLoaderOverlay";
+    overlay.innerHTML = `
+      <div class="ad-loader-content">
+        <div class="ad-loader-spinner"></div>
+        <p class="ad-loader-text">Loading Ad...</p>
+      </div>
+    `;
+    const style = document.createElement("style");
+    style.textContent = `
+      #adLoaderOverlay {
+        position: fixed; inset: 0; z-index: 99999;
+        background: rgba(0,0,0,0.7);
+        display: flex; align-items: center; justify-content: center;
+        backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+      }
+      .ad-loader-content { text-align: center; }
+      .ad-loader-spinner {
+        width: 48px; height: 48px; margin: 0 auto 16px;
+        border: 4px solid rgba(255,255,255,0.2);
+        border-top-color: #ffcc5b;
+        border-radius: 50%;
+        animation: adSpin 0.8s linear infinite;
+      }
+      .ad-loader-text {
+        color: #fff; font-size: 16px; font-family: "Roboto", sans-serif;
+        letter-spacing: 0.5px;
+      }
+      @keyframes adSpin { to { transform: rotate(360deg); } }
+    `;
+    document.head.appendChild(style);
+    document.body.appendChild(overlay);
+  }
+  overlay.style.display = "flex";
+}
+
+function hideAdLoader() {
+  const overlay = document.getElementById("adLoaderOverlay");
+  if (overlay) overlay.style.display = "none";
+}
+
 function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
   window.googletag = window.googletag || { cmd: [] };
 
-  // Check if the ad has already been shown for this button
   const adShownKey = `adShown_${buttonId}`;
   if (buttonId && sessionStorage.getItem(adShownKey)) {
     console.log(`Ad already shown for button ${buttonId}.`);
     return;
   }
-  // Check if the daily reward ad has been shown twice
   if (
     dataFnKey === "dailyReward" &&
     sessionStorage.getItem("dailyRewardAdShown") >= 2
@@ -15,6 +57,10 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
     showToast("Daily reward Limit reached", "error", dataFnKey);
     return;
   }
+
+  showAdLoader();
+  const loaderTimeout = setTimeout(hideAdLoader, 10000);
+
   const rewardedSlot = googletag.defineOutOfPageSlot(
     "/23201071713/quizTcz_reward", // Replace with your actual ad slot ID
     googletag.enums.OutOfPageFormat.REWARDED
@@ -24,6 +70,8 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
     rewardedSlot.addService(googletag.pubads());
 
     googletag.pubads().addEventListener("rewardedSlotReady", (event) => {
+      clearTimeout(loaderTimeout);
+      hideAdLoader();
       event.makeRewardedVisible();
       updateStatus("Rewarded ad is active.");
     });
@@ -64,6 +112,8 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
 
     googletag.pubads().addEventListener("slotRenderEnded", (event) => {
       if (event.slot === rewardedSlot && event.isEmpty) {
+        clearTimeout(loaderTimeout);
+        hideAdLoader();
         updateStatus("No ad returned for rewarded ad slot.");
         let adShownCount = parseInt(
           sessionStorage.getItem("dailyRewardAdShown") || "0",
@@ -87,6 +137,8 @@ function setupRewardedAd(targetUrl, alwaysShowAd = false, dataFnKey, buttonId) {
     googletag.enableServices();
     googletag.display(rewardedSlot);
   } else {
+    clearTimeout(loaderTimeout);
+    hideAdLoader();
     updateStatus("Rewarded ads are not supported on this page.");
     showToast("RewardAds not available", "error", dataFnKey); // Show only this toast
     setTimeout(

@@ -10,6 +10,5 @@ googletag.cmd.push(function () {
       "div-gpt-ad-1738923925939-0"
     )
     .addService(googletag.pubads());
-  googletag.pubads().collapseEmptyDivs();
   googletag.enableServices();
 });

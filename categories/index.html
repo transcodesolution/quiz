@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/images/svg/logo.svg" />
     <link rel="stylesheet" href="../assets/css/common.css" />
     <link rel="stylesheet" href="../assets/css/header.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
@@ -14,21 +15,11 @@
       async
       src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
     ></script>
-    <script src="../adscripts/quizTcz_interstial.js"></script>
-    <script src="../adscripts/quizTcz_Home.js"></script>
-    <script src="../adscripts/quizTcz_reward.js"></script>
+    <script src="../adscripts/quizTcz_Home.js?v=2"></script>
   </head>
 
   <body>
-    <!-- interstitial_ad -->
-    <script>
-      googletag.cmd.push(() => {
-        // Ensure the first call to display comes after static ad slot
-        // divs are defined. If you do not have any static ad slots, this
-        // call can be made immediately after services are enabled.
-        googletag.display(interstitialSlot);
-      });
-    </script>
+    <!-- interstitial_ad loaded at bottom -->
     <header class="headerContainer">
       <a href="../home/" class="logo">
         <img
@@ -181,5 +172,14 @@
         ).innerHTML = `${totalCoins} <span>COINS</span>`;
       });
     </script>
+    <script src="../adscripts/quizTcz_interstial.js?v=2"></script>
+    <script>
+      googletag.cmd.push(() => {
+        if (typeof interstitialSlot !== "undefined") {
+          googletag.display(interstitialSlot);
+        }
+      });
+    </script>
+    <script defer src="../adscripts/quizTcz_reward.js?v=2"></script>
   </body>
 </html>

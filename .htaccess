@@ -28,9 +28,9 @@
 
 # Cache-Control headers
 <IfModule mod_headers.c>
-  # CSS/JS: immutable for 1 month
+  # CSS/JS: cache for 1 week, revalidate
   <FilesMatch "\.(css|js)$">
-    Header set Cache-Control "public, max-age=2592000, immutable"
+    Header set Cache-Control "public, max-age=604800, must-revalidate"
   </FilesMatch>
 
   # Images: immutable for 1 year

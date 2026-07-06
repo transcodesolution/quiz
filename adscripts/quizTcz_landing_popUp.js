@@ -25,7 +25,6 @@ function initializeAd() {
         "div-gpt-ad-1737541487066-0"
       )
       .addService(window.googletag.pubads());
-    window.googletag.pubads().enableSingleRequest();
     window.googletag.pubads().setCentering(true);
     window.googletag.enableServices();
     window.googletag.display("div-gpt-ad-1737541487066-0");

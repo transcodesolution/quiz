@@ -76,10 +76,11 @@ document.addEventListener("DOMContentLoaded", () => {
           sessionStorage.setItem("RewardCoin", rewardCoin.toString());
 
           // Trigger interstitial ad before showing the modal
-          googletag.cmd.push(() => {
-              console.log("interstitialSlot", interstitialSlot);
-            googletag.display(interstitialSlot);
-          });
+          if (typeof interstitialSlot !== "undefined") {
+            googletag.cmd.push(() => {
+              googletag.display(interstitialSlot);
+            });
+          }
 
           // Remove 'hidden' class from rewardContainer
           document.getElementById("rewardContainer").classList.remove("hidden");
