@@ -3,38 +3,263 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz Play</title>
+    <title>Quiz Result</title>
     <link rel="icon" type="image/svg+xml" href="../assets/images/svg/logo.svg" />
     <link rel="stylesheet" href="../assets/css/common.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/sideBannner.css" />
-    <link rel="stylesheet" href="../assets/css/quizePlay.css" />
-
-     <!-- Google tag for analytics (gtag.js) -->
+    <link rel="stylesheet" href="../assets/css/menu-drawer.css" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8YGFQP4DE"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-B8YGFQP4DE');
     </script>
-
-    <link rel="preconnect" href="https://securepubads.g.doubleclick.net" />
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script src="../adscripts/quizTcz_top.js?v=2"></script>
-  </head>
+    <style>
+      /* ── Result page styles ── */
+      .result-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-top: 8px;
+      }
 
+      /* Ad slot */
+      .result-ad-wrap {
+        width: 100%;
+        min-height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255,255,255,0.03);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      .result-ad-wrap > div {
+        min-width: 300px;
+        min-height: 250px;
+      }
+
+      /* Result card */
+      .result-card {
+        width: 100%;
+        background: linear-gradient(160deg, #111827 0%, #1a2f77 100%);
+        border: 1.5px solid rgba(255,204,91,0.3);
+        border-radius: 24px;
+        overflow: hidden;
+        box-shadow: 0 0 50px rgba(255,204,91,0.1), 0 24px 48px rgba(0,0,0,0.5);
+        box-sizing: border-box;
+        animation: rcSlideUp 0.35s cubic-bezier(0.34,1.2,0.64,1) both;
+      }
+      @keyframes rcSlideUp {
+        from { opacity:0; transform: translateY(28px); }
+        to   { opacity:1; transform: translateY(0); }
+      }
+
+      /* Top celebration banner */
+      .result-banner {
+        background: linear-gradient(135deg, #1a3a8f 0%, #0f2460 100%);
+        border-bottom: 1px solid rgba(255,204,91,0.15);
+        padding: 28px 24px 24px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .result-banner::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(ellipse at 50% 0%, rgba(255,204,91,0.14) 0%, transparent 70%);
+        pointer-events: none;
+      }
+
+      .result-trophy {
+        font-size: 52px;
+        line-height: 1;
+        margin-bottom: 10px;
+        display: block;
+        filter: drop-shadow(0 0 16px rgba(255,204,91,0.5));
+        animation: trophyPop 0.5s cubic-bezier(0.34,1.56,0.64,1) 0.2s both;
+      }
+      @keyframes trophyPop {
+        from { transform: scale(0.4) rotate(-10deg); opacity:0; }
+        to   { transform: scale(1) rotate(0deg);    opacity:1; }
+      }
+
+      .result-label {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #ffcc5b;
+        background: rgba(255,204,91,0.15);
+        border: 1px solid rgba(255,204,91,0.35);
+        border-radius: 999px;
+        padding: 3px 12px;
+        margin-bottom: 10px;
+      }
+
+      .result-title {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 6px;
+      }
+
+      .result-subtitle {
+        color: #8789c3;
+        font-size: 13px;
+      }
+
+      /* Coins earned block */
+      .result-coins-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 18px;
+        background: rgba(255,204,91,0.08);
+        border: 1px solid rgba(255,204,91,0.2);
+        border-radius: 14px;
+        padding: 14px 20px;
+      }
+      .result-coins-icon {
+        width: 32px;
+        height: 32px;
+      }
+      .result-coins-amount {
+        font-size: 40px;
+        font-weight: 900;
+        color: #ffcc5b;
+        line-height: 1;
+        text-shadow: 0 0 24px rgba(255,204,91,0.5);
+      }
+      .result-coins-label {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1px;
+      }
+      .result-coins-label span:first-child {
+        font-size: 11px;
+        color: rgba(255,204,91,0.6);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+      }
+      .result-coins-label span:last-child {
+        font-size: 10px;
+        color: #6668a0;
+      }
+
+      /* Body section */
+      .result-body {
+        padding: 22px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+
+      /* Score breakdown strip */
+      .result-breakdown {
+        display: flex;
+        justify-content: space-around;
+        background: rgba(255,255,255,0.04);
+        border-radius: 14px;
+        padding: 14px 10px;
+      }
+      .result-stat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+      }
+      .result-stat-value {
+        font-size: 20px;
+        font-weight: 800;
+        color: #fff;
+      }
+      .result-stat-value.green { color: #4ade80; }
+      .result-stat-value.red   { color: #f87171; }
+      .result-stat-label {
+        font-size: 10px;
+        color: #6668a0;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        font-weight: 600;
+      }
+      .result-divider {
+        width: 1px;
+        background: rgba(255,255,255,0.08);
+        align-self: stretch;
+      }
+
+      /* Buttons */
+      .result-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .result-btn-primary {
+        width: 100%;
+        background: linear-gradient(135deg, #e8f41e 0%, #ffcc5b 100%);
+        color: #0f172a;
+        border: none;
+        border-radius: 999px;
+        padding: 15px 24px;
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        box-shadow: 0 6px 24px rgba(255,204,91,0.4);
+        transition: transform 0.12s, box-shadow 0.12s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        text-decoration: none;
+      }
+      .result-btn-primary:active {
+        transform: scale(0.97);
+        box-shadow: 0 3px 12px rgba(255,204,91,0.3);
+      }
+      .result-btn-secondary {
+        width: 100%;
+        background: transparent;
+        color: #8789c3;
+        border: 1.5px solid rgba(135,137,195,0.3);
+        border-radius: 999px;
+        padding: 13px 24px;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: border-color 0.15s, color 0.15s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        text-decoration: none;
+        box-sizing: border-box;
+      }
+      .result-btn-secondary:hover {
+        border-color: rgba(135,137,195,0.6);
+        color: #c5c8e8;
+      }
+    </style>
+  </head>
   <body>
-    <!-- interstitial_ad loaded at bottom -->
-    <div class="mainContainer" style="padding-top: 0px; padding-top: 20px">
-      <section class="categoriesSection">
-        <!-- /23201071713/quizTcz_top -->
-        <div class="header_ads" style="padding-top: 0px !important">
-          <div class="header_space" style="padding-top: 0px">
-            <div
-              id="div-gpt-ad-1738056273528-0"
-              style="min-width: 300px; min-height: 250px"
-            >
+    <div class="mainContainer">
+      <section class="categoriesSection" style="padding-top: 70px; padding-bottom: 90px;">
+        <div class="result-wrapper">
+          <!-- Ad slot — space always reserved -->
+          <div class="result-ad-wrap">
+            <div id="div-gpt-ad-1738056273528-0">
               <script>
                 googletag.cmd.push(function () {
                   googletag.display("div-gpt-ad-1738056273528-0");
@@ -42,78 +267,82 @@
               </script>
             </div>
           </div>
-        </div>
-        <div class="quiz-container-wrapper">
-          <div class="quiz-container">
-            <div class="quizPlay-header">
-              <div class="quizTwiz">5 Minutes Quiz</div>
-              <div class="won-text">
-                You have won <span id="wonCoinsText">0</span>
-                <img
-                  src="../assets/images/svg/coin.svg"
-                  alt="coin"
-                  class="coin-image"
-                  loading="lazy"
-                />
+
+          <!-- Result card -->
+          <div class="result-card">
+            <div class="result-banner">
+              <span class="result-trophy">🏆</span>
+              <div class="result-label">⭐ Quiz Complete</div>
+              <div class="result-title">Great job!</div>
+              <div class="result-subtitle">Here's what you earned this round</div>
+
+              <div class="result-coins-block">
+                <img class="result-coins-icon" src="../assets/images/svg/headerCoin.svg" alt="coin" />
+                <span class="result-coins-amount" id="wonCoinsText">0</span>
+                <div class="result-coins-label">
+                  <span>Coins Earned</span>
+                  <span>Added to your balance</span>
+                </div>
               </div>
             </div>
 
-            <div class="quizPlay-actions">
-              <a href="../categories" class="play-quiz" id="play-quiz"
-                >PLAY QUIZ</a
-              >
+            <div class="result-body">
+              <!-- Score breakdown -->
+              <div class="result-breakdown">
+                <div class="result-stat">
+                  <span class="result-stat-value green">+50</span>
+                  <span class="result-stat-label">per correct</span>
+                </div>
+                <div class="result-divider"></div>
+                <div class="result-stat">
+                  <span class="result-stat-value red">−25</span>
+                  <span class="result-stat-label">per wrong</span>
+                </div>
+                <div class="result-divider"></div>
+                <div class="result-stat">
+                  <span class="result-stat-value">2×</span>
+                  <span class="result-stat-label">daily limit</span>
+                </div>
+              </div>
+
+              <!-- Action buttons -->
+              <div class="result-actions">
+                <a href="../categories/" class="result-btn-primary">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 12h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 18h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4z"/></svg>
+                  Play Another Quiz
+                </a>
+                <a href="../home/" class="result-btn-secondary">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                  Go to Home
+                </a>
+              </div>
             </div>
-            <ul class="quiz-rules">
-              <li>You've got 90 - 150 seconds to answer all questions</li>
-              <li>Answer as many questions as you can</li>
-              <li>
-                For Every Correct answer you will get +50 points and will lose
-                -25 points on every Incorrect answer
-              </li>
-              <li>
-                You can take help by using the lifelines present in the contest.
-              </li>
-              <li>
-                Lifelines can be used for free or by using a given amount of
-                coins for each lifeline.
-              </li>
-            </ul>
           </div>
         </div>
       </section>
       <section class="rightSection">
-        <img
-          src="../assets/images/svg/sidePoster.svg"
-          alt="right-section"
-          class="poster-image"
-          loading="lazy"
-          fetchpriority="low"
-        />
+        <img src="../assets/images/svg/sidePoster.svg" alt="right-section" class="poster-image" loading="lazy" fetchpriority="low" />
         <div class="welcomeText">
           <h4>Welcome to 5 Minutes Quiz. Play a quiz and earn coins.</h4>
           <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
         </div>
       </section>
     </div>
-    <!-- Script For Removing Trailing Slash From URL Start -->
     <script>
       if (window.location.pathname.endsWith("/")) {
         const newURL = window.location.pathname.slice(0, -1);
         history.replaceState({}, "", newURL);
       }
-    </script>
-    <!-- Script For Removing Trailing Slash From URL End -->
-
-    <script>
-      // Retrieve and display total coins
       document.addEventListener("DOMContentLoaded", function () {
-        const rewardCoin = sessionStorage.getItem("RewardCoin") || 0;
-        document.getElementById("wonCoinsText").innerHTML = `${rewardCoin}`;
+        var rewardCoin = sessionStorage.getItem("RewardCoin") || 0;
+        document.getElementById("wonCoinsText").textContent = rewardCoin;
       });
     </script>
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/footer.js"></script>
     <script src="../adscripts/quizTcz_interstial.js?v=2"></script>
     <script>
-      googletag.cmd.push(() => {
+      googletag.cmd.push(function () {
         if (typeof interstitialSlot !== "undefined") {
           googletag.display(interstitialSlot);
         }

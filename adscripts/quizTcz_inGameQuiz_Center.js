@@ -1,6 +1,6 @@
   window.googletag = window.googletag || {cmd: []};
   googletag.cmd.push(function() {
-    googletag.defineSlot('/23201071713/quizTcz_inGameQuiz_Center', [[300, 250], [250, 250], [336, 280]], 'div-gpt-ad-1737543137369-0').addService(googletag.pubads());
+    googletag.defineSlot('/23345352839/hexam_display', [[300, 250], [250, 250], [336, 280]], 'div-gpt-ad-1737543137369-0').addService(googletag.pubads());
     googletag.enableServices();
 
       // Add event listener to handle ad loading

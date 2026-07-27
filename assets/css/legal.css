@@ -1,0 +1,52 @@
+.legalSection {
+  padding: 20px 20px 100px;
+  max-width: 520px;
+  box-sizing: border-box;
+}
+.legalSection h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+.legalSection .legalDate {
+  font-size: 12px;
+  color: var(--text-primary);
+  margin-bottom: 24px;
+}
+.legalSection h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.legalSection p {
+  font-size: 14px;
+  color: #c5c8e8;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+.legalSection ul {
+  padding-left: 18px;
+  margin-bottom: 10px;
+}
+.legalSection ul li {
+  font-size: 14px;
+  color: #c5c8e8;
+  line-height: 1.7;
+  margin-bottom: 6px;
+  font-family: "Roboto", sans-serif;
+}
+.legalSection a {
+  color: var(--text-tertiary);
+  text-decoration: underline;
+}
+.legalSection a:hover {
+  color: var(--text-secondary);
+}
+.legalSection hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 20px 0;
+}

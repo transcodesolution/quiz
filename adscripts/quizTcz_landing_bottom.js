@@ -2,7 +2,7 @@ window.googletag = window.googletag || { cmd: [] };
 googletag.cmd.push(function () {
   googletag
     .defineSlot(
-      "/23201071713/quizTcz_landing_bottom",
+      "/23345352839/hexam_display_2",
       [
         [300, 50],
         [320, 50],

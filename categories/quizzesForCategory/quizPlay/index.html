@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../../assets/css/footer.css" />
     <link rel="stylesheet" href="../../../assets/css/sideBannner.css" />
     <link rel="stylesheet" href="../../../assets/css/quizePlay.css" />
+    <link rel="stylesheet" href="../../../assets/css/menu-drawer.css" />
      <!-- Google tag for analytics (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8YGFQP4DE"></script>
     <script>
@@ -29,113 +30,48 @@
 
   <body>
     <!-- interstitial_ad loaded at bottom -->
-    <header class="headerContainer">
-      <a href="/home/" class="logo">
-        <img
-          src="../../../assets/images/svg/logo.svg"
-          alt="logo"
-          class="logo-image"
-          loading="lazy"
-      /></a>
-      <button class="dailyReward watchAdButton" data-fn="dailyReward">
-        <img
-          src="../../../assets/images/gif/reward.gif"
-          alt="coin"
-          class="coin-image"
-          loading="lazy"
-        />
-        <p>Daily Reward</p>
-      </button>
-      <div class="totalCoins">
-        <img
-          src="../../../assets/images/svg/headerCoin.svg"
-          alt="coin"
-          class="coin-image"
-          loading="lazy"
-        />
-        <p id="totalCoinsDisplay">0 <span>COINS</span></p>
-      </div>
-    </header>
     <div class="mainContainer">
       <section class="categoriesSection">
         <!-- /23201071713/quizTcz_top -->
         <div class="header_space" style="padding-top: 0px;">
-          <div
-            id="div-gpt-ad-1738056273528-0"
-          >
-            <script>
-              googletag.cmd.push(function () {
-                googletag.display("div-gpt-ad-1738056273528-0");
-              });
-            </script>
+          <div class="ad-slot-wrap">
+            <div id="div-gpt-ad-1738056273528-0">
+              <script>
+                googletag.cmd.push(function () {
+                  googletag.display("div-gpt-ad-1738056273528-0");
+                });
+              </script>
+            </div>
           </div>
         </div>
 
         <div class="quiz-container-wrapper">
           <div class="quiz-container">
             <div class="quiz-header">
-              <img class="category-image" src="" alt="category" />
-              <div>
+              <div class="category-image-wrap">
+                <img class="category-image" src="" alt="category" />
+              </div>
+              <div class="quiz-header-meta">
                 <div class="category-title"></div>
                 <div class="play-win"></div>
               </div>
             </div>
             <div class="quiz-actions">
-              <button class="join-now" id="join-now-btn" onclick="joinNow()">
-                JOIN NOW
+              <button class="join-now" onclick="cutEntryFee()">
+                ▶&nbsp; PLAY NOW
               </button>
-              <div class="or-text" id="or-text">or</div>
-              <a
-                id="play-as-guest"
-                class="play-as-guest"
-                onclick="cutEntryFee()"
-                >PLAY AS GUEST</a
-              >
             </div>
+            <div class="quiz-rules-label">How it works</div>
             <ul class="quiz-rules">
-              <li>You've got 90 - 150 seconds to answer all questions</li>
+              <li>You've got 90 – 150 seconds to answer all questions</li>
               <li>Answer as many questions as you can</li>
-              <li>
-                For Every Correct answer you will get +50 points and will lose
-                -25 points on every Incorrect answer
-              </li>
-              <li>
-                You can take help by using the lifelines present in the contest.
-              </li>
-              <li>
-                Lifelines can be used for free or by using a given amount of
-                coins for each lifeline.
-              </li>
+              <li>Correct answer: <strong style="color:#ffcc5b">+50 pts</strong> &nbsp;|&nbsp; Wrong answer: <strong style="color:#f87171">−25 pts</strong></li>
+              <li>Use lifelines — 50:50, Audience Poll, Freeze Timer, Flip Question</li>
+              <li>Lifelines are free or cost a small number of coins</li>
             </ul>
           </div>
         </div>
 
-        <footer class="footerContainer">
-          <a href="/categories/" class="categories">
-            <img
-              src="../../../assets/images/svg/category.svg"
-              alt="category"
-              class="footerNavIcon"
-            />
-            <p>Categories</p>
-          </a>
-          <a href="/home/" class="home">
-            <img
-              src="../../../assets/images/svg/home.svg"
-              alt="home"
-              class="footerNavIcon"
-            />
-            <p>Home</p>
-          </a>
-          <a href="/profile/" class="profile">
-            <img
-              src="../../../assets/images/svg/profile.svg"
-              alt="profile"
-              class="footerNavIcon"
-            />
-            <p>Profile</p>
-          </a>
-        </footer>
       </section>
       <section class="rightSection">
         <img
@@ -181,6 +117,7 @@
           <img src="../../../assets/images/adpic.png" alt="reward" />
           <h2 class="NewReward">oops!</h2>
           <p class="NotEnoughText">Not enough coins to play</p>
+          <p class="watchAdInfo">Watch a short ad to earn <strong>+100 coins</strong> and jump straight into the quiz!</p>
           <button
             class="watchAdd watchAdButton"
             id="WatchAd"
@@ -188,6 +125,7 @@
           >
             Watch Ad
           </button>
+          <button class="closeRewardBtn" onclick="closeRewardModal()">No Thanks</button>
         </div>
         <div class="toast">
           <div class="toast-content">
@@ -212,26 +150,8 @@
       </div>
     </div>
 
-    <!-- Script for showing Current path in Footer Start -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const currentPath = window.location.pathname;
-        if (currentPath.includes("categories")) {
-          document
-            .querySelector(".footerContainer .categories")
-            .classList.add("active");
-        } else if (currentPath.includes("home")) {
-          document
-            .querySelector(".footerContainer .home")
-            .classList.add("active");
-        } else if (currentPath.includes("profile")) {
-          document
-            .querySelector(".footerContainer .profile")
-            .classList.add("active");
-        }
-      });
-    </script>
-    <!-- Script for showing Current path in Footer End -->
+    <script src="../../../assets/js/header.js"></script>
+    <script src="../../../assets/js/footer.js"></script>
 
     <!-- Script For Quizzes Play Start -->
     <script>
@@ -277,23 +197,6 @@
     </script>
     <!-- Script For Removing Trailing Slash From URL End -->
 
-    <!-- Script for the showing the join now button start  -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const loginUser = JSON.parse(localStorage.getItem("CurrentUser"));
-        const joinNowBtn = document.getElementById("join-now-btn");
-        const orText = document.getElementById("or-text");
-        const playAsGuest = document.getElementById("play-as-guest");
-
-        if (loginUser) {
-          joinNowBtn.style.display = "none"; // Hide JOIN NOW button
-          orText.style.display = "none"; // Hide orText button
-          playAsGuest.innerHTML = "PLAY"; // Change text to PLAY QUIZ
-        }
-      });
-    </script>
-    <!-- Script for the showing the join now button end  -->
-
     <!-- Script for cut the entryFeeCut Start -->
     <script>
       function cutEntryFee() {
@@ -308,9 +211,6 @@
       }
       function closeRewardModal() {
         document.getElementById("rewardContainer").classList.add("hidden");
-      }
-      function joinNow() {
-        window.location.href = "/signUp";
       }
     </script>
     <!-- Script for cut the entryFeeCut End -->

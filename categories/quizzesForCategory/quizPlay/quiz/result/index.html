@@ -3,87 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz</title>
+    <title>Quiz Result</title>
     <link rel="icon" type="image/svg+xml" href="../../../../../assets/images/svg/logo.svg" />
     <link rel="stylesheet" href="../../../../../assets/css/common.css" />
+    <link rel="stylesheet" href="../../../../../assets/css/header.css" />
+    <link rel="stylesheet" href="../../../../../assets/css/footer.css" />
     <link rel="stylesheet" href="../../../../../assets/css/sideBannner.css" />
+    <link rel="stylesheet" href="../../../../../assets/css/menu-drawer.css" />
     <link rel="stylesheet" href="../../../../../assets/css/result.css" />
-
-     <!-- Google tag for analytics (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8YGFQP4DE"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-B8YGFQP4DE');
     </script>
-
-    <script
-      async
-      src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
-    ></script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script src="../../../../../adscripts/quizTcz_top.js?v=2"></script>
   </head>
-
   <body>
-    <!-- interstitial_ad loaded at bottom -->
     <div class="mainContainer">
       <section class="categoriesSection">
-        <div class="container">
-          <!-- /23201071713/quizTcz_top -->
 
-          <div class="header_space" style="padding-top: 0px">
-            <div
-              id="div-gpt-ad-1738056273528-0"
-              style="padding-top: 36px"
-            >
-              <script>
-                googletag.cmd.push(function () {
-                  googletag.display("div-gpt-ad-1738056273528-0");
-                });
-              </script>
-            </div>
-          </div>
-          <div class="logo-container">
-            <img
-              src="https://playerstorage.b-cdn.net/quiztwiz/assets/animation.gif"
-              alt="logo"
-              class="logo"
-            />
-            <h1 class="title">Well Played</h1>
-          </div>
-          <div class="score-container">
-            <div class="score-box">
-              <span id="score-value">0</span>
-              <span>Your Score</span>
-            </div>
-            <div class="score-box">
-              <span id="coins-value">25</span>
-              <span>Coins Earned</span>
-            </div>
-          </div>
-          <div class="action-container">
-            <button class="action-button watchAdButton" data-fn="doubleWinning">
-              Double Your winnings<img
-                src="../../../../../assets/images/svg/coin.svg"
-                alt="coin"
-              />
-            </button>
-          </div>
-          <hr class="divider" />
-          <div class="home-container">
-            <a href="/home/" class="home-button" id="home-button">Home</a>
+        <!-- Ad slot — space always reserved even if ad fails -->
+        <div class="result-ad-wrap">
+          <div id="div-gpt-ad-1738056273528-0">
+            <script>
+              googletag.cmd.push(function () {
+                googletag.display("div-gpt-ad-1738056273528-0");
+              });
+            </script>
           </div>
         </div>
+
+        <!-- Result card -->
+        <div class="result-card">
+
+          <!-- Banner -->
+          <div class="result-banner">
+            <span class="result-trophy">🏆</span>
+            <div class="result-label">⭐ Quiz Complete</div>
+            <div class="result-title">Well Played!</div>
+            <div class="result-subtitle">Here are your results</div>
+
+            <!-- Score & coins -->
+            <div class="result-stats">
+              <div class="result-stat-box">
+                <span class="stat-val green" id="score-value">0</span>
+                <span class="stat-lbl">Your Score</span>
+              </div>
+              <div class="result-stat-box">
+                <img class="stat-icon" src="../../../../../assets/images/svg/headerCoin.svg" alt="coin" />
+                <span class="stat-val gold" id="coins-value">0</span>
+                <span class="stat-lbl">Coins Earned</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="result-body">
+            <button class="result-btn-double watchAdButton" data-fn="doubleWinning">
+              <img class="btn-coin" src="../../../../../assets/images/svg/headerCoin.svg" alt="coin" />
+              2× Double Your Winnings
+            </button>
+            <a href="/home/" class="result-btn-home" id="home-button">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+              Go to Home
+            </a>
+          </div>
+        </div>
+
       </section>
       <section class="rightSection">
-        <img
-          src="../../../../../assets/images/svg/sidePoster.svg"
-          alt="right-section"
-          class="poster-image"
-          loading="lazy"
-        />
+        <img src="../../../../../assets/images/svg/sidePoster.svg" alt="right-section" class="poster-image" loading="lazy" />
         <div class="welcomeText">
           <h4>Welcome to 5 Minutes Quiz. Play a quiz and earn coins.</h4>
           <h4 class="welcomeSubtext">There's a quiz for everyone!</h4>
@@ -91,80 +83,48 @@
       </section>
       <div class="toast">
         <div class="toast-content">
-          <img
-            src="../../../../../assets/images/svg/correct.svg"
-            alt="alert"
-            loading="lazy"
-          />
+          <img src="../../../../../assets/images/svg/correct.svg" alt="alert" loading="lazy" />
           <div class="message">
             <span class="text text-2"></span>
           </div>
         </div>
-        <img
-          src="../../../../../assets/images/svg/crossIcon.svg"
-          alt="alert"
-          loading="lazy"
-          class="close"
-          style="height: 14px; width: 16px"
-        />
+        <img src="../../../../../assets/images/svg/crossIcon.svg" alt="close" loading="lazy" class="close" style="height:14px;width:16px" />
         <div class="progress"></div>
       </div>
     </div>
-    <!-- <script src="../../../../../adscripts/quizTcz_landing_popUp.js"></script> -->
 
-    <!-- Script For Quizzes Play Start -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        // Retrieve score and coins from local storage
-        const quizScore = localStorage.getItem("quizScore");
-        const totalCoins = localStorage.getItem("TotalCoinPerGame");
-
-        // Display the score and coins
-        if (quizScore !== null) {
-          document.getElementById("score-value").textContent = quizScore;
-        } else {
-          document.getElementById("score-value").textContent = "0";
-          window.location.href = "/home/";
-        }
-
-        if (totalCoins !== null) {
-          document.getElementById("coins-value").textContent = totalCoins;
-        } else {
-          document.getElementById("coins-value").textContent = "0";
-        }
-      });
-    </script>
-    <!-- Script For Quizzes Play End -->
-
-    <!-- Script For Removing Trailing Slash From URL Start -->
     <script>
       if (window.location.pathname.endsWith("/")) {
-        const newURL = window.location.pathname.slice(0, -1);
-        history.replaceState({}, "", newURL);
+        history.replaceState({}, "", window.location.pathname.slice(0, -1));
       }
-    </script>
-    <!-- Script For Removing Trailing Slash From URL End -->
 
-    <script>
       document.addEventListener("DOMContentLoaded", function () {
+        var quizScore  = localStorage.getItem("quizScore");
+        var totalCoins = localStorage.getItem("TotalCoinPerGame");
 
-        // Add event listener to the Home button
-        document
-          .getElementById("home-button")
-          .addEventListener("click", function () {
-            // Clear specific local storage items
-            localStorage.removeItem("TotalCoinPerGame");
-            localStorage.removeItem("quizScore");
-            localStorage.removeItem("selectedCategory");
-            localStorage.removeItem("selectedQuiz");
-            localStorage.removeItem("selectedCategoryPath");
-            localStorage.removeItem("quizPlayed");
-          });
+        if (quizScore === null) {
+          window.location.href = "/home/";
+          return;
+        }
+        document.getElementById("score-value").textContent  = quizScore  || "0";
+        document.getElementById("coins-value").textContent  = totalCoins || "0";
+
+        document.getElementById("home-button").addEventListener("click", function () {
+          localStorage.removeItem("TotalCoinPerGame");
+          localStorage.removeItem("quizScore");
+          localStorage.removeItem("selectedCategory");
+          localStorage.removeItem("selectedQuiz");
+          localStorage.removeItem("selectedCategoryPath");
+          localStorage.removeItem("quizPlayed");
+        });
       });
     </script>
+
+    <script src="../../../../../assets/js/header.js"></script>
+    <script src="../../../../../assets/js/footer.js"></script>
     <script src="../../../../../adscripts/quizTcz_interstial.js?v=2"></script>
     <script>
-      googletag.cmd.push(() => {
+      googletag.cmd.push(function () {
         if (typeof interstitialSlot !== "undefined") {
           googletag.display(interstitialSlot);
         }

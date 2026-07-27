@@ -247,6 +247,20 @@ header .notification span {
   font-weight: 700;
   cursor: pointer;
 }
+.closeRewardBtn {
+  margin-top: 12px;
+  background: none;
+  border: none;
+  color: #8e8f98;
+  font-size: 0.875rem;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 4px 8px;
+}
+.closeRewardBtn:hover {
+  color: #fff;
+}
 
 .toast {
   position: fixed;

@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Define the rewarded ad slot
     const rewardedSlot = googletag.defineOutOfPageSlot(
-      "/23201071713/quizTcz_reward", // Replace with your actual ad slot ID
+      "/23345352839/hexam_reward", // Replace with your actual ad slot ID
       googletag.enums.OutOfPageFormat.REWARDED
     );
   

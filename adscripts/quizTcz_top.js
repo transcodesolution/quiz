@@ -2,9 +2,9 @@ window.googletag = window.googletag || { cmd: [] };
 googletag.cmd.push(function () {
   googletag
     .defineSlot(
-      "/23201071713/quizTcz_top",
+      "/23345352839/hexam_display",
       [
-        [300, 250],[320, 480], [336, 280]
+        [300, 250],[336, 280]
       ],
       "div-gpt-ad-1738056273528-0"
     )

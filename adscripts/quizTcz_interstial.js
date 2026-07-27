@@ -5,7 +5,7 @@ let interstitialSlot;
 googletag.cmd.push(() => {
   // Define a web interstitial ad slot.
   interstitialSlot = googletag.defineOutOfPageSlot(
-    "/23201071713/quizTcz_interstial",
+    "/23345352839/hexam_Interstitial",
     googletag.enums.OutOfPageFormat.INTERSTITIAL,
   );
 
